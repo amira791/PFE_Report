@@ -1,0 +1,63 @@
+\documentclass[12pt, a4paper]{report}
+
+\input{preambule/preamble}
+
+
+% !TEX root = main.tex
+\begin{document}
+\setcounter{tocdepth}{2}
+\include{titlepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage}}
+\input{dedication}
+\input{acknowledgement}
+\include{abstract}
+\afterpage{
+    \newgeometry{bottom=3cm}
+    \tableofcontents
+    \addcontentsline{toc}{chapter}{Contents}
+    \listoffigures
+    \addcontentsline{toc}{chapter}{List of figures}
+    \lstlistoflistings
+    \addcontentsline{toc}{chapter}{List of Table}
+    \listofalgorithms
+    \addcontentsline{toc}{chapter}{List of Algorithms}
+}
+% \printabbreviations
+\cleardoublepage
+\printabbreviations[
+    title=Abbreviations,
+    toctitle=Abbreviations,
+    style=long,nonumberlist
+]
+\restoregeometry
+\pagenumbering{arabic}
+\include{introduction}
+% === Première Partie: État de l'art ===
+\part{State of Art}
+\include{chapters/chapter1/chapter1} 
+\include{chapters/chapter2/chapter2}
+\include{chapters/chapter3/chapter3} 
+
+
+% === Deuxième Partie: Contribution ===
+\part{Contribution}
+\include{chapters/chapter4/chapter4} % Conception
+\include{chapters/chapter5/chapter5} % Réalisation
+
+
+% Conclusion Générale
+\include{conclusion}
+
+% Bibliography
+\printbibliography[heading=bibintoc]
+
+
+
+% Appendices
+\begin{appendices}
+    \include{appendices/annexeA}
+    \include{appendices/annexeB}
+\end{appendices}
+
+\end{document}
