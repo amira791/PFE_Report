@@ -2,47 +2,46 @@
 
 \input{preambule/preamble}
 
-
 % !TEX root = main.tex
 \begin{document}
+
+% Depth of TOC
 \setcounter{tocdepth}{2}
+
+% Title page
 \include{titlepage}
-\renewcommand{\headrulewidth}{0pt}
-\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage}}
+
+
 % \input{dedication}
 \input{acknowledgement}
 \include{abstract}
+
+% Table of contents and lists
 \afterpage{
     \newgeometry{bottom=3cm}
     \tableofcontents
     \addcontentsline{toc}{chapter}{Contents}
     \listoffigures
-    \addcontentsline{toc}{chapter}{List of figures}
+    \addcontentsline{toc}{chapter}{List of Figures}
     \lstlistoflistings
-    \addcontentsline{toc}{chapter}{List of Table}
+    \addcontentsline{toc}{chapter}{List of Listings}
 }
-% \printabbreviations
+
 \cleardoublepage
-\printabbreviations[
-    title=Abbreviations,
-    toctitle=Abbreviations,
-    style=long,nonumberlist
-]
 \restoregeometry
 \pagenumbering{arabic}
+
+% Chapters
 \include{introduction}
-
-\include{chapters/chapter2/chapter2} 
+\include{chapters/chapter2/chapter2}
 \include{chapters/chapter1/chapter1}
-\include{chapters/chapter3/chapter3} 
+\include{chapters/chapter3/chapter3}
 
-% Conclusion Générale
+% Conclusion
 \include{conclusion}
 
 % Bibliography
 \printbibliography[heading=bibintoc]
-
-
 
 % Appendices
 \begin{appendices}

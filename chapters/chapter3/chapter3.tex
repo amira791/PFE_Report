@@ -23,7 +23,7 @@ RGB cameras are the most common type of imaging technology used in remote sensin
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
+    \includegraphics[width=0.6
     \textwidth]{chapters/chapter3/images/Figure02.png}
     \caption{RGB original image (a) and RGB image after removal of soil background (b) \protect\parencite{li2024monitoring}.}
     \label{fig:RGBbackground}
@@ -36,7 +36,7 @@ Near-infrared (NIR) cameras capture images in the near-infrared spectrum, which 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
+    \includegraphics[width=0.6
     \textwidth]{chapters/chapter3/images/Figure03.png}
     \caption{The UAV and its sensors \protect\parencite{li2024monitoring}.}
     \label{fig:UAVsensors}
@@ -141,6 +141,41 @@ Vegetation indices are mathematical formulas that combine light reflectance data
     \label{fig:bluegreenred}
 \end{figure}
 
+
+Thermal and infrared indices, including CWSI (Crop Water Stress Index) and SIWSI (Shortwave Infrared Water Stress Index), use thermal radiation data to estimate plant temperature, water stress, and transpiration, aiding in drought detection, crop yield estimation, and disease monitoring \parencite{sishodia2020applications}. For more vegetation indices, their mathematical formulas, and detailed applications, refer to Annex~\ref{app:annexA}.
+\begin{table}[htbp]
+    \caption{Some recently used vegetation indices for remote sensing applications in precision agriculture.}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|p{4cm}|p{5cm}|p{6cm}|}
+    \hline
+    \textbf{Spectral Index} & \textbf{Equation} & \textbf{Application} \\
+    \hline
+    Normalized Difference Vegetation Index (NDVI) & $NDVI = \frac{\text{NIR} - \text{Red}}{\text{NIR} + \text{Red}}$ & Measure of healthy, green vegetation \\
+    \hline
+    Green Normalized Difference Vegetation Index (GNDVI) & $GNDVI = \frac{\text{NIR} - \text{Green}}{\text{NIR} + \text{Green}}$ & Measure of healthy, green vegetation; higher chlorophyll concentration sensitivity than NDVI \\
+    \hline
+    Red Edge Normalized Difference Vegetation Index (RENDVI) & $RENDVI = \frac{\text{NIR} - \text{Red Edge}}{\text{NIR} + \text{Red Edge}}$ & Modification of NDVI; capitalizes on the sensitivity of the vegetation red edge \\
+    \hline
+    Soil Adjusted Vegetation Index (SAVI) & $SAVI = \frac{1.5(\text{NIR} - \text{Red})}{\text{NIR} + \text{Red} + 0.5}$ & Modification of NDVI; suppresses the effects of soil pixels \\
+    \hline
+    Atmospherically Resistant Vegetation Index (ARVI) & $ARVI = \frac{\text{NIR} - (\text{Red} - \text{Blue})}{\text{NIR} + (\text{Red} - \text{Blue})}$ & Disease; weed mapping \\
+    \hline
+    Wide Dynamic Range Vegetation Index (WDRVI) & $WDRVI = \frac{\text{NIR} - \text{Red}}{\text{NIR} + \text{Red}}$ & N-Application, yield; crop growth (LAI); disease \\
+    \hline
+    Normalized Difference Red Edge (NDRE) & $NDRE = \frac{\text{NIR} - \text{Red Edge}}{\text{NIR} + \text{Red Edge}}$ & Crop yield and biomass; N-management; disease \\
+    \hline
+    Red Edge DVI (REDVI) & $REDVI = \text{NIR} - \text{Red Edge}$ & Crop yield and biomass; biomass, N-uptake, and concentration \\
+    \hline
+    \end{tabular}%
+    }
+    \label{tab:vegetation-indices}
+\end{table}
+
+
+
+
+
 \section{Image processing}
 
 Imagery processing is the technique used to turn multiple aerial images captured by drones (UAVs) or remote sensors into a single, accurate, and clear image known as an orthomosaic. Since drones don’t capture one large image but instead take many smaller ones of different parts of the area, these images must be merged using a process called image stitching  (as shown in Figure~\ref{fig:UAVDataProducts}), This involves merging individual images into one large composite by identifying and aligning “key points” such as a rock, plant, or edge of a field. While the drone captures these images, it simultaneously records GPS or location metadata, which is then used in geographic alignment to position each image on a map accurately. The final output of this process is known as data products, which can include color mosaics (stitched colored images), spectral mosaics (capturing invisible wavelengths like near-infrared for agricultural analysis), thermal mosaics (highlighting temperature variations), surface and terrain models (representing elevation and landscape shapes), and point clouds (dense 3D representations of surfaces for detailed analysis) \parencite{olson2021review}.
@@ -238,31 +273,32 @@ where $Y$ is the disease severity index, $X_1, \ldots, X_n$ are the input featur
 
 Their study also highlighted that high spatial resolution (10–15 cm) images were critical for capturing fine structural differences caused by disease. Similarly, \parencite{bhandari2020assessing} achieved a strong correlation ($R^2 = 0.79$) using the GLI index derived from RGB images to assess foliar diseases in wheat (Table~03). Together, these studies show that combining spectral and textural information enhances the performance of statistical models in UAV-based crop disease monitoring.
 
-The detailed formulas for the vegetation indices (VIs) used in the studies mentioned are provided in Annex A.
-\begin{table}[h]
+The detailed formulas for the vegetation indices (VIs) used in the studies mentioned are provided in Annex~\ref{app:annexA}.
+\begin{table}[htbp]
+    \caption{Summary of ST-based methods for Wheat disease estimation using UAV imagery.}
     \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|l|l|l|l|}
+    \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3cm}|p{4cm}|p{3cm}|}
     \hline
-    \textbf{Paper} & \textbf{Disease} & \textbf{Sensor} & \textbf{VIs} & \textbf{Eval.Metrics} \\
+    \textbf{Paper} & \textbf{Disease} & \textbf{Sensor} & \textbf{Vegetation Indices (VIs)} & \textbf{Eval. Metrics} \\
     \hline
-    \parencite{bhandari2020assessing} & Wheat foliage disease & RGB & NDI, GI, and GLI & \( R^2 = 0.79 \) \\
+    \parencite{bhandari2020assessing} & Wheat foliage disease & RGB & NDI, GI, GLI & $R^2 = 0.79$ \\
     \hline
-    \parencite{HeidarianDehkordi2020} & Leaf rust, Stem rust & RGB & SRI, LRI & \( R^2 = 0.81 \) \\
+    \parencite{HeidarianDehkordi2020} & Leaf rust, Stem rust & RGB & SRI, LRI & $R^2 = 0.81$ \\
     \hline
-    \parencite{guo2021wheat} & Yellow rust & Hyperspectral & SIPI, PRI, TCARI, PSRI, YRIGI & \( R^2 = 0.88 \) \\
+    \parencite{guo2021wheat} & Yellow rust & Hyperspectral & SIPI, PRI, TCARI, PSRI, YRIGI & $R^2 = 0.88$ \\
     \hline
-    \parencite{Khan2021} & Powdery Mildew & Hyperspectral & PMI, MSR, MCARI & \( R^2 = 0.722 \) \\
+    \parencite{Khan2021} & Powdery Mildew & Hyperspectral & PMI, MSR, MCARI & $R^2 = 0.722$ \\
     \hline
     \end{tabular}%
     }
-    \caption{Summary of ST-based methods for Wheat disease estimation using UAV imagery.}
     \label{tab:summary}
-    \end{table}
+\end{table}
+
 
 
 \subsection{Conventional Machine Learning (ML)-Based Methods}
-Traditional machine learning (ML) methods, including support vector machines (SVMs), artificial neural networks (ANNs), and random forests (RFs), have been applied to crop disease detection using UAV imagery. These methods aim to identify patterns in labeled or unlabeled data, with supervised learning relying on labeled datasets for training and unsupervised learning exploring hidden patterns without labels \parencite{shahi2023recent}. The typical ML pipeline involves data collection, preprocessing, feature extraction, and model building, as shown in Figure~\ref{fig:MLBased}.
+Traditional machine learning (ML) methods, including support vector machines (SVMs), artificial neural networks (ANNs), Support Vector Regression (SVR), have been applied to crop disease detection using UAV imagery. These methods aim to identify patterns in labeled or unlabeled data, with supervised learning relying on labeled datasets for training and unsupervised learning exploring hidden patterns without labels \parencite{shahi2023recent}. The typical ML pipeline involves data collection, preprocessing, feature extraction, and model building, as shown in Figure~\ref{fig:MLBased}.
 
 \begin{figure}[H]
     \centering
@@ -284,24 +320,24 @@ Researchers have applied various machine learning (ML) methods to detect wheat d
 
 Table~\ref{tab:summaryML} provides a summary of conventional machine learning methods for wheat disease estimation, highlighting the combination of sensor types, features, and machine learning techniques employed to improve disease detection accuracy.
 
-\begin{table}[h]
+\begin{table}[htbp]
+    \caption{Summary of conventional ML methods for wheat disease estimation.}
     \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|l|l|l|l|l|}
+    \begin{tabular}{|p{3.5cm}|p{3cm}|p{2cm}|p{4cm}|p{3cm}|p{2.5cm}|}
     \hline
     \textbf{Reference} & \textbf{Disease} & \textbf{Sensors} & \textbf{Features} & \textbf{ML Methods} & \textbf{Eval. Metrics} \\
     \hline
-    \parencite{liu2020monitoring} & Fusarium head blight & HS & SBs (spectral bands), VI, and TF (texture features) & BP with SA & Accuracy = 0.98 \\
+    \parencite{liu2020monitoring} & Fusarium head blight & HS & SBs (spectral bands), VI, TF (texture features) & BP with SA & Accuracy = 0.98 \\
     \hline
-    \parencite{Ma2021FusariumUAV} & Fusarium head blight & HS & SBs (spectral bands), VIs, and WFs & SVM & \( R^2 = 0.88 \) \\
+    \parencite{Ma2021FusariumUAV} & Fusarium head blight & HS & SBs (spectral bands), VIs, WFs & SVM & $R^2 = 0.88$ \\
     \hline
-    \parencite{zhu2022using} & Wheat scab & MS & VI and TF (texture features) & PLSR, SVR, and BPNN & \( R^2 = 0.83 \) \\
+    \parencite{zhu2022using} & Wheat scab & MS & VI, TF (texture features) & PLSR, SVR, BPNN & $R^2 = 0.83$ \\
     \hline
-    \parencite{bohnenkamp2019in} & Yellow rust & HS & VIs & SVM & \( R^2 = 0.63 \) \\
+    \parencite{bohnenkamp2019in} & Yellow rust & HS & VIs & SVM & $R^2 = 0.63$ \\
     \hline
     \end{tabular}%
     }
-    \caption{Summary of conventional ML methods for wheat disease estimation.}
     \label{tab:summaryML}
 \end{table}
 
@@ -327,11 +363,11 @@ Pixel-based segmentation models focus on classifying each pixel in an image base
 Object-level classification models treat the image as a whole, classifying entire regions or objects within an image rather than individual pixels. These models focus on detecting the overall presence of diseases at the object or plant level, which is useful for broader assessments of crop health. For instance, \parencite{zhang2019deep} used hyperspectral sensors and the Inception-ResNet model for detecting yellow rust, achieving an accuracy of 85\%. Similarly, \parencite{huang2019detection} applied RGB sensors and a convolutional neural network (CNN) to detect Helminthosporium leaf blotch, achieving an accuracy of 91.43\%. These studies highlight the application of object-level classification models in detecting crop diseases at a larger scale, emphasizing overall disease presence across plant regions.
 
 A summary of deep learning-based methods for wheat disease estimation is presented in Table~\ref{tab:dl_summary}. Overall, these deep learning approaches show great potential for fine-grained and scalable wheat disease monitoring in precision agriculture.
-
-\begin{table}[h]
+\begin{table}[htbp]
+    \caption{Summary of deep learning-based methods for wheat disease estimation.}
     \centering
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|l|l|l|l|l|l|}
+    \begin{tabular}{|p{3.5cm}|p{2.5cm}|p{2cm}|p{4cm}|p{3.5cm}|p{3cm}|}
     \hline
     \textbf{Reference} & \textbf{Disease} & \textbf{Sensors} & \textbf{Task} & \textbf{DL Methods} & \textbf{Results} \\
     \hline
@@ -351,9 +387,9 @@ A summary of deep learning-based methods for wheat disease estimation is present
     \hline
     \end{tabular}%
     }
-    \caption{Summary of deep learning-based methods for wheat disease estimation.}
     \label{tab:dl_summary}
-    \end{table}
+\end{table}
+
     
 
 
@@ -397,7 +433,7 @@ The data comparison strategy represents a weak form of UAV/Satellite synergy, wh
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
+    \includegraphics[width=0.6
     \textwidth]{chapters/chapter3/images/Figure12.png}
     \caption{Diagram of data comparison strategy \parencite{AlvarezVanhard2021}.}
     \label{fig:DataComparison}
@@ -409,7 +445,7 @@ The multiscale explanation strategy leverages the different spatial scales of UA
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
+    \includegraphics[width=0.6
     \textwidth]{chapters/chapter3/images/Figure13.png}
     \caption{Diagram of the Multiscale explanation strategy \parencite{AlvarezVanhard2021}.}
     \label{fig:MultiscaleExplanation}
@@ -421,7 +457,7 @@ The model calibration strategy involves using one data source, often UAV or sate
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
+    \includegraphics[width=0.6
     \textwidth]{chapters/chapter3/images/Figure14.png}
     \caption{Diagram of Model calibration strategy \parencite{AlvarezVanhard2021}.}
     \label{fig:ModelCalibration}
@@ -434,7 +470,7 @@ The data fusion strategy represents the strongest form of UAV/Satellite synergy,
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
+    \includegraphics[width=0.6
     \textwidth]{chapters/chapter3/images/Figure15.png}
     \caption{Diagram of Data fusion strategy \parencite{AlvarezVanhard2021}.}
     \label{fig:DataFusion}

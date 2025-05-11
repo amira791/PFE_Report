@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  9 MAY 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  11 MAY 2025 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1363,6 +1363,41 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen407
 \c@nlinenum=\count536
 \TeXr@lab=\toks81
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup7
+\symitalic=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
 ) (preambule/theorems.tex) (preambule/notations.tex) (preambule/abbreviations.tex (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glossaries-extra.sty
 Package: glossaries-extra 2025/04/12 v1.6 (NLCT)
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
@@ -1529,31 +1564,34 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (main.aux (titlepage.aux) (abstract.aux) (introduction.aux) (chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux) (chapters/chapter3/chapter3.aux) (conclusion.aux) (appendices/annexeA.aux) (appendices/annexeB.aux))
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 6.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (main.aux (titlepage.aux) (abstract.aux) (introduction.aux) (chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux) (chapters/chapter3/chapter3.aux) (conclusion.aux) (appendices/annexeA.aux) (appendices/annexeB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Info: Redefining \degres on input line 7.
-LaTeX Info: Redefining \up on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Redefining \degres on input line 6.
+LaTeX Info: Redefining \up on input line 6.
  ArabTeX is aleready loaded,  No support is provided with ArabTeX 7 bit input encoding (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count575
@@ -1573,7 +1611,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1641,9 +1679,16 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                zhang2022dfunet
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
-Package biblatex Info: Reference section=0 on input line 7.
-Package biblatex Info: Reference segment=0 on input line 7.
+Package biblatex Info: Reference section=0 on input line 6.
+Package biblatex Info: Reference segment=0 on input line 6.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1694,28 +1739,46 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+xnsh on input line 9.
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 12.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\uxnsh.fd
 File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 )
 LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
-(Font)              scaled to size 17.28003pt on input line 9.
+(Font)              scaled to size 17.28003pt on input line 12.
 <assets/images/esi_logo.png, id=6, 683.05188pt x 284.56313pt>
 File: assets/images/esi_logo.png Graphic file (type png)
 <use assets/images/esi_logo.png>
-Package pdftex.def Info: assets/images/esi_logo.png  used on input line 9.
+Package pdftex.def Info: assets/images/esi_logo.png  used on input line 12.
 (pdftex.def)             Requested size: 139.41832pt x 58.07962pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
- (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 12.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
- (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 12.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 9.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 12.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 12.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 12.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 12.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 12.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [1
@@ -1725,11 +1788,19 @@ File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 
 
 
-{C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./assets/images/esi_logo.png>] (acknowledgement.tex)
+{C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./assets/images/esi_logo.png>] (acknowledgement.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \include{abstract}
+l.17 \include{abstract}
                         [1
 
 
@@ -1738,26 +1809,23 @@ l.14 \include{abstract}
 
  (abstract.tex
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11     \\ [2cm]
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 13--14
-[][] 
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2
 
-]) [1]
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1793,18 +1861,25 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 13--14
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginR' on input line 14.
+(hyperref)                removing `\beginR' on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endR' on input line 14.
+(hyperref)                removing `\endR' on input line 17.
 
 LaTeX Font Info:    Font shape `U/xnsh/bx/n' will be
-(Font)              scaled to size 17.28003pt on input line 14.
+(Font)              scaled to size 17.28003pt on input line 17.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3
 
@@ -1843,14 +1918,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
  (main.toc
-LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <12> not available
-(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
-(Font)              scaled to size 15.0pt on input line 7.
+LaTeX Font Info:    Trying to load font information for LAE+ptm on input line 7.
+LaTeX Font Info:    No file LAEptm.fd. on input line 7.
 
-Overfull \hbox (3.19467pt too wide) in paragraph at lines 17--17
- [] [][][][]\T1/cmr/bx/n/12 Wheat Dis-eases and In-sect Pests ^^U Chal-lenges, Im-pacts, and Smart[] 
- []
+
+LaTeX Font Warning: Font shape `LAE/ptm/b/n' undefined
+(Font)              using `LAE/cmr/m/n' instead on input line 7.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4
 
@@ -1858,31 +1938,98 @@ Overfull \hbox (3.19467pt too wide) in paragraph at lines 17--17
 
 
 
-{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arabi/ararabeyes.enc}] [5] [6]
-Overfull \hbox (8.21161pt too wide) in paragraph at lines 201--201
- [][] [][][][]\T1/cmr/m/n/12 Systematic Cat-e-go-riza-tion of UAV/Satel-lite Mon-i-tor-ing Meth-[] 
- []
+{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arabi/ararabeyes.enc}]
 
-)
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6])
 \tf@toc=\write11
 \openout11 = `main.toc'.
 
- [7] (main.lof [8
 
-] [9])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] (main.lof
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8
+
+]
+Overfull \hbox (5.0442pt too wide) in paragraph at lines 42--42
+ [][] [][][]\T1/ptm/m/n/12 Standard Work-flow for Gen-er-at-ing UAV-Derived Im-agery and Data Prod- 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9])
 \tf@lof=\write12
 \openout12 = `main.lof'.
 
- [10] (main.lol)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10] (main.lol)
 \tf@lol=\write13
 \openout13 = `main.lol'.
 
- (main.gls-abr) [11
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11
 
 ]
 \openout2 = `introduction.aux'.
 
- (introduction.tex) [1
+ (introduction.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 16.
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1
 
 
 
@@ -1939,13 +2086,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 11.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
 [2
 
 
 
 
 ]
-<chapters/chapter2/images/Figure01.png, id=468, 717.43031pt x 440.39531pt>
+<chapters/chapter2/images/Figure01.png, id=428, 717.43031pt x 440.39531pt>
 File: chapters/chapter2/images/Figure01.png Graphic file (type png)
 <use chapters/chapter2/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure01.png  used on input line 22.
@@ -1953,48 +2107,33 @@ Package pdftex.def Info: chapters/chapter2/images/Figure01.png  used on input li
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 28.
+(hyperref)                removing `\beginL' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 28.
+(hyperref)                removing `\<def>-command' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 28.
+(hyperref)                removing `\encodingdefault' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 28.
+(hyperref)                removing `\endL' on input line 27.
 
-<chapters/chapter2/images/Figure02.png, id=470, 661.72218pt x 587.19376pt>
-File: chapters/chapter2/images/Figure02.png Graphic file (type png)
-<use chapters/chapter2/images/Figure02.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure02.png  used on input line 35.
-(pdftex.def)             Requested size: 364.19667pt x 323.17259pt.
+<chapters/chapter2/images/WheatStages.png, id=431, 811.53188pt x 351.56343pt>
+File: chapters/chapter2/images/WheatStages.png Graphic file (type png)
+<use chapters/chapter2/images/WheatStages.png>
+Package pdftex.def Info: chapters/chapter2/images/WheatStages.png  used on input line 44.
+(pdftex.def)             Requested size: 318.66948pt x 138.05331pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
 [3 <./chapters/chapter2/images/Figure01.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 40.
-
-<chapters/chapter2/images/Figure03.png, id=480, 362.85562pt x 523.9575pt>
-File: chapters/chapter2/images/Figure03.png Graphic file (type png)
-<use chapters/chapter2/images/Figure03.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure03.png  used on input line 46.
-(pdftex.def)             Requested size: 91.04742pt x 131.46875pt.
-[4 <./chapters/chapter2/images/Figure02.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 51.
@@ -2011,399 +2150,300 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 51.
 
-<chapters/chapter2/images/Figure04.png, id=491, 320.69812pt x 565.36218pt>
+<chapters/chapter2/images/Figure02.png, id=441, 661.72218pt x 587.19376pt>
+File: chapters/chapter2/images/Figure02.png Graphic file (type png)
+<use chapters/chapter2/images/Figure02.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure02.png  used on input line 58.
+(pdftex.def)             Requested size: 364.19667pt x 323.17259pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[4 <./chapters/chapter2/images/WheatStages.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 63.
+
+<chapters/chapter2/images/Figure03.png, id=451, 362.85562pt x 523.9575pt>
+File: chapters/chapter2/images/Figure03.png Graphic file (type png)
+<use chapters/chapter2/images/Figure03.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure03.png  used on input line 74.
+(pdftex.def)             Requested size: 81.9456pt x 118.32507pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 82.
+
+<chapters/chapter2/images/Figure04.png, id=456, 320.69812pt x 565.36218pt>
 File: chapters/chapter2/images/Figure04.png Graphic file (type png)
 <use chapters/chapter2/images/Figure04.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure04.png  used on input line 57.
-(pdftex.def)             Requested size: 91.04742pt x 160.50876pt.
+Package pdftex.def Info: chapters/chapter2/images/Figure04.png  used on input line 93.
+(pdftex.def)             Requested size: 81.9456pt x 144.46306pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[5 <./chapters/chapter2/images/Figure02.png> <./chapters/chapter2/images/Figure03.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 62.
+(hyperref)                removing `\beginL' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 62.
+(hyperref)                removing `\<def>-command' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 62.
+(hyperref)                removing `\encodingdefault' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 62.
+(hyperref)                removing `\endL' on input line 100.
 
-<chapters/chapter2/images/Figure05.png, id=496, 325.215pt x 154.32657pt>
+<chapters/chapter2/images/Figure05.png, id=467, 325.215pt x 154.32657pt>
 File: chapters/chapter2/images/Figure05.png Graphic file (type png)
 <use chapters/chapter2/images/Figure05.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure05.png  used on input line 68.
-(pdftex.def)             Requested size: 227.62206pt x 108.01842pt.
-[5 <./chapters/chapter2/images/Figure03.png> <./chapters/chapter2/images/Figure04.png>]
+Package pdftex.def Info: chapters/chapter2/images/Figure05.png  used on input line 110.
+(pdftex.def)             Requested size: 122.9163pt x 58.32678pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 73.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 73.
+(hyperref)                removing `\beginL' on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 73.
+(hyperref)                removing `\<def>-command' on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 73.
+(hyperref)                removing `\encodingdefault' on input line 116.
 
-<chapters/chapter2/images/Figure06.png, id=507, 755.82375pt x 445.665pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 116.
+
+<chapters/chapter2/images/Figure06.png, id=472, 755.82375pt x 445.665pt>
 File: chapters/chapter2/images/Figure06.png Graphic file (type png)
 <use chapters/chapter2/images/Figure06.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure06.png  used on input line 79.
-(pdftex.def)             Requested size: 227.62206pt x 134.21054pt.
+Package pdftex.def Info: chapters/chapter2/images/Figure06.png  used on input line 127.
+(pdftex.def)             Requested size: 163.88426pt x 96.63214pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 84.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 84.
+(hyperref)                removing `\beginL' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 84.
+(hyperref)                removing `\<def>-command' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 84.
+(hyperref)                removing `\encodingdefault' on input line 133.
 
-<chapters/chapter2/images/Figure07.png, id=513, 816.04875pt x 569.12625pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 133.
+
+<chapters/chapter2/images/Figure07.png, id=478, 816.04875pt x 569.12625pt>
 File: chapters/chapter2/images/Figure07.png Graphic file (type png)
 <use chapters/chapter2/images/Figure07.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure07.png  used on input line 90.
-(pdftex.def)             Requested size: 227.62206pt x 158.74637pt.
-[6 <./chapters/chapter2/images/Figure05.png> <./chapters/chapter2/images/Figure06.png>]
+Package pdftex.def Info: chapters/chapter2/images/Figure07.png  used on input line 145.
+(pdftex.def)             Requested size: 172.98956pt x 120.64029pt.
+
+Underfull \hbox (badness 2990) in paragraph at lines 146--146
+[]\T1/ptm/m/n/12 Figure []1.8[]: |Symp-toms of Fusar-
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 146--146
+\T1/ptm/m/n/12 head, while the right im-age il-lus-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[6 <./chapters/chapter2/images/Figure04.png> <./chapters/chapter2/images/Figure05.png> <./chapters/chapter2/images/Figure06.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 96.
+(hyperref)                removing `\beginL' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 96.
+(hyperref)                removing `\<def>-command' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 96.
+(hyperref)                removing `\encodingdefault' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 96.
+(hyperref)                removing `\endL' on input line 153.
 
-<chapters/chapter2/images/Figure08.png, id=525, 1030.60031pt x 604.50844pt>
+<chapters/chapter2/images/Figure08.png, id=491, 220.57407pt x 363.60844pt>
 File: chapters/chapter2/images/Figure08.png Graphic file (type png)
 <use chapters/chapter2/images/Figure08.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure08.png  used on input line 102.
-(pdftex.def)             Requested size: 273.14923pt x 160.21242pt.
+Package pdftex.def Info: chapters/chapter2/images/Figure08.png  used on input line 164.
+(pdftex.def)             Requested size: 122.9163pt x 202.62065pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 107.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 107.
+(hyperref)                removing `\beginL' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 107.
+(hyperref)                removing `\<def>-command' on input line 171.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 107.
+(hyperref)                removing `\encodingdefault' on input line 171.
 
-<chapters/chapter2/images/Figure09.png, id=530, 604.50844pt x 603.75563pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 171.
+
+<chapters/chapter2/images/Figure09.png, id=496, 604.50844pt x 603.75563pt>
 File: chapters/chapter2/images/Figure09.png Graphic file (type png)
 <use chapters/chapter2/images/Figure09.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure09.png  used on input line 113.
-(pdftex.def)             Requested size: 182.09486pt x 181.86508pt.
+Package pdftex.def Info: chapters/chapter2/images/Figure09.png  used on input line 182.
+(pdftex.def)             Requested size: 91.04742pt x 90.92793pt.
+
+Underfull \hbox (badness 2644) in paragraph at lines 183--183
+\T1/ptm/m/n/12 Kag-gle dataset `Wheat Plant Dis-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
 [7 <./chapters/chapter2/images/Figure07.png> <./chapters/chapter2/images/Figure08.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 117.
+(hyperref)                removing `\beginL' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 117.
+(hyperref)                removing `\<def>-command' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 117.
+(hyperref)                removing `\encodingdefault' on input line 188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 117.
+(hyperref)                removing `\endL' on input line 188.
 
-<chapters/chapter2/images/Figure10.png, id=540, 746.79pt x 547.2947pt>
+<chapters/chapter2/images/Figure10.png, id=505, 746.79pt x 547.2947pt>
 File: chapters/chapter2/images/Figure10.png Graphic file (type png)
 <use chapters/chapter2/images/Figure10.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure10.png  used on input line 124.
-(pdftex.def)             Requested size: 182.09486pt x 133.44951pt.
+Package pdftex.def Info: chapters/chapter2/images/Figure10.png  used on input line 200.
+(pdftex.def)             Requested size: 109.2601pt x 80.0697pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 129.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 129.
+Underfull \hbox (badness 7649) in paragraph at lines 201--201
+\T1/ptm/m/n/12 rot from Kag-gle dataset
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 129.
+(hyperref)                removing `\beginL' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 129.
+(hyperref)                removing `\<def>-command' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 132.
+(hyperref)                removing `\encodingdefault' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 132.
+(hyperref)                removing `\endL' on input line 207.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 132.
+Overfull \hbox (4.79472pt too wide) in paragraph at lines 210--211
+\T1/ptm/m/n/12 heads, caus-ing yel-low-ing, leaf rolling, and poor pol-li-na-tion, es-pe-cially dur-ing early growth.
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 132.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
 [8 <./chapters/chapter2/images/Figure09.png> <./chapters/chapter2/images/Figure10.png>]
-<chapters/chapter2/images/Figure11.png, id=550, 1247.41031pt x 371.13657pt>
+<chapters/chapter2/images/Figure11.png, id=523, 818.30719pt x 547.2947pt>
 File: chapters/chapter2/images/Figure11.png Graphic file (type png)
 <use chapters/chapter2/images/Figure11.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure11.png  used on input line 138.
-(pdftex.def)             Requested size: 273.14923pt x 81.2652pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 143.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 143.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 143.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 143.
-
-<chapters/chapter2/images/Figure12.png, id=556, 1202.99437pt x 303.38344pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure11.png  used on input line 231.
+(pdftex.def)             Requested size: 136.57565pt x 77.38902pt.
+<chapters/chapter2/images/Figure12.png, id=526, 531.48563pt x 351.56343pt>
 File: chapters/chapter2/images/Figure12.png Graphic file (type png)
 <use chapters/chapter2/images/Figure12.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure12.png  used on input line 150.
-(pdftex.def)             Requested size: 273.14923pt x 68.88327pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 156.
-
-<chapters/chapter2/images/Figure13.png, id=561, 881.54344pt x 514.92375pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure12.png  used on input line 234.
+(pdftex.def)             Requested size: 136.57726pt x 77.3871pt.
+<chapters/chapter2/images/Figure13.png, id=529, 629.35126pt x 362.85562pt>
 File: chapters/chapter2/images/Figure13.png Graphic file (type png)
 <use chapters/chapter2/images/Figure13.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure13.png  used on input line 161.
-(pdftex.def)             Requested size: 273.14923pt x 159.54613pt.
-[9 <./chapters/chapter2/images/Figure11.png> <./chapters/chapter2/images/Figure12.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 166.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 166.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 166.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 166.
-
-<chapters/chapter2/images/Figure14.png, id=572, 1175.89313pt x 304.88907pt>
-File: chapters/chapter2/images/Figure14.png Graphic file (type png)
-<use chapters/chapter2/images/Figure14.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure14.png  used on input line 171.
-(pdftex.def)             Requested size: 273.14923pt x 70.82083pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 176.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 176.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 176.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 176.
-
-<chapters/chapter2/images/Figure15.png, id=577, 293.59688pt x 226.59656pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure13.png  used on input line 237.
+(pdftex.def)             Requested size: 136.57549pt x 77.38678pt.
+<chapters/chapter2/images/Figure15.png, id=532, 293.59688pt x 226.59656pt>
 File: chapters/chapter2/images/Figure15.png Graphic file (type png)
 <use chapters/chapter2/images/Figure15.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure15.png  used on input line 181.
-(pdftex.def)             Requested size: 182.09486pt x 140.54027pt.
-[10 <./chapters/chapter2/images/Figure13.png> <./chapters/chapter2/images/Figure14.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 186.
-
-<chapters/chapter2/images/Figure16.png, id=588, 280.79906pt x 362.85562pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure15.png  used on input line 241.
+(pdftex.def)             Requested size: 136.57489pt x 77.39102pt.
+<chapters/chapter2/images/Figure16.png, id=535, 280.79906pt x 362.85562pt>
 File: chapters/chapter2/images/Figure16.png Graphic file (type png)
 <use chapters/chapter2/images/Figure16.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure16.png  used on input line 191.
-(pdftex.def)             Requested size: 136.57462pt x 176.48306pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 197.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 197.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 197.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 197.
-
-<chapters/chapter2/images/Figure17.png, id=593, 547.2947pt x 408.77719pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure16.png  used on input line 244.
+(pdftex.def)             Requested size: 136.573pt x 77.38678pt.
+<chapters/chapter2/images/Figure17.png, id=538, 547.2947pt x 408.77719pt>
 File: chapters/chapter2/images/Figure17.png Graphic file (type png)
 <use chapters/chapter2/images/Figure17.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure17.png  used on input line 203.
-(pdftex.def)             Requested size: 182.09486pt x 136.00714pt.
-[11 <./chapters/chapter2/images/Figure15.png> <./chapters/chapter2/images/Figure16.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 208.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 208.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 208.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 208.
-
-<chapters/chapter2/images/Figure18.png, id=602, 429.10312pt x 286.82156pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure17.png  used on input line 247.
+(pdftex.def)             Requested size: 136.5728pt x 77.38779pt.
+<chapters/chapter2/images/Figure18.png, id=539, 429.10312pt x 286.82156pt>
 File: chapters/chapter2/images/Figure18.png Graphic file (type png)
 <use chapters/chapter2/images/Figure18.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure18.png  used on input line 214.
-(pdftex.def)             Requested size: 182.09486pt x 121.71591pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 219.
-
-<chapters/chapter2/images/Figure19.png, id=605, 713.66624pt x 393.72093pt>
+Package pdftex.def Info: chapters/chapter2/images/Figure18.png  used on input line 251.
+(pdftex.def)             Requested size: 136.57591pt x 77.39034pt.
+<chapters/chapter2/images/Figure19.png, id=540, 713.66624pt x 393.72093pt>
 File: chapters/chapter2/images/Figure19.png Graphic file (type png)
 <use chapters/chapter2/images/Figure19.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure19.png  used on input line 225.
-(pdftex.def)             Requested size: 273.14923pt x 150.69089pt.
-[12 <./chapters/chapter2/images/Figure17.png> <./chapters/chapter2/images/Figure18.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 231.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 231.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 231.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 231.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 235.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 235.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 235.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 235.
-
-[13 <./chapters/chapter2/images/Figure19.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 249.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 249.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 249.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 249.
+Package pdftex.def Info: chapters/chapter2/images/Figure19.png  used on input line 254.
+(pdftex.def)             Requested size: 136.56717pt x 77.38504pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2421,24 +2461,83 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 261.
 
-[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[9 <./chapters/chapter2/images/Figure11.png> <./chapters/chapter2/images/Figure12.png> <./chapters/chapter2/images/Figure13.png> <./chapters/chapter2/images/Figure15.png> <./chapters/chapter2/images/Figure16.png> <./chapters/chapter2/images/Figure17.png> <./chapters/chapter2/images/Figure18.png> <./chapters/chapter2/images/Figure19.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 268.
+(hyperref)                removing `\beginL' on input line 265.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 268.
+(hyperref)                removing `\<def>-command' on input line 265.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 268.
+(hyperref)                removing `\encodingdefault' on input line 265.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 268.
+(hyperref)                removing `\endL' on input line 265.
 
-) [15]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 279.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[10]
+Overfull \hbox (3.20944pt too wide) in paragraph at lines 285--286
+\T1/ptm/m/n/12 growth, de-tect-ing dis-eases, and as-sess-ing yield. It plays a cru-cial role in real-time decision-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 298.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[11]
 \openout2 = `chapters/chapter1/chapter1.aux'.
 
  (chapters/chapter1/chapter1.tex
@@ -2476,6 +2575,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 3.
 
 
+Overfull \hbox (1.20282pt too wide) in paragraph at lines 8--8
+[]\T1/ptm/b/n/17.28 Distinctions Be-tween Deep Learn-ing and Ma-chine Learn-
+ []
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 8.
 
@@ -2491,7 +2595,30 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 8.
 
-[16
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 10.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12
 
 
 
@@ -2499,478 +2626,506 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 12.
+(hyperref)                removing `\beginL' on input line 13.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 12.
+(hyperref)                removing `\<def>-command' on input line 13.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 12.
+(hyperref)                removing `\encodingdefault' on input line 13.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 12.
+(hyperref)                removing `\endL' on input line 13.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 15.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 15.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 15.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 15.
-
-<chapters/chapter1/images/Figure01.png, id=650, 563.85657pt x 146.04562pt>
+<chapters/chapter1/images/Figure01.png, id=582, 563.85657pt x 146.04562pt>
 File: chapters/chapter1/images/Figure01.png Graphic file (type png)
 <use chapters/chapter1/images/Figure01.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure01.png  used on input line 29.
+Package pdftex.def Info: chapters/chapter1/images/Figure01.png  used on input line 27.
 (pdftex.def)             Requested size: 273.14923pt x 70.74957pt.
 
-LaTeX Warning: Citation 'A DNN is a neural network' on page 17 undefined on input line 35.
+LaTeX Warning: Citation 'A DNN is a neural network' on page 13 undefined on input line 33.
 
-[17 <./chapters/chapter1/images/Figure01.png>]
-<chapters/chapter1/images/Figure02.png, id=663, 585.68813pt x 149.05687pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./chapters/chapter1/images/Figure01.png>]
+<chapters/chapter1/images/Figure02.png, id=595, 585.68813pt x 149.05687pt>
 File: chapters/chapter1/images/Figure02.png Graphic file (type png)
 <use chapters/chapter1/images/Figure02.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure02.png  used on input line 70.
+Package pdftex.def Info: chapters/chapter1/images/Figure02.png  used on input line 68.
 (pdftex.def)             Requested size: 273.14923pt x 69.5177pt.
- [18 <./chapters/chapter1/images/Figure02.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]|\T1/cmr/bx/n/12 Activation
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\T1/ptm/b/n/12 Activation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]|\T1/cmr/m/n/12 Commonly used
+Underfull \hbox (badness 1194) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/12 Commonly used in
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 99--99
-\T1/cmr/m/n/12 in bi-nary clas-si-fi-
+Underfull \hbox (badness 1072) in paragraph at lines 97--97
+\T1/ptm/m/n/12 in the out-put layer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-\T1/cmr/m/n/12 ca-tion prob-lems,
+Underfull \hbox (badness 1264) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/12 Often used in hid-
  []
 
 
-Underfull \hbox (badness 7649) in paragraph at lines 99--99
-\T1/cmr/m/n/12 es-pe-cially in the
+Underfull \hbox (badness 1484) in paragraph at lines 97--97
+\T1/ptm/m/n/12 den lay-ers of neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-\T1/cmr/m/n/12 out-put layer of
+Underfull \hbox (badness 1484) in paragraph at lines 97--97
+\T1/ptm/m/n/12 ral net-works, as it
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 99--99
-\T1/cmr/m/n/12 mod-els pre-dict-ing
+Underfull \hbox (badness 4303) in paragraph at lines 97--97
+\T1/ptm/m/n/12 tered around zero,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]|\T1/cmr/m/n/12 Tanh (Hy-per-
+Underfull \hbox (badness 1478) in paragraph at lines 97--97
+\T1/ptm/m/n/12 which helps in re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-\T1/cmr/m/n/12 neu-ral net-works
+Underfull \hbox (badness 2310) in paragraph at lines 97--97
+\T1/ptm/m/n/12 duc-ing bias dur-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-\T1/cmr/m/n/12 and ef-fec-tive-ness
+Underfull \hbox (badness 3179) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/12 ReLU (Rec-ti-fied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-\T1/cmr/m/n/12 in han-dling the
+Underfull \hbox (badness 1082) in paragraph at lines 97--97
+\T1/ptm/m/n/12 den lay-ers of deep
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 99--99
-\T1/cmr/m/n/12 van-ish-ing gra-di-ent
+Underfull \hbox (badness 1048) in paragraph at lines 97--97
+\T1/ptm/m/n/12 dling the van-ish-ing
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 99--99
-[]|\T1/cmr/m/n/12 (0, 1) (out-puts
+Underfull \hbox (badness 7415) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/12 (0, 1) (out-puts
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 105.
+(hyperref)                removing `\beginL' on input line 103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 105.
+(hyperref)                removing `\<def>-command' on input line 103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 105.
+(hyperref)                removing `\encodingdefault' on input line 103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 105.
+(hyperref)                removing `\endL' on input line 103.
 
-[19]
-<chapters/chapter1/images/Figure03.png, id=695, 854.44218pt x 447.17062pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./chapters/chapter1/images/Figure02.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+<chapters/chapter1/images/Figure03.png, id=620, 854.44218pt x 447.17062pt>
 File: chapters/chapter1/images/Figure03.png Graphic file (type png)
 <use chapters/chapter1/images/Figure03.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure03.png  used on input line 126.
+Package pdftex.def Info: chapters/chapter1/images/Figure03.png  used on input line 124.
 (pdftex.def)             Requested size: 273.14923pt x 142.9474pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 133.
+(hyperref)                removing `\beginL' on input line 131.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 133.
+(hyperref)                removing `\<def>-command' on input line 131.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 133.
+(hyperref)                removing `\encodingdefault' on input line 131.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 133.
-
-[20 <./chapters/chapter1/images/Figure03.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 156.
+(hyperref)                removing `\endL' on input line 131.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 156.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 156.
-
+[16 <./chapters/chapter1/images/Figure03.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 156.
-
-[21]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 184.
+(hyperref)                removing `\beginL' on input line 154.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 184.
+(hyperref)                removing `\<def>-command' on input line 154.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 184.
+(hyperref)                removing `\encodingdefault' on input line 154.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 184.
+(hyperref)                removing `\endL' on input line 154.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 198.
+(hyperref)                removing `\<def>-command' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 198.
+(hyperref)                removing `\encodingdefault' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 198.
+(hyperref)                removing `\endL' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 198.
-
-[22]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 212.
+(hyperref)                removing `\beginL' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 212.
+(hyperref)                removing `\<def>-command' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 212.
+(hyperref)                removing `\encodingdefault' on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 212.
+(hyperref)                removing `\endL' on input line 210.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 213.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 216.
+(hyperref)                removing `\<def>-command' on input line 213.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 216.
+(hyperref)                removing `\encodingdefault' on input line 213.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 216.
+(hyperref)                removing `\endL' on input line 213.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 216.
-
-[23]
-<chapters/chapter1/images/Figure04.png, id=729, 733.99219pt x 248.42813pt>
+<chapters/chapter1/images/Figure04.png, id=650, 733.99219pt x 248.42813pt>
 File: chapters/chapter1/images/Figure04.png Graphic file (type png)
 <use chapters/chapter1/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure04.png  used on input line 229.
-(pdftex.def)             Requested size: 273.14923pt x 92.45145pt.
-<chapters/chapter1/images/Figure05.png, id=732, 331.99031pt x 273.27094pt>
+(pdftex.def)             Requested size: 364.19667pt x 123.26987pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+<chapters/chapter1/images/Figure05.png, id=658, 331.99031pt x 273.27094pt>
 File: chapters/chapter1/images/Figure05.png Graphic file (type png)
 <use chapters/chapter1/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure05.png  used on input line 236.
 (pdftex.def)             Requested size: 273.14923pt x 224.85083pt.
- [24 <./chapters/chapter1/images/Figure04.png>]
-<chapters/chapter1/images/Figure06.png, id=742, 399.74344pt x 244.66406pt>
+<chapters/chapter1/images/Figure06.png, id=662, 399.74344pt x 244.66406pt>
 File: chapters/chapter1/images/Figure06.png Graphic file (type png)
 <use chapters/chapter1/images/Figure06.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure06.png  used on input line 250.
 (pdftex.def)             Requested size: 273.14923pt x 167.19067pt.
- [25 <./chapters/chapter1/images/Figure05.png> <./chapters/chapter1/images/Figure06.png>]
-<chapters/chapter1/images/Figure07.png, id=752, 728.7225pt x 303.38344pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./chapters/chapter1/images/Figure04.png> <./chapters/chapter1/images/Figure05.png>]
+<chapters/chapter1/images/Figure07.png, id=672, 728.7225pt x 303.38344pt>
 File: chapters/chapter1/images/Figure07.png Graphic file (type png)
 <use chapters/chapter1/images/Figure07.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure07.png  used on input line 264.
 (pdftex.def)             Requested size: 273.14923pt x 113.71758pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 270.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 270.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 270.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 270.
-
-[26 <./chapters/chapter1/images/Figure07.png>]
-<chapters/chapter1/images/Figure08.png, id=763, 522.45187pt x 160.34906pt>
+[21 <./chapters/chapter1/images/Figure06.png> <./chapters/chapter1/images/Figure07.png>]
+<chapters/chapter1/images/Figure08.png, id=684, 522.45187pt x 160.34906pt>
 File: chapters/chapter1/images/Figure08.png Graphic file (type png)
 <use chapters/chapter1/images/Figure08.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure08.png  used on input line 285.
+Package pdftex.def Info: chapters/chapter1/images/Figure08.png  used on input line 286.
 (pdftex.def)             Requested size: 273.14923pt x 83.83463pt.
-<chapters/chapter1/images/Figure09.png, id=768, 519.44063pt x 203.25937pt>
+<chapters/chapter1/images/Figure09.png, id=689, 519.44063pt x 203.25937pt>
 File: chapters/chapter1/images/Figure09.png Graphic file (type png)
 <use chapters/chapter1/images/Figure09.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure09.png  used on input line 299.
+Package pdftex.def Info: chapters/chapter1/images/Figure09.png  used on input line 300.
 (pdftex.def)             Requested size: 273.14923pt x 106.88335pt.
- [27 <./chapters/chapter1/images/Figure08.png> <./chapters/chapter1/images/Figure09.png>]
-<chapters/chapter1/images/Figure10.png, id=781, 520.19344pt x 224.33812pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./chapters/chapter1/images/Figure08.png>]
+Overfull \hbox (0.2359pt too wide) in paragraph at lines 307--308
+\T1/ptm/m/n/12 ciency. It has been shown to out-per-form In-cep-tion in many tasks, es-pe-cially with high-resolution
+ []
+
+<chapters/chapter1/images/Figure10.png, id=702, 520.19344pt x 224.33812pt>
 File: chapters/chapter1/images/Figure10.png Graphic file (type png)
 <use chapters/chapter1/images/Figure10.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure10.png  used on input line 313.
+Package pdftex.def Info: chapters/chapter1/images/Figure10.png  used on input line 314.
 (pdftex.def)             Requested size: 273.14923pt x 117.79639pt.
- [28 <./chapters/chapter1/images/Figure10.png>]
-<chapters/chapter1/images/Figure11.png, id=794, 561.59813pt x 268.75406pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./chapters/chapter1/images/Figure09.png> <./chapters/chapter1/images/Figure10.png>]
+<chapters/chapter1/images/Figure11.png, id=716, 561.59813pt x 268.75406pt>
 File: chapters/chapter1/images/Figure11.png Graphic file (type png)
 <use chapters/chapter1/images/Figure11.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure11.png  used on input line 342.
+Package pdftex.def Info: chapters/chapter1/images/Figure11.png  used on input line 343.
 (pdftex.def)             Requested size: 273.14923pt x 130.71463pt.
-<chapters/chapter1/images/Figure12.png, id=799, 523.20468pt x 371.88937pt>
-File: chapters/chapter1/images/Figure12.png Graphic file (type png)
-<use chapters/chapter1/images/Figure12.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure12.png  used on input line 364.
-(pdftex.def)             Requested size: 273.14923pt x 194.15532pt.
- [29 <./chapters/chapter1/images/Figure11.png>]
-<chapters/chapter1/images/Figure13.png, id=810, 796.47563pt x 370.38374pt>
-File: chapters/chapter1/images/Figure13.png Graphic file (type png)
-<use chapters/chapter1/images/Figure13.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure13.png  used on input line 379.
-(pdftex.def)             Requested size: 273.14923pt x 127.01956pt.
- [30 <./chapters/chapter1/images/Figure12.png> <./chapters/chapter1/images/Figure13.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 392.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 392.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 392.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 392.
-
-<chapters/chapter1/images/Figure14.png, id=824, 542.025pt x 376.40625pt>
+<chapters/chapter1/images/Figure14.png, id=722, 542.025pt x 376.40625pt>
 File: chapters/chapter1/images/Figure14.png Graphic file (type png)
 <use chapters/chapter1/images/Figure14.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure14.png  used on input line 401.
-(pdftex.def)             Requested size: 273.14923pt x 189.69022pt.
-[31]
-<chapters/chapter1/images/Figure15.png, id=834, 956.07187pt x 637.63219pt>
-File: chapters/chapter1/images/Figure15.png Graphic file (type png)
-<use chapters/chapter1/images/Figure15.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure15.png  used on input line 416.
-(pdftex.def)             Requested size: 364.19667pt x 242.88652pt.
- [32 <./chapters/chapter1/images/Figure14.png> <./chapters/chapter1/images/Figure15.png>]
+Package pdftex.def Info: chapters/chapter1/images/Figure14.png  used on input line 402.
+(pdftex.def)             Requested size: 182.09486pt x 126.45439pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./chapters/chapter1/images/Figure11.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 424.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 424.
+(hyperref)                removing `\beginL' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 424.
+(hyperref)                removing `\<def>-command' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 424.
+(hyperref)                removing `\encodingdefault' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 440.
+(hyperref)                removing `\endL' on input line 441.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 440.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./chapters/chapter1/images/Figure14.png>]
+Overfull \hbox (4.12216pt too wide) in paragraph at lines 464--465
+[]\T1/ptm/b/n/12 Mean Av-er-age Pre-ci-sion (mAP): \T1/ptm/m/n/12 Mea-sures the av-er-age pre-ci-sion across all ob-ject classes,
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 440.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[26]
+Overfull \hbox (5.29721pt too wide) in paragraph at lines 474--475
+[]\T1/ptm/b/n/12 Speed Met-rics (FPS, La-tency): \T1/ptm/m/n/12 As-sess real-time per-for-mance, es-sen-tial for time-sensitive
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 440.
-
-[33]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 444.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 444.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 444.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 444.
-
-[34] [35]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 481.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 481.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 481.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 481.
-
-<chapters/chapter1/images/Figure16.png, id=869, 1080.28593pt x 545.03625pt>
+<chapters/chapter1/images/Figure16.png, id=749, 1080.28593pt x 545.03625pt>
 File: chapters/chapter1/images/Figure16.png Graphic file (type png)
 <use chapters/chapter1/images/Figure16.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure16.png  used on input line 491.
+Package pdftex.def Info: chapters/chapter1/images/Figure16.png  used on input line 488.
 (pdftex.def)             Requested size: 318.66948pt x 160.77599pt.
-[36 <./chapters/chapter1/images/Figure16.png>]
-<chapters/chapter1/images/Figure17.png, id=881, 989.94844pt x 338.01282pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+<chapters/chapter1/images/Figure17.png, id=760, 989.94844pt x 338.01282pt>
 File: chapters/chapter1/images/Figure17.png Graphic file (type png)
 <use chapters/chapter1/images/Figure17.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure17.png  used on input line 507.
+Package pdftex.def Info: chapters/chapter1/images/Figure17.png  used on input line 504.
 (pdftex.def)             Requested size: 318.66948pt x 108.80585pt.
-<chapters/chapter1/images/Figure18.png, id=887, 362.10281pt x 362.85562pt>
-File: chapters/chapter1/images/Figure18.png Graphic file (type png)
-<use chapters/chapter1/images/Figure18.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure18.png  used on input line 522.
-(pdftex.def)             Requested size: 273.14923pt x 273.71901pt.
- [37 <./chapters/chapter1/images/Figure17.png>]
-<chapters/chapter1/images/Figure19.png, id=902, 1067.48813pt x 472.01344pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./chapters/chapter1/images/Figure16.png> <./chapters/chapter1/images/Figure17.png>]
+<chapters/chapter1/images/Figure19.png, id=773, 1067.48813pt x 472.01344pt>
 File: chapters/chapter1/images/Figure19.png Graphic file (type png)
 <use chapters/chapter1/images/Figure19.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure19.png  used on input line 536.
-(pdftex.def)             Requested size: 273.14923pt x 120.77596pt.
- [38 <./chapters/chapter1/images/Figure18.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 541.
+Package pdftex.def Info: chapters/chapter1/images/Figure19.png  used on input line 533.
+(pdftex.def)             Requested size: 364.19667pt x 161.03702pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 541.
+(hyperref)                removing `\beginL' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 541.
+(hyperref)                removing `\<def>-command' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 541.
+(hyperref)                removing `\encodingdefault' on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 551.
+(hyperref)                removing `\endL' on input line 538.
+
+<chapters/chapter1/images/Figure20.png, id=778, 1151.80313pt x 350.05782pt>
+File: chapters/chapter1/images/Figure20.png Graphic file (type png)
+<use chapters/chapter1/images/Figure20.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure20.png  used on input line 545.
+(pdftex.def)             Requested size: 409.71692pt x 124.51976pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./chapters/chapter1/images/Figure19.png>]
+<chapters/chapter1/images/Figure21.png, id=790, 838.63312pt x 462.97969pt>
+File: chapters/chapter1/images/Figure21.png Graphic file (type png)
+<use chapters/chapter1/images/Figure21.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure21.png  used on input line 554.
+(pdftex.def)             Requested size: 273.14923pt x 150.79158pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./chapters/chapter1/images/Figure20.png> <./chapters/chapter1/images/Figure21.png>]
+
+LaTeX Warning: Citation 'zhang2022dfunet' on page 31 undefined on input line 562.
+
+<chapters/chapter1/images/Figure22.png, id=804, 846.91406pt x 521.69907pt>
+File: chapters/chapter1/images/Figure22.png Graphic file (type png)
+<use chapters/chapter1/images/Figure22.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure22.png  used on input line 569.
+(pdftex.def)             Requested size: 318.66948pt x 196.29738pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 584.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 551.
+(hyperref)                removing `\<def>-command' on input line 584.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 551.
+(hyperref)                removing `\encodingdefault' on input line 584.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 551.
+(hyperref)                removing `\endL' on input line 584.
 
-[39 <./chapters/chapter1/images/Figure19.png>]) [40]
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31 <./chapters/chapter1/images/Figure22.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
 \openout2 = `chapters/chapter3/chapter3.aux'.
 
  (chapters/chapter3/chapter3.tex
@@ -3023,17 +3178,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 8.
 
-
-Overfull \hbox (2.04137pt too wide) in paragraph at lines 9--10
-\T1/cmr/m/n/12 Imaging tech-nolo-gies play a key role in re-mote sens-ing sys-tems by cap-tur-ing high-resolution
- []
-
-<chapters/chapter3/images/Figure01.png, id=924, 786.68906pt x 336.50719pt>
+<chapters/chapter3/images/Figure01.png, id=820, 786.68906pt x 336.50719pt>
 File: chapters/chapter3/images/Figure01.png Graphic file (type png)
 <use chapters/chapter3/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure01.png  used on input line 14.
 (pdftex.def)             Requested size: 364.19667pt x 155.7913pt.
-[41
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33
 
 
 
@@ -3055,11 +3212,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 21.
 
-<chapters/chapter3/images/Figure02.png, id=934, 755.82375pt x 301.8778pt>
+<chapters/chapter3/images/Figure02.png, id=830, 755.82375pt x 301.8778pt>
 File: chapters/chapter3/images/Figure02.png Graphic file (type png)
 <use chapters/chapter3/images/Figure02.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure02.png  used on input line 27.
-(pdftex.def)             Requested size: 364.19667pt x 145.46165pt.
+(pdftex.def)             Requested size: 273.14923pt x 109.0951pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 32.
@@ -3076,12 +3233,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 32.
 
-<chapters/chapter3/images/Figure03.png, id=939, 803.25093pt x 404.26031pt>
+<chapters/chapter3/images/Figure03.png, id=835, 803.25093pt x 404.26031pt>
 File: chapters/chapter3/images/Figure03.png Graphic file (type png)
 <use chapters/chapter3/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure03.png  used on input line 40.
-(pdftex.def)             Requested size: 364.19667pt x 183.2972pt.
-[42 <./chapters/chapter3/images/Figure01.png> <./chapters/chapter3/images/Figure02.png>]
+(pdftex.def)             Requested size: 273.14923pt x 137.47136pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./chapters/chapter3/images/Figure01.png> <./chapters/chapter3/images/Figure02.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 46.
@@ -3098,7 +3262,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 46.
 
-<chapters/chapter3/images/Figure04.png, id=952, 1215.79219pt x 533.74406pt>
+<chapters/chapter3/images/Figure04.png, id=847, 1215.79219pt x 533.74406pt>
 File: chapters/chapter3/images/Figure04.png Graphic file (type png)
 <use chapters/chapter3/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure04.png  used on input line 54.
@@ -3119,7 +3283,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 60.
 
-[43 <./chapters/chapter3/images/Figure03.png> <./chapters/chapter3/images/Figure04.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 64.
@@ -3136,6 +3299,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 64.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35 <./chapters/chapter3/images/Figure03.png> <./chapters/chapter3/images/Figure04.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 68.
@@ -3184,10 +3355,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 74.
 
-[44]
 
-LaTeX Warning: Citation 'phang2023from' on page 45 undefined on input line 80.
+LaTeX Warning: Citation 'phang2023from' on page 36 undefined on input line 80.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 90.
@@ -3205,11 +3383,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 90.
 
 
-LaTeX Warning: Citation 'phang2023from' on page 45 undefined on input line 96.
+LaTeX Warning: Citation 'phang2023from' on page 37 undefined on input line 96.
 
-[45]
 
-LaTeX Warning: Citation 'phang2023from' on page 46 undefined on input line 108.
+LaTeX Warning: Citation 'phang2023from' on page 37 undefined on input line 108.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3228,23 +3405,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 113.
 
 
-LaTeX Warning: Citation 'phang2023from' on page 46 undefined on input line 120.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+
+LaTeX Warning: Citation 'phang2023from' on page 38 undefined on input line 120.
 
 
-LaTeX Warning: Citation 'phang2023from' on page 46 undefined on input line 122.
+LaTeX Warning: Citation 'phang2023from' on page 38 undefined on input line 122.
 
 
-Overfull \hbox (12.47075pt too wide) in paragraph at lines 122--123
-\T1/cmr/m/n/12 down their adop-tion and in-no-va-tion, hin-der-ing their widespread use [[],
- []
-
-
-LaTeX Warning: Citation 'phang2023from' on page 46 undefined on input line 124.
-
-
-Overfull \hbox (35.4425pt too wide) in paragraph at lines 124--125
-\T1/cmr/m/n/12 i-tor-ing, which lim-its scal-a-bil-ity, par-tic-u-larly for small-scale ap-pli-ca-tions [[]]. 
- []
+LaTeX Warning: Citation 'phang2023from' on page 38 undefined on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3262,320 +3437,578 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 133.
 
-[46]
-<chapters/chapter3/images/Figure05.png, id=1007, 724.95844pt x 395.22656pt>
+<chapters/chapter3/images/Figure05.png, id=898, 724.95844pt x 395.22656pt>
 File: chapters/chapter3/images/Figure05.png Graphic file (type png)
 <use chapters/chapter3/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure05.png  used on input line 139.
 (pdftex.def)             Requested size: 364.19667pt x 198.55357pt.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 144.
-
-<chapters/chapter3/images/Figure06.png, id=1012, 758.835pt x 426.09187pt>
-File: chapters/chapter3/images/Figure06.png Graphic file (type png)
-<use chapters/chapter3/images/Figure06.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure06.png  used on input line 151.
-(pdftex.def)             Requested size: 364.19667pt x 204.50226pt.
-[47 <./chapters/chapter3/images/Figure05.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 182.
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\T1/ptm/m/n/12 Normalized Dif-fer-
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 182.
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\T1/ptm/m/n/12 Dif-fer-ence Veg-e-ta-tion
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 182.
+Underfull \hbox (badness 1394) in paragraph at lines 171--171
+[]|\T1/ptm/m/n/12 Soil Ad-justed Veg-e-ta-
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 182.
+Underfull \hbox (badness 3271) in paragraph at lines 171--171
+\T1/ptm/m/n/12 tant Veg-e-ta-tion In-dex
+ []
 
-[48 <./chapters/chapter3/images/Figure06.png>]
-Overfull \hbox (20.18007pt too wide) in paragraph at lines 197--197
-[]\T1/cmr/bx/n/17.28 Workflow for In-te-grat-ing Re-mote Sens-ing and ML/DL
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\T1/ptm/m/n/12 Veg-e-ta-tion In-dex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\T1/ptm/m/n/12 Crop yield and biomass; N-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\T1/ptm/m/n/12 Red Edge DVI
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 197.
+(hyperref)                removing `\beginL' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 197.
+(hyperref)                removing `\<def>-command' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 197.
+(hyperref)                removing `\encodingdefault' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 197.
+(hyperref)                removing `\endL' on input line 179.
 
-<chapters/chapter3/images/Figure07.png, id=1037, 681.29532pt x 565.36218pt>
+<chapters/chapter3/images/Figure06.png, id=910, 758.835pt x 426.09187pt>
+File: chapters/chapter3/images/Figure06.png Graphic file (type png)
+<use chapters/chapter3/images/Figure06.png>
+Package pdftex.def Info: chapters/chapter3/images/Figure06.png  used on input line 186.
+(pdftex.def)             Requested size: 364.19667pt x 204.50226pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./chapters/chapter3/images/Figure05.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 217.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 217.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41 <./chapters/chapter3/images/Figure06.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 232.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 232.
+
+<chapters/chapter3/images/Figure07.png, id=939, 681.29532pt x 565.36218pt>
 File: chapters/chapter3/images/Figure07.png Graphic file (type png)
 <use chapters/chapter3/images/Figure07.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure07.png  used on input line 204.
+Package pdftex.def Info: chapters/chapter3/images/Figure07.png  used on input line 239.
 (pdftex.def)             Requested size: 364.19667pt x 302.21991pt.
-[49]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 209.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 209.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 209.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 209.
-
-[50 <./chapters/chapter3/images/Figure07.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 224.
+(hyperref)                removing `\beginL' on input line 244.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 224.
+(hyperref)                removing `\<def>-command' on input line 244.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 224.
+(hyperref)                removing `\encodingdefault' on input line 244.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 224.
-
-[51]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 264.
+(hyperref)                removing `\endL' on input line 244.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 264.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 264.
-
+[43 <./chapters/chapter3/images/Figure07.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 264.
+(hyperref)                removing `\beginL' on input line 259.
 
-<chapters/chapter3/images/Figure08.png, id=1073, 758.08218pt x 292.09125pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 259.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 259.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\T1/ptm/b/n/12 Vegetation In-dices
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 294--294
+[]|\T1/ptm/m/n/12 Wheat fo-liage dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\T1/ptm/m/n/12 SIPI, PRI, TCARI,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 300.
+
+<chapters/chapter3/images/Figure08.png, id=978, 758.08218pt x 292.09125pt>
 File: chapters/chapter3/images/Figure08.png Graphic file (type png)
 <use chapters/chapter3/images/Figure08.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure08.png  used on input line 270.
+Package pdftex.def Info: chapters/chapter3/images/Figure08.png  used on input line 306.
 (pdftex.def)             Requested size: 364.19667pt x 140.32698pt.
-[52 <./chapters/chapter3/images/Figure08.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./chapters/chapter3/images/Figure08.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 Fusarium head
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 SBs (spec-tral bands),
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 340--340
+\T1/ptm/m/n/12 VI, TF (tex-ture fea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 Accuracy =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 Fusarium head
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 SBs (spec-tral bands),
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 VI, TF (tex-ture fea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]|\T1/ptm/m/n/12 PLSR, SVR,
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 309.
+(hyperref)                removing `\beginL' on input line 345.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 309.
+(hyperref)                removing `\<def>-command' on input line 345.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 309.
+(hyperref)                removing `\encodingdefault' on input line 345.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 309.
+(hyperref)                removing `\endL' on input line 345.
 
-<chapters/chapter3/images/Figure09.png, id=1097, 779.91376pt x 353.82187pt>
+<chapters/chapter3/images/Figure09.png, id=1002, 779.91376pt x 353.82187pt>
 File: chapters/chapter3/images/Figure09.png Graphic file (type png)
 <use chapters/chapter3/images/Figure09.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure09.png  used on input line 316.
+Package pdftex.def Info: chapters/chapter3/images/Figure09.png  used on input line 352.
 (pdftex.def)             Requested size: 364.19667pt x 165.22192pt.
-[53]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./chapters/chapter3/images/Figure09.png>]
-<chapters/chapter3/images/Figure10.png, id=1139, 1355.0625pt x 478.78876pt>
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+[]|\T1/ptm/m/n/12 Object-Level Clas-si-fi-
+ []
+
+
+Overfull \hbox (19.5391pt too wide) in paragraph at lines 389--389
+[]|\T1/ptm/m/n/12 Helminthosporium
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+[]|\T1/ptm/m/n/12 Object-Level Clas-si-fi-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47 <./chapters/chapter3/images/Figure09.png>]
+<chapters/chapter3/images/Figure10.png, id=1040, 1355.0625pt x 478.78876pt>
 File: chapters/chapter3/images/Figure10.png Graphic file (type png)
 <use chapters/chapter3/images/Figure10.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure10.png  used on input line 373.
+Package pdftex.def Info: chapters/chapter3/images/Figure10.png  used on input line 409.
 (pdftex.def)             Requested size: 364.19667pt x 128.68292pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 379.
+(hyperref)                removing `\beginL' on input line 415.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 379.
+(hyperref)                removing `\<def>-command' on input line 415.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 379.
+(hyperref)                removing `\encodingdefault' on input line 415.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 379.
-
-
-Overfull \hbox (19.65236pt too wide) in paragraph at lines 383--383
-[]\T1/cmr/bx/n/14.4 Systematic Cat-e-go-riza-tion of UAV/Satel-lite Mon-i-tor-ing Meth-
- []
+(hyperref)                removing `\endL' on input line 415.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 383.
+(hyperref)                removing `\beginL' on input line 419.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 383.
+(hyperref)                removing `\<def>-command' on input line 419.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 383.
+(hyperref)                removing `\encodingdefault' on input line 419.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 383.
+(hyperref)                removing `\endL' on input line 419.
 
-[55 <./chapters/chapter3/images/Figure10.png>]
-<chapters/chapter3/images/Figure11.png, id=1153, 1065.22969pt x 738.50906pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48 <./chapters/chapter3/images/Figure10.png>]
+<chapters/chapter3/images/Figure11.png, id=1055, 1065.22969pt x 738.50906pt>
 File: chapters/chapter3/images/Figure11.png Graphic file (type png)
 <use chapters/chapter3/images/Figure11.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure11.png  used on input line 389.
+Package pdftex.def Info: chapters/chapter3/images/Figure11.png  used on input line 425.
 (pdftex.def)             Requested size: 364.19667pt x 252.48708pt.
- [56 <./chapters/chapter3/images/Figure11.png>]
-<chapters/chapter3/images/Figure12.png, id=1164, 544.28343pt x 333.49594pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49 <./chapters/chapter3/images/Figure11.png>]
+<chapters/chapter3/images/Figure12.png, id=1066, 544.28343pt x 333.49594pt>
 File: chapters/chapter3/images/Figure12.png Graphic file (type png)
 <use chapters/chapter3/images/Figure12.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure12.png  used on input line 401.
-(pdftex.def)             Requested size: 364.19667pt x 223.15105pt.
-<chapters/chapter3/images/Figure13.png, id=1169, 602.25pt x 188.95593pt>
+Package pdftex.def Info: chapters/chapter3/images/Figure12.png  used on input line 437.
+(pdftex.def)             Requested size: 273.14923pt x 167.36328pt.
+<chapters/chapter3/images/Figure13.png, id=1071, 602.25pt x 188.95593pt>
 File: chapters/chapter3/images/Figure13.png Graphic file (type png)
 <use chapters/chapter3/images/Figure13.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure13.png  used on input line 413.
-(pdftex.def)             Requested size: 364.19667pt x 114.2711pt.
- [57 <./chapters/chapter3/images/Figure12.png> <./chapters/chapter3/images/Figure13.png>]
-<chapters/chapter3/images/Figure14.png, id=1182, 358.33875pt x 119.69719pt>
+Package pdftex.def Info: chapters/chapter3/images/Figure13.png  used on input line 449.
+(pdftex.def)             Requested size: 273.14923pt x 85.70406pt.
+<chapters/chapter3/images/Figure14.png, id=1076, 358.33875pt x 119.69719pt>
 File: chapters/chapter3/images/Figure14.png Graphic file (type png)
 <use chapters/chapter3/images/Figure14.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure14.png  used on input line 425.
-(pdftex.def)             Requested size: 364.19667pt x 121.66211pt.
-<chapters/chapter3/images/Figure15.png, id=1187, 362.10281pt x 121.95563pt>
+Package pdftex.def Info: chapters/chapter3/images/Figure14.png  used on input line 461.
+(pdftex.def)             Requested size: 273.14923pt x 91.24658pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50 <./chapters/chapter3/images/Figure12.png> <./chapters/chapter3/images/Figure13.png>]
+<chapters/chapter3/images/Figure15.png, id=1089, 362.10281pt x 121.95563pt>
 File: chapters/chapter3/images/Figure15.png Graphic file (type png)
 <use chapters/chapter3/images/Figure15.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure15.png  used on input line 438.
-(pdftex.def)             Requested size: 364.19667pt x 122.66245pt.
+Package pdftex.def Info: chapters/chapter3/images/Figure15.png  used on input line 474.
+(pdftex.def)             Requested size: 273.14923pt x 91.99683pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 443.
+(hyperref)                removing `\beginL' on input line 479.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 443.
+(hyperref)                removing `\<def>-command' on input line 479.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 443.
+(hyperref)                removing `\encodingdefault' on input line 479.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 443.
+(hyperref)                removing `\endL' on input line 479.
 
-[58 <./chapters/chapter3/images/Figure14.png> <./chapters/chapter3/images/Figure15.png>]
-Overfull \hbox (29.81628pt too wide) in paragraph at lines 457--457
-[]\T1/cmr/bx/n/17.28 Challenges in In-te-grat-ing Re-mote Sens-ing with ML/DL 
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51 <./chapters/chapter3/images/Figure14.png> <./chapters/chapter3/images/Figure15.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 493.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 457.
+(hyperref)                removing `\<def>-command' on input line 493.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 457.
+(hyperref)                removing `\encodingdefault' on input line 493.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 457.
+(hyperref)                removing `\endL' on input line 493.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 457.
-
-
-Overfull \hbox (13.33597pt too wide) in paragraph at lines 458--459
-\T1/cmr/m/n/12 deep learn-ing tech-niques for crop dis-ease de-tec-tion, sev-eral chal-lenges hin-der their widespread
- []
+(hyperref)                removing `\beginL' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 464.
+(hyperref)                removing `\<def>-command' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 464.
+(hyperref)                removing `\encodingdefault' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 464.
+(hyperref)                removing `\endL' on input line 500.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 464.
-
-[59]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 467.
+(hyperref)                removing `\beginL' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 467.
+(hyperref)                removing `\<def>-command' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 467.
+(hyperref)                removing `\encodingdefault' on input line 503.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 467.
+(hyperref)                removing `\endL' on input line 503.
 
-) [60]
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
 \openout2 = `conclusion.aux'.
 
- (conclusion.tex) [61
+ (conclusion.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54
 
 
 
 
-] [62
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55
 
 
 
-] [63] [64] [65]
+]
+Overfull \hbox (0.45398pt too wide) in paragraph at lines 44--44
+[]\T1/ptm/m/n/12 Manuel Figueroa, Kim E. Hammond-Kosack, and Pe-ter S. Solomon. ^^P  A Re-view of Wheat
+ []
+
+
+Overfull \hbox (2.29848pt too wide) in paragraph at lines 44--44
+\T1/ptm/m/n/12 us-ing high-resolution UAV-based red-green-blue im-agery^^Q. In: \T1/ptm/m/it/12 Re-mote Sens-ing \T1/ptm/m/n/12 12 (2020),
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56]
+Overfull \hbox (0.26653pt too wide) in paragraph at lines 44--44
+\T1/ptm/m/n/12 wheat growth mon-i-tor-ing^^Q. In: \T1/ptm/m/it/12 Drones \T1/ptm/m/n/12 7.1 (2022), p. 23. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 3390 / drones7010023$[][]\T1/ptm/m/n/12 . 
+ []
+
+
+Overfull \hbox (20.38602pt too wide) in paragraph at lines 44--44
+\T1/ptm/m/n/12 Learn-ing Tech-niques^^Q. In: \T1/ptm/m/it/12 Re-mote Sens-ing \T1/ptm/m/n/12 15.9 (2023), p. 2450. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 3390 / rs15092450$[][]\T1/ptm/m/n/12 . 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57]
+Overfull \hbox (62.07417pt too wide) in paragraph at lines 44--44
+\T1/ptm/m/n/12 Spec-tral Char-ac-ter-is-tics^^Q. In: \T1/ptm/m/it/12 Agri-cul-ture \T1/ptm/m/n/12 15.3 (2025), p. 326. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 3390 / agriculture15030326$[][]\T1/ptm/m/n/12 . 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
 \openout2 = `appendices/annexeA.aux'.
 
  (appendices/annexeA.tex
@@ -3596,13 +4029,181 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-) [66
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 15.
+
+<appendices/images/MobileNet.png, id=1173, 696.35156pt x 310.91156pt>
+File: appendices/images/MobileNet.png Graphic file (type png)
+<use appendices/images/MobileNet.png>
+Package pdftex.def Info: appendices/images/MobileNet.png  used on input line 20.
+(pdftex.def)             Requested size: 364.19667pt x 162.60951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[59
 
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 26.
+
+<chapters/chapter1/images/Figure13.png, id=1181, 796.47563pt x 370.38374pt>
+File: chapters/chapter1/images/Figure13.png Graphic file (type png)
+<use chapters/chapter1/images/Figure13.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure13.png  used on input line 33.
+(pdftex.def)             Requested size: 364.19667pt x 169.3613pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 38.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[60 <./appendices/images/MobileNet.png> <./chapters/chapter1/images/Figure13.png>]
+<appendices/images/ShuffleNet.png, id=1191, 293.59688pt x 505.13719pt>
+File: appendices/images/ShuffleNet.png Graphic file (type png)
+<use appendices/images/ShuffleNet.png>
+Package pdftex.def Info: appendices/images/ShuffleNet.png  used on input line 48.
+(pdftex.def)             Requested size: 182.09486pt x 313.29744pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 54.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/12 Detects wheat stripe rust in-fec-tion by
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 92--92
+\T1/ptm/m/n/12 color codes by com-par-ing dark and
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/12 Detects carotenoid-to-chlorophyll ra-tio;
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 92--92
+\T1/ptm/m/n/12 sat-ing for soil back-ground, use-ful in
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/12 Indicates leaf senes-cence and pig-ment
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/12 Developed to iden-tify yel-low rust in
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/12 Identifies pow-dery mildew by sens-ing
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[61 <./appendices/images/ShuffleNet.png>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[62]
 \openout2 = `appendices/annexeB.aux'.
 
- (appendices/annexeB.tex) (main.aux (titlepage.aux) (abstract.aux) (introduction.aux) (chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux) (chapters/chapter3/chapter3.aux) (conclusion.aux) (appendices/annexeA.aux) (appendices/annexeB.aux))
+ (appendices/annexeB.tex)
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+(main.aux (titlepage.aux) (abstract.aux) (introduction.aux) (chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux) (chapters/chapter3/chapter3.aux) (conclusion.aux) (appendices/annexeA.aux) (appendices/annexeB.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -3796,6 +4397,7 @@ varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
 footnote.sty    1997/01/28 1.13 Save footnotes around boxes
 multirow.sty    2024/11/12 v2.9 Span multiple rows of a table
 makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+mathptmx.sty    2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 preambule/theorems.tex
 preambule/notations.tex
 preambule/abbreviations.tex
@@ -3818,6 +4420,7 @@ glossary-super.sty    2025/04/11 v4.59 (NLCT)
 supertabular.sty    2024/07/20 v4.2c the supertabular environment
 glossary-tree.sty    2025/04/11 v4.59 (NLCT)
 glossaries-extra-abbrstyles.def    2025/04/12 v1.6 (NLCT)
+   t1ptm.fd    2001/06/04 font definitions for T1/ptm.
 supp-pdf.mkii
 epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
 epstopdf-sys.cfg    2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
@@ -3829,16 +4432,20 @@ ltcaption.sty    2021/01/08 v1.4c longtable captions (AR)
 titlepage.tex
    uxnsh.fd     1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 assets/images/esi_logo.png
-    umsa.fd    2013/01/14 v3.01 AMS symbols A
-    umsb.fd    2013/01/14 v3.01 AMS symbols B
+ot1ztmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+omlztmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+omsztmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+omxztmcm.fd    2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
   ustmry.fd
+  ot1ptm.fd    2001/06/04 font definitions for OT1/ptm.
   t1cmtt.fd    2023/04/13 v2.5m Standard LaTeX font definitions
 acknowledgement.tex
 abstract.tex
-    main.gls-abr
 introduction.tex
+  ts1ptm.fd    2001/06/04 font definitions for TS1/ptm.
 chapters/chapter2/chapter2.tex
 chapters/chapter2/images/Figure01.png
+chapters/chapter2/images/WheatStages.png
 chapters/chapter2/images/Figure02.png
 chapters/chapter2/images/Figure03.png
 chapters/chapter2/images/Figure04.png
@@ -3851,7 +4458,6 @@ chapters/chapter2/images/Figure10.png
 chapters/chapter2/images/Figure11.png
 chapters/chapter2/images/Figure12.png
 chapters/chapter2/images/Figure13.png
-chapters/chapter2/images/Figure14.png
 chapters/chapter2/images/Figure15.png
 chapters/chapter2/images/Figure16.png
 chapters/chapter2/images/Figure17.png
@@ -3869,14 +4475,13 @@ chapters/chapter1/images/Figure08.png
 chapters/chapter1/images/Figure09.png
 chapters/chapter1/images/Figure10.png
 chapters/chapter1/images/Figure11.png
-chapters/chapter1/images/Figure12.png
-chapters/chapter1/images/Figure13.png
 chapters/chapter1/images/Figure14.png
-chapters/chapter1/images/Figure15.png
 chapters/chapter1/images/Figure16.png
 chapters/chapter1/images/Figure17.png
-chapters/chapter1/images/Figure18.png
 chapters/chapter1/images/Figure19.png
+chapters/chapter1/images/Figure20.png
+chapters/chapter1/images/Figure21.png
+chapters/chapter1/images/Figure22.png
 chapters/chapter3/chapter3.tex
 chapters/chapter3/images/Figure01.png
 chapters/chapter3/images/Figure02.png
@@ -3895,8 +4500,14 @@ chapters/chapter3/images/Figure14.png
 chapters/chapter3/images/Figure15.png
 conclusion.tex
 appendices/annexeA.tex
+appendices/images/MobileNet.png
+chapters/chapter1/images/Figure13.png
+appendices/images/ShuffleNet.png
 appendices/annexeB.tex
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -3904,20 +4515,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 7 (\begingroup)
+### semi simple group (level 1) entered at line 6 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 74065 strings out of 474486
- 1652581 string characters out of 5744227
- 2843879 words of memory out of 5000000
- 94974 multiletter control sequences out of 15000+600000
- 586044 words of font info for 83 fonts, out of 8000000 for 9000
+ 74238 strings out of 474486
+ 1655652 string characters out of 5744227
+ 2863840 words of memory out of 5000000
+ 95123 multiletter control sequences out of 15000+600000
+ 636213 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,15n,109p,2640b,7973s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1440.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi/ae_almateen.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (79 pages, 31915966 bytes).
+ 95i,17n,109p,2640b,8088s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi/ae_almohanad_bold.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
+Output written on main.pdf (75 pages, 27727526 bytes).
 PDF statistics:
- 2236 PDF objects out of 2487 (max. 8388607)
- 319 named destinations out of 1000 (max. 500000)
- 971 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1633 PDF objects out of 1728 (max. 8388607)
+ 299 named destinations out of 1000 (max. 500000)
+ 893 words of extra memory for PDF output out of 10000 (max. 10000000)
 

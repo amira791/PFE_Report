@@ -1,14 +1,12 @@
-\chapter{Deep Learning for Smart Agriculture}
+\chapter{Applications of Deep Learning in Visual Recognition of Wheat Diseases}
 
 \section{Introduction}
-Deep learning and computer vision have become indispensable tools in modern agriculture, enabling automated, high-precision analysis of crop health, disease detection, and pest management. By leveraging convolutional neural networks (CNNs), these technologies can process vast amounts of visual data from drone imagery to ground-based cameras, identifying subtle patterns indicative of wheat diseases. This shift from manual scouting to AI-driven monitoring improves scalability, reduces human error, and supports timely interventions, ultimately enhancing yield and sustainability.
+The spread of wheat diseases poses serious threats to agricultural productivity and food security. Early and accurate detection is essential for timely intervention and disease management. In this context, deep learning has emerged as a powerful approach to support smart agriculture by enabling automated, data-driven solutions.
 
-In this chapter, we establish the foundational concepts of deep learning and computer vision as applied to agricultural challenges. We begin by examining the core principles of CNNs and their role in feature extraction from crop imagery. Next, we explore transfer learning techniques, which allow pre-trained models to adapt to agricultural datasets with limited labeled examples. The chapter then discusses object detection methods critical for localizing diseases and pests in field conditions. Finally, we address the practical challenges of implementing these solutions, including data variability, model scalability, and real-world deployment constraints in agricultural settings.
+This chapter focuses on the application of deep learning techniques to visual data, particularly images captured in the field. It highlights three key computer vision tasks used in precision agriculture: image classification, image segmentation, and object detection. These tasks allow machines to recognize disease types, locate affected areas on plant surfaces, and detect objects such as crops or weeds in complex environments. The chapter begins with the fundamentals of deep neural networks and proceeds to how they are used for agricultural image analysis. It also introduces practical techniques like transfer learning and fine-tuning, which help adapt models to specific agricultural datasets.
 
-\section{Overview of Smart Agriculture}
-Smart agriculture integrates advanced technologies such as the Internet of Things (IoT), artificial intelligence (AI), and big data analytics to enhance farming efficiency and sustainability. By leveraging real-time data from sensors, drones, and satellite imagery, smart agricultural systems enable precise monitoring of soil conditions, crop health, and environmental factors \parencite{garg2023smart}.
-Machine learning and deep learning techniques, particularly computer vision, play a crucial role in automating disease detection, pest control, and yield prediction. These AI-driven solutions reduce dependency on manual labor, optimize resource usage, and facilitate data-driven decision-making. The adoption of smart agriculture not only improves productivity but also promotes sustainable farming practices, addressing global food security challenges \parencite{garg2023smart}.
-
+\section{Distinctions Between Deep Learning and Machine Learning}
+Deep learning is a subset of machine learning that uses deep neural networks to automatically learn complex patterns from large, unstructured data like images, text, and audio. Unlike traditional machine learning, which requires manual feature extraction and works best with smaller, structured datasets, deep learning eliminates this need and can handle large datasets with significant computational power, often using GPUs. While machine learning is suitable for tasks like predictive analytics, deep learning excels in applications such as image recognition, speech processing, and natural language understanding \parencite{AlvarezVanhard2021}.
 \section{Deep Learning Fundamentals}
 In this section, we introduce the core principles of deep learning, focusing on deep neural networks (DNNs) and their role in learning complex patterns from data. We explore the structure and components of neural networks, the learning process, optimization techniques, and model evaluation methods. Additionally, we highlight regularization strategies to prevent overfitting.
 
@@ -195,25 +193,27 @@ To evaluate a model’s performance, several metrics can be used depending on th
 \end{itemize}
 
 
-\section{Deep Learning Approaches}
+% \section{Deep Learning Approaches}
 
-Deep learning encompasses a variety of learning paradigms that enable models to extract complex patterns from large volumes of data. These approaches differ based on the nature of the data, the availability of labels, and the interaction mechanisms with the environment. This section presents the four main categories of deep learning methods \parencite{alzubaidi2021review}:
+% Deep learning encompasses a variety of learning paradigms that enable models to extract complex patterns from large volumes of data. These approaches differ based on the nature of the data, the availability of labels, and the interaction mechanisms with the environment. This section presents the four main categories of deep learning methods \parencite{alzubaidi2021review}:
 
-\begin{itemize}
-    \item \textbf{Deep Supervised Learning:} This approach involves training a neural network using a labeled dataset, where each input image (e.g., leaf with visible symptoms) is paired with its correct label (e.g., disease type). The model learns to minimize the error between its predictions and the true labels using backpropagation and optimization algorithms. Techniques include Convolutional Neural Networks (CNNs) for spatial feature extraction, Deep Neural Networks (DNNs), and Recurrent Neural Networks (RNNs) like LSTMs and GRUs when dealing with sequential data.
+% \begin{itemize}
+%     \item \textbf{Deep Supervised Learning:} This approach involves training a neural network using a labeled dataset, where each input image (e.g., leaf with visible symptoms) is paired with its correct label (e.g., disease type). The model learns to minimize the error between its predictions and the true labels using backpropagation and optimization algorithms. Techniques include Convolutional Neural Networks (CNNs) for spatial feature extraction, Deep Neural Networks (DNNs), and Recurrent Neural Networks (RNNs) like LSTMs and GRUs when dealing with sequential data.
     
-    \item \textbf{Deep Semi‐Supervised Learning:} Semi-supervised learning combines a small labeled dataset with a larger pool of unlabeled data, which is common in agricultural settings where annotating plant diseases is costly and time-consuming. Methods like Generative Adversarial Networks (GANs) can generate synthetic labeled images, while RNNs, LSTMs, and Deep Reinforcement Learning (DRL) can help model complex data behavior.
+%     \item \textbf{Deep Semi‐Supervised Learning:} Semi-supervised learning combines a small labeled dataset with a larger pool of unlabeled data, which is common in agricultural settings where annotating plant diseases is costly and time-consuming. Methods like Generative Adversarial Networks (GANs) can generate synthetic labeled images, while RNNs, LSTMs, and Deep Reinforcement Learning (DRL) can help model complex data behavior.
     
-    \item \textbf{Deep Unsupervised Learning:} Unsupervised learning aims to extract meaningful patterns from unlabeled data, such as grouping similar plant images or identifying features without predefined classes. Popular methods include Autoencoders for dimensionality reduction, Restricted Boltzmann Machines, and clustering algorithms. These are useful in exploratory stages or feature extraction before applying a classifier.
+%     \item \textbf{Deep Unsupervised Learning:} Unsupervised learning aims to extract meaningful patterns from unlabeled data, such as grouping similar plant images or identifying features without predefined classes. Popular methods include Autoencoders for dimensionality reduction, Restricted Boltzmann Machines, and clustering algorithms. These are useful in exploratory stages or feature extraction before applying a classifier.
     
-    \item \textbf{Deep Reinforcement Learning (DRL):} In DRL, models learn optimal actions through trial and error by interacting with an environment. This could include real-time monitoring systems in agriculture, like automated disease response tools or robotic weeders. Unlike supervised learning, DRL does not require labeled data but instead uses reward signals to adjust its strategy over time.
-\end{itemize}
+%     \item \textbf{Deep Reinforcement Learning (DRL):} In DRL, models learn optimal actions through trial and error by interacting with an environment. This could include real-time monitoring systems in agriculture, like automated disease response tools or robotic weeders. Unlike supervised learning, DRL does not require labeled data but instead uses reward signals to adjust its strategy over time.
+% \end{itemize}
 
-\section{Convolutional Neural Networks (CNNs) for Plant Disease Classification}
+\section{Core Computer Vision Tasks in Agriculture}
 
-Convolutional Neural Networks (CNNs) have revolutionized image-based plant disease classification by automatically extracting hierarchical features from agricultural images. Unlike traditional machine learning approaches that rely on handcrafted features, CNNs learn spatial patterns directly from raw images, improving classification accuracy. Their ability to recognize disease symptoms from leaf textures and color variations makes them particularly effective in precision agriculture. This section explores the fundamental components of CNNs, their advantages in agricultural applications, and their limitations when applied independently.
+The most common and impactful computer vision tasks include image classification, image segmentation, and object detection. Each of these tasks plays a vital role in applications such as disease diagnosis, crop monitoring, yield estimation, and weed or pest detection. The following sections explore these tasks and their corresponding deep learning techniques in detail.
+\subsection{Image Classification}
+Image classification is the task of assigning a label to an entire image based on its visual content. In deep learning, this is typically achieved using Convolutional Neural Networks (CNNs), which are designed to automatically learn hierarchical features from raw pixel data. 
 
-\subsection{Fundamentals of CNNs}
+\subsubsection{Fundamentals of CNNs}
 Convolutional Neural Networks (CNNs) consist of multiple layers designed to process and learn spatial hierarchies from image data (see Figure~\ref{fig:figure04}). Their architecture typically includes \parencite{alzubaidi2021review}:
 
 \begin{itemize}
@@ -226,7 +226,7 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
     
      \begin{figure}[H] % 'H' needs \usepackage{float}
         \centering
-        \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure04.png}
+        \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure04.png}
         \caption{Architecture of CNN \cite{purwono2022understanding}.}
         \label{fig:figure04}
     \end{figure}
@@ -252,7 +252,7 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
         \label{fig:figure06}
     \end{figure}
  
-    \item \textbf{Activation Functions:} Introduce non-linearity to help the network learn complex patterns. They must also be differentiable to enable backpropagation during training. CNNs commonly utilize the following activation functions: ReLU (Rectified Linear Unit), Sigmoid, Softmax, and Tanh.
+    % \item \textbf{Activation Functions:} Introduce non-linearity to help the network learn complex patterns. They must also be differentiable to enable backpropagation during training. CNNs commonly utilize the following activation functions: ReLU (Rectified Linear Unit), Sigmoid, Softmax, and Tanh.
     \item \textbf{Fully Connected Layers:} The Fully Connected (FC) layer is typically found at the end of a CNN architecture and serves as the classifier. In this layer, each neuron is connected to all neurons from the previous layer, following the fully connected approach. It operates similarly to a conventional multi-layer perceptron (MLP) network, which is a type of feed-forward artificial neural network (ANN). The input to the FC layer is a vector created from the feature maps after flattening, which comes from the last pooling or convolutional layer. The output of the FC layer represents the final result of the classification task.
     
 \end{itemize}
@@ -267,10 +267,11 @@ Figure~\ref{fig:figure07} below illustrates the general structure of a Convoluti
 \end{figure}
 
 
-\subsection{CNN Architectures for Image Classification}
+\subsubsection{CNN Architectures for Image Classification}
 Over the past decade, numerous Convolutional Neural Network (CNN) architectures have been developed, each introducing unique design principles to improve accuracy, efficiency, and scalability. In the context of image classification, especially for tasks such as plant disease detection, the choice of architecture can significantly influence performance depending on the dataset size, complexity, and computational constraints.
 This section presents an overview of some of the most influential and widely used CNN architectures:
-\subsubsection{Visual geometry group network (VGGNet)}
+
+\paragraph{Visual geometry group network (VGGNet)}
 Proposed by Simonyan and Zisserman, VGGNet is a convolutional neural network (CNN) architecture widely recognized for its simplicity and strong performance in image recognition tasks.
 
 VGG is characterized by its deep architecture, typically comprising 16 to 19 layers, which significantly enhances its representational power compared to earlier models like ZFNet and AlexNet. One of its key innovations is the replacement of large convolutional filters (such as $11 \times 11$ or $5 \times 5$) with multiple stacked $3 \times 3$ filters. This strategy maintains an equivalent receptive field while reducing the number of parameters and improving computational efficiency.
@@ -287,7 +288,7 @@ Despite its effectiveness, a major drawback of VGGNet is its high computational 
     \label{fig:figure08}
 \end{figure}
 
-\subsubsection{Inception Net (GoogLeNet)}
+\paragraph{Inception Net (GoogLeNet)}
 Inception Net, introduced by Szegedy et al., uses Inception modules that apply multiple convolutional filters ($1 \times 1$, $3 \times 3$, $5 \times 5$) in parallel, followed by concatenation (see Figure~\ref{fig:figure09}). This design captures multi-scale information efficiently while reducing computational cost. The architecture has been successfully applied in plant phenotyping and classification of complex disease patterns.
 
 It replaced standard convolutional layers with micro-neural networks and regulated computation through $1 \times 1$ convolutions as bottleneck layers. Sparse connections addressed redundant information by selectively connecting input and output channels, while the global average pooling (GAP) layer reduced parameters from 40 million to just 5 million, enhancing efficiency. Additional features included the RmsProp optimizer, batch normalization, and auxiliary learners to accelerate convergence \parencite{alzubaidi2021review}.
@@ -301,7 +302,7 @@ It replaced standard convolutional layers with micro-neural networks and regulat
     \label{fig:figure09}
 \end{figure}
 
-\subsubsection{Xception Net}
+\paragraph{Xception Net}
 
 The Xception model is an extension of the Inception architecture that replaces standard convolutions with depth-wise separable convolutions, significantly improving efficiency. It has been shown to outperform Inception in many tasks, especially with high-resolution agricultural images, by learning spatial and cross-channel correlations separately.
 
@@ -315,7 +316,7 @@ The core concept behind Xception is the modification of the traditional Inceptio
     \label{fig:figure10}
 \end{figure}
 
-\subsubsection{Residual Networks (ResNet)}
+\paragraph{Residual Networks (ResNet)}
 ResNet is a deep convolutional neural network architecture developed to facilitate the training of very deep networks, ranging from 18 to 152 layers, by introducing the concept of residual learning through shortcut (or skip) connections that bypass one or more layers.
 
 These residual connections address the degradation problem that often occurs in deeper networks, where increasing depth leads to performance saturation or even degradation. By enabling gradients to flow more efficiently, ResNet makes it easier for the network to learn identity mappings or residual functions, simplifying the overall training process.
@@ -344,52 +345,52 @@ An illustration of the residual module structure is provided in Figure~\ref{fig:
     \label{fig:figure11}
 \end{figure}
 
-\subsubsection{DenseNet}
+% \subsubsection{DenseNet}
 
-DenseNet is a convolutional neural network architecture that introduces the concept of dense connectivity, in which each layer is directly connected to every other layer in a feed-forward fashion, as illustrated in Figure~\ref{fig:figure12}. This unique design enables feature reuse, enhances gradient flow, and significantly reduces the number of parameters compared to traditional CNNs.
+% DenseNet is a convolutional neural network architecture that introduces the concept of dense connectivity, in which each layer is directly connected to every other layer in a feed-forward fashion, as illustrated in Figure~\ref{fig:figure12}. This unique design enables feature reuse, enhances gradient flow, and significantly reduces the number of parameters compared to traditional CNNs.
 
-Inspired by ResNet and Highway Networks, DenseNet addresses a key limitation in ResNet, where each layer maintains isolated weights and where certain transformations contribute minimal new information. In contrast, DenseNet concatenates the outputs of all preceding layers and feeds them as input to each subsequent layer.
+% Inspired by ResNet and Highway Networks, DenseNet addresses a key limitation in ResNet, where each layer maintains isolated weights and where certain transformations contribute minimal new information. In contrast, DenseNet concatenates the outputs of all preceding layers and feeds them as input to each subsequent layer.
 
-In a DenseNet with $l$ layers, the number of direct connections between layers is given by:
-\[
-\text{Number of connections} = \frac{l(l+1)}{2} \tag{4}
-\]
+% In a DenseNet with $l$ layers, the number of direct connections between layers is given by:
+% \[
+% \text{Number of connections} = \frac{l(l+1)}{2} \tag{4}
+% \]
 
-This connectivity pattern facilitates richer feature propagation, introduces a regularization effect, and helps mitigate the vanishing gradient problem, thus improving training efficiency and model generalization \parencite{alzubaidi2021review}.
+% This connectivity pattern facilitates richer feature propagation, introduces a regularization effect, and helps mitigate the vanishing gradient problem, thus improving training efficiency and model generalization \parencite{alzubaidi2021review}.
 
-Despite the computational cost introduced by the accumulation of feature maps, DenseNet has shown exceptional performance in fine-grained classification tasks, such as distinguishing between subtly different plant disease symptoms, particularly in scenarios with limited training data.
+% Despite the computational cost introduced by the accumulation of feature maps, DenseNet has shown exceptional performance in fine-grained classification tasks, such as distinguishing between subtly different plant disease symptoms, particularly in scenarios with limited training data.
 
-\begin{figure}[H] % 'H' needs \usepackage{float}
-    \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure12.png}
-    \caption{The architecture of DenseNet Network \parencite{alzubaidi2021review}.}
-    \label{fig:figure12}
-\end{figure}
-
-
-\subsubsection{EfficientNet}
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%     \centering
+%     \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure12.png}
+%     \caption{The architecture of DenseNet Network \parencite{alzubaidi2021review}.}
+%     \label{fig:figure12}
+% \end{figure}
 
 
-EfficientNet is a family of convolutional neural networks developed by Google AI that introduces a compound scaling method to efficiently scale deep learning models. Traditional approaches often scale models arbitrarily in one of three dimensions: depth (number of layers), width (number of channels), or input resolution. However, EfficientNet proposes a more balanced and systematic strategy, where all three dimensions are scaled simultaneously and proportionally using a fixed set of scaling coefficients. This compound approach maintains model efficiency while significantly boosting accuracy.
-
-The baseline model, EfficientNet-B0 (see Figure~\ref{fig:figure13}), is built using Neural Architecture Search (NAS) to optimize both performance and efficiency. Larger variants (B1 to B7) are derived by uniformly scaling the baseline model using the compound scaling principle. This results in models that achieve state-of-the-art performance on image classification tasks with dramatically fewer parameters and lower computational cost compared to earlier architectures like ResNet or Inception.
-
-\begin{figure}[H] % 'H' needs \usepackage{float}
-    \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure13.png}
-    \caption{Architecture of EfficientNet-B0 with MBConv as Basic building blocks \parencite{ahmed2022classification}.}
-    \label{fig:figure13}
-\end{figure}
-
-\subsubsection{Lightweight and Specialized CNN Models}
-Several CNN architectures, such as MobileNet, NASNet, SqueezeNet, and ShuffleNet, have been specifically developed to meet constraints related to speed, model size, and power efficiency, making them suitable for deployment on mobile or edge devices. Although not explored in depth within the main text, a comparative overview of their architectures, key characteristics, and potential applications in smart agriculture is presented in \ref{app:annexA} for further reference.
+% \subsubsection{EfficientNet}
 
 
-\section{Transfer Learning and Pretrained Models}
-In deep learning, training models from scratch often requires large labeled datasets and significant computational resources. Transfer learning offers a powerful alternative by leveraging models pre-trained on large benchmark datasets such as \textbf{ImageNet}. These pre-trained models capture rich and generalizable features in their initial layers, which can then be adapted to new, often smaller, target datasets with minimal additional training.
-This section explores the concept of transfer learning, introduces popular pre-trained CNN architectures relevant to agricultural applications, and outlines fine-tuning strategies suitable for small-scale plant datasets.
+% EfficientNet is a family of convolutional neural networks developed by Google AI that introduces a compound scaling method to efficiently scale deep learning models. Traditional approaches often scale models arbitrarily in one of three dimensions: depth (number of layers), width (number of channels), or input resolution. However, EfficientNet proposes a more balanced and systematic strategy, where all three dimensions are scaled simultaneously and proportionally using a fixed set of scaling coefficients. This compound approach maintains model efficiency while significantly boosting accuracy.
 
-\subsection{Concept of Transfer Learning}
+% The baseline model, EfficientNet-B0 (see Figure~\ref{fig:figure13}), is built using Neural Architecture Search (NAS) to optimize both performance and efficiency. Larger variants (B1 to B7) are derived by uniformly scaling the baseline model using the compound scaling principle. This results in models that achieve state-of-the-art performance on image classification tasks with dramatically fewer parameters and lower computational cost compared to earlier architectures like ResNet or Inception.
+
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%     \centering
+%     \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure13.png}
+%     \caption{Architecture of EfficientNet-B0 with MBConv as Basic building blocks \parencite{ahmed2022classification}.}
+%     \label{fig:figure13}
+% \end{figure}
+
+\paragraph{Lightweight and Specialized CNN Models}
+Several CNN architectures, such as MobileNet, EfficentNet, and ShuffleNet, have been specifically developed to meet constraints related to speed, model size, and power efficiency, making them suitable for deployment on mobile or edge devices. Although not explored in depth within the main text, a comparative overview of their architectures, key characteristics, and potential applications in smart agriculture is presented in Annex\ref{app:annexA} for further reference.
+
+
+\subsubsection{Transfer Learning and Pretrained Models}
+% In deep learning, training models from scratch often requires large labeled datasets and significant computational resources. Transfer learning offers a powerful alternative by leveraging models pre-trained on large benchmark datasets such as \textbf{ImageNet}. These pre-trained models capture rich and generalizable features in their initial layers, which can then be adapted to new, often smaller, target datasets with minimal additional training.
+% This section explores the concept of transfer learning, introduces popular pre-trained CNN architectures relevant to agricultural applications, and outlines fine-tuning strategies suitable for small-scale plant datasets.
+
+% \subsection{Concept of Transfer Learning}
 Transfer learning is a machine learning technique where a model trained on one task is repurposed for a different but related task. In the context of deep learning, it typically involves taking a neural network pre-trained on a large dataset such as ImageNet, which contains over 14 million labeled images, and adapting it to a specific task that may lack sufficient labeled data.
 
 To formalize this, consider a target learning task \( T_t \) based on a domain \( D_t \); transfer learning allows for assistance from a different domain \( D_s \) for the learning task \( T_s \). The goal of transfer learning is to improve the performance of the predictive function \( f_{T_t}(\cdot) \) for the task \( T_t \) by discovering and transferring latent knowledge from \( D_s \) and \( T_s \), where generally \( D_s = D_t \) and/or \( T_s = T_t \). Furthermore, it is often the case that the size of \( D_s \) is much larger than that of \( D_t \) \parencite{tan2018survey}.
@@ -398,7 +399,7 @@ This process is illustrated in Figure~\ref{fig:figure14}, which demonstrates how
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure14.png}
+    \includegraphics[width=0.4\textwidth]{chapters/chapter1/images/Figure14.png}
     \caption{Learning process of transfer learning \parencite{tan2018survey}.}
     \label{fig:figure14}
 \end{figure}
@@ -409,41 +410,37 @@ The two primary approaches to transfer learning are \parencite{tan2018survey}:
     \item \textbf{Fine-Tuning:} Some layers of the pretrained model are unfrozen and retrained on the new dataset. This allows the model to slightly adjust its learned features to better suit the new domain.
 \end{itemize}
 
-This concept is illustrated in Figure~\ref{fig:figure15}, which demonstrates the integration of a custom CNN with transfer learning networks.
+% This concept is illustrated in Figure~\ref{fig:figure15}, which demonstrates the integration of a custom CNN with transfer learning networks.
 
-\begin{figure}[H] % 'H' needs \usepackage{float}
-    \centering
-    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure15.png}
-    \caption{Integration of the custom CNN with transfer learning networks \parencite{jouini2024wheat}.}
-    \label{fig:figure15}
-\end{figure}
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure15.png}
+%     \caption{Integration of the custom CNN with transfer learning networks \parencite{jouini2024wheat}.}
+%     \label{fig:figure15}
+% \end{figure}
 
-Transfer learning is especially valuable in agriculture, where acquiring large annotated datasets is difficult. By leveraging pre-trained models, researchers and practitioners can build effective models for plant disease detection with limited data and reduced computational cost
-
-
-\subsection{Fine-Tuning Strategies for Agricultural Data}
+% Transfer learning is especially valuable in agriculture, where acquiring large annotated datasets is difficult. By leveraging pre-trained models, researchers and practitioners can build effective models for plant disease detection with limited data and reduced computational cost
 
 
-While basic fine-tuning involves unfreezing and retraining a subset of layers in a pretrained model, fine-tuning strategies can be further optimized when dealing with agricultural data, which often presents unique challenges such as class imbalance, limited samples, and high intra-class variability (e.g., similar symptoms across different plant diseases). 
-
-In this context, several fine-tuning strategies can be applied to improve model generalization and performance:
-\begin{itemize}
-    \item \textbf{Gradual Unfreezing:} Instead of unfreezing all layers at once, layers are incrementally unfrozen, starting from the top (fully connected layers) and moving backward. This helps prevent the model from losing previously learned useful features during early training stages \parencite{hossen2025transfer}.
-    \item \textbf{Discriminative Learning Rates:} Assigning different learning rates to different layers, lower for earlier layers and higher for later ones, ensures that the more generic features are preserved while higher-level representations are fine-tuned for the new task \parencite{hossen2025transfer}.
-    \item \textbf{Early Stopping and Regularization:} Due to limited data, it's essential to prevent overfitting during fine-tuning. Techniques like early stopping, dropout, and weight decay can help maintain model robustness \parencite{li2021implicit}.
-    \item \textbf{Data Augmentation and Balancing:} Supplementing fine-tuning with targeted data augmentation (e.g., rotation, brightness adjustments, zoom) helps the model generalize better. In addition, synthetic oversampling techniques like SMOTE can address class imbalance issues \parencite{aquino2017effect}.
-\end{itemize}
-
-These strategies, when integrated thoughtfully, allow researchers to tailor fine-tuning to the specific nature of agricultural datasets, maximizing the benefits of transfer learning even in data-constrained environments.
+% \subsection{Fine-Tuning Strategies for Agricultural Data}
 
 
-\section{Object Detection in Smart Agriculture}
-In the context of precision agriculture, object detection has emerged as a critical computer vision technique for automating the assessment of crop health. It facilitates the identification and localization of plant diseases, insect pests, nutrient deficiencies, and weeds, supporting more efficient and timely interventions across large-scale farming environments. 
-This approach goes beyond simple image classification by offering spatial information about multiple objects of interest within a single image, enabling actionable insights for decision-making.
+% While basic fine-tuning involves unfreezing and retraining a subset of layers in a pretrained model, fine-tuning strategies can be further optimized when dealing with agricultural data, which often presents unique challenges such as class imbalance, limited samples, and high intra-class variability (e.g., similar symptoms across different plant diseases). 
 
-\subsection{Key Concepts in Object Detection}
-Understanding object detection requires familiarity with its key components, including the problem definition, how annotated data is structured, and the metrics used to evaluate model performance. 
-\subsubsection{Definition of Object Detection}
+% In this context, several fine-tuning strategies can be applied to improve model generalization and performance:
+% \begin{itemize}
+%     \item \textbf{Gradual Unfreezing:} Instead of unfreezing all layers at once, layers are incrementally unfrozen, starting from the top (fully connected layers) and moving backward. This helps prevent the model from losing previously learned useful features during early training stages \parencite{hossen2025transfer}.
+%     \item \textbf{Discriminative Learning Rates:} Assigning different learning rates to different layers, lower for earlier layers and higher for later ones, ensures that the more generic features are preserved while higher-level representations are fine-tuned for the new task \parencite{hossen2025transfer}.
+%     \item \textbf{Early Stopping and Regularization:} Due to limited data, it's essential to prevent overfitting during fine-tuning. Techniques like early stopping, dropout, and weight decay can help maintain model robustness \parencite{li2021implicit}.
+%     \item \textbf{Data Augmentation and Balancing:} Supplementing fine-tuning with targeted data augmentation (e.g., rotation, brightness adjustments, zoom) helps the model generalize better. In addition, synthetic oversampling techniques like SMOTE can address class imbalance issues \parencite{aquino2017effect}.
+% \end{itemize}
+
+% These strategies, when integrated thoughtfully, allow researchers to tailor fine-tuning to the specific nature of agricultural datasets, maximizing the benefits of transfer learning even in data-constrained environments.
+
+
+\subsection{Object Detection}
+In the context of precision agriculture, object detection has emerged as a critical computer vision technique for automating the assessment of crop health. It facilitates the identification and localization of plant diseases, nutrient deficiencies, and weeds, supporting more efficient and timely interventions across large-scale farming environments. 
+
 At its core, object detection involves predicting both the category and precise location of objects within an image, thus combining classification with localization. Traditional approaches consist of stages such as region proposal, feature extraction, and object classification. Over time, detection methods have evolved to address increasing demands for accuracy and speed, giving rise to both two-stage and one-stage detection frameworks \parencite{zhao2019objectdetection}.
 
 Here are more details about the concepts of object detection \parencite{zhao2019objectdetection}: 
@@ -458,7 +455,7 @@ Annotation refers to the process of labeling the objects (such as pests, disease
 \begin{itemize}
     \item \textbf{Bounding Boxes:} The most common annotation method in object detection. Each object is enclosed in a rectangular box, and the class of the object is assigned to it (e.g., "rust", "aphid").
     \item \textbf{Polygons:} For more precise object delineation, especially when objects have irregular shapes (e.g., plant leaves affected by disease), polygons are used instead of bounding boxes.
-    \item \textbf{Semantic Segmentation:} In cases where the task involves classifying each pixel in the image, semantic segmentation labels each pixel to indicate which class it belongs to (e.g., diseased or healthy tissue in a leaf).
+    % \item \textbf{Semantic Segmentation:} In cases where the task involves classifying each pixel in the image, semantic segmentation labels each pixel to indicate which class it belongs to (e.g., diseased or healthy tissue in a leaf).
 \end{itemize}
 
 \subsubsection{Evaluation Metrics in Object Detection}    
@@ -478,7 +475,7 @@ In object detection, several metrics are used to assess model performance:
     \item \textbf{AP at Specific IoU Thresholds:} Measures precision at different IoU levels to understand performance under stricter conditions.
 \end{itemize}
 
-\subsection{Key Architectures}
+\subsubsection{Key Architectures}
 Many architectures are designed to efficiently and accurately detect objects in images, even in complex agricultural environments. Below, we discuss four of the most widely used and effective object detection models: YOLO (You Only Look Once), R-CNN, Faster R-CNN, and SSD (Single Shot Multibox Detector). 
 
 \subsubsection{Yolo}
@@ -496,11 +493,11 @@ At test time, class-specific confidence scores are computed by multiplying the b
 \subsubsection{R-CNN}
 R-CNN is a significant advancement in object detection, improving the quality of candidate bounding boxes (BBs) and utilizing deep architecture for high-level feature extraction \parencite{zhao2019objectdetection}. It consists of three main stages, as presented in figure~\ref{fig:figure17}:
 
-\begin{enumerate}
+\begin{itemize}
     \item \textbf{Region Proposal Generation:} R-CNN uses selective search to generate about 2000 region proposals per image, improving candidate box accuracy and reducing the search space.
     \item \textbf{CNN-Based Feature Extraction:} Each region proposal is resized and passed through a CNN to extract a 4096-dimensional feature, creating a high-level, robust representation of the object.
     \item \textbf{Classification and Localization:} Region proposals are classified using pre-trained linear SVMs, and bounding box regression is applied. Non-maximum suppression (NMS) is used to eliminate redundant boxes and finalize object detections.
-\end{enumerate}
+\end{itemize}
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
@@ -512,17 +509,17 @@ R-CNN is a significant advancement in object detection, improving the quality of
 Despite its success, R-CNN has drawbacks, including slow inference due to CNN computation for each region, time-consuming multistage training, high memory and storage requirements for storing region features, and redundant region proposals from selective search that slow down the process \parencite{zhao2019objectdetection}.
 
 
-\subsubsection{Faster R-CNN}
+% \paragraph{Faster R-CNN}
 
 
-Faster R-CNN improves upon earlier object detection models by introducing a Region Proposal Network (RPN), a deep learning-based method for generating object proposals, which shares convolutional features with the detection network to generate object proposals efficiently, eliminating the need for methods like selective search. The RPN uses a fully convolutional network (FCN) (as presented in Figure~\ref{fig:figure18}) to predict bounding boxes and object scores simultaneously. The system uses anchors of multiple scales and aspect ratios and is trained end-to-end with a multitask loss function. While Faster R-CNN achieves state-of-the-art accuracy and high-speed processing, it is limited by its alternate training algorithm, which is time-consuming and struggles with extreme object scales and shapes \parencite{zhao2019objectdetection}.
+% Faster R-CNN improves upon earlier object detection models by introducing a Region Proposal Network (RPN), a deep learning-based method for generating object proposals, which shares convolutional features with the detection network to generate object proposals efficiently, eliminating the need for methods like selective search. The RPN uses a fully convolutional network (FCN) (as presented in Figure~\ref{fig:figure18}) to predict bounding boxes and object scores simultaneously. The system uses anchors of multiple scales and aspect ratios and is trained end-to-end with a multitask loss function. While Faster R-CNN achieves state-of-the-art accuracy and high-speed processing, it is limited by its alternate training algorithm, which is time-consuming and struggles with extreme object scales and shapes \parencite{zhao2019objectdetection}.
 
-\begin{figure}[H] % 'H' needs \usepackage{float}
-    \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure18.png}
-    \caption{An illustration of the Faster R-CNN model \parencite{ren2016faster}.}
-    \label{fig:figure18}
-\end{figure}
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%     \centering
+%     \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure18.png}
+%     \caption{An illustration of the Faster R-CNN model \parencite{ren2016faster}.}
+%     \label{fig:figure18}
+% \end{figure}
 
 \subsubsection{SSD}
 SSD was introduced to address the limitations of YOLO, particularly in handling small objects and objects with unusual aspect ratios. Unlike YOLO's fixed grid approach, SSD uses default anchor boxes of various aspect ratios and scales to better handle objects of different sizes.
@@ -533,22 +530,56 @@ Below is the architecture of SSD (Figure~\ref{fig:figure19}), illustrating its k
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure19.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure19.png}
     \caption{Architecture of SSD \parencite{li2021water}.}
     \label{fig:figure19}
 \end{figure}
 
-\section{Challenges of Deep Learning in Agricultural Contexts}
+\subsection{Image Segmentation}
+Image segmentation is a computer vision task that involves partitioning an image into multiple segments, or regions, to make the analysis of its content more manageable. Each pixel is classified into a specific category, which helps in identifying objects or boundaries within an image. In wheat disease detection, image segmentation is crucial for isolating affected areas and distinguishing between healthy and diseased plant tissues. Models like PSPNet, U-Net and its variants, and DeepLabV3+ are particularly effective for this task, as they can capture both fine details and global context, leading to more accurate disease detection.
 
-Despite the promising performance of deep learning and object detection in various fields, their application in agriculture presents a range of specific challenges. One of the primary issues is the limited availability of large, annotated agricultural datasets, which hampers the training of robust and generalizable models. Unlike natural image datasets like ImageNet, agricultural datasets often suffer from class imbalance, incomplete labeling, and domain specificity (e.g., crop types, diseases, and environmental conditions) \parencite{alzubaidi2021review}.
+\subsubsection{Pyramid Scene Parsing Network (PSPNet)}
+Pyramid Scene Parsing Network (PSPNet) is a deep convolutional neural network architecture designed for semantic segmentation tasks, particularly effective in capturing both local and global contextual information. The core innovation of PSPNet lies in its Pyramid Pooling Module (PPM), which aggregates context from different regions of the image at multiple scales. This is achieved by applying pooling operations at varying grid sizes, then upsampling and concatenating these pooled features with the original feature maps \parencite{pan2021deep}. This fusion allows PSPNet to understand the spatial hierarchy and global structure of scenes more effectively than traditional CNNs (Figure~\ref{fig:PSPNet}). ResNet and its variants are usually used as the backbone for PSPNet due to their residual (skip) connections, which help alleviate the vanishing gradient problem and enable effective training of deep networks, making them well-suited for extracting rich feature representations in segmentation tasks.
+\begin{figure}[H] % 'H' needs \usepackage{float}
+    \centering
+    \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure20.png}
+    \caption{Semantic Segmentation of Wheat Yellow Rust Using PSPNet \parencite{pan2021deep}.}
+    \label{fig:PSPNet}
+\end{figure}
 
-Another challenge is the high intra-class variability and low inter-class variability found in agricultural images. For instance, symptoms of different diseases may look visually similar, or the same disease may appear differently across plant species and growth stages. Additionally, variations in lighting, occlusion by leaves, overlapping plants, and background clutter significantly affect detection performance \parencite{alzubaidi2021review}.
+\subsubsection{U-Net Model Architecture}
+U-Net is a convolutional neural network architecture designed for semantic segmentation, featuring a symmetric encoder-decoder structure. The encoder, or contracting path, captures contextual features using repeated 3×3 convolutions with ReLU activation, followed by 2×2 max pooling for downsampling. The decoder, or expansive path, performs upsampling and applies 3×3 convolutions to recover spatial resolution. Crucially, skip connections between corresponding encoder and decoder layers preserve high-resolution features, improving segmentation accuracy. A final 1×1 convolution maps the feature maps to the desired number of output classes. All convolutions use "same" padding with stride [1,1], and max pooling uses stride [2,2] with zero padding. ReLU activation is applied throughout the network, and input images undergo zero-center normalization for training stability \parencite{su2020aerial}. This architectural layout, including feature map sizes and layer depths, is depicted in Figure~\ref{fig:U-Net}.
+\begin{figure}[H] % 'H' needs \usepackage{float}
+    \centering
+    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure21.png}
+    \caption{U-Net Architecture for Semantic Segmentation \parencite{su2020aerial}.}
+    \label{fig:U-Net}
+\end{figure}
+Several U-Net variants have been proposed to address computational efficiency and feature enhancement:
+\begin{itemize}
+    \item \textbf{LR-UNet (Lightweight Residual U-Net)}: This architecture introduces residual connections and lightweight convolutional blocks to reduce the number of parameters and computational cost while maintaining segmentation performance. It is especially suitable for deployment in resource-constrained environments such as mobile or embedded devices \parencite{zhang2021irunet}.
+    
+    \item \textbf{DF-UNet (Dual Feature U-Net)}: This model enhances the original U-Net by fusing both shallow (low-level spatial) and deep (high-level semantic) features. This dual feature strategy improves the network's ability to detect fine edges and preserve structural details, particularly in complex segmentation tasks such as medical or remote sensing imagery. DF-UNet may also integrate attention mechanisms and refined skip connections for more effective feature reuse \parencite{zhang2022dfunet}.
+\end{itemize}
 
-The seasonal and geographic diversity further complicates the generalization of models trained on limited datasets. Moreover, the deployment of deep learning models in real agricultural environments must consider limited computing resources, especially for edge or mobile devices used in fields.
+\subsubsection{DeepLabV3+}
+DeepLabV3+ is an advanced semantic segmentation model that builds upon DeepLabV3 by combining powerful contextual feature extraction with precise boundary recovery. DeepLabV3 uses Atrous Spatial Pyramid Pooling (ASPP) to capture multi-scale contextual information through parallel atrous (dilated) convolutions with varying rates, allowing the model to extract rich semantic features without reducing spatial resolution too much. However, DeepLabV3 lacks a decoder and relies on simple bilinear upsampling, which limits its ability to recover fine object boundaries. DeepLabV3+ (Figure~\ref{fig:DeepLabv3+}) addresses this by introducing a decoder module that refines segmentation results, especially along object edges, by upsampling the encoder’s output and combining it with low-level features from earlier layers of the network, followed by a few convolutions for detail refinement. Additionally, DeepLabV3+ applies depthwise separable (atrous separable) convolutions in both the ASPP and decoder modules to reduce computational cost while maintaining high accuracy, resulting in a more accurate and efficient architecture \parencite{chen2018encoder}.
+\begin{figure}[H] % 'H' needs \usepackage{float}
+    \centering
+    \includegraphics[width=0.7\textwidth]{chapters/chapter1/images/Figure22.png}
+    \caption{DeepLabv3+ architecture \parencite{hussein2020semantic}.}
+    \label{fig:DeepLabv3+}
+\end{figure}
 
-Lastly, ensuring the interpretability and trustworthiness of AI decisions is crucial in agricultural contexts, as these technologies directly impact yield, resource use, and farmers’ livelihoods. Addressing these challenges requires collaborative efforts in data collection, annotation, model adaptation, and efficient deployment strategies \parencite{alzubaidi2021review}.
+% \section{Challenges of Deep Learning in Agricultural Contexts}
+
+% Despite the promising performance of deep learning and object detection in various fields, their application in agriculture presents a range of specific challenges. One of the primary issues is the limited availability of large, annotated agricultural datasets, which hampers the training of robust and generalizable models. Unlike natural image datasets like ImageNet, agricultural datasets often suffer from class imbalance, incomplete labeling, and domain specificity (e.g., crop types, diseases, and environmental conditions) \parencite{alzubaidi2021review}.
+
+% Another challenge is the high intra-class variability and low inter-class variability found in agricultural images. For instance, symptoms of different diseases may look visually similar, or the same disease may appear differently across plant species and growth stages. Additionally, variations in lighting, occlusion by leaves, overlapping plants, and background clutter significantly affect detection performance \parencite{alzubaidi2021review}.
+
+% The seasonal and geographic diversity further complicates the generalization of models trained on limited datasets. Moreover, the deployment of deep learning models in real agricultural environments must consider limited computing resources, especially for edge or mobile devices used in fields.
+
+% Lastly, ensuring the interpretability and trustworthiness of AI decisions is crucial in agricultural contexts, as these technologies directly impact yield, resource use, and farmers’ livelihoods. Addressing these challenges requires collaborative efforts in data collection, annotation, model adaptation, and efficient deployment strategies \parencite{alzubaidi2021review}.
 
 \section{Conclusion}
-In conclusion, this chapter explored the integration of deep learning techniques, especially convolutional neural networks (CNNs), into agricultural contexts, focusing on their role in plant disease classification and object detection. We introduced key CNN architectures such as VGGNet, ResNet, DenseNet, and EfficientNet, each contributing unique design principles and performance improvements. Transfer learning was also discussed as an effective strategy to overcome data scarcity by adapting pretrained models to agricultural datasets with minimal resources.
-
-We then highlighted the concept of object detection and its significance in precision agriculture for tasks like identifying pests, diseases, and weeds. Core ideas such as region proposal, feature extraction, and classification were presented, along with modern deep learning-based solutions. Finally, the chapter addressed real-world challenges, such as image variability, environmental noise, and limited annotated data, all of which must be considered when developing robust AI-based agricultural systems. In the following chapter, we will explore hybrid approaches, such as ensemble learning and its integration with CNN models, to further enhance accuracy, generalization, and robustness in agricultural applications.
+In this chapter, we explored key deep learning concepts and models used for image-based recognition tasks, focusing on classification, object detection, and semantic segmentation. These techniques are essential for automating and improving agricultural workflows, especially in crop health monitoring. Building on this foundation, the next chapter will introduce remote sensing technologies and investigate how their integration with deep learning and machine learning can enable the accurate and scalable early detection of wheat diseases.
