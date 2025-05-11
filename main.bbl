@@ -2005,12 +2005,39 @@
       \strng{authorbibnamehash}{ec6e89d19dde6e8596a84bd6d1b836c8}
       \strng{authornamehash}{ec6e89d19dde6e8596a84bd6d1b836c8}
       \strng{authorfullhash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Access}
       \field{note}{[Preprint]}
+      \field{title}{From satellite to UAV-based remote sensing: A review on precision agriculture}
+      \field{year}{2023}
+    \endentry
+    \entry{phang2023from}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=bb20a6cfaac5526da447a2c6203ab949}{%
+           family={Phang},
+           familyi={P\bibinitperiod},
+           given={S.K.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \strng{fullhash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \strng{bibnamehash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \strng{authorbibnamehash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \strng{authornamehash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \strng{authorfullhash}{ec6e89d19dde6e8596a84bd6d1b836c8}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Preprint}
       \field{title}{From satellite to UAV-based remote sensing: A review on precision agriculture}
       \field{year}{2023}
     \endentry
@@ -2878,9 +2905,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{A DNN is a neural network}
-  \missing{phang2023from}
-  \missing{zhang2022dfunet}
 \endrefsection
 \endinput
 

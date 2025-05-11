@@ -1,3 +1,4 @@
+
 \chapter{Applications of Deep Learning in Visual Recognition of Wheat Diseases}
 
 \section{Introduction}
@@ -30,7 +31,7 @@ Before defining deep neural networks, we first need to understand two essential 
 \end{figure}
 
 
-By combining multiple layers of interconnected artificial neurons, we arrive at the concept of a Deep Neural Network (DNN). \parencite{A DNN is a neural network} that contains multiple hidden layers between the input and output layers. These additional layers enable the network to learn complex patterns and high-level features from data. Each layer transforms its input into a more abstract representation, improving the network’s ability to recognize intricate structures and relationships \parencite{li2021water}.
+By combining multiple layers of interconnected artificial neurons, we arrive at the concept of a Deep Neural Network (DNN). A DNN is a neural network that contains multiple hidden layers between the input and output layers. These additional layers enable the network to learn complex patterns and high-level features from data. Each layer transforms its input into a more abstract representation, improving the network’s ability to recognize intricate structures and relationships \parencite{li2021water}.
 \subsubsection{Structure of DNN}
 A neural network consists of three main layers \parencite{ren2023review}:
 
@@ -220,7 +221,7 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
     \item \textbf{Convolutional Layers:} Extract features using small filters (kernels) that detect edges, textures, and patterns. A kernel is a grid of values (weights) initialized randomly at the start of training and adjusted through learning to identify important features.
      
      \begin{itemize}
-        \item \textbf{Input and Kernel Dimensions:} In a CNN layer, each input $x$ is structured in three dimensions: height, width, and depth. The depth corresponds to the number of channels (e.g., an RGB image has three channels). Similarly, the kernels are also three-dimensional, with spatial dimensions (height and width) and a depth matching the input channels. Each kernel has shared parameters---a set of weights and a bias. When applied to the input, these kernels generate a corresponding set of feature maps. These kernels establish local connections by interacting only with small regions of the input at a time, allowing the network to extract patterns such as edges and textures by computing dot products across these regions.
+        \item \textbf{Input and Kernel Dimensions:} In a CNN layer, each input $x$ is structured in three dimensions: height, width, and depth. The depth corresponds to the number of channels (e.g., an RGB image has three channels). Similarly, the kernels are also three-dimensional, with spatial dimensions (height and width) and a depth matching the input channels. Each kernel has shared parameters, a set of weights and a bias. When applied to the input, these kernels generate a corresponding set of feature maps. These kernels establish local connections by interacting only with small regions of the input at a time, allowing the network to extract patterns such as edges and textures by computing dot products across these regions.
         \item \textbf{Convolutional Operation:} The convolutional process begins by sliding the kernel across the input image in both horizontal and vertical directions. At each location, the dot product between the kernel and the overlapping region of the input is computed, producing a scalar value that becomes part of the resulting feature map. As this process is repeated across the image, a full feature map is constructed, highlighting areas where the kernel detects specific patterns. Parameters such as stride (controlling how far the kernel moves at each step) and padding (adding borders to the input to preserve edge information) affect the size and coverage of the output feature map. These concepts are illustrated in Figure~\ref{fig:figure05}.
      \end{itemize}   
     
@@ -383,7 +384,7 @@ An illustration of the residual module structure is provided in Figure~\ref{fig:
 % \end{figure}
 
 \paragraph{Lightweight and Specialized CNN Models}
-Several CNN architectures, such as MobileNet, EfficentNet, and ShuffleNet, have been specifically developed to meet constraints related to speed, model size, and power efficiency, making them suitable for deployment on mobile or edge devices. Although not explored in depth within the main text, a comparative overview of their architectures, key characteristics, and potential applications in smart agriculture is presented in Annex\ref{app:annexA} for further reference.
+Several CNN architectures, such as MobileNet, EfficentNet, and ShuffleNet, have been specifically developed to meet constraints related to speed, model size, and power efficiency, making them suitable for deployment on mobile or edge devices. Although not explored in depth within the main text, a comparative overview of their architectures, key characteristics, and potential applications in smart agriculture is presented in Appendix\ref{app:annexA} for further reference.
 
 
 \subsubsection{Transfer Learning and Pretrained Models}
@@ -447,7 +448,7 @@ Here are more details about the concepts of object detection \parencite{zhao2019
 \begin{itemize}
     \item \textbf{Informative Region Selection:} It is used to identify specific areas within an image where objects are likely to appear. This step helps reduce computational load by focusing only on promising regions instead of scanning the entire image at all scales and positions. In agricultural imagery, objects like plants or pests may vary in size, shape, and location. Early methods used multiscale sliding windows to generate candidate regions, but this approach was computationally expensive and often produced redundant proposals. To improve efficiency, modern techniques now use region proposal algorithms or attention mechanisms to better focus on meaningful areas while avoiding irrelevant ones.
     \item \textbf{Feature Extraction:} It is the process of identifying and isolating relevant visual attributes from an image that can effectively represent objects within it. Object recognition involves detecting characteristics that are both robust and semantically significant. Traditional methods such as Scale-Invariant Feature Transform (SIFT), Histograms of Oriented Gradients (HOG), and Haar-like features were designed to mimic human vision by emphasizing edges, textures, and patterns. However, these handcrafted techniques often struggled to maintain performance due to challenges like changes in object appearance, lighting variations, and cluttered backgrounds, leading to their limitations in complex scenarios.
-    \item \textbf{Classification and Localization:} Classification and localization refer to the process of both identifying the object in an image and determining its precise location through bounding boxes. With the rise of deep learning, this step underwent a significant transformation. Models such as R-CNN and its subsequent versions—Fast R-CNN, Faster R-CNN, and YOLO—automated the feature extraction process and seamlessly integrated classification with bounding box regression. These advancements led to substantial improvements in both detection accuracy and processing speed, enabling real-time applications in fields like crop monitoring and pest detection.
+    \item \textbf{Classification and Localization:} Classification and localization refer to the process of both identifying the object in an image and determining its precise location through bounding boxes. With the rise of deep learning, this step underwent a significant transformation. Models such as R-CNN and its subsequent versions: Fast R-CNN, Faster R-CNN, and YOLO automated the feature extraction process and seamlessly integrated classification with bounding box regression. These advancements led to substantial improvements in both detection accuracy and processing speed, enabling real-time applications in fields like crop monitoring and pest detection.
 \end{itemize}
 
 \subsubsection{Annotation of Objects}
@@ -476,7 +477,7 @@ In object detection, several metrics are used to assess model performance:
 \end{itemize}
 
 \subsubsection{Key Architectures}
-Many architectures are designed to efficiently and accurately detect objects in images, even in complex agricultural environments. Below, we discuss four of the most widely used and effective object detection models: YOLO (You Only Look Once), R-CNN, Faster R-CNN, and SSD (Single Shot Multibox Detector). 
+Many architectures are designed to efficiently and accurately detect objects in images, even in complex agricultural environments. Below, we discuss four of the most widely used and effective object detection models: YOLO (You Only Look Once), R-CNN, and SSD (Single Shot Multibox Detector). 
 
 \subsubsection{Yolo}
 YOLO is a fast and efficient object detection framework that predicts both object confidences and bounding boxes (BBs) using the entire topmost feature map. The image is divided into a $S \times S$ grid, where each grid cell is responsible for predicting objects centered within it. Each cell predicts multiple bounding boxes and their corresponding confidence scores, which reflect the likelihood of an object being present and how well the predicted box overlaps with the ground truth (IoU) (see figure~\ref{fig:figure16}).
@@ -559,7 +560,7 @@ Several U-Net variants have been proposed to address computational efficiency an
 \begin{itemize}
     \item \textbf{LR-UNet (Lightweight Residual U-Net)}: This architecture introduces residual connections and lightweight convolutional blocks to reduce the number of parameters and computational cost while maintaining segmentation performance. It is especially suitable for deployment in resource-constrained environments such as mobile or embedded devices \parencite{zhang2021irunet}.
     
-    \item \textbf{DF-UNet (Dual Feature U-Net)}: This model enhances the original U-Net by fusing both shallow (low-level spatial) and deep (high-level semantic) features. This dual feature strategy improves the network's ability to detect fine edges and preserve structural details, particularly in complex segmentation tasks such as medical or remote sensing imagery. DF-UNet may also integrate attention mechanisms and refined skip connections for more effective feature reuse \parencite{zhang2022dfunet}.
+    \item \textbf{DF-UNet (Dual Feature U-Net)}: This model enhances the original U-Net by fusing both shallow (low-level spatial) and deep (high-level semantic) features. This dual feature strategy improves the network's ability to detect fine edges and preserve structural details, particularly in complex segmentation tasks such as medical or remote sensing imagery. DF-UNet may also integrate attention mechanisms and refined skip connections for more effective feature reuse \parencite{zhang2022wheat}.
 \end{itemize}
 
 \subsubsection{DeepLabV3+}
