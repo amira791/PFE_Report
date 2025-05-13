@@ -28,8 +28,8 @@
 \contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces The architecture of DenseNet Network \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{27}{figure.caption.46}%
 \contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces Architecture of EfficientNet-B0 with MBConv as Basic building blocks \blx@tocontentsinit {0}\parencite {ahmed2022classification}.}}{27}{figure.caption.48}%
 \contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces Learning process of transfer learning \blx@tocontentsinit {0}\parencite {tan2018survey}.}}{29}{figure.caption.50}%
-\contentsline {figure}{\numberline {\if@rl \I {14.2}\else \textLR {2.14}\fi }{\ignorespaces Integration of the custom CNN with transfer learning networks \blx@tocontentsinit {0}\parencite {jouini2024wheat}.}}{29}{figure.caption.51}%
-\contentsline {figure}{\numberline {\if@rl \I {15.2}\else \textLR {2.15}\fi }{\ignorespaces Main idea of YOLO \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{33}{figure.caption.56}%
+\contentsline {figure}{\numberline {\if@rl \I {14.2}\else \textLR {2.14}\fi }{\ignorespaces Integration of the custom CNN with transfer learning networks \blx@tocontentsinit {0}\parencite {jouini2024wheat}.}}{30}{figure.caption.51}%
+\contentsline {figure}{\numberline {\if@rl \I {15.2}\else \textLR {2.15}\fi }{\ignorespaces Main idea of YOLO \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{34}{figure.caption.56}%
 \contentsline {figure}{\numberline {\if@rl \I {16.2}\else \textLR {2.16}\fi }{\ignorespaces Flowchart of R-CNN \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{34}{figure.caption.58}%
 \contentsline {figure}{\numberline {\if@rl \I {17.2}\else \textLR {2.17}\fi }{\ignorespaces An illustration of the Faster R-CNN model \blx@tocontentsinit {0}\parencite {ren2016faster}.}}{35}{figure.caption.60}%
 \contentsline {figure}{\numberline {\if@rl \I {18.2}\else \textLR {2.18}\fi }{\ignorespaces Architecture of SSD \blx@tocontentsinit {0}\parencite {li2021water}.}}{36}{figure.caption.62}%
@@ -37,8 +37,8 @@
 \contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Sub-data samples of the wheat disease original dataset obtained by the CLAHE, Contrast stretching, and hypercolumn technique \blx@tocontentsinit {0}\parencite {reis2024integrated}.}}{39}{figure.caption.63}%
 \contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Data augmentation techniques \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{40}{figure.caption.64}%
 \contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Training strategies of a convolutional neural network (CNN) \blx@tocontentsinit {0}\parencite {jiang2022evaluation}.}}{41}{figure.caption.65}%
-\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces The architecture of the hybrid framework \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{42}{figure.caption.66}%
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces The architecture of the hybrid framework \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{41}{figure.caption.66}%
 \contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces The proposed deep convolutional neural network \blx@tocontentsinit {0}\parencite {goyal2021leaf}.}}{42}{figure.caption.67}%
 \contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces Architecture diagram of a Few-shot Learning-based network \blx@tocontentsinit {0}\parencite {alharbi2023wheat}.}}{43}{figure.caption.68}%
-\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Taxonomy of Approaches for Classifying Wheat Diseases. \parencite {haider2021wheat}}}{45}{figure.caption.70}%
+\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Taxonomy of Approaches for Classifying Wheat Diseases. \parencite {haider2021wheat}}}{43}{figure.caption.70}%
 \addvspace {10\p@ }

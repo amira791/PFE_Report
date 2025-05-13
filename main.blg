@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'main.blg'
-[122] biber-MSWIN64:340> INFO - === 
-[180] Biber.pm:419> INFO - Reading 'main.bcf'
-[310] Biber.pm:979> INFO - Found 44 citekeys in bib section 0
-[322] Biber.pm:4419> INFO - Processing section 0
-[335] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[415] bibtex.pm:1713> INFO - LaTeX decoding ...
-[457] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[680] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[681] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[681] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[681] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[717] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[742] bbl.pm:763> INFO - Output to main.bbl
-[743] Biber.pm:131> WARN - Duplicate entry key: 'reis2024integrated' in file 'references.bib', skipping ...
-[743] Biber.pm:131> WARN - Duplicate entry key: 'yao2024yolo' in file 'references.bib', skipping ...
-[743] Biber.pm:131> WARN - legacy month field 'June' in entry 'jouini2023wheat' is not an integer - this will probably not sort properly.
-[744] Biber.pm:133> INFO - WARNINGS: 3
+[1] Config.pm:310> INFO - Logfile is 'main.blg'
+[130] biber-MSWIN64:340> INFO - === 
+[184] Biber.pm:419> INFO - Reading 'main.bcf'
+[306] Biber.pm:979> INFO - Found 44 citekeys in bib section 0
+[339] Biber.pm:4419> INFO - Processing section 0
+[360] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[459] bibtex.pm:1713> INFO - LaTeX decoding ...
+[529] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[823] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[823] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[824] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[825] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[888] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[926] bbl.pm:763> INFO - Output to main.bbl
+[926] Biber.pm:131> WARN - Duplicate entry key: 'reis2024integrated' in file 'references.bib', skipping ...
+[926] Biber.pm:131> WARN - Duplicate entry key: 'yao2024yolo' in file 'references.bib', skipping ...
+[927] Biber.pm:131> WARN - legacy month field 'June' in entry 'jouini2023wheat' is not an integer - this will probably not sort properly.
+[927] Biber.pm:133> INFO - WARNINGS: 3

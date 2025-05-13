@@ -1,7 +1,9 @@
-\chapter{Literature Review}
+\chapter{Review of Image-Based Approaches in Wheat Disease Identification}
 
 \section{Introduction}
-Over the past decade, machine learning and deep learning have shown great potential in addressing challenges in early disease detection and pest identification in agriculture. This literature review critically examines current wheat disease classification and pest detection research using deep learning techniques. It explores the evolution from traditional methods to modern AI-driven approaches, highlighting the strengths and limitations of each. Key challenges such as limited data availability, model complexity, and interpretability are discussed in the context of real-world applications. The review also identifies major trends and research gaps in the field. By synthesizing these findings, it aims to provide insights into the future of smart agriculture. This chapter lays the groundwork for the thesis’s proposed deep learning-based system. The goal is to enhance disease and pest management in wheat crops. Ultimately, it aims to contribute to more efficient, sustainable farming practices.
+In recent years, image-based approaches leveraging advances in deep learning have emerged as powerful tools for the early detection and classification of wheat diseases. These methods rely on the visual symptoms present on wheat leaves, stems, or spikes, captured through images and analyzed using automated algorithms.
+
+This chapter provides a comprehensive review of existing image-based approaches for wheat disease identification. It begins with an exploration of data collection and preprocessing techniques, including data augmentation strategies to enhance model robustness. The chapter then delves into different classification models and frameworks used for disease recognition. Finally, it highlights the current limitations and identifies research gaps that still need to be addressed to improve the accuracy, scalability, and real-world applicability of these systems.
 
 \section{Approaches in Data Collection and Preprocessing }
 This section discusses various methods employed in the literature for gathering data, handling challenges such as low-quality or irrelevant images, and preprocessing techniques that prepare datasets for effective utilization in classification and detection tasks.
@@ -66,7 +68,7 @@ Various classification models have been employed in the literature to address wh
 
 \begin{figure}[H] 
     \centering
-    \includegraphics[width=1.5\textwidth]{chapters/chapter3/images/Figure04.png}
+    \includegraphics[width=1\textwidth]{chapters/chapter3/images/Figure04.png}
     \caption{The architecture of the hybrid framework \parencite{nagpal2024hybrid}.}
     \label{fig:hybridframework}
 \end{figure}
@@ -167,4 +169,6 @@ Another significant limitation is the lack of evaluation on real-world field ima
 Finally, although attention mechanisms and hybrid models have been proposed in recent literature, few studies explicitly quantify the trade-offs between accuracy and computational cost in multi-class settings, especially when scaling up to cover a wider range of diseases.
 
 \section{Conclusion}
-In conclusion, integrating image-based detection systems powered by advanced deep learning models presents a promising solution for combating wheat diseases and insect pests. The reviewed methodologies highlight the importance of data acquisition, preprocessing techniques, and model selection for accurate and efficient detection. While significant progress has been made, challenges such as dataset limitations, computational cost, and model generalization remain. Future research should improve model robustness, data augmentation strategies, and real-time deployment to facilitate practical applications in agricultural fields. As technology continues to evolve, these detection systems are expected to play an increasingly vital role in sustainable agriculture.
+While deep learning has shown strong potential in wheat disease detection, a major limitation across current studies is the restricted number of disease classes addressed—often no more than five. This narrow scope limits the practical applicability of these models in real agricultural environments, where a wider range of diseases must be identified accurately. The difficulty of collecting and annotating diverse, high-quality images, along with the computational cost of training on large-scale multi-class datasets, remains a significant barrier. Additionally, many existing models struggle to maintain high accuracy when scaled to include more disease categories.
+
+These challenges highlight the need for systems capable of handling a greater number of classes without compromising accuracy. In the next chapter, we present the design and implementation of our proposed solution, which is specifically developed to support accurate multi-class classification and improved generalization to real-world conditions.
