@@ -222,7 +222,7 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
         \centering
-        \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure04.png}
+        \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure04.png}
         \caption{Architecture of CNN \cite{purwono2022understanding}.}
         \label{fig:figure04}
     \end{figure}
@@ -268,7 +268,7 @@ Figure~\ref{fig:figure07} below illustrates the general structure of a Convoluti
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure07.png}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure07.png}
     \caption{The structure of the CNN \parencite{crocioni2020li}.}
     \label{fig:figure07}
 \end{figure}
@@ -572,7 +572,7 @@ Several U-Net variants have been proposed to address computational efficiency an
 DeepLabV3+ is an advanced semantic segmentation model that builds upon DeepLabV3 by combining powerful contextual feature extraction with precise boundary recovery. DeepLabV3 uses Atrous Spatial Pyramid Pooling (ASPP) to capture multi-scale contextual information through parallel atrous (dilated) convolutions with varying rates, allowing the model to extract rich semantic features without reducing spatial resolution too much. However, DeepLabV3 lacks a decoder and relies on simple bilinear upsampling, which limits its ability to recover fine object boundaries. DeepLabV3+ (Figure~\ref{fig:DeepLabv3+}) addresses this by introducing a decoder module that refines segmentation results, especially along object edges, by upsampling the encoder’s output and combining it with low-level features from earlier layers of the network, followed by a few convolutions for detail refinement. Additionally, DeepLabV3+ applies depthwise separable (atrous separable) convolutions in both the ASPP and decoder modules to reduce computational cost while maintaining high accuracy, resulting in a more accurate and efficient architecture \parencite{chen2018encoder}.
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.7\textwidth]{chapters/chapter1/images/Figure22.png}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure22.png}
     \caption{DeepLabv3+ architecture \parencite{hussein2020semantic}.}
     \label{fig:DeepLabv3+}
 \end{figure}
