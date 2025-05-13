@@ -1,3 +1,4 @@
+
 \documentclass[12pt, a4paper]{report}
 
 \input{preambule/preamble}
@@ -10,6 +11,9 @@
 
 % Title page
 \include{titlepage}
+
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\cfoot{\thepage}}
 
 
 % \input{dedication}
@@ -29,8 +33,13 @@
     % \addcontentsline{toc}{chapter}{List of Listings}
 }
 
-% \cleardoublepage
-% \restoregeometry
+\cleardoublepage
+\printabbreviations[
+    title=Abbreviations,
+    toctitle=Abbreviations,
+    style=long,nonumberlist
+]
+\restoregeometry
 \pagenumbering{arabic}
 
 % Chapters
@@ -52,3 +61,4 @@
 \end{appendices}
 
 \end{document}
+
