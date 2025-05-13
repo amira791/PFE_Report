@@ -15,8 +15,8 @@
 \usepackage{hyperref}
 \hypersetup{%
     colorlinks=true,
-    linkcolor=DarkBlue,
-    urlcolor=blue,
+    linkcolor=black,
+    urlcolor=black,
     citecolor=DarkGreen,
     pdfauthor={Mohammed Belgoumri},
     pdfkeywords={this is a kw}
@@ -59,6 +59,48 @@
 \usepackage{stackengine}
 \usepackage{adjustbox}
 \usepackage{footnote}
+
+
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{booktabs} % For better horizontal lines
+\usepackage{makecell}
+
+
+
+% pakages for header writing 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% Header: current chapter title (automatically set by \chapter)
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Make sure plain pages (e.g. at start of chapters) use same style
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\nouppercase{\leftmark}}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+}
+
+
+
+\usepackage{enumitem}
+
+
+
+\usepackage{mathptmx} % or use \usepackage{times}
+
+
+
+
+
 \makesavenoteenv{tabular}
 \makesavenoteenv{table}
 

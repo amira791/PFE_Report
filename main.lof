@@ -2,45 +2,43 @@
 \babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces Biological Neuron Structure and Its Mathematical Model Representation \blx@tocontentsinit {0}\parencite {krenker2011introduction}.}}{4}{figure.caption.11}%
-\contentsline {figure}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces The structure of a Neural Network in the binary classification task.}}{5}{figure.caption.15}%
-\contentsline {figure}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }{\ignorespaces The structure of the DNN \blx@tocontentsinit {0}\cite {ren2023review}.}}{7}{figure.caption.18}%
-\contentsline {figure}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }{\ignorespaces Architecture of CNN \blx@tocontentsinit {0}\cite {purwono2022understanding}.}}{11}{figure.caption.22}%
-\contentsline {figure}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }{\ignorespaces The primary calculations executed at each step of the convolutional layer \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{12}{figure.caption.23}%
-\contentsline {figure}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }{\ignorespaces Three types of pooling operations \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{12}{figure.caption.24}%
-\contentsline {figure}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }{\ignorespaces The structure of the CNN \blx@tocontentsinit {0}\parencite {crocioni2020li}.}}{13}{figure.caption.25}%
-\contentsline {figure}{\numberline {\if@rl \I {8.1}\else \textLR {1.8}\fi }{\ignorespaces The architecture of VGG \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{14}{figure.caption.27}%
-\contentsline {figure}{\numberline {\if@rl \I {9.1}\else \textLR {1.9}\fi }{\ignorespaces The basic structure of Google Block \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{14}{figure.caption.29}%
-\contentsline {figure}{\numberline {\if@rl \I {10.1}\else \textLR {1.10}\fi }{\ignorespaces The basic block diagram for the Xception block architecture \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{15}{figure.caption.31}%
-\contentsline {figure}{\numberline {\if@rl \I {11.1}\else \textLR {1.11}\fi }{\ignorespaces Residual module diagram \blx@tocontentsinit {0}\parencite {fang2023lightweight}.}}{16}{figure.caption.34}%
-\contentsline {figure}{\numberline {\if@rl \I {12.1}\else \textLR {1.12}\fi }{\ignorespaces The architecture of DenseNet Network \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{17}{figure.caption.37}%
-\contentsline {figure}{\numberline {\if@rl \I {13.1}\else \textLR {1.13}\fi }{\ignorespaces Architecture of EfficientNet-B0 with MBConv as Basic building blocks \blx@tocontentsinit {0}\parencite {ahmed2022classification}.}}{17}{figure.caption.39}%
-\contentsline {figure}{\numberline {\if@rl \I {14.1}\else \textLR {1.14}\fi }{\ignorespaces Learning process of transfer learning \blx@tocontentsinit {0}\parencite {tan2018survey}.}}{19}{figure.caption.41}%
-\contentsline {figure}{\numberline {\if@rl \I {15.1}\else \textLR {1.15}\fi }{\ignorespaces Integration of the custom CNN with transfer learning networks \blx@tocontentsinit {0}\parencite {jouini2024wheat}.}}{19}{figure.caption.42}%
-\contentsline {figure}{\numberline {\if@rl \I {16.1}\else \textLR {1.16}\fi }{\ignorespaces Main idea of YOLO \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{23}{figure.caption.47}%
-\contentsline {figure}{\numberline {\if@rl \I {17.1}\else \textLR {1.17}\fi }{\ignorespaces Flowchart of R-CNN \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{24}{figure.caption.49}%
-\contentsline {figure}{\numberline {\if@rl \I {18.1}\else \textLR {1.18}\fi }{\ignorespaces An illustration of the Faster R-CNN model \blx@tocontentsinit {0}\parencite {ren2016faster}.}}{25}{figure.caption.51}%
-\contentsline {figure}{\numberline {\if@rl \I {19.1}\else \textLR {1.19}\fi }{\ignorespaces Architecture of SSD \blx@tocontentsinit {0}\parencite {li2021water}.}}{26}{figure.caption.53}%
+\contentsline {figure}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces Division of sowing area in the world in 2009 (in million hectares and percentage) Source: FAO, 2011}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces wheat crop growth stages: (a) Tillering; (b) Jointing; (c) Booting; (d) Heading; and (e) Ripening \blx@tocontentsinit {0}\parencite {kumar2018estimation}}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }{\ignorespaces Taxonomy of wheat diseases \parencite {haider2021wheat}}}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }{\ignorespaces Leaf rust with Brown spores (1), Leaf rust with Black spores (2) \parencite {duveiller2012wheat}}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }{\ignorespaces Stem rust \parencite {duveiller2012wheat}}}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }{\ignorespaces Stripe rust \parencite {duveiller2012wheat}}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }{\ignorespaces Symptoms of foliar blotch diseases. (A) Septoria tritici blotch. (B) Tan spot. (C) Septoria nodorum blotch \parencite {figueroa2018review}}}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {\if@rl \I {8.1}\else \textLR {1.8}\fi }{\ignorespaces Symptoms of Fusarium head blight/scab: The left image shows early infection signs manifested as a partially bleached wheat head, while the right image illustrates advanced infection of \textit {Fusarium graminearum} \parencite {figueroa2018review}.}}{8}{figure.caption.15}%
+\contentsline {figure}{\numberline {\if@rl \I {9.1}\else \textLR {1.9}\fi }{\ignorespaces Loose smut \parencite {duveiller2012wheat}}}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {\if@rl \I {10.1}\else \textLR {1.10}\fi }{\ignorespaces Powdery mildew from Kaggle dataset ‘Wheat Plant Diseases.'}}{8}{figure.caption.17}%
+\contentsline {figure}{\numberline {\if@rl \I {11.1}\else \textLR {1.11}\fi }{\ignorespaces Common root rot from Kaggle dataset ‘Wheat Plant Diseases.’}}{9}{figure.caption.18}%
+\contentsline {figure}{\numberline {\if@rl \I {12.1}\else \textLR {1.12}\fi }{\ignorespaces Common pests affecting wheat crops.}}{10}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Division of sowing area in the world in 2009 (in million hectares and percentage) Source: FAO, 2011}}{29}{figure.caption.54}%
-\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces Taxonomy of wheat diseases \parencite {haider2021wheat}}}{30}{figure.caption.55}%
-\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces Leaf rust with Brown spores (1), Leaf rust with Black spores(2) \parencite {duveiller2012wheat}}}{31}{figure.caption.56}%
-\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces Stem rust \parencite {duveiller2012wheat}}}{31}{figure.caption.57}%
-\contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces Stripe rust \parencite {duveiller2012wheat}}}{32}{figure.caption.58}%
-\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces Symptoms of foliar blotch diseases. (A) Septoria tritici blotch. (B) Tan spot. (C) Septoria nodorum blotch \parencite {figueroa2018review}}}{32}{figure.caption.59}%
-\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Symptoms of Fusarium head blight/scab. (A) Early infection signs manifested as a partially bleached wheat head. (B) Advanced infection of Fusarium graminearum \parencite {figueroa2018review}}}{33}{figure.caption.60}%
-\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces Loose smut \parencite {duveiller2012wheat}}}{33}{figure.caption.61}%
-\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces Powdery mildew from Kaggle dataset ‘Wheat Plant Diseases.'}}{34}{figure.caption.62}%
-\contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces Common root rot from Kaggle dataset ‘Wheat Plant Diseases.’}}{34}{figure.caption.63}%
-\contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces Aphids on wheat grains (left) and on leaves (right) \parencite {farook2019insect}}}{35}{figure.caption.64}%
-\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces Adult (left) and larvae (right) of cereal leaf beetle on wheat crop \parencite {farook2019insect}}}{35}{figure.caption.65}%
-\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces Armyworm in wheat field \parencite {farook2019insect}}}{36}{figure.caption.66}%
-\contentsline {figure}{\numberline {\if@rl \I {14.2}\else \textLR {2.14}\fi }{\ignorespaces Pod borer larva (left) and adult (right) from the wheat field \parencite {farook2019insect}}}{36}{figure.caption.67}%
-\contentsline {figure}{\numberline {\if@rl \I {15.2}\else \textLR {2.15}\fi }{\ignorespaces Brown wheat mite on wheat leaves \parencite {kashyap2018identification}}}{37}{figure.caption.68}%
-\contentsline {figure}{\numberline {\if@rl \I {16.2}\else \textLR {2.16}\fi }{\ignorespaces Pink stem borer \parencite {farook2019insect}}}{37}{figure.caption.69}%
-\contentsline {figure}{\numberline {\if@rl \I {17.2}\else \textLR {2.17}\fi }{\ignorespaces Sawfly from Kaggle dataset “Pest Dataset.”}}{38}{figure.caption.70}%
-\contentsline {figure}{\numberline {\if@rl \I {18.2}\else \textLR {2.18}\fi }{\ignorespaces Grasshoppers from kaggle dataset “Pest Dataset.”}}{38}{figure.caption.71}%
-\contentsline {figure}{\numberline {\if@rl \I {19.2}\else \textLR {2.19}\fi }{\ignorespaces Wireworm in wheat field \parencite {farook2019insect}}}{39}{figure.caption.72}%
+\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Biological Neuron Structure and Its Mathematical Model Representation \blx@tocontentsinit {0}\parencite {krenker2011introduction}.}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces The structure of the DNN \blx@tocontentsinit {0}\cite {ren2023review}.}}{17}{figure.caption.27}%
+\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces Architecture of CNN \blx@tocontentsinit {0}\cite {purwono2022understanding}.}}{21}{figure.caption.31}%
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces The primary calculations executed at each step of the convolutional layer \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{22}{figure.caption.32}%
+\contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces Three types of pooling operations \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces The structure of the CNN \blx@tocontentsinit {0}\parencite {crocioni2020li}.}}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces The architecture of VGG \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{24}{figure.caption.36}%
+\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces The basic structure of Google Block \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces The basic block diagram for the Xception block architecture \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{25}{figure.caption.40}%
+\contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces Residual module diagram \blx@tocontentsinit {0}\parencite {fang2023lightweight}.}}{26}{figure.caption.43}%
+\contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces The architecture of DenseNet Network \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{27}{figure.caption.46}%
+\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces Architecture of EfficientNet-B0 with MBConv as Basic building blocks \blx@tocontentsinit {0}\parencite {ahmed2022classification}.}}{27}{figure.caption.48}%
+\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces Learning process of transfer learning \blx@tocontentsinit {0}\parencite {tan2018survey}.}}{29}{figure.caption.50}%
+\contentsline {figure}{\numberline {\if@rl \I {14.2}\else \textLR {2.14}\fi }{\ignorespaces Integration of the custom CNN with transfer learning networks \blx@tocontentsinit {0}\parencite {jouini2024wheat}.}}{29}{figure.caption.51}%
+\contentsline {figure}{\numberline {\if@rl \I {15.2}\else \textLR {2.15}\fi }{\ignorespaces Main idea of YOLO \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{33}{figure.caption.56}%
+\contentsline {figure}{\numberline {\if@rl \I {16.2}\else \textLR {2.16}\fi }{\ignorespaces Flowchart of R-CNN \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{34}{figure.caption.58}%
+\contentsline {figure}{\numberline {\if@rl \I {17.2}\else \textLR {2.17}\fi }{\ignorespaces An illustration of the Faster R-CNN model \blx@tocontentsinit {0}\parencite {ren2016faster}.}}{35}{figure.caption.60}%
+\contentsline {figure}{\numberline {\if@rl \I {18.2}\else \textLR {2.18}\fi }{\ignorespaces Architecture of SSD \blx@tocontentsinit {0}\parencite {li2021water}.}}{36}{figure.caption.62}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Taxonomy of Approaches for Classifying Wheat Diseases. \parencite {haider2021wheat}}}{46}{figure.caption.74}%
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Sub-data samples of the wheat disease original dataset obtained by the CLAHE, Contrast stretching, and hypercolumn technique \blx@tocontentsinit {0}\parencite {reis2024integrated}.}}{39}{figure.caption.63}%
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Data augmentation techniques \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{40}{figure.caption.64}%
+\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Training strategies of a convolutional neural network (CNN) \blx@tocontentsinit {0}\parencite {jiang2022evaluation}.}}{41}{figure.caption.65}%
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces The architecture of the hybrid framework \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{41}{figure.caption.66}%
+\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces The proposed deep convolutional neural network \blx@tocontentsinit {0}\parencite {goyal2021leaf}.}}{42}{figure.caption.67}%
+\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces Architecture diagram of a Few-shot Learning-based network \blx@tocontentsinit {0}\parencite {alharbi2023wheat}.}}{43}{figure.caption.68}%
+\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Taxonomy of Approaches for Classifying Wheat Diseases. \parencite {haider2021wheat}}}{43}{figure.caption.70}%
 \addvspace {10\p@ }

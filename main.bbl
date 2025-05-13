@@ -53,52 +53,6 @@
       \field{pages}{99}
       \range{pages}{1}
     \endentry
-    \entry{albattah2023custom}{article}{}
-      \name{author}{5}{}{%
-        {{hash=0b52bfa0b41ee1cd5505508534c8a835}{%
-           family={Albattah},
-           familyi={A\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=c07aa986bbb5363c35d1447cdfc4f14e}{%
-           family={Masood},
-           familyi={M\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a42423907d948a238498f4fe179e8d17}{%
-           family={Javed},
-           familyi={J\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a76bdb7d1f0ad4002f5f736a90a63be7}{%
-           family={Nawaz},
-           familyi={N\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d90adc33e9ad8fabae5ee718ebd8dc1e}{%
-           family={Albahli},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{26d25d93f17a740e161c0680135872b0}
-      \strng{fullhash}{57b4aa200dc2af228e8d2f2faa086137}
-      \strng{bibnamehash}{26d25d93f17a740e161c0680135872b0}
-      \strng{authorbibnamehash}{26d25d93f17a740e161c0680135872b0}
-      \strng{authornamehash}{26d25d93f17a740e161c0680135872b0}
-      \strng{authorfullhash}{57b4aa200dc2af228e8d2f2faa086137}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Complex \& Intelligent Systems}
-      \field{number}{2}
-      \field{title}{Custom CornerNet: A Drone-Based Improved Deep Learning Technique for Large-Scale Multiclass Pest Localization and Classification}
-      \field{volume}{9}
-      \field{year}{2023}
-      \field{pages}{1299\bibrangedash 1316}
-      \range{pages}{18}
-    \endentry
     \entry{alharbi2023wheat}{article}{}
       \name{author}{3}{}{%
         {{hash=18eaf3f096a9557b4102478157ee9fff}{%
@@ -131,37 +85,43 @@
       \field{title}{Wheat disease classification using continual learning}
       \field{year}{2023}
     \endentry
-    \entry{ali2023faster}{article}{}
+    \entry{AlvarezVanhard2021}{article}{}
       \name{author}{3}{}{%
-        {{hash=7d7ab36fb4a8a9340ebd86d220bf0a5a}{%
-           family={Ali},
-           familyi={A\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=c9c908da22a92864f6d04a06196fe8d5}{%
-           family={Qayyum},
-           familyi={Q\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=b40e2e0f1bb57399a532539b35651e29}{%
-           family={Iqbal},
-           familyi={I\bibinitperiod},
-           given={M.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7d910509a82e7d877ca0042da9ee19f0}{%
+           family={Alvarez-Vanhard},
+           familyi={A\bibinithyphendelim V\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a14a8cd33117863c0bb547ad068e8f49}{%
+           family={Corpetti},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ec0c7763808548e247a0e3563b41965a}{%
+           family={Houet},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{5cb85c562445abeff02edceefe647fb4}
-      \strng{fullhash}{5cb85c562445abeff02edceefe647fb4}
-      \strng{bibnamehash}{5cb85c562445abeff02edceefe647fb4}
-      \strng{authorbibnamehash}{5cb85c562445abeff02edceefe647fb4}
-      \strng{authornamehash}{5cb85c562445abeff02edceefe647fb4}
-      \strng{authorfullhash}{5cb85c562445abeff02edceefe647fb4}
+      \strng{namehash}{c304cc0b2a296d14b9c9548713e11479}
+      \strng{fullhash}{c304cc0b2a296d14b9c9548713e11479}
+      \strng{bibnamehash}{c304cc0b2a296d14b9c9548713e11479}
+      \strng{authorbibnamehash}{c304cc0b2a296d14b9c9548713e11479}
+      \strng{authornamehash}{c304cc0b2a296d14b9c9548713e11479}
+      \strng{authorfullhash}{c304cc0b2a296d14b9c9548713e11479}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{Faster-PestNet: A Lightweight Deep Learning Framework for Crop Pest Detection and Classification}
-      \field{year}{2023}
+      \field{journaltitle}{Science of Remote Sensing}
+      \field{title}{UAV \& satellite synergies for optical remote sensing applications: A literature review}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{100019}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.srs.2021.100019
+      \endverb
     \endentry
     \entry{alzubaidi2021review}{article}{}
       \name{author}{10}{}{%
@@ -572,37 +532,6 @@
       \field{pages}{1523\bibrangedash 1536}
       \range{pages}{14}
     \endentry
-    \entry{garg2023smart}{article}{}
-      \name{author}{2}{}{%
-        {{hash=502e512b27ef2812cb3191b18c05f360}{%
-           family={Garg},
-           familyi={G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=467c984527cf6bfa95db3a0086dca571}{%
-           family={Alam},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{fullhash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{bibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authorbibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authornamehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authorfullhash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Management Analytics}
-      \field{number}{2}
-      \field{title}{Smart agriculture: A literature review}
-      \field{volume}{10}
-      \field{year}{2023}
-      \field{pages}{359\bibrangedash 415}
-      \range{pages}{57}
-    \endentry
     \entry{ghazal2024computer}{article}{}
       \name{author}{3}{}{%
         {{hash=a8b94a5cf5a391778642a0d5786cb5dd}{%
@@ -763,77 +692,6 @@
       \field{pages}{786\bibrangedash 798}
       \range{pages}{13}
     \endentry
-    \entry{hong2022lightweight}{article}{}
-      \name{author}{10}{}{%
-        {{hash=a179853ac2a0832657b9de8b9ba00205}{%
-           family={Hong},
-           familyi={H\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=ccf87731e812c2775e6cdb36ce249710}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=5ee5d3d5470ac29a2e7c8df70ed54725}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=774376ab3fd1a37acbfd458eec959b7b}{%
-           family={Ji},
-           familyi={J\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=921245ab5cd2193758fb962d61277569}{%
-           family={Gu},
-           familyi={G\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=114a36ed63e1c06bd141a814d8496d87}{%
-           family={Mao},
-           familyi={M\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=6e5b0e6cca2615e3baa1c9fd08a1f208}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=0c12ae96450bf90f74282991aa068345}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=3cdf5aa30577e71dbbd44bcd3a4a00a0}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=33376762c80dfed868365183d1e67cfd}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{e5196829eab991217e1d9aa718d53f06}
-      \strng{fullhash}{3b7306e4bbef378260d068e862e50304}
-      \strng{bibnamehash}{e5196829eab991217e1d9aa718d53f06}
-      \strng{authorbibnamehash}{e5196829eab991217e1d9aa718d53f06}
-      \strng{authornamehash}{e5196829eab991217e1d9aa718d53f06}
-      \strng{authorfullhash}{3b7306e4bbef378260d068e862e50304}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Remote Sensing}
-      \field{number}{14}
-      \field{title}{A lightweight model for wheat ear fusarium head blight detection based on RGB images}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{pages}{3481}
-      \range{pages}{1}
-    \endentry
     \entry{hossen2025transfer}{article}{}
       \name{author}{4}{}{%
         {{hash=5b88e9d7b83677056dec6817c3fec935}{%
@@ -908,6 +766,75 @@
       \field{volume}{92}
       \field{year}{2021}
       \field{pages}{107104}
+      \range{pages}{1}
+    \endentry
+    \entry{jiang2022evaluation}{article}{}
+      \name{author}{9}{}{%
+        {{hash=850b9e61b9cc106cd1b82515e62128e8}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=240f15f7d0b589c89d5552453f46785d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=46c40ad00491a05a014ebcbccf379272}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c4631c75fd513e16e66190ad6ef02dd7}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3ecf5faffffaeea2ad2777739c1d9ad9}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=99a8b736189ddefd40fa3d07beae493c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=280dc4c18f682e47f79d502f0e89f614}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b0b7b2efb06c47099ac659dca2d58b70}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=04a916ba7f4ca61be2ce1ad64e59872a}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{dc52f6cf878f46015a15e9bd1fad7fcc}
+      \strng{fullhash}{58be577ccb5b641689509db506fc197c}
+      \strng{bibnamehash}{dc52f6cf878f46015a15e9bd1fad7fcc}
+      \strng{authorbibnamehash}{dc52f6cf878f46015a15e9bd1fad7fcc}
+      \strng{authornamehash}{dc52f6cf878f46015a15e9bd1fad7fcc}
+      \strng{authorfullhash}{58be577ccb5b641689509db506fc197c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{14}
+      \field{title}{Evaluation of diverse convolutional neural networks and training strategies for wheat leaf disease identification with field-acquired photographs}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{3446}
       \range{pages}{1}
     \endentry
     \entry{jouini2023wheat}{inproceedings}{}
@@ -1126,6 +1053,75 @@
       \field{pages}{1\bibrangedash 18}
       \range{pages}{18}
     \endentry
+    \entry{kumar2018estimation}{article}{}
+      \name{author}{9}{}{%
+        {{hash=79a186d52ed727389e81b3c3789b88d9}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Pawan},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c4700267abecded48bb23762bac6c82b}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={Rajendra},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0094a2fdfcaa1785de2bb916892b3fea}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={D.K.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b7b537975d1f797951d4a31b4767e742}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={V.N.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=13f925784f76c1143fbbd1970a00afab}{%
+           family={Vishwakarma},
+           familyi={V\bibinitperiod},
+           given={A.K.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ed214cf76260a1dd0e38327fecac5617}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={V.P.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c4a65664dd6bf8cd4bdbb0f5d9a82f8d}{%
+           family={Bala},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1b5b9b6a9e10b7b5ec1e837c2fd35238}{%
+           family={Choudhary},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=064eb4eeb2e74368b3695dcdf5c073dd}{%
+           family={Avtar},
+           familyi={A\bibinitperiod},
+           given={Ram},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
+      \strng{fullhash}{934e9b3a38c08faf1b8667a55a96dc3c}
+      \strng{bibnamehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
+      \strng{authorbibnamehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
+      \strng{authornamehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
+      \strng{authorfullhash}{934e9b3a38c08faf1b8667a55a96dc3c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geocarto International}
+      \field{number}{9}
+      \field{title}{Estimation of winter wheat crop growth parameters using time series Sentinel-1A SAR data}
+      \field{volume}{33}
+      \field{year}{2018}
+      \field{pages}{942\bibrangedash 956}
+      \range{pages}{15}
+    \endentry
     \entry{li2021water}{article}{}
       \name{author}{4}{}{%
         {{hash=e1d0b18d3f69e1eb9edd193ae8819954}{%
@@ -1211,108 +1207,6 @@
       \field{pages}{28298\bibrangedash 28309}
       \range{pages}{12}
     \endentry
-    \entry{li2022recommending}{article}{}
-      \name{author}{5}{}{%
-        {{hash=6e5b0e6cca2615e3baa1c9fd08a1f208}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=4384032fd4cd9930b51f4647a8b4edb4}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=c9a3728dcc2397d1bab78a791b51779b}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=f194415e0d97cfcb91157b07718661e7}{%
-           family={Dong},
-           familyi={D\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=7bb074c37d04e2fb30a473aa12102ae1}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{fullhash}{492088e7089bc860ab6dc748a3d9bc69}
-      \strng{bibnamehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{authorbibnamehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{authornamehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{authorfullhash}{492088e7089bc860ab6dc748a3d9bc69}
-      \field{extraname}{3}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Agriculture}
-      \field{number}{7}
-      \field{title}{Recommending advanced deep learning models for efficient insect pest detection}
-      \field{volume}{12}
-      \field{year}{2022}
-      \field{pages}{1065}
-      \range{pages}{1}
-    \endentry
-    \entry{liu2019pestnet}{article}{}
-      \name{author}{7}{}{%
-        {{hash=764caa9b1ba77be7a568d5390279a255}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=95c40ddfdd2cb0ac5a1ef74bb71692f3}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=924aa3d6922c6acb9622d8b3473d0de8}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=cf33bcda2a93f993c5124cf26991a0f6}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=3768cb3691d9f8be784a4b189ba55772}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=7dd557a3244943f2f710e9fab8820f8c}{%
-           family={Sudirman},
-           familyi={S\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d8525af2f6ab588f2e4d6e5abd42ca8b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{8dc7cd842a202a8e7c93bbeccc432375}
-      \strng{fullhash}{0179588f5c44b7013ce9ca7880609920}
-      \strng{bibnamehash}{8dc7cd842a202a8e7c93bbeccc432375}
-      \strng{authorbibnamehash}{8dc7cd842a202a8e7c93bbeccc432375}
-      \strng{authornamehash}{8dc7cd842a202a8e7c93bbeccc432375}
-      \strng{authorfullhash}{0179588f5c44b7013ce9ca7880609920}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{PestNet: An End-to-End Deep Learning Approach for Large-Scale Multi-Class Pest Detection and Classification}
-      \field{volume}{7}
-      \field{year}{2019}
-      \field{pages}{45301\bibrangedash 45312}
-      \range{pages}{12}
-    \endentry
     \entry{mehta2014wheat}{book}{}
       \name{author}{1}{}{%
         {{hash=948f67d80396d638635370ce3c38f065}{%
@@ -1339,6 +1233,40 @@
       \verb{doi}
       \verb 10.1007/978-3-319-06477-0
       \endverb
+    \endentry
+    \entry{nagpal2024hybrid}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3a8160a0b1577d07657374750b3f35e4}{%
+           family={Nagpal},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=214dea708925b81b41c8ff56b94cccb4}{%
+           family={Goel},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2202426a12dba13dfe9bb87e85cbd85d}{%
+           family={Shekhawat},
+           familyi={S\bibinitperiod},
+           given={P.S.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d625893a5ea05f320a9078cf56647ab}
+      \strng{fullhash}{9d625893a5ea05f320a9078cf56647ab}
+      \strng{bibnamehash}{9d625893a5ea05f320a9078cf56647ab}
+      \strng{authorbibnamehash}{9d625893a5ea05f320a9078cf56647ab}
+      \strng{authornamehash}{9d625893a5ea05f320a9078cf56647ab}
+      \strng{authorfullhash}{9d625893a5ea05f320a9078cf56647ab}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Data Science and Analytics}
+      \field{title}{A hybrid deep learning neural network for early plant disease diagnosis using a real-world Wheat--Barley vision dataset: challenges and solutions}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
     \endentry
     \entry{nigam2023deep}{article}{}
       \name{author}{7}{}{%
@@ -1393,37 +1321,6 @@
       \field{volume}{75}
       \field{year}{2023}
       \field{pages}{102068}
-      \range{pages}{1}
-    \endentry
-    \entry{onler2024wheat}{article}{}
-      \name{author}{2}{}{%
-        {{hash=7bb9c34262f4ac95bf5943595556563e}{%
-           family={Önler},
-           familyi={Ö\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=b1a754c5ac4fffeb87c2d3a8f8b8c3ba}{%
-           family={Köycü},
-           familyi={K\bibinitperiod},
-           given={N.\bibnamedelimi D.},
-           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{d0786e926153946474ea93360738a5d3}
-      \strng{fullhash}{d0786e926153946474ea93360738a5d3}
-      \strng{bibnamehash}{d0786e926153946474ea93360738a5d3}
-      \strng{authorbibnamehash}{d0786e926153946474ea93360738a5d3}
-      \strng{authornamehash}{d0786e926153946474ea93360738a5d3}
-      \strng{authorfullhash}{d0786e926153946474ea93360738a5d3}
-      \field{sortinit}{Ö}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Sciences}
-      \field{number}{16}
-      \field{title}{Wheat Powdery Mildew Detection with YOLOv8 Object Detection Model}
-      \field{volume}{14}
-      \field{year}{2024}
-      \field{pages}{7073}
       \range{pages}{1}
     \endentry
     \entry{purwono2022understanding}{article}{}
@@ -1643,6 +1540,64 @@
       \field{pages}{2993\bibrangedash 3021}
       \range{pages}{29}
     \endentry
+    \entry{shafi2020multi}{article}{}
+      \name{author}{7}{}{%
+        {{hash=e83318a10bf298fff85e8f846adc6e95}{%
+           family={Shafi},
+           familyi={S\bibinitperiod},
+           given={Uferah},
+           giveni={U\bibinitperiod}}}%
+        {{hash=a0c469cd9b2fe4a685d8a67b88e7a6a4}{%
+           family={Mumtaz},
+           familyi={M\bibinitperiod},
+           given={Rafia},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6fafe1d677371da6a76309bad3cbe8ad}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={Naveed},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ef36aadc9b91f1f0a329ed422d0c4267}{%
+           family={Zaidi},
+           familyi={Z\bibinitperiod},
+           given={Syed\bibnamedelimb Mohammad\bibnamedelima Hassan},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6bcd040fcf85a666b6481fcf10297bc5}{%
+           family={Zaidi},
+           familyi={Z\bibinitperiod},
+           given={Syed\bibnamedelimb Ali\bibnamedelima Raza},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a9d3c421646573c7dd0d2096c609c586}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Imtiaz},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b6b39c2acf8d41925df1911aaf3d4676}{%
+           family={Mahmood},
+           familyi={M\bibinitperiod},
+           given={Zahid},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7fd87f8e3e3ac8877d2230d6f4f0dc97}
+      \strng{fullhash}{5fc362d5193118f07096e278f1f7b5b3}
+      \strng{bibnamehash}{7fd87f8e3e3ac8877d2230d6f4f0dc97}
+      \strng{authorbibnamehash}{7fd87f8e3e3ac8877d2230d6f4f0dc97}
+      \strng{authornamehash}{7fd87f8e3e3ac8877d2230d6f4f0dc97}
+      \strng{authorfullhash}{5fc362d5193118f07096e278f1f7b5b3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A multi-modal approach for crop health mapping using low altitude remote sensing, internet of things (IoT) and machine learning}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{112708\bibrangedash 112724}
+      \range{pages}{17}
+    \endentry
     \entry{sharma2015wheat}{article}{}
       \name{author}{5}{}{%
         {{hash=253a6a56760be38d2c13da257906ade7}{%
@@ -1789,37 +1744,6 @@
       \field{pages}{270\bibrangedash 279}
       \range{pages}{10}
     \endentry
-    \entry{turkoglu2019plant}{article}{}
-      \name{author}{2}{}{%
-        {{hash=533e270cdca1b7be054e72c6c45d702a}{%
-           family={Türkoğlu},
-           familyi={T\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2cca33bd89818677559a8c9500c7b023}{%
-           family={Hanbay},
-           familyi={H\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{e22adad6c902ed537cff9ffdd2d8fd71}
-      \strng{fullhash}{e22adad6c902ed537cff9ffdd2d8fd71}
-      \strng{bibnamehash}{e22adad6c902ed537cff9ffdd2d8fd71}
-      \strng{authorbibnamehash}{e22adad6c902ed537cff9ffdd2d8fd71}
-      \strng{authornamehash}{e22adad6c902ed537cff9ffdd2d8fd71}
-      \strng{authorfullhash}{e22adad6c902ed537cff9ffdd2d8fd71}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Turkish Journal of Electrical Engineering and Computer Sciences}
-      \field{number}{3}
-      \field{title}{Plant Disease and Pest Detection Using Deep Learning-Based Features}
-      \field{volume}{27}
-      \field{year}{2019}
-      \field{pages}{1636\bibrangedash 1651}
-      \range{pages}{16}
-    \endentry
     \entry{yao2024yolo}{article}{}
       \name{author}{3}{}{%
         {{hash=04a916ba7f4ca61be2ce1ad64e59872a}{%
@@ -1916,7 +1840,6 @@
       \strng{authorbibnamehash}{6e80ccfacfc928c6fba94baacaa2a725}
       \strng{authornamehash}{6e80ccfacfc928c6fba94baacaa2a725}
       \strng{authorfullhash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \field{extraname}{1}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
@@ -1931,78 +1854,6 @@
       \verb{doi}
       \verb 10.3390/agriculture15030326
       \endverb
-    \endentry
-    \entry{zhang2019deep}{article}{}
-      \name{author}{10}{}{%
-        {{hash=30ff3ef4a89e0c6777f480da5386b053}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=684c863fb5c9e7e5e8cecdc194f09721}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=f374d6be8181acd345c04516d10bea90}{%
-           family={Dong},
-           familyi={D\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=846f5daf861748af3cff8500355fae0d}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=369d6bcdceee817a8d812364032e7b23}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=684c863fb5c9e7e5e8cecdc194f09721}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=9b914de94f309956c7e9b8162fad5488}{%
-           family={González-Moreno},
-           familyi={G\bibinithyphendelim M\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=f28ab363a1309d536e9c16372b11c274}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=11ca4b45e6abe4f42b7519b2a1a7c5cf}{%
-           family={Ye},
-           familyi={Y\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=91c94f339acad18844c79b2c08388fbb}{%
-           family={Sobeih},
-           familyi={S\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{18a9126e15eb8f1067e8707fc1260020}
-      \strng{fullhash}{68c9c7010bf9aac899f3b379d6f13dfd}
-      \strng{bibnamehash}{18a9126e15eb8f1067e8707fc1260020}
-      \strng{authorbibnamehash}{18a9126e15eb8f1067e8707fc1260020}
-      \strng{authornamehash}{18a9126e15eb8f1067e8707fc1260020}
-      \strng{authorfullhash}{68c9c7010bf9aac899f3b379d6f13dfd}
-      \field{extraname}{2}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Remote Sensing}
-      \field{number}{13}
-      \field{title}{A Deep Learning-Based Approach for Automated Yellow Rust Disease Detection from High-Resolution Hyperspectral UAV Images}
-      \field{volume}{11}
-      \field{year}{2019}
-      \field{pages}{1554}
-      \range{pages}{1}
     \endentry
     \entry{zhao2019learningrate}{article}{}
       \name{author}{4}{}{%
@@ -2094,7 +1945,6 @@
       \range{pages}{21}
     \endentry
   \enddatalist
-  \missing{A DNN is a neural network}
 \endrefsection
 \endinput
 

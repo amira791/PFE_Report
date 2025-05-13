@@ -5,9 +5,9 @@ Deep learning and computer vision have become indispensable tools in modern agri
 
 In this chapter, we establish the foundational concepts of deep learning and computer vision as applied to agricultural challenges. We begin by examining the core principles of CNNs and their role in feature extraction from crop imagery. Next, we explore transfer learning techniques, which allow pre-trained models to adapt to agricultural datasets with limited labeled examples. The chapter then discusses object detection methods critical for localizing diseases and pests in field conditions. Finally, we address the practical challenges of implementing these solutions, including data variability, model scalability, and real-world deployment constraints in agricultural settings.
 
-\section{Overview of Smart Agriculture}
-Smart agriculture integrates advanced technologies such as the Internet of Things (IoT), artificial intelligence (AI), and big data analytics to enhance farming efficiency and sustainability. By leveraging real-time data from sensors, drones, and satellite imagery, smart agricultural systems enable precise monitoring of soil conditions, crop health, and environmental factors \parencite{garg2023smart}.
-Machine learning and deep learning techniques, particularly computer vision, play a crucial role in automating disease detection, pest control, and yield prediction. These AI-driven solutions reduce dependency on manual labor, optimize resource usage, and facilitate data-driven decision-making. The adoption of smart agriculture not only improves productivity but also promotes sustainable farming practices, addressing global food security challenges \parencite{garg2023smart}.
+\section{Distinctions Between Deep Learning and Machine Learning}
+Deep learning is a subset of machine learning that uses deep neural networks to automatically learn complex patterns from large, unstructured data like images, text, and audio. Unlike traditional machine learning, which requires manual feature extraction and works best with smaller, structured datasets, deep learning eliminates this need and can handle large datasets with significant computational power, often using GPUs. While machine learning is suitable for tasks like predictive analytics, deep learning excels in applications such as image recognition, speech processing, and natural language understanding \parencite{AlvarezVanhard2021}.
+
 
 \section{Deep Learning Fundamentals}
 In this section, we introduce the core principles of deep learning, focusing on deep neural networks (DNNs) and their role in learning complex patterns from data. We explore the structure and components of neural networks, the learning process, optimization techniques, and model evaluation methods. Additionally, we highlight regularization strategies to prevent overfitting.
@@ -32,7 +32,7 @@ Before defining deep neural networks, we first need to understand two essential 
 \end{figure}
 
 
-By combining multiple layers of interconnected artificial neurons, we arrive at the concept of a Deep Neural Network (DNN). \parencite{A DNN is a neural network} that contains multiple hidden layers between the input and output layers. These additional layers enable the network to learn complex patterns and high-level features from data. Each layer transforms its input into a more abstract representation, improving the network’s ability to recognize intricate structures and relationships \parencite{li2021water}.
+By combining multiple layers of interconnected artificial neurons, we arrive at the concept of a Deep Neural Network (DNN). A DNN is a neural network that contains multiple hidden layers between the input and output layers. These additional layers enable the network to learn complex patterns and high-level features from data. Each layer transforms its input into a more abstract representation, improving the network’s ability to recognize intricate structures and relationships \parencite{li2021water}.
 \subsubsection{Structure of DNN}
 A neural network consists of three main layers \parencite{ren2023review}:
 
@@ -61,16 +61,16 @@ where:
 Each neuron in the hidden layers applies an activation function to capture complex patterns.
 
 \noindent
-\textbf{The output layer:} Generates the network's prediction, with the number of neurons corresponding to the specific task, such as one neuron for binary classification (as presented in Figure~\ref{fig:figure02}) or multiple neurons for multiclass classification.
+\textbf{The output layer:} Generates the network's prediction, with the number of neurons corresponding to the specific task, such as one neuron for binary classification or multiple neurons for multiclass classification.
 
 
 
-\begin{figure}[H] % 'H' needs \usepackage{float}
-    \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure02.png}
-    \caption{The structure of a Neural Network in the binary classification task.}
-    \label{fig:figure02}
-\end{figure}
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%     \centering
+%     \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure02.png}
+%     \caption{The structure of a Neural Network in the binary classification task.}
+%     \label{fig:figure02}
+% \end{figure}
 
 \subsubsection{Activation Functions}
 An activation function (AF) is a mathematical function applied to a neuron's output in a neural network to introduce non-linearity. Without an activation function, a neural network with multiple layers would behave like a single-layer perceptron, limiting its ability to model complex relationships \parencite{dubey2022activation}. Activation functions decide whether a neuron should be activated based on its input. 
@@ -79,27 +79,28 @@ Table \ref{tab:activation-functions} summarizes the most commonly used activatio
 
 
 
+
 \begin{table}[htbp]
-    \caption{Common Activation Functions in Deep Learning (Dubey et al., 2022)}
+    \caption{Common Activation Functions in Deep Learning \parencite{dubey2022activation}}
     \centering
     \resizebox{\textwidth}{!}{%
     \begin{tabular}{|p{3cm}|p{4.5cm}|p{3cm}|p{3.5cm}|}
     \hline
     \textbf{Activation Function} & \textbf{Formula} & \textbf{Range} & \textbf{Usage} \\
     \hline
-    Sigmoid                      & $\frac{1}{1+e^{-x}}$         & [0, 1]               & Commonly used in binary classification problems, especially in the output layer of models predicting probabilities. \\
+    Sigmoid                      & $\text{Sigmoid}(x) = \frac{1}{1+e^{-x}}$         & [0, 1]               & Commonly used in binary classification problems, especially in the output layer of models predicting probabilities. \\
     \hline
     Tanh (Hyperbolic Tangent)     & $\tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$ & [-1, 1] & Often used in hidden layers of neural networks, as it outputs values centered around zero, which helps in reducing bias during optimization. \\
     \hline
-    ReLU (Rectified Linear Unit)  & $\text{max}(0, x)$            & [0, $\infty$)        & Widely used in hidden layers of deep neural networks due to its simplicity and effectiveness in handling the vanishing gradient problem. \\
+    ReLU (Rectified Linear Unit)  & $\relu(x) =\text{max}(0, x)$            & [0, $\infty$)        & Widely used in hidden layers of deep neural networks due to its simplicity and effectiveness in handling the vanishing gradient problem. \\
     \hline
-    Softmax                      & $\text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}$ & (0, 1) (outputs sum to 1) & Used in the output layer for multi-class classification. \\
+    Softmax & $\text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}$, where $x_i$: current element, $x_j$: all elements in the vector. & (0, 1) (outputs sum to 1) & Used in the output layer for multi-class classification. \\
     \hline
+
     \end{tabular}%
     }
     \label{tab:activation-functions}
 \end{table}
-
 
     
 \subsection{Learning Process in Deep Neural Networks}
@@ -216,6 +217,14 @@ Convolutional Neural Networks (CNNs) have revolutionized image-based plant disea
 \subsection{Fundamentals of CNNs}
 Convolutional Neural Networks (CNNs) consist of multiple layers designed to process and learn spatial hierarchies from image data (see Figure~\ref{fig:figure04}). Their architecture typically includes \parencite{alzubaidi2021review}:
 
+
+     \begin{figure}[H] % 'H' needs \usepackage{float}
+        \centering
+        \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure04.png}
+        \caption{Architecture of CNN \cite{purwono2022understanding}.}
+        \label{fig:figure04}
+    \end{figure}
+
 \begin{itemize}
     \item \textbf{Convolutional Layers:} Extract features using small filters (kernels) that detect edges, textures, and patterns. A kernel is a grid of values (weights) initialized randomly at the start of training and adjusted through learning to identify important features.
      
@@ -224,12 +233,6 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
         \item \textbf{Convolutional Operation:} The convolutional process begins by sliding the kernel across the input image in both horizontal and vertical directions. At each location, the dot product between the kernel and the overlapping region of the input is computed, producing a scalar value that becomes part of the resulting feature map. As this process is repeated across the image, a full feature map is constructed, highlighting areas where the kernel detects specific patterns. Parameters such as stride (controlling how far the kernel moves at each step) and padding (adding borders to the input to preserve edge information) affect the size and coverage of the output feature map. These concepts are illustrated in Figure~\ref{fig:figure05}.
      \end{itemize}   
     
-     \begin{figure}[H] % 'H' needs \usepackage{float}
-        \centering
-        \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure04.png}
-        \caption{Architecture of CNN \cite{purwono2022understanding}.}
-        \label{fig:figure04}
-    \end{figure}
     
     \begin{figure}[H] % 'H' needs \usepackage{float}
         \centering
@@ -466,11 +469,8 @@ In object detection, several metrics are used to assess model performance:
 \begin{itemize}
     \item \textbf{Mean Average Precision (mAP):} Measures the average precision across all object classes, balancing precision and recall to evaluate overall model performance.
     \item \textbf{Intersection over Union (IoU):} Calculates the overlap between predicted and ground truth bounding boxes, indicating localization accuracy. Higher IoU means better localization.
-    \item \textbf{Precision and Recall:}
-    \begin{itemize}
-        \item \textbf{Precision:} Measures the proportion of true positive detections out of all predicted objects.
-        \item \textbf{Recall:} Measures the proportion of true positive detections out of all actual objects.
-    \end{itemize}
+    \item \textbf{Precision:} Measures the proportion of true positive detections out of all predicted objects.
+    \item \textbf{Recall:} Measures the proportion of true positive detections out of all actual objects.
     \item \textbf{F1-Score:} The harmonic mean of precision and recall, providing a balance between both.
     \item \textbf{Average Recall (AR):} Evaluates recall at different IoU thresholds, useful for detecting small objects or handling occlusions.
     \item \textbf{Confusion Matrix:} Summarizes true positives, false positives, true negatives, and false negatives, providing insights into model errors.
@@ -496,11 +496,11 @@ At test time, class-specific confidence scores are computed by multiplying the b
 \subsubsection{R-CNN}
 R-CNN is a significant advancement in object detection, improving the quality of candidate bounding boxes (BBs) and utilizing deep architecture for high-level feature extraction \parencite{zhao2019objectdetection}. It consists of three main stages, as presented in figure~\ref{fig:figure17}:
 
-\begin{enumerate}
+\begin{items}
     \item \textbf{Region Proposal Generation:} R-CNN uses selective search to generate about 2000 region proposals per image, improving candidate box accuracy and reducing the search space.
     \item \textbf{CNN-Based Feature Extraction:} Each region proposal is resized and passed through a CNN to extract a 4096-dimensional feature, creating a high-level, robust representation of the object.
     \item \textbf{Classification and Localization:} Region proposals are classified using pre-trained linear SVMs, and bounding box regression is applied. Non-maximum suppression (NMS) is used to eliminate redundant boxes and finalize object detections.
-\end{enumerate}
+\end{items}
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
