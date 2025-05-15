@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  13 MAY 2025 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  15 MAY 2025 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1874,7 +1874,7 @@ l.127 ...at Diseases\endL \egroup }{33}{chapter.3}
  [5] (main.lof [6
 
 ]
-Overfull \hbox (5.0442pt too wide) in paragraph at lines 41--41
+Overfull \hbox (5.0442pt too wide) in paragraph at lines 40--40
  [][] [][][]\T1/ptm/m/n/12 Standard Work-flow for Gen-er-at-ing UAV-Derived Im-agery and Data Prod- 
  []
 
@@ -1958,7 +1958,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<chapters/chapter2/images/Figure01.png, id=444, 717.43031pt x 440.39531pt>
+<chapters/chapter2/images/Figure01.png, id=436, 717.43031pt x 440.39531pt>
 File: chapters/chapter2/images/Figure01.png Graphic file (type png)
 <use chapters/chapter2/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure01.png  used on input line 22.
@@ -1980,7 +1980,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 27.
 
-<chapters/chapter2/images/WheatStages.png, id=447, 811.53188pt x 351.56343pt>
+<chapters/chapter2/images/WheatStages.png, id=439, 811.53188pt x 351.56343pt>
 File: chapters/chapter2/images/WheatStages.png Graphic file (type png)
 <use chapters/chapter2/images/WheatStages.png>
 Package pdftex.def Info: chapters/chapter2/images/WheatStages.png  used on input line 44.
@@ -2002,7 +2002,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 51.
 
-<chapters/chapter2/images/Figure02.png, id=457, 661.72218pt x 587.19376pt>
+<chapters/chapter2/images/Figure02.png, id=449, 661.72218pt x 587.19376pt>
 File: chapters/chapter2/images/Figure02.png Graphic file (type png)
 <use chapters/chapter2/images/Figure02.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure02.png  used on input line 58.
@@ -2024,7 +2024,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 63.
 
-<chapters/chapter2/images/Figure03.png, id=467, 362.85562pt x 523.9575pt>
+<chapters/chapter2/images/Figure03.png, id=459, 362.85562pt x 523.9575pt>
 File: chapters/chapter2/images/Figure03.png Graphic file (type png)
 <use chapters/chapter2/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure03.png  used on input line 76.
@@ -2045,7 +2045,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 86.
 
-<chapters/chapter2/images/Figure04.png, id=472, 320.69812pt x 565.36218pt>
+<chapters/chapter2/images/Figure04.png, id=464, 320.69812pt x 565.36218pt>
 File: chapters/chapter2/images/Figure04.png Graphic file (type png)
 <use chapters/chapter2/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure04.png  used on input line 97.
@@ -2067,7 +2067,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 104.
 
-<chapters/chapter2/images/Figure05.png, id=483, 325.215pt x 154.32657pt>
+<chapters/chapter2/images/Figure05.png, id=475, 325.215pt x 154.32657pt>
 File: chapters/chapter2/images/Figure05.png Graphic file (type png)
 <use chapters/chapter2/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure05.png  used on input line 114.
@@ -2088,7 +2088,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 120.
 
-<chapters/chapter2/images/Figure06.png, id=488, 755.82375pt x 445.665pt>
+<chapters/chapter2/images/Figure06.png, id=480, 755.82375pt x 445.665pt>
 File: chapters/chapter2/images/Figure06.png Graphic file (type png)
 <use chapters/chapter2/images/Figure06.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure06.png  used on input line 131.
@@ -2109,7 +2109,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 137.
 
-<chapters/chapter2/images/Figure07.png, id=494, 816.04875pt x 569.12625pt>
+<chapters/chapter2/images/Figure07.png, id=486, 816.04875pt x 569.12625pt>
 File: chapters/chapter2/images/Figure07.png Graphic file (type png)
 <use chapters/chapter2/images/Figure07.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure07.png  used on input line 149.
@@ -2141,11 +2141,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 157.
 
-<chapters/chapter2/images/Figure08.png, id=507, 220.57407pt x 363.60844pt>
+<chapters/chapter2/images/Figure08.png, id=499, 220.57407pt x 363.60844pt>
 File: chapters/chapter2/images/Figure08.png Graphic file (type png)
 <use chapters/chapter2/images/Figure08.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure08.png  used on input line 168.
-(pdftex.def)             Requested size: 122.9163pt x 202.62065pt.
+(pdftex.def)             Requested size: 81.9456pt x 135.08228pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 175.
@@ -2162,7 +2162,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 175.
 
-<chapters/chapter2/images/Figure09.png, id=512, 604.50844pt x 603.75563pt>
+<chapters/chapter2/images/Figure09.png, id=504, 604.50844pt x 603.75563pt>
 File: chapters/chapter2/images/Figure09.png Graphic file (type png)
 <use chapters/chapter2/images/Figure09.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure09.png  used on input line 186.
@@ -2172,7 +2172,6 @@ Underfull \hbox (badness 2644) in paragraph at lines 187--187
 \T1/ptm/m/n/12 Kag-gle dataset `Wheat Plant Dis-
  []
 
-[7 <./chapters/chapter2/images/Figure07.png> <./chapters/chapter2/images/Figure08.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 192.
@@ -2189,7 +2188,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 192.
 
-<chapters/chapter2/images/Figure10.png, id=521, 746.79pt x 547.2947pt>
+<chapters/chapter2/images/Figure10.png, id=507, 746.79pt x 547.2947pt>
 File: chapters/chapter2/images/Figure10.png Graphic file (type png)
 <use chapters/chapter2/images/Figure10.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure10.png  used on input line 204.
@@ -2199,6 +2198,7 @@ Underfull \hbox (badness 7649) in paragraph at lines 205--205
 \T1/ptm/m/n/12 rot from Kag-gle dataset
  []
 
+[7 <./chapters/chapter2/images/Figure07.png> <./chapters/chapter2/images/Figure08.png> <./chapters/chapter2/images/Figure09.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 211.
@@ -2220,43 +2220,43 @@ Overfull \hbox (4.79472pt too wide) in paragraph at lines 214--215
 \T1/ptm/m/n/12 heads, caus-ing yel-low-ing, leaf rolling, and poor pol-li-na-tion, es-pe-cially dur-ing early growth.
  []
 
-[8 <./chapters/chapter2/images/Figure09.png> <./chapters/chapter2/images/Figure10.png>]
-<chapters/chapter2/images/Figure11.png, id=539, 818.30719pt x 547.2947pt>
+[8 <./chapters/chapter2/images/Figure10.png>]
+<chapters/chapter2/images/Figure11.png, id=532, 818.30719pt x 547.2947pt>
 File: chapters/chapter2/images/Figure11.png Graphic file (type png)
 <use chapters/chapter2/images/Figure11.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure11.png  used on input line 235.
 (pdftex.def)             Requested size: 136.57565pt x 77.38902pt.
-<chapters/chapter2/images/Figure12.png, id=542, 531.48563pt x 351.56343pt>
+<chapters/chapter2/images/Figure12.png, id=535, 531.48563pt x 351.56343pt>
 File: chapters/chapter2/images/Figure12.png Graphic file (type png)
 <use chapters/chapter2/images/Figure12.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure12.png  used on input line 238.
 (pdftex.def)             Requested size: 136.57726pt x 77.3871pt.
-<chapters/chapter2/images/Figure13.png, id=545, 629.35126pt x 362.85562pt>
+<chapters/chapter2/images/Figure13.png, id=538, 629.35126pt x 362.85562pt>
 File: chapters/chapter2/images/Figure13.png Graphic file (type png)
 <use chapters/chapter2/images/Figure13.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure13.png  used on input line 241.
 (pdftex.def)             Requested size: 136.57549pt x 77.38678pt.
-<chapters/chapter2/images/Figure15.png, id=548, 293.59688pt x 226.59656pt>
+<chapters/chapter2/images/Figure15.png, id=541, 293.59688pt x 226.59656pt>
 File: chapters/chapter2/images/Figure15.png Graphic file (type png)
 <use chapters/chapter2/images/Figure15.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure15.png  used on input line 245.
 (pdftex.def)             Requested size: 136.57489pt x 77.39102pt.
-<chapters/chapter2/images/Figure16.png, id=551, 280.79906pt x 362.85562pt>
+<chapters/chapter2/images/Figure16.png, id=544, 280.79906pt x 362.85562pt>
 File: chapters/chapter2/images/Figure16.png Graphic file (type png)
 <use chapters/chapter2/images/Figure16.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure16.png  used on input line 248.
 (pdftex.def)             Requested size: 136.573pt x 77.38678pt.
-<chapters/chapter2/images/Figure17.png, id=554, 547.2947pt x 408.77719pt>
+<chapters/chapter2/images/Figure17.png, id=547, 547.2947pt x 408.77719pt>
 File: chapters/chapter2/images/Figure17.png Graphic file (type png)
 <use chapters/chapter2/images/Figure17.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure17.png  used on input line 251.
 (pdftex.def)             Requested size: 136.5728pt x 77.38779pt.
-<chapters/chapter2/images/Figure18.png, id=555, 429.10312pt x 286.82156pt>
+<chapters/chapter2/images/Figure18.png, id=548, 429.10312pt x 286.82156pt>
 File: chapters/chapter2/images/Figure18.png Graphic file (type png)
 <use chapters/chapter2/images/Figure18.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure18.png  used on input line 255.
 (pdftex.def)             Requested size: 136.57591pt x 77.39034pt.
-<chapters/chapter2/images/Figure19.png, id=556, 713.66624pt x 393.72093pt>
+<chapters/chapter2/images/Figure19.png, id=549, 713.66624pt x 393.72093pt>
 File: chapters/chapter2/images/Figure19.png Graphic file (type png)
 <use chapters/chapter2/images/Figure19.png>
 Package pdftex.def Info: chapters/chapter2/images/Figure19.png  used on input line 258.
@@ -2278,7 +2278,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 265.
 
-[9 <./chapters/chapter2/images/Figure11.png> <./chapters/chapter2/images/Figure12.png> <./chapters/chapter2/images/Figure13.png> <./chapters/chapter2/images/Figure15.png> <./chapters/chapter2/images/Figure16.png> <./chapters/chapter2/images/Figure17.png> <./chapters/chapter2/images/Figure18.png> <./chapters/chapter2/images/Figure19.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 269.
@@ -2295,6 +2294,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 269.
 
+[9 <./chapters/chapter2/images/Figure11.png> <./chapters/chapter2/images/Figure12.png> <./chapters/chapter2/images/Figure13.png> <./chapters/chapter2/images/Figure15.png> <./chapters/chapter2/images/Figure16.png> <./chapters/chapter2/images/Figure17.png> <./chapters/chapter2/images/Figure18.png> <./chapters/chapter2/images/Figure19.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 283.
@@ -2311,11 +2311,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 283.
 
-[10]
+
 Overfull \hbox (3.20944pt too wide) in paragraph at lines 289--290
 \T1/ptm/m/n/12 growth, de-tect-ing dis-eases, and as-sess-ing yield. It plays a cru-cial role in real-time decision-
  []
 
+[10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 302.
@@ -2428,7 +2429,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 16.
 
-<chapters/chapter1/images/Figure01.png, id=598, 563.85657pt x 146.04562pt>
+<chapters/chapter1/images/Figure01.png, id=590, 563.85657pt x 146.04562pt>
 File: chapters/chapter1/images/Figure01.png Graphic file (type png)
 <use chapters/chapter1/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure01.png  used on input line 30.
@@ -2525,7 +2526,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 107.
 
 [14] [15]
-<chapters/chapter1/images/Figure03.png, id=634, 854.44218pt x 447.17062pt>
+<chapters/chapter1/images/Figure03.png, id=626, 854.44218pt x 447.17062pt>
 File: chapters/chapter1/images/Figure03.png Graphic file (type png)
 <use chapters/chapter1/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure03.png  used on input line 128.
@@ -2614,61 +2615,62 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 217.
 
-<chapters/chapter1/images/Figure04.png, id=662, 733.99219pt x 248.42813pt>
+<chapters/chapter1/images/Figure04.png, id=654, 733.99219pt x 248.42813pt>
 File: chapters/chapter1/images/Figure04.png Graphic file (type png)
 <use chapters/chapter1/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure04.png  used on input line 225.
 (pdftex.def)             Requested size: 409.71692pt x 138.67528pt.
 [19 <./chapters/chapter1/images/Figure04.png>]
-<chapters/chapter1/images/Figure05.png, id=672, 331.99031pt x 273.27094pt>
+<chapters/chapter1/images/Figure05.png, id=664, 331.99031pt x 273.27094pt>
 File: chapters/chapter1/images/Figure05.png Graphic file (type png)
 <use chapters/chapter1/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure05.png  used on input line 243.
 (pdftex.def)             Requested size: 273.14923pt x 224.85083pt.
-<chapters/chapter1/images/Figure06.png, id=676, 399.74344pt x 244.66406pt>
+<chapters/chapter1/images/Figure06.png, id=668, 399.74344pt x 244.66406pt>
 File: chapters/chapter1/images/Figure06.png Graphic file (type png)
 <use chapters/chapter1/images/Figure06.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure06.png  used on input line 257.
 (pdftex.def)             Requested size: 273.14923pt x 167.19067pt.
  [20 <./chapters/chapter1/images/Figure05.png>]
-<chapters/chapter1/images/Figure07.png, id=685, 728.7225pt x 303.38344pt>
+<chapters/chapter1/images/Figure07.png, id=677, 728.7225pt x 303.38344pt>
 File: chapters/chapter1/images/Figure07.png Graphic file (type png)
 <use chapters/chapter1/images/Figure07.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure07.png  used on input line 271.
 (pdftex.def)             Requested size: 409.71692pt x 170.57405pt.
  [21 <./chapters/chapter1/images/Figure06.png> <./chapters/chapter1/images/Figure07.png>]
-<chapters/chapter1/images/Figure08.png, id=697, 522.45187pt x 160.34906pt>
+<chapters/chapter1/images/Figure08.png, id=689, 522.45187pt x 160.34906pt>
 File: chapters/chapter1/images/Figure08.png Graphic file (type png)
 <use chapters/chapter1/images/Figure08.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure08.png  used on input line 293.
-(pdftex.def)             Requested size: 273.14923pt x 83.83463pt.
-<chapters/chapter1/images/Figure09.png, id=702, 519.44063pt x 203.25937pt>
+(pdftex.def)             Requested size: 364.19667pt x 111.77869pt.
+<chapters/chapter1/images/Figure09.png, id=694, 519.44063pt x 203.25937pt>
 File: chapters/chapter1/images/Figure09.png Graphic file (type png)
 <use chapters/chapter1/images/Figure09.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure09.png  used on input line 307.
-(pdftex.def)             Requested size: 273.14923pt x 106.88335pt.
+(pdftex.def)             Requested size: 364.19667pt x 142.51009pt.
  [22 <./chapters/chapter1/images/Figure08.png>]
 Overfull \hbox (0.2359pt too wide) in paragraph at lines 314--315
 \T1/ptm/m/n/12 ciency. It has been shown to out-per-form In-cep-tion in many tasks, es-pe-cially with high-resolution
  []
 
-<chapters/chapter1/images/Figure10.png, id=715, 520.19344pt x 224.33812pt>
+<chapters/chapter1/images/Figure10.png, id=707, 520.19344pt x 224.33812pt>
 File: chapters/chapter1/images/Figure10.png Graphic file (type png)
 <use chapters/chapter1/images/Figure10.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure10.png  used on input line 321.
-(pdftex.def)             Requested size: 273.14923pt x 117.79639pt.
+(pdftex.def)             Requested size: 364.19667pt x 157.06299pt.
 [23 <./chapters/chapter1/images/Figure09.png> <./chapters/chapter1/images/Figure10.png>]
-<chapters/chapter1/images/Figure11.png, id=729, 561.59813pt x 268.75406pt>
+<chapters/chapter1/images/Figure11.png, id=719, 561.59813pt x 268.75406pt>
 File: chapters/chapter1/images/Figure11.png Graphic file (type png)
 <use chapters/chapter1/images/Figure11.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure11.png  used on input line 350.
 (pdftex.def)             Requested size: 273.14923pt x 130.71463pt.
+ [24 <./chapters/chapter1/images/Figure11.png>]
 <chapters/chapter1/images/Figure14.png, id=735, 542.025pt x 376.40625pt>
 File: chapters/chapter1/images/Figure14.png Graphic file (type png)
 <use chapters/chapter1/images/Figure14.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure14.png  used on input line 409.
-(pdftex.def)             Requested size: 182.09486pt x 126.45439pt.
- [24 <./chapters/chapter1/images/Figure11.png>]
+(pdftex.def)             Requested size: 227.62206pt x 158.07231pt.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 448.
@@ -2695,19 +2697,19 @@ Overfull \hbox (5.29721pt too wide) in paragraph at lines 480--481
 []\T1/ptm/b/n/12 Speed Met-rics (FPS, La-tency): \T1/ptm/m/n/12 As-sess real-time per-for-mance, es-sen-tial for time-sensitive
  []
 
-<chapters/chapter1/images/Figure16.png, id=762, 1080.28593pt x 545.03625pt>
+<chapters/chapter1/images/Figure16.png, id=754, 1080.28593pt x 545.03625pt>
 File: chapters/chapter1/images/Figure16.png Graphic file (type png)
 <use chapters/chapter1/images/Figure16.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure16.png  used on input line 494.
-(pdftex.def)             Requested size: 318.66948pt x 160.77599pt.
-[27 <./chapters/chapter1/images/Figure16.png>]
-<chapters/chapter1/images/Figure17.png, id=774, 989.94844pt x 338.01282pt>
+(pdftex.def)             Requested size: 364.19667pt x 183.74635pt.
+[27]
+<chapters/chapter1/images/Figure17.png, id=765, 989.94844pt x 338.01282pt>
 File: chapters/chapter1/images/Figure17.png Graphic file (type png)
 <use chapters/chapter1/images/Figure17.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure17.png  used on input line 510.
 (pdftex.def)             Requested size: 318.66948pt x 108.80585pt.
- [28 <./chapters/chapter1/images/Figure17.png>]
-<chapters/chapter1/images/Figure19.png, id=787, 1067.48813pt x 472.01344pt>
+ [28 <./chapters/chapter1/images/Figure16.png> <./chapters/chapter1/images/Figure17.png>]
+<chapters/chapter1/images/Figure19.png, id=778, 1067.48813pt x 472.01344pt>
 File: chapters/chapter1/images/Figure19.png Graphic file (type png)
 <use chapters/chapter1/images/Figure19.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure19.png  used on input line 539.
@@ -2729,24 +2731,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 544.
 
-<chapters/chapter1/images/Figure20.png, id=792, 1151.80313pt x 350.05782pt>
+<chapters/chapter1/images/Figure20.png, id=783, 1151.80313pt x 350.05782pt>
 File: chapters/chapter1/images/Figure20.png Graphic file (type png)
 <use chapters/chapter1/images/Figure20.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure20.png  used on input line 551.
 (pdftex.def)             Requested size: 409.71692pt x 124.51976pt.
 [29 <./chapters/chapter1/images/Figure19.png>]
-<chapters/chapter1/images/Figure21.png, id=803, 838.63312pt x 462.97969pt>
+<chapters/chapter1/images/Figure21.png, id=794, 838.63312pt x 462.97969pt>
 File: chapters/chapter1/images/Figure21.png Graphic file (type png)
 <use chapters/chapter1/images/Figure21.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure21.png  used on input line 560.
 (pdftex.def)             Requested size: 273.14923pt x 150.79158pt.
- [30 <./chapters/chapter1/images/Figure20.png> <./chapters/chapter1/images/Figure21.png>]
-<chapters/chapter1/images/Figure22.png, id=819, 846.91406pt x 521.69907pt>
+ [30 <./chapters/chapter1/images/Figure20.png>]
+<chapters/chapter1/images/Figure22.png, id=809, 846.91406pt x 521.69907pt>
 File: chapters/chapter1/images/Figure22.png Graphic file (type png)
 <use chapters/chapter1/images/Figure22.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure22.png  used on input line 575.
 (pdftex.def)             Requested size: 409.71692pt x 252.3869pt.
-
+ [31 <./chapters/chapter1/images/Figure21.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 590.
@@ -2763,7 +2765,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 590.
 
-) [31 <./chapters/chapter1/images/Figure22.png>] [32]
+) [32 <./chapters/chapter1/images/Figure22.png>]
 \openout2 = `chapters/chapter3/chapter3.aux'.
 
  (chapters/chapter3/chapter3.tex
@@ -2802,24 +2804,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 8.
+(hyperref)                removing `\beginL' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 8.
+(hyperref)                removing `\<def>-command' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 8.
+(hyperref)                removing `\encodingdefault' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 8.
+(hyperref)                removing `\endL' on input line 9.
 
-<chapters/chapter3/images/Figure01.png, id=835, 786.68906pt x 336.50719pt>
+<chapters/chapter3/images/Figure01.png, id=827, 786.68906pt x 336.50719pt>
 File: chapters/chapter3/images/Figure01.png Graphic file (type png)
 <use chapters/chapter3/images/Figure01.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure01.png  used on input line 14.
+Package pdftex.def Info: chapters/chapter3/images/Figure01.png  used on input line 15.
 (pdftex.def)             Requested size: 364.19667pt x 155.7913pt.
 [33
 
@@ -2829,68 +2831,63 @@ Package pdftex.def Info: chapters/chapter3/images/Figure01.png  used on input li
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 21.
+(hyperref)                removing `\beginL' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 21.
+(hyperref)                removing `\<def>-command' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 21.
+(hyperref)                removing `\encodingdefault' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 21.
+(hyperref)                removing `\endL' on input line 22.
 
-<chapters/chapter3/images/Figure02.png, id=845, 755.82375pt x 301.8778pt>
+<chapters/chapter3/images/Figure02.png, id=837, 755.82375pt x 301.8778pt>
 File: chapters/chapter3/images/Figure02.png Graphic file (type png)
 <use chapters/chapter3/images/Figure02.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure02.png  used on input line 27.
+Package pdftex.def Info: chapters/chapter3/images/Figure02.png  used on input line 28.
 (pdftex.def)             Requested size: 273.14923pt x 109.0951pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 32.
+(hyperref)                removing `\beginL' on input line 33.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 32.
+(hyperref)                removing `\<def>-command' on input line 33.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 32.
+(hyperref)                removing `\encodingdefault' on input line 33.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 32.
+(hyperref)                removing `\endL' on input line 33.
 
-<chapters/chapter3/images/Figure03.png, id=850, 803.25093pt x 404.26031pt>
+<chapters/chapter3/images/Figure03.png, id=842, 803.25093pt x 404.26031pt>
 File: chapters/chapter3/images/Figure03.png Graphic file (type png)
 <use chapters/chapter3/images/Figure03.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure03.png  used on input line 40.
+Package pdftex.def Info: chapters/chapter3/images/Figure03.png  used on input line 41.
 (pdftex.def)             Requested size: 273.14923pt x 137.47136pt.
 [34 <./chapters/chapter3/images/Figure01.png> <./chapters/chapter3/images/Figure02.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 46.
+(hyperref)                removing `\beginL' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 46.
+(hyperref)                removing `\<def>-command' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 46.
+(hyperref)                removing `\encodingdefault' on input line 47.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 46.
+(hyperref)                removing `\endL' on input line 47.
 
-<chapters/chapter3/images/Figure04.png, id=862, 1215.79219pt x 533.74406pt>
-File: chapters/chapter3/images/Figure04.png Graphic file (type png)
-<use chapters/chapter3/images/Figure04.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure04.png  used on input line 54.
-(pdftex.def)             Requested size: 364.19667pt x 159.88011pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 60.
@@ -2923,7 +2920,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 64.
 
-[35 <./chapters/chapter3/images/Figure03.png> <./chapters/chapter3/images/Figure04.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 68.
@@ -2940,6 +2936,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 68.
 
+[35 <./chapters/chapter3/images/Figure03.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 71.
@@ -2972,7 +2969,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 74.
 
-[36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 90.
@@ -2989,6 +2985,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 90.
 
+[36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 113.
@@ -3022,12 +3019,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 133.
 
-<chapters/chapter3/images/Figure05.png, id=920, 724.95844pt x 395.22656pt>
+<chapters/chapter3/images/Figure05.png, id=908, 724.95844pt x 395.22656pt>
 File: chapters/chapter3/images/Figure05.png Graphic file (type png)
 <use chapters/chapter3/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure05.png  used on input line 139.
 (pdftex.def)             Requested size: 364.19667pt x 198.55357pt.
-[38]
+
 Underfull \hbox (badness 10000) in paragraph at lines 171--171
 []|\T1/ptm/m/n/12 Normalized Dif-fer-
  []
@@ -3062,6 +3059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--171
 []|\T1/ptm/m/n/12 Red Edge DVI
  []
 
+[38 <./chapters/chapter3/images/Figure05.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 179.
@@ -3078,12 +3076,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 179.
 
-<chapters/chapter3/images/Figure06.png, id=932, 758.835pt x 426.09187pt>
+[39]
+<chapters/chapter3/images/Figure06.png, id=924, 758.835pt x 426.09187pt>
 File: chapters/chapter3/images/Figure06.png Graphic file (type png)
 <use chapters/chapter3/images/Figure06.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure06.png  used on input line 186.
 (pdftex.def)             Requested size: 364.19667pt x 204.50226pt.
-[39 <./chapters/chapter3/images/Figure05.png>] [40]
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 217.
@@ -3100,7 +3099,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 217.
 
-[41 <./chapters/chapter3/images/Figure06.png>]
+[40 <./chapters/chapter3/images/Figure06.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 232.
@@ -3117,12 +3116,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 232.
 
-<chapters/chapter3/images/Figure07.png, id=959, 681.29532pt x 565.36218pt>
+<chapters/chapter3/images/Figure07.png, id=942, 681.29532pt x 565.36218pt>
 File: chapters/chapter3/images/Figure07.png Graphic file (type png)
 <use chapters/chapter3/images/Figure07.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure07.png  used on input line 239.
 (pdftex.def)             Requested size: 364.19667pt x 302.21991pt.
-[42]
+[41]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 244.
@@ -3139,7 +3138,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 244.
 
-[43 <./chapters/chapter3/images/Figure07.png>]
+[42 <./chapters/chapter3/images/Figure07.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 259.
@@ -3171,7 +3170,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []|\T1/ptm/m/n/12 SIPI, PRI, TCARI,
  []
 
-[44]
+[43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 300.
@@ -3188,12 +3187,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 300.
 
-<chapters/chapter3/images/Figure08.png, id=998, 758.08218pt x 292.09125pt>
+<chapters/chapter3/images/Figure08.png, id=981, 758.08218pt x 292.09125pt>
 File: chapters/chapter3/images/Figure08.png Graphic file (type png)
 <use chapters/chapter3/images/Figure08.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure08.png  used on input line 306.
 (pdftex.def)             Requested size: 364.19667pt x 140.32698pt.
-[45 <./chapters/chapter3/images/Figure08.png>]
+[44 <./chapters/chapter3/images/Figure08.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\T1/ptm/m/n/12 Fusarium head
  []
@@ -3249,12 +3248,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 345.
 
-<chapters/chapter3/images/Figure09.png, id=1021, 779.91376pt x 353.82187pt>
+<chapters/chapter3/images/Figure09.png, id=1004, 779.91376pt x 353.82187pt>
 File: chapters/chapter3/images/Figure09.png Graphic file (type png)
 <use chapters/chapter3/images/Figure09.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure09.png  used on input line 352.
 (pdftex.def)             Requested size: 364.19667pt x 165.22192pt.
-[46]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\T1/ptm/m/n/12 Object-Level Clas-si-fi-
  []
@@ -3264,8 +3263,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\T1/ptm/m/n/12 Object-Level Clas-si-fi-
  []
 
-[47 <./chapters/chapter3/images/Figure09.png>]
-<chapters/chapter3/images/Figure10.png, id=1056, 1355.0625pt x 478.78876pt>
+[46 <./chapters/chapter3/images/Figure09.png>]
+<chapters/chapter3/images/Figure10.png, id=1039, 1355.0625pt x 478.78876pt>
 File: chapters/chapter3/images/Figure10.png Graphic file (type png)
 <use chapters/chapter3/images/Figure10.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure10.png  used on input line 409.
@@ -3303,30 +3302,30 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 419.
 
-[48 <./chapters/chapter3/images/Figure10.png>]
-<chapters/chapter3/images/Figure11.png, id=1071, 1065.22969pt x 738.50906pt>
+[47 <./chapters/chapter3/images/Figure10.png>]
+<chapters/chapter3/images/Figure11.png, id=1053, 1065.22969pt x 738.50906pt>
 File: chapters/chapter3/images/Figure11.png Graphic file (type png)
 <use chapters/chapter3/images/Figure11.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure11.png  used on input line 425.
 (pdftex.def)             Requested size: 364.19667pt x 252.48708pt.
- [49 <./chapters/chapter3/images/Figure11.png>]
-<chapters/chapter3/images/Figure12.png, id=1082, 544.28343pt x 333.49594pt>
+ [48 <./chapters/chapter3/images/Figure11.png>]
+<chapters/chapter3/images/Figure12.png, id=1065, 544.28343pt x 333.49594pt>
 File: chapters/chapter3/images/Figure12.png Graphic file (type png)
 <use chapters/chapter3/images/Figure12.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure12.png  used on input line 437.
 (pdftex.def)             Requested size: 273.14923pt x 167.36328pt.
-<chapters/chapter3/images/Figure13.png, id=1087, 602.25pt x 188.95593pt>
+<chapters/chapter3/images/Figure13.png, id=1070, 602.25pt x 188.95593pt>
 File: chapters/chapter3/images/Figure13.png Graphic file (type png)
 <use chapters/chapter3/images/Figure13.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure13.png  used on input line 449.
 (pdftex.def)             Requested size: 273.14923pt x 85.70406pt.
-<chapters/chapter3/images/Figure14.png, id=1092, 358.33875pt x 119.69719pt>
+<chapters/chapter3/images/Figure14.png, id=1075, 358.33875pt x 119.69719pt>
 File: chapters/chapter3/images/Figure14.png Graphic file (type png)
 <use chapters/chapter3/images/Figure14.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure14.png  used on input line 461.
 (pdftex.def)             Requested size: 273.14923pt x 91.24658pt.
- [50 <./chapters/chapter3/images/Figure12.png> <./chapters/chapter3/images/Figure13.png>]
-<chapters/chapter3/images/Figure15.png, id=1105, 362.10281pt x 121.95563pt>
+ [49 <./chapters/chapter3/images/Figure12.png> <./chapters/chapter3/images/Figure13.png>]
+<chapters/chapter3/images/Figure15.png, id=1088, 362.10281pt x 121.95563pt>
 File: chapters/chapter3/images/Figure15.png Graphic file (type png)
 <use chapters/chapter3/images/Figure15.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure15.png  used on input line 474.
@@ -3348,7 +3347,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 479.
 
-[51 <./chapters/chapter3/images/Figure14.png> <./chapters/chapter3/images/Figure15.png>]
+[50 <./chapters/chapter3/images/Figure14.png> <./chapters/chapter3/images/Figure15.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 493.
@@ -3397,7 +3396,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 503.
 
-) [52] [53]
+) [51] [52]
 \openout2 = `conclusion.aux'.
 
  (conclusion.tex
@@ -3405,12 +3404,12 @@ Overfull \hbox (0.17372pt too wide) in paragraph at lines 7--8
 []\T1/ptm/m/n/12 Throughout this re-port, we have ex-am-ined how the fu-sion of aerial im-agery ac-quired through
  []
 
-) [54
+) [53
 
 
 
 
-] [55
+] [54
 
 
 
@@ -3424,7 +3423,7 @@ Overfull \hbox (2.29848pt too wide) in paragraph at lines 55--55
 \T1/ptm/m/n/12 us-ing high-resolution UAV-based red-green-blue im-agery^^Q. In: \T1/ptm/m/it/12 Re-mote Sens-ing \T1/ptm/m/n/12 12 (2020),
  []
 
-[56]
+[55]
 Overfull \hbox (0.26653pt too wide) in paragraph at lines 55--55
 \T1/ptm/m/n/12 wheat growth mon-i-tor-ing^^Q. In: \T1/ptm/m/it/12 Drones \T1/ptm/m/n/12 7.1 (2022), p. 23. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 3390 / drones7010023$[][]\T1/ptm/m/n/12 . 
  []
@@ -3434,12 +3433,12 @@ Overfull \hbox (20.38602pt too wide) in paragraph at lines 55--55
 \T1/ptm/m/n/12 Learn-ing Tech-niques^^Q. In: \T1/ptm/m/it/12 Re-mote Sens-ing \T1/ptm/m/n/12 15.9 (2023), p. 2450. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 3390 / rs15092450$[][]\T1/ptm/m/n/12 . 
  []
 
-[57]
+[56]
 Overfull \hbox (62.07417pt too wide) in paragraph at lines 55--55
 \T1/ptm/m/n/12 Spec-tral Char-ac-ter-is-tics^^Q. In: \T1/ptm/m/it/12 Agri-cul-ture \T1/ptm/m/n/12 15.3 (2025), p. 326. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 3390 / agriculture15030326$[][]\T1/ptm/m/n/12 . 
  []
 
-[58]
+[57]
 \openout2 = `appendices/annexeA.aux'.
 
  (appendices/annexeA.tex
@@ -3492,12 +3491,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 15.
 
-<appendices/images/MobileNet.png, id=1189, 696.35156pt x 310.91156pt>
+<appendices/images/MobileNet.png, id=1173, 696.35156pt x 310.91156pt>
 File: appendices/images/MobileNet.png Graphic file (type png)
 <use appendices/images/MobileNet.png>
 Package pdftex.def Info: appendices/images/MobileNet.png  used on input line 20.
 (pdftex.def)             Requested size: 364.19667pt x 162.60951pt.
-[59
+[58
 
 
 ]
@@ -3517,7 +3516,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 26.
 
-<chapters/chapter1/images/Figure13.png, id=1197, 796.47563pt x 370.38374pt>
+<chapters/chapter1/images/Figure13.png, id=1181, 796.47563pt x 370.38374pt>
 File: chapters/chapter1/images/Figure13.png Graphic file (type png)
 <use chapters/chapter1/images/Figure13.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure13.png  used on input line 33.
@@ -3538,8 +3537,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 38.
 
-[60 <./appendices/images/MobileNet.png> <./chapters/chapter1/images/Figure13.png>]
-<appendices/images/ShuffleNet.png, id=1207, 293.59688pt x 505.13719pt>
+[59 <./appendices/images/MobileNet.png> <./chapters/chapter1/images/Figure13.png>]
+<appendices/images/ShuffleNet.png, id=1190, 293.59688pt x 505.13719pt>
 File: appendices/images/ShuffleNet.png Graphic file (type png)
 <use appendices/images/ShuffleNet.png>
 Package pdftex.def Info: appendices/images/ShuffleNet.png  used on input line 48.
@@ -3596,7 +3595,7 @@ Underfull \hbox (badness 1342) in paragraph at lines 92--92
 []|\T1/ptm/m/n/12 Identifies pow-dery mildew by sens-ing
  []
 
-[61 <./appendices/images/ShuffleNet.png>]) [62]
+[60 <./appendices/images/ShuffleNet.png>]) [61]
 \openout2 = `appendices/annexeB.aux'.
 
  (appendices/annexeB.tex) (main.aux (titlepage.aux) (abstract.aux) (introduction.aux) (chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux) (chapters/chapter3/chapter3.aux) (conclusion.aux) (appendices/annexeA.aux) (appendices/annexeB.aux))
@@ -3882,7 +3881,6 @@ chapters/chapter3/chapter3.tex
 chapters/chapter3/images/Figure01.png
 chapters/chapter3/images/Figure02.png
 chapters/chapter3/images/Figure03.png
-chapters/chapter3/images/Figure04.png
 chapters/chapter3/images/Figure05.png
 chapters/chapter3/images/Figure06.png
 chapters/chapter3/images/Figure07.png
@@ -3914,17 +3912,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 7 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 74231 strings out of 474486
- 1655513 string characters out of 5744227
- 2861619 words of memory out of 5000000
- 95117 multiletter control sequences out of 15000+600000
+ 74216 strings out of 474486
+ 1654967 string characters out of 5744227
+ 2861146 words of memory out of 5000000
+ 95105 multiletter control sequences out of 15000+600000
  633051 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,17n,109p,2640b,8072s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi/ae_almohanad_bold.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (75 pages, 27697787 bytes).
+Output written on main.pdf (74 pages, 25220440 bytes).
 PDF statistics:
- 1648 PDF objects out of 1728 (max. 8388607)
- 296 named destinations out of 1000 (max. 500000)
- 888 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1632 PDF objects out of 1728 (max. 8388607)
+ 293 named destinations out of 1000 (max. 500000)
+ 883 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -36,13 +36,13 @@
 \select@language {english}
 \contentsline {subsection}{\numberline {\if@rl \I {6.4.1}\else \textLR {1.4.6}\fi }\bgroup \beginL \latintext Loose Smut\endL \egroup }{7}{subsection.1.4.6}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {7.4.1}\else \textLR {1.4.7}\fi }\bgroup \beginL \latintext Powdery mildew\endL \egroup }{8}{subsection.1.4.7}%
+\contentsline {subsection}{\numberline {\if@rl \I {7.4.1}\else \textLR {1.4.7}\fi }\bgroup \beginL \latintext Powdery mildew\endL \egroup }{7}{subsection.1.4.7}%
 \select@language {english}
 \contentsline {subsection}{\numberline {\if@rl \I {8.4.1}\else \textLR {1.4.8}\fi }\bgroup \beginL \latintext Common Root Rot\endL \egroup }{8}{subsection.1.4.8}%
 \select@language {english}
 \contentsline {section}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }\bgroup \beginL \latintext Common Insect Pests in Wheat Cultivation\endL \egroup }{8}{section.1.5}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }\bgroup \beginL \latintext Enhancing Wheat Disease Control Strategies\endL \egroup }{10}{section.1.6}%
+\contentsline {section}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }\bgroup \beginL \latintext Enhancing Wheat Disease Control Strategies\endL \egroup }{9}{section.1.6}%
 \select@language {english}
 \contentsline {subsection}{\numberline {\if@rl \I {1.6.1}\else \textLR {1.6.1}\fi }\bgroup \beginL \latintext Usual Instruments (Classic Methods)\endL \egroup }{10}{subsection.1.6.1}%
 \select@language {english}
@@ -112,11 +112,11 @@
 \select@language {english}
 \contentsline {subsubsection}{\bgroup \beginL \latintext R-CNN\endL \egroup }{28}{section*.54}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext SSD\endL \egroup }{28}{section*.56}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext SSD\endL \egroup }{29}{section*.56}%
 \select@language {english}
 \contentsline {subsection}{\numberline {\if@rl \I {3.4.2}\else \textLR {2.4.3}\fi }\bgroup \beginL \latintext Image Segmentation\endL \egroup }{29}{subsection.2.4.3}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Pyramid Scene Parsing Network (PSPNet)\endL \egroup }{29}{section*.58}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Pyramid Scene Parsing Network (PSPNet)\endL \egroup }{30}{section*.58}%
 \select@language {english}
 \contentsline {subsubsection}{\bgroup \beginL \latintext U-Net Model Architecture\endL \egroup }{30}{section*.60}%
 \select@language {english}
@@ -124,7 +124,7 @@
 \select@language {english}
 \contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }\bgroup \beginL \latintext Conclusion\endL \egroup }{32}{section.2.5}%
 \select@language {english}
-\contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Integrating Remote Sensing and AI-Based Methods for Detecting Wheat Diseases\endL \egroup }{33}{chapter.3}%
+\contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Integrating Remote Sensing and AI-Based Methods for Early Detection of Wheat Diseases\endL \egroup }{33}{chapter.3}%
 \select@language {english}
 \contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }\bgroup \beginL \latintext Introduction\endL \egroup }{33}{section.3.1}%
 \select@language {english}
@@ -138,70 +138,70 @@
 \select@language {english}
 \contentsline {subsection}{\numberline {\if@rl \I {4.2.3}\else \textLR {3.2.4}\fi }\bgroup \beginL \latintext Multispectral Cameras\endL \egroup }{35}{subsection.3.2.4}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {5.2.3}\else \textLR {3.2.5}\fi }\bgroup \beginL \latintext LiDAR Cameras (Light Detection and Ranging)\endL \egroup }{36}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.2.3}\else \textLR {3.2.5}\fi }\bgroup \beginL \latintext LiDAR Cameras (Light Detection and Ranging)\endL \egroup }{35}{subsection.3.2.5}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {6.2.3}\else \textLR {3.2.6}\fi }\bgroup \beginL \latintext Hyperspectral Cameras\endL \egroup }{36}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.2.3}\else \textLR {3.2.6}\fi }\bgroup \beginL \latintext Hyperspectral Cameras\endL \egroup }{35}{subsection.3.2.6}%
 \select@language {english}
 \contentsline {section}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }\bgroup \beginL \latintext Remote Sensing Platforms\endL \egroup }{36}{section.3.3}%
 \select@language {english}
 \contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }\bgroup \beginL \latintext Satellite-Based Imaging\endL \egroup }{36}{subsection.3.3.1}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }\bgroup \beginL \latintext Aircraft-Based Imaging\endL \egroup }{37}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }\bgroup \beginL \latintext Aircraft-Based Imaging\endL \egroup }{36}{subsection.3.3.2}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }\bgroup \beginL \latintext UAV-Based Imaging\endL \egroup }{38}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }\bgroup \beginL \latintext UAV-Based Imaging\endL \egroup }{37}{subsection.3.3.3}%
 \select@language {english}
 \contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }\bgroup \beginL \latintext Vegetation Indices\endL \egroup }{38}{section.3.4}%
 \select@language {english}
 \contentsline {section}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }\bgroup \beginL \latintext Image processing\endL \egroup }{39}{section.3.5}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }\bgroup \beginL \latintext Applications of Remote Sensing Data\endL \egroup }{41}{section.3.6}%
+\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }\bgroup \beginL \latintext Applications of Remote Sensing Data\endL \egroup }{40}{section.3.6}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }\bgroup \beginL \latintext Workflow for Integrating Remote Sensing and ML/DL in Wheat Disease Detection\endL \egroup }{42}{section.3.7}%
+\contentsline {section}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }\bgroup \beginL \latintext Workflow for Integrating Remote Sensing and ML/DL in Wheat Disease Detection\endL \egroup }{41}{section.3.7}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.7.3}\else \textLR {3.7.1}\fi }\bgroup \beginL \latintext Features Extraction\endL \egroup }{43}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.7.3}\else \textLR {3.7.1}\fi }\bgroup \beginL \latintext Features Extraction\endL \egroup }{42}{subsection.3.7.1}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.7.3}\else \textLR {3.7.2}\fi }\bgroup \beginL \latintext Statistics-Based Methods\endL \egroup }{44}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.7.3}\else \textLR {3.7.2}\fi }\bgroup \beginL \latintext Statistics-Based Methods\endL \egroup }{43}{subsection.3.7.2}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.7.3}\else \textLR {3.7.3}\fi }\bgroup \beginL \latintext Conventional Machine Learning (ML)-Based Methods\endL \egroup }{45}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.7.3}\else \textLR {3.7.3}\fi }\bgroup \beginL \latintext Conventional Machine Learning (ML)-Based Methods\endL \egroup }{44}{subsection.3.7.3}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {4.7.3}\else \textLR {3.7.4}\fi }\bgroup \beginL \latintext Deep Learning (DL)-Based Methods\endL \egroup }{46}{subsection.3.7.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.7.3}\else \textLR {3.7.4}\fi }\bgroup \beginL \latintext Deep Learning (DL)-Based Methods\endL \egroup }{45}{subsection.3.7.4}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Pixel-Based Segmentation Models\endL \egroup }{47}{section*.77}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Pixel-Based Segmentation Models\endL \egroup }{46}{section*.76}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Object-Level Classification Models\endL \egroup }{47}{section*.78}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Object-Level Classification Models\endL \egroup }{46}{section*.77}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }\bgroup \beginL \latintext Fusion of Satellite and UAV Data\endL \egroup }{48}{section.3.8}%
+\contentsline {section}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }\bgroup \beginL \latintext Fusion of Satellite and UAV Data\endL \egroup }{47}{section.3.8}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.8.3}\else \textLR {3.8.1}\fi }\bgroup \beginL \latintext Systematic Categorization of UAV/Satellite Monitoring Methods\endL \egroup }{49}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.8.3}\else \textLR {3.8.1}\fi }\bgroup \beginL \latintext Systematic Categorization of UAV/Satellite Monitoring Methods\endL \egroup }{48}{subsection.3.8.1}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Data comparison strategy\endL \egroup }{49}{section*.82}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Data comparison strategy\endL \egroup }{48}{section*.81}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Multiscale explanation strategy\endL \egroup }{50}{section*.84}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Multiscale explanation strategy\endL \egroup }{49}{section*.83}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Model calibration strategy\endL \egroup }{50}{section*.86}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Model calibration strategy\endL \egroup }{49}{section*.85}%
 \select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Data fusion strategy\endL \egroup }{51}{section*.88}%
+\contentsline {subsubsection}{\bgroup \beginL \latintext Data fusion strategy\endL \egroup }{50}{section*.87}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.8.3}\else \textLR {3.8.2}\fi }\bgroup \beginL \latintext Challenges of UAV/Satellite Data Fusion\endL \egroup }{51}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.8.3}\else \textLR {3.8.2}\fi }\bgroup \beginL \latintext Challenges of UAV/Satellite Data Fusion\endL \egroup }{50}{subsection.3.8.2}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }\bgroup \beginL \latintext Challenges in Integrating Remote Sensing with ML/DL\endL \egroup }{52}{section.3.9}%
+\contentsline {section}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }\bgroup \beginL \latintext Challenges in Integrating Remote Sensing with ML/DL\endL \egroup }{51}{section.3.9}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }\bgroup \beginL \latintext Future Perspectives\endL \egroup }{52}{section.3.10}%
+\contentsline {section}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }\bgroup \beginL \latintext Future Perspectives\endL \egroup }{51}{section.3.10}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }\bgroup \beginL \latintext Conclusion\endL \egroup }{53}{section.3.11}%
+\contentsline {section}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }\bgroup \beginL \latintext Conclusion\endL \egroup }{52}{section.3.11}%
 \select@language {english}
-\contentsline {chapter}{General conclusion}{54}{chapter*.90}%
+\contentsline {chapter}{General conclusion}{53}{chapter*.89}%
 \select@language {english}
-\contentsline {chapter}{Bibliography}{55}{chapter*.91}%
+\contentsline {chapter}{Bibliography}{54}{chapter*.90}%
 \select@language {english}
-\contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Overview of Lightweight Neural Network Architectures and Vegetation Indices for Plant Disease Detection\endL \egroup }{59}{appendix.1.A}%
+\contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Overview of Lightweight Neural Network Architectures and Vegetation Indices for Plant Disease Detection\endL \egroup }{58}{appendix.1.A}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }\bgroup \beginL \latintext Lightweight Neural Network Architectures\endL \egroup }{59}{section.1.A.1}%
+\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }\bgroup \beginL \latintext Lightweight Neural Network Architectures\endL \egroup }{58}{section.1.A.1}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.1.1}\else \textLR {1.1.1}\fi }\bgroup \beginL \latintext MobileNetV1\endL \egroup }{59}{subsection.1.A.1.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.1}\else \textLR {1.1.1}\fi }\bgroup \beginL \latintext MobileNetV1\endL \egroup }{58}{subsection.1.A.1.1}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.1.1}\else \textLR {1.1.2}\fi }\bgroup \beginL \latintext EfficientNet\endL \egroup }{60}{subsection.1.A.1.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.1}\else \textLR {1.1.2}\fi }\bgroup \beginL \latintext EfficientNet\endL \egroup }{59}{subsection.1.A.1.2}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.1.1}\else \textLR {1.1.3}\fi }\bgroup \beginL \latintext ShuffleNet V2\endL \egroup }{61}{subsection.1.A.1.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.1.1}\else \textLR {1.1.3}\fi }\bgroup \beginL \latintext ShuffleNet V2\endL \egroup }{60}{subsection.1.A.1.3}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }\bgroup \beginL \latintext Vegitation Indices\endL \egroup }{62}{section.1.A.2}%
+\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }\bgroup \beginL \latintext Vegitation Indices\endL \egroup }{61}{section.1.A.2}%

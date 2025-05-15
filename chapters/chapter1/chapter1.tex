@@ -290,7 +290,7 @@ Despite its effectiveness, a major drawback of VGGNet is its high computational 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure08.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure08.png}
     \caption{The architecture of VGG \parencite{alzubaidi2021review}.}
     \label{fig:figure08}
 \end{figure}
@@ -304,7 +304,7 @@ It replaced standard convolutional layers with micro-neural networks and regulat
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure09.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure09.png}
     \caption{The basic structure of Google Block \parencite{alzubaidi2021review}.}
     \label{fig:figure09}
 \end{figure}
@@ -318,7 +318,7 @@ The core concept behind Xception is the modification of the traditional Inceptio
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure10.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure10.png}
     \caption{The basic block diagram for the Xception block architecture \parencite{alzubaidi2021review}.}
     \label{fig:figure10}
 \end{figure}
@@ -406,7 +406,7 @@ This process is illustrated in Figure~\ref{fig:figure14}, which demonstrates how
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.4\textwidth]{chapters/chapter1/images/Figure14.png}
+    \includegraphics[width=0.5\textwidth]{chapters/chapter1/images/Figure14.png}
     \caption{Learning process of transfer learning \parencite{tan2018survey}.}
     \label{fig:figure14}
 \end{figure}
@@ -454,7 +454,7 @@ Here are more details about the concepts of object detection \parencite{zhao2019
 \begin{itemize}
     \item \textbf{Informative Region Selection:} It is used to identify specific areas within an image where objects are likely to appear. This step helps reduce computational load by focusing only on promising regions instead of scanning the entire image at all scales and positions. In agricultural imagery, objects like plants or pests may vary in size, shape, and location. Early methods used multiscale sliding windows to generate candidate regions, but this approach was computationally expensive and often produced redundant proposals. To improve efficiency, modern techniques now use region proposal algorithms or attention mechanisms to better focus on meaningful areas while avoiding irrelevant ones.
     \item \textbf{Feature Extraction:} It is the process of identifying and isolating relevant visual attributes from an image that can effectively represent objects within it. Object recognition involves detecting characteristics that are both robust and semantically significant. Traditional methods such as Scale-Invariant Feature Transform (SIFT), Histograms of Oriented Gradients (HOG), and Haar-like features were designed to mimic human vision by emphasizing edges, textures, and patterns. However, these handcrafted techniques often struggled to maintain performance due to challenges like changes in object appearance, lighting variations, and cluttered backgrounds, leading to their limitations in complex scenarios.
-    \item \textbf{Classification and Localization:} Classification and localization refer to the process of both identifying the object in an image and determining its precise location through bounding boxes. With the rise of deep learning, this step underwent a significant transformation. Models such as R-CNN and its subsequent versions: Fast R-CNN, Faster R-CNN, and YOLO automated the feature extraction process and seamlessly integrated classification with bounding box regression. These advancements led to substantial improvements in both detection accuracy and processing speed, enabling real-time applications in fields like crop monitoring and pest detection.
+    \item \textbf{Classification and Localization:} Classification and localization refer to the process of both identifying the object in an image and determining its precise location through bounding boxes. With the rise of deep learning, this step underwent a significant transformation. Models such as R-CNN and its subsequent versions: Fast R-CNN, Faster R-CNN, and YOLO (You Only Look Once)automated the feature extraction process and seamlessly integrated classification with bounding box regression. These advancements led to substantial improvements in both detection accuracy and processing speed, enabling real-time applications in fields like crop monitoring and pest detection.
 \end{itemize}
 
 \subsubsection{Annotation of Objects}
@@ -491,7 +491,7 @@ At test time, class-specific confidence scores are computed by multiplying the b
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.7\textwidth]{chapters/chapter1/images/Figure16.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure16.png}
     \caption{Main idea of YOLO \parencite{zhao2019objectdetection}.}
     \label{fig:figure16}
 \end{figure}

@@ -2107,9 +2107,6 @@
            given={C.},
            giveni={C\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
       \strng{namehash}{166c4d5636fb39573867940d6adae0b1}
       \strng{fullhash}{166c4d5636fb39573867940d6adae0b1}
       \strng{bibnamehash}{166c4d5636fb39573867940d6adae0b1}
@@ -2126,6 +2123,9 @@
       \field{year}{2023}
       \field{pages}{2993\bibrangedash 3021}
       \range{pages}{29}
+      \verb{doi}
+      \verb 10.1016/j.egyr.2023.02.109
+      \endverb
     \endentry
     \entry{shafi2020multi}{article}{}
       \name{author}{7}{}{%
@@ -2481,33 +2481,6 @@
       \field{year}{2018}
       \field{pages}{270\bibrangedash 279}
       \range{pages}{10}
-    \endentry
-    \entry{wan2024optimizing}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=ed080cc4054d7e5a51a17edb9a200a51}{%
-           family={Wan},
-           familyi={W\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-      }
-      \strng{namehash}{1028fd6dcaf01b4378755791bb7d2476}
-      \strng{fullhash}{1028fd6dcaf01b4378755791bb7d2476}
-      \strng{bibnamehash}{1028fd6dcaf01b4378755791bb7d2476}
-      \strng{authorbibnamehash}{1028fd6dcaf01b4378755791bb7d2476}
-      \strng{authornamehash}{1028fd6dcaf01b4378755791bb7d2476}
-      \strng{authorfullhash}{1028fd6dcaf01b4378755791bb7d2476}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Applied Earth Observation and Geoinformation}
-      \field{title}{Optimizing UAV-based uncooled thermal cameras in field conditions for precision agriculture}
-      \field{volume}{134}
-      \field{year}{2024}
-      \field{pages}{104184}
-      \range{pages}{1}
     \endentry
     \entry{zhang2025precision}{article}{}
       \name{author}{11}{}{%

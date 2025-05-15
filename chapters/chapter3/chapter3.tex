@@ -1,7 +1,8 @@
-\chapter{Integrating Remote Sensing and AI-Based Methods for Detecting Wheat Diseases}
+\chapter{Integrating Remote Sensing and AI-Based Methods for Early Detection of Wheat Diseases}
 
 \section{Introduction}
-Remote sensing technologies play a crucial role in modern agriculture by enabling large-scale and timely monitoring of crops. Through satellite and drone imagery, farmers can observe wheat fields, assess plant health, and detect early signs of disease. These technologies provide valuable data that, when combined with machine learning (ML) and deep learning (DL) techniques, allow for accurate identification and classification of wheat diseases.
+Remote sensing technologies have become essential tools in modern agriculture, offering scalable and timely monitoring of crop conditions. Leveraging satellite and drone imagery, farmers and researchers can observe wheat fields with high spatial and temporal resolution, enabling the assessment of plant health and the early detection of disease symptoms. These technologies generate rich datasets that, when integrated with advanced machine learning (ML) and deep learning (DL) algorithms, facilitate precise identification, classification, and even prediction of wheat diseases. This synergy between remote sensing and AI-driven analysis contributes significantly to proactive crop management and improved agricultural productivity.
+
 
 This chapter presents an overview of the imaging tools and platforms used in agricultural remote sensing, followed by a focus on how ML/DL methods process this data to detect diseases in wheat crops. It highlights key workflows, data fusion techniques, and real-world examples, offering a practical perspective on improving disease management through technology
 
@@ -45,16 +46,15 @@ Near-infrared (NIR) cameras capture images in the near-infrared spectrum, which 
 
 \subsection{Thermal Infrared Cameras}
 
-Thermal infrared cameras capture images based on the heat emitted by objects, operating in the infrared spectrum (wavelengths typically ranging from 8,000 to 14,000 nm). They detect temperature differences and translate them into visual representations, making them invaluable for identifying heat-related patterns in crops and soil \parencite{delavarpour2021technical}. This capability is demonstrated in Figure~\ref{fig:thermalimages}, which shows thermal and RGB images captured at different UAV flight heights.
+Thermal infrared cameras capture images based on the heat emitted by objects, operating in the infrared spectrum (wavelengths typically ranging from 8,000 to 14,000 nm). They detect temperature differences and translate them into visual representations, making them invaluable for identifying heat-related patterns in crops and soil \parencite{delavarpour2021technical}.
 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8
-    \textwidth]{chapters/chapter3/images/Figure04.png}
-    \caption{Examples of acquired thermal images from FLIR Tau 2 and WIRIS 2nd Gen at two different UAV flight heights. RGB images acquired by the RGB cameras mounted on the same UAVs were also provided. ‘‘T’’ in the graphs refers to the measured temperature by the corresponding thermal cameras \protect\parencite{wan2024optimizing}.}
-    \label{fig:thermalimages}
-\end{figure}
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8
+%     \textwidth]{chapters/chapter3/images/Figure04.png}
+%     \caption{Examples of acquired thermal images from FLIR Tau 2 and WIRIS 2nd Gen at two different UAV flight heights. RGB images acquired by the RGB cameras mounted on the same UAVs were also provided. ‘‘T’’ in the graphs refers to the measured temperature by the corresponding thermal cameras \protect\parencite{wan2024optimizing}.}
+%     \label{fig:thermalimages}
+% \end{figure}
 
 
 \subsection{Multispectral Cameras}
