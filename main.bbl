@@ -1613,35 +1613,6 @@
       \field{pages}{1\bibrangedash 15}
       \range{pages}{15}
     \endentry
-    \entry{li2024monitoring}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=6e5b0e6cca2615e3baa1c9fd08a1f208}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{fullhash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{bibnamehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{authorbibnamehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{authornamehash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \strng{authorfullhash}{3108a65fd9ec6c0b84b02f9e23355849}
-      \field{extraname}{2}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Agriculture}
-      \field{number}{8}
-      \field{title}{Monitoring maize canopy chlorophyll content throughout the growth stages based on UAV MS and RGB feature fusion}
-      \field{volume}{14}
-      \field{year}{2024}
-      \field{pages}{1265}
-      \range{pages}{1}
-    \endentry
     \entry{Li2022}{article}{}
       \name{author}{7}{}{%
         {{hash=66d548e0e670e107fc4a80dc0c3825b3}{%
@@ -1686,7 +1657,7 @@
       \strng{authorbibnamehash}{2f060ecac11058276f5d0b5a813eee70}
       \strng{authornamehash}{2f060ecac11058276f5d0b5a813eee70}
       \strng{authorfullhash}{e2fa700f50832452bb7b8b7ae0b77f5e}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -2739,50 +2710,6 @@
       \verb 10.3390/rs11131554
       \endverb
     \endentry
-    \entry{zhao2019learningrate}{article}{}
-      \name{author}{4}{}{%
-        {{hash=ce8afda32ef280c22fd9cc131d3a3ae2}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Hong},
-           giveni={H\bibinitperiod}}}%
-        {{hash=0138deaf332692ced30d823b9cebc488}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Fei},
-           giveni={F\bibinitperiod}}}%
-        {{hash=12281c7e94db5cc6d67ec2cf7bccbf03}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Haiping},
-           giveni={H\bibinitperiod}}}%
-        {{hash=be62583bd42c2c3bfca3ec965d9a478d}{%
-           family={Liang},
-           familyi={L\bibinitperiod},
-           given={Zhigang},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{9ac63763ec5bd7780907e55acbe05e4f}
-      \strng{fullhash}{839c360cd480c24440cd9ded57b3fe8f}
-      \strng{bibnamehash}{9ac63763ec5bd7780907e55acbe05e4f}
-      \strng{authorbibnamehash}{9ac63763ec5bd7780907e55acbe05e4f}
-      \strng{authornamehash}{9ac63763ec5bd7780907e55acbe05e4f}
-      \strng{authorfullhash}{839c360cd480c24440cd9ded57b3fe8f}
-      \field{extraname}{1}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Neural Networks}
-      \field{title}{Research on a learning rate with energy index in deep learning}
-      \field{volume}{110}
-      \field{year}{2019}
-      \field{pages}{225\bibrangedash 231}
-      \range{pages}{7}
-    \endentry
     \entry{zhao2019objectdetection}{article}{}
       \name{author}{4}{}{%
         {{hash=179b93513d43bf57a814a2c84d169653}{%
@@ -2815,7 +2742,6 @@
       \strng{authorbibnamehash}{90eabe0b8242680f7bafd95bbd214ddb}
       \strng{authornamehash}{90eabe0b8242680f7bafd95bbd214ddb}
       \strng{authorfullhash}{6842d656ff3b0f422da1fdab13eeaaec}
-      \field{extraname}{2}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}

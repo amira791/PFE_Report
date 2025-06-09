@@ -61,7 +61,6 @@
 \usepackage{footnote}
 
 
-\usepackage{geometry}
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{booktabs} % For better horizontal lines
@@ -77,7 +76,7 @@
 
 % Header: current chapter title (automatically set by \chapter)
 \fancyhead[L]{\nouppercase{\leftmark}}
-\fancyfoot[C]{\thepage}
+\fancyfoot[R]{\thepage}
 
 \renewcommand{\headrulewidth}{0.4pt}
 
@@ -85,7 +84,7 @@
 \fancypagestyle{plain}{
   \fancyhf{}
   \fancyhead[L]{\nouppercase{\leftmark}}
-  \fancyfoot[C]{\thepage}
+  \fancyfoot[R]{\thepage}
   \renewcommand{\headrulewidth}{0.4pt}
 }
 
@@ -115,3 +114,6 @@
 \let\cite\parencite
 
 \import{preambule}{abbreviations}
+
+
+% \input{preambule/abbreviation}
