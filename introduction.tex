@@ -5,19 +5,22 @@
 
 
 
-Wheat, a staple food crop and a cornerstone of global food security, faces persistent threats from a wide range of diseases and pests, which can significantly reduce both yield and quality. Traditionally, farmers have relied on manual inspection and chemical treatments to manage crop diseases, but these methods are often time-consuming, imprecise, and unsustainable in the long term.
+Wheat is one of the most widely cultivated and consumed staple crops in the world, playing a critical role in global food security. However, wheat production is increasingly threatened by a variety of biotic factors, most notably diseases that can cause significant yield losses and degrade grain quality. Traditionally, disease detection and control in agriculture have relied on manual inspection, expert intervention, and chemical treatments. These methods are often time-consuming, labor-intensive, and not scalable for large-scale farming operations.
 
-In recent years, the emergence of smart agriculture has introduced innovative methods for crop monitoring and disease management. Notably, the integration of remote sensing technologies with machine learning and deep learning algorithms has transformed how agricultural data is collected, processed, and interpreted.
+The increasing global demand for food, combined with environmental constraints and the limitations of conventional agricultural practices, has led to the rise of smart agriculture, an approach that leverages advanced technologies to enhance decision-making and optimize farming operations. Within this context, image-based plant disease detection has become an essential tool for early diagnosis and effective crop management. In recent years, deep learning (DL) especially techniques in computer vision, has gained popularity for automating the detection and classification of plant diseases with high precision.
 
-Remote sensing platforms including satellites, drones, and ground-based sensors enable the non-invasive collection of multispectral, hyperspectral, and thermal imagery. These types of imagery can reveal early signs of plant stress and disease that are not visible to the naked eye. When analyzed using machine learning and deep learning models, this data can be automatically processed to identify disease types, detect early-stage infections, and support real-time decision-making at a large scale.
+Deep learning models, particularly Convolutional Neural Networks (CNNs), have demonstrated superior performance over traditional machine learning methods in image recognition tasks. These models are capable of automatically learning complex features from raw data, eliminating the need for manual feature extraction. As a result, CNNs and their variants have been widely used in agricultural applications such as disease classification, object detection in field images, and leaf segmentation.
 
-This report explores the synergy between remote sensing and artificial intelligence in the context of wheat disease detection. It provides:
+Despite their impressive results, deep learning models often require large labeled datasets and significant computational resources. Additionally, many models are developed under controlled conditions, which limits their applicability in real-world agricultural settings. Challenges such as variable lighting, background noise, and early-stage disease symptoms require robust and adaptable detection systems \parencite{alzubaidi2021review}.
+
+To address these challenges, recent advances have focused on the integration of remote sensing technologies and AI-based models. Remote sensing allows for large-scale monitoring by capturing spectral, thermal, and spatial information from various platforms including satellites, drones (UAVs), and multispectral or hyperspectral cameras. When combined with AI and deep learning, remote sensing data enables early detection, classification, and spatial mapping of crop diseases with greater accuracy and efficiency \parencite{wang2024integration}.
+
+This report explores the synergy between AI-based methods and remote sensing technologies for the detection of wheat diseases. It provides a comprehensive overview of the current challenges in wheat disease management and highlights modern approaches to tackle them using artificial intelligence.
+
+The structure of the report is as follows:
 
 \begin{itemize}
-    \item An overview of common wheat diseases and their agricultural impact.
-    \item A detailed examination of deep learning methods and their application in computer vision tasks such as image classification, object detection, and segmentation.
-    \item A technical survey of remote sensing tools and platforms used for agricultural monitoring.
-    \item A comparative analysis of current approaches, including workflows for integrating imagery with artificial intelligence models, feature extraction methods, and data fusion strategies.
+    \item \textbf{Chapter 1}: Presents the context of wheat production, describes the most common diseases and pests that affect wheat crops, and outlines the need for adopting smart agricultural solutions.
+    \item \textbf{Chapter 2}: Delves into the fundamentals of deep learning, focusing on visual recognition models and their application to plant disease detection.
+    \item \textbf{Chapter 3}: Examines the role of remote sensing in agriculture and how it can be integrated with AI-based models to improve disease monitoring. This chapter includes a review of recent research studies that combine remote sensing data with deep learning models for wheat disease detection, illustrating practical use cases and evaluating the effectiveness of such integrated systems.
 \end{itemize}
-
-By exploring these technologies and their integration, this work highlights the potential of intelligent systems to enhance disease management, reduce crop losses, and promote more resilient and sustainable agriculture.

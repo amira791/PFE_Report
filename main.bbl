@@ -2343,68 +2343,6 @@
       \field{title}{From satellite to UAV-based remote sensing: A review on precision agriculture}
       \field{year}{2023}
     \endentry
-    \entry{purwono2022understanding}{article}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=289fcf25803c59e59e3d607c41e785e6}{%
-           family={Purwono},
-           familyi={P\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e092d35500ca806febee7f5857d7e9f2}{%
-           family={Ma'arif},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2ea7cc8ce0ac80ae54ad58740873dcd0}{%
-           family={Rahmaniar},
-           familyi={R\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e386ad4ce07311bf6a5af80597759d63}{%
-           family={Fathurrahman},
-           familyi={F\bibinitperiod},
-           given={H.\bibnamedelimi I.\bibnamedelimi K.},
-           giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d68f23726412551f08dba783bc8f4841}{%
-           family={Frisky},
-           familyi={F\bibinitperiod},
-           given={A.\bibnamedelimi Z.\bibnamedelimi K.},
-           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a01ac7c7b8654d8be2e86e60177c63b3}{%
-           family={Haq},
-           familyi={H\bibinitperiod},
-           given={Q.\bibnamedelimi M.},
-           giveni={Q\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0,
-           prefix={ul},
-           prefixi={u\bibinitperiod}}}%
-      }
-      \strng{namehash}{659cd989e4216f219b24346e1751acd3}
-      \strng{fullhash}{f56708da8c2be85c8467227d2548a88a}
-      \strng{bibnamehash}{f56708da8c2be85c8467227d2548a88a}
-      \strng{authorbibnamehash}{f56708da8c2be85c8467227d2548a88a}
-      \strng{authornamehash}{659cd989e4216f219b24346e1751acd3}
-      \strng{authorfullhash}{f56708da8c2be85c8467227d2548a88a}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Robotics and Control Systems}
-      \field{number}{4}
-      \field{title}{Understanding of convolutional neural network (CNN): A review}
-      \field{volume}{2}
-      \field{year}{2022}
-      \field{pages}{739\bibrangedash 748}
-      \range{pages}{10}
-    \endentry
     \entry{ren2023review}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=07d0026ba35104b23c69c71e8289c06b}{%
@@ -2857,6 +2795,60 @@
       \field{year}{2018}
       \field{pages}{270\bibrangedash 279}
       \range{pages}{10}
+    \endentry
+    \entry{wang2024integration}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=49a19e08791a3dc09c932ff975949361}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c786d9afb3cf178271120f1fd926d21}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44614b5f5ec8f4fe27540b1f3f99e6d0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guoqing},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f21877f60776fe4fb2b70bedf0101c89}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{bb255b96d1bb6f677f7841b684efd08c}
+      \strng{fullhash}{e01e2623f488bb79a4a98b483df7d636}
+      \strng{bibnamehash}{e01e2623f488bb79a4a98b483df7d636}
+      \strng{authorbibnamehash}{e01e2623f488bb79a4a98b483df7d636}
+      \strng{authornamehash}{bb255b96d1bb6f677f7841b684efd08c}
+      \strng{authorfullhash}{e01e2623f488bb79a4a98b483df7d636}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Agronomy}
+      \field{number}{9}
+      \field{title}{Integration of remote sensing and machine learning for precision agriculture: a comprehensive perspective on applications}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{1975}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/agronomy14091975
+      \endverb
     \endentry
     \entry{zhang2025precision}{article}{}
       \name{author}{11}{}{%
@@ -5587,68 +5579,6 @@
       \field{title}{From satellite to UAV-based remote sensing: A review on precision agriculture}
       \field{year}{2023}
     \endentry
-    \entry{purwono2022understanding}{article}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=289fcf25803c59e59e3d607c41e785e6}{%
-           family={Purwono},
-           familyi={P\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e092d35500ca806febee7f5857d7e9f2}{%
-           family={Ma'arif},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2ea7cc8ce0ac80ae54ad58740873dcd0}{%
-           family={Rahmaniar},
-           familyi={R\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e386ad4ce07311bf6a5af80597759d63}{%
-           family={Fathurrahman},
-           familyi={F\bibinitperiod},
-           given={H.\bibnamedelimi I.\bibnamedelimi K.},
-           giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d68f23726412551f08dba783bc8f4841}{%
-           family={Frisky},
-           familyi={F\bibinitperiod},
-           given={A.\bibnamedelimi Z.\bibnamedelimi K.},
-           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a01ac7c7b8654d8be2e86e60177c63b3}{%
-           family={Haq},
-           familyi={H\bibinitperiod},
-           given={Q.\bibnamedelimi M.},
-           giveni={Q\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0,
-           prefix={ul},
-           prefixi={u\bibinitperiod}}}%
-      }
-      \strng{namehash}{659cd989e4216f219b24346e1751acd3}
-      \strng{fullhash}{f56708da8c2be85c8467227d2548a88a}
-      \strng{bibnamehash}{f56708da8c2be85c8467227d2548a88a}
-      \strng{authorbibnamehash}{f56708da8c2be85c8467227d2548a88a}
-      \strng{authornamehash}{659cd989e4216f219b24346e1751acd3}
-      \strng{authorfullhash}{f56708da8c2be85c8467227d2548a88a}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Robotics and Control Systems}
-      \field{number}{4}
-      \field{title}{Understanding of convolutional neural network (CNN): A review}
-      \field{volume}{2}
-      \field{year}{2022}
-      \field{pages}{739\bibrangedash 748}
-      \range{pages}{10}
-    \endentry
     \entry{ren2023review}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=07d0026ba35104b23c69c71e8289c06b}{%
@@ -6101,6 +6031,60 @@
       \field{year}{2018}
       \field{pages}{270\bibrangedash 279}
       \range{pages}{10}
+    \endentry
+    \entry{wang2024integration}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=49a19e08791a3dc09c932ff975949361}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c786d9afb3cf178271120f1fd926d21}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44614b5f5ec8f4fe27540b1f3f99e6d0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guoqing},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f21877f60776fe4fb2b70bedf0101c89}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{bb255b96d1bb6f677f7841b684efd08c}
+      \strng{fullhash}{e01e2623f488bb79a4a98b483df7d636}
+      \strng{bibnamehash}{e01e2623f488bb79a4a98b483df7d636}
+      \strng{authorbibnamehash}{e01e2623f488bb79a4a98b483df7d636}
+      \strng{authornamehash}{bb255b96d1bb6f677f7841b684efd08c}
+      \strng{authorfullhash}{e01e2623f488bb79a4a98b483df7d636}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Agronomy}
+      \field{number}{9}
+      \field{title}{Integration of remote sensing and machine learning for precision agriculture: a comprehensive perspective on applications}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{1975}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/agronomy14091975
+      \endverb
     \endentry
     \entry{zhang2025precision}{article}{}
       \name{author}{11}{}{%

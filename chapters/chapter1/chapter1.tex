@@ -148,8 +148,7 @@ Overfitting occurs when a model learns noise from training data, reducing genera
 \end{itemize}
 
 \subsubsection{Batch normalization}
-Batch normalization stabilizes training by normalizing inputs across a mini-batch, reducing internal covariate shift and accelerating convergence.
-
+Batch Normalization normalizes layer outputs to follow a unit Gaussian distribution, a normal distribution with a mean of 0 and a standard deviation of 1, which keeps values in a consistent range and stabilizes learning. This helps stabilize and speed up neural network training by reducing internal covariance shift, which is caused by changing activation distributions during training, especially with diverse data sources. Key benefits include preventing vanishing gradients, improving weight initialization, speeding up convergence, and reducing sensitivity to hyperparameters \parencite{alzubaidi2021review}.
 
 
 \subsection{Optimization methods and strategies}
@@ -214,14 +213,14 @@ The most common and impactful computer vision tasks include image classification
 Image classification is the task of assigning a label to an entire image based on its visual content. In deep learning, this is typically achieved using \gls{abb:cnn}s, which are designed to automatically learn hierarchical features from raw pixel data.
 
 \subsubsection{Fundamentals of \gls{abb:cnn}s}
-\gls{abb:cnn}s consist of multiple layers designed to process and learn spatial hierarchies from image data (see Figure~\ref{fig:figure04}). Their architecture typically includes \parencite{alzubaidi2021review}:
+\gls{abb:cnn}s consist of multiple layers designed to process and learn spatial hierarchies from image data \parencite{alzubaidi2021review}. Their architecture typically includes:
 
-\begin{figure}[H] % 'H' needs \usepackage{float}
-        \centering
-        \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure04.png}
-        \caption{Architecture of \gls{abb:cnn} \cite{purwono2022understanding}.}
-        \label{fig:figure04}
-    \end{figure}
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%         \centering
+%         \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure04.png}
+%         \caption{Architecture of \gls{abb:cnn} \cite{purwono2022understanding}.}
+%         \label{fig:figure04}
+%     \end{figure}
 
 \begin{itemize}
     \item \textbf{Convolutional Layers:} Extract features using small filters (kernels) that detect edges, textures, and patterns. A kernel is a grid of values (weights) initialized randomly at the start of training and adjusted through learning to identify important features.
@@ -348,21 +347,21 @@ Here are more details about the concepts of object detection \parencite{zhao2019
 %     % \item \textbf{Semantic Segmentation:} In cases where the task involves classifying each pixel in the image, semantic segmentation labels each pixel to indicate which class it belongs to (e.g., diseased or healthy tissue in a leaf).
 % \end{itemize}
 
-% \subsubsection{Evaluation metrics in object detection}    
-% In object detection, several metrics are used to assess model performance:
-% \begin{itemize}
-%     \item \textbf{Mean Average Precision (mAP):} Measures the average precision across all object classes, balancing precision and recall to evaluate overall model performance.
-%     \item \textbf{Intersection over Union (IoU):} Calculates the overlap between predicted and ground truth bounding boxes, indicating localization accuracy. Higher IoU means better localization.
+\subsubsection{Evaluation metrics in object detection}    
+In object detection, several metrics are used to assess model performance:
+\begin{itemize}
+    \item \textbf{Mean Average Precision (mAP):} Measures the average precision across all object classes, balancing precision and recall to evaluate overall model performance.
+    \item \textbf{Intersection over Union (IoU):} Calculates the overlap between predicted and ground truth bounding boxes, indicating localization accuracy. Higher IoU means better localization.
     
-%     \item \textbf{Precision:} Measures the proportion of true positive detections out of all predicted objects.
-%     \item \textbf{Recall:} Measures the proportion of true positive detections out of all actual objects.
+    \item \textbf{Precision:} Measures the proportion of true positive detections out of all predicted objects.
+    \item \textbf{Recall:} Measures the proportion of true positive detections out of all actual objects.
    
-%     \item \textbf{F1-Score:} The harmonic mean of precision and recall, providing a balance between both.
-%     \item \textbf{Average Recall (AR):} Evaluates recall at different IoU thresholds, useful for detecting small objects or handling occlusions.
-%     \item \textbf{Confusion Matrix:} Summarizes true positives, false positives, true negatives, and false negatives, providing insights into model errors.
-%     \item \textbf{Speed Metrics (FPS, Latency):} Assess real-time performance, essential for time-sensitive applications like precision agriculture.
-%     \item \textbf{AP at Specific IoU Thresholds:} Measures precision at different IoU levels to understand performance under stricter conditions.
-% \end{itemize}
+    \item \textbf{F1-Score:} The harmonic mean of precision and recall, providing a balance between both.
+    \item \textbf{Average Recall (AR):} Evaluates recall at different IoU thresholds, useful for detecting small objects or handling occlusions.
+    \item \textbf{Confusion Matrix:} Summarizes true positives, false positives, true negatives, and false negatives, providing insights into model errors.
+    \item \textbf{Speed Metrics} like frames per second (FPS) and latency measure how fast an object detection model works in real time. FPS shows how many images the system can handle each second, higher FPS means smoother, faster image analysis. Latency is the time it takes to process one image and give a result, lower latency means quicker response.
+    \item \textbf{AP at Specific IoU Thresholds:} Measures precision at different IoU levels to understand performance under stricter conditions.
+\end{itemize}
 
 \subsubsection{Key architectures}
 Many architectures are designed to efficiently and accurately detect objects in images, even in complex agricultural environments. Below, we discuss four of the most widely used and effective object detection models: \gls{abb:yolo}, R-\gls{abb:cnn}, and \gls{abb:ssd}. 
@@ -469,5 +468,22 @@ DeepLabV3+ is an advanced semantic segmentation model that builds upon DeepLabV3
 
 % Lastly, ensuring the interpretability and trustworthiness of AI decisions is crucial in agricultural contexts, as these technologies directly impact yield, resource use, and farmers’ livelihoods. Addressing these challenges requires collaborative efforts in data collection, annotation, model adaptation, and efficient deployment strategies \parencite{alzubaidi2021review}.
 
+\section{Challenges of Deep Learning in Agricultural Contexts}
+
+While deep learning has shown strong performance across various domains, its application in agriculture faces unique challenges. Limited and imbalanced annotated datasets, high intra-class variability, and low inter-class variability hinder model generalization. Factors such as lighting changes, leaf occlusion, and cluttered backgrounds further reduce detection accuracy \parencite{alzubaidi2021review}. Moreover, most models rely on close-range imagery, which restricts early-stage detection over large fields. Integrating remote sensing (e.g., hyperspectral or multispectral imaging) with deep learning helps address these limitations by enabling large-scale monitoring and identifying stress indicators before symptoms appear. This fusion significantly improves accuracy and supports scalable, cost-effective disease management \parencite{wang2024integration}.
+
 \section{Conclusion}
 In this chapter, we explored key deep learning concepts and models used for image-based recognition tasks, focusing on classification, object detection, and semantic segmentation. These techniques are essential for automating and improving agricultural workflows, especially in crop health monitoring. Building on this foundation, the next chapter will introduce remote sensing technologies and investigate how their integration with deep learning and machine learning can enable the accurate and scalable early detection of wheat diseases.
+
+
+
+
+
+
+
+
+
+
+% Enhancing Wheat Disease Detection: Why Remote Sensing is Crucial Beyond ML/DL Alone
+
+% While machine learning (ML) and deep learning (DL) have revolutionized plant disease detection through their ability to automatically learn patterns from data, relying on these methods alone for wheat disease detection reveals several critical limitations. First, ML/DL models require large volumes of high-quality labeled images to perform well—collecting and annotating such datasets in agricultural environments is labor-intensive, costly, and often impractical. Second, most existing ML/DL systems depend on close-range images taken with smartphones or hand-held devices, limiting their ability to detect early-stage diseases that manifest at a larger field scale. Third, these models are highly sensitive to environmental variations such as lighting conditions, leaf occlusion, and weather changes, which can lead to poor generalization and reduced accuracy in real-world scenarios. Remote sensing (RS) technologies provide a powerful solution to these challenges. By capturing hyperspectral or multispectral data (e.g., NDVI indices), RS can identify subtle stress indicators in wheat crops before visual symptoms appear. Additionally, satellite and UAV platforms offer large-scale, continuous field monitoring that’s not feasible with ground-based imagery alone. When RS data is fused with ML/DL models, it significantly enhances disease classification performance—studies show improvements exceeding 20% in accuracy. Thus, integrating remote sensing with AI techniques is not just beneficial but essential for overcoming limitations in data availability, environmental variability, and scalability, ultimately enabling more accurate, timely, and cost-effective wheat disease management at both the local and regional levels \parencite{wang2024integration}.

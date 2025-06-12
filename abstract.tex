@@ -4,15 +4,16 @@
 \setcounter{page}{2}
 \phantomsection
 \chapter*{{\Huge\bfseries Abstract}}
+\thispagestyle{noheader}
 \addcontentsline{toc}{chapter}{Abstract}
 
 \vspace{0.5cm}
 
 Wheat is a vital crop that significantly contributes to global food security, yet its production is increasingly threatened by various diseases. Traditional detection and management approaches often fall short due to their reliance on manual inspection and delayed intervention. In response, the integration of smart agricultural technologies, particularly remote sensing and artificial intelligence, has emerged as a powerful solution for early and accurate disease detection.
 
-This report explores the application of remote sensing data in combination with machine learning and deep learning techniques to address the challenges of wheat disease monitoring. It presents a comprehensive overview of imaging technologies such as RGB, thermal, multispectral, and hyperspectral cameras, as well as data collection platforms including satellites, aircraft, and UAVs.
+This report highlights the most widespread wheat diseases and insect pests, underscoring their significant impact on agricultural productivity and the critical importance of early and accurate detection for effective crop protection. It then delves into the transformative role of deep learning in visual recognition tasks, including image classification, object detection, and image segmentation, which enable automated, precise identification of plant diseases. 
 
-The study examines the full workflow from image acquisition and preprocessing to feature extraction and model-based classification using a variety of machine learning and deep learning models. It also explains how combining data from different sources can improve detection accuracy, and highlights future opportunities to use these technologies for more efficient and sustainable farming.
+The report reviews advanced imaging technologies (RGB, thermal, multispectral, and hyperspectral) and data collection platforms like satellites, aircraft, and UAVs. Additionally, it analyzes research integrating remote sensing data with machine learning and deep learning techniques. It examines the complete workflow from image acquisition and preprocessing to feature extraction and model-based classification, drawing insights from a wide range of previous studies that utilize various machine learning and deep learning models. It also explores how combining data from multiple sources can enhance detection accuracy and outlines future opportunities to apply these technologies for more efficient and sustainable agricultural practices.
 
 \rule{\linewidth}{1pt}
 \textbf{Keywords --- } Remote sensing, Precision agriculture, Machine learning (ML), Deep learning (DL), Vegetation indices (NDVI, NDRE).\\
@@ -25,15 +26,15 @@ The study examines the full workflow from image acquisition and preprocessing to
 \setcounter{page}{3}
 \phantomsection
 \chapter*{{\Huge\bfseries Résumé}}
+\thispagestyle{noheader}
 \addcontentsline{toc}{chapter}{Résumé}
 
 \vspace{0.5cm}
+Le blé est une culture essentielle qui contribue de manière significative à la sécurité alimentaire mondiale. Toutefois, sa production est de plus en plus menacée par diverses maladies. Les méthodes traditionnelles de détection et de gestion s’avèrent souvent insuffisantes, car elles reposent sur des inspections manuelles et des interventions tardives. En réponse à ces limites, l’intégration des technologies agricoles intelligentes, notamment la télédétection et l’intelligence artificielle, s’impose comme une solution efficace pour une détection précoce et précise des maladies.
 
-Le blé est une culture essentielle qui contribue de manière significative à la sécurité alimentaire mondiale, mais sa production est de plus en plus menacée par diverses maladies. Les méthodes traditionnelles de détection et de gestion, reposant souvent sur des inspections manuelles et des interventions tardives, montrent leurs limites. Face à ces défis, l’intégration des technologies agricoles intelligentes, notamment la télédétection et l’intelligence artificielle, s’impose comme une solution efficace pour une détection précoce et précise des maladies.
+Ce rapport met en évidence les maladies du blé les plus répandues ainsi que les principaux ravageurs, en soulignant leur impact considérable sur la productivité agricole et l’importance cruciale d’une détection rapide et précise pour une protection efficace des cultures. Il explore ensuite le rôle transformateur de l’apprentissage profond dans les tâches de reconnaissance visuelle, telles que la classification d’images, la détection d’objets et la segmentation d’images, qui permettent une identification automatisée et précise des maladies végétales.
 
-Ce rapport explore l’utilisation des données de télédétection combinées à des techniques d’apprentissage automatique et d’apprentissage profond pour surveiller les maladies du blé. Il propose un aperçu complet des technologies d’imagerie telles que les caméras RGB, thermiques, multispectrales et hyperspectrales, ainsi que des plateformes de collecte de données, incluant les satellites, les avions et les drones (UAVs).
-
-L’étude examine l’ensemble du processus, de l’acquisition et du prétraitement des images à l’extraction des caractéristiques et à la classification basée sur différents modèles d’apprentissage. Elle met également en évidence comment la combinaison de données provenant de différentes sources peut améliorer la précision de la détection, tout en soulignant les perspectives futures pour une agriculture plus efficace et durable.
+Le rapport passe en revue les technologies d’imagerie avancées (RGB, thermique, multispectrale et hyperspectrale) ainsi que les plateformes de collecte de données telles que les satellites, les avions et les drones (UAV). Il analyse également les recherches qui intègrent les données de télédétection avec des techniques d’apprentissage automatique et d’apprentissage profond. Il examine l’ensemble du flux de traitement, depuis l’acquisition et le prétraitement des images jusqu’à l’extraction des caractéristiques et la classification basée sur les modèles, en s’appuyant sur un large éventail d’études antérieures utilisant divers modèles d’apprentissage. Le rapport explore enfin comment la combinaison de données issues de multiples sources peut améliorer la précision de détection, tout en identifiant les opportunités futures pour appliquer ces technologies à des pratiques agricoles plus efficaces et durables.
 
 \vspace{1cm}
     \noindent\rule{\linewidth}{1pt}
@@ -47,23 +48,25 @@ L’étude examine l’ensemble du processus, de l’acquisition et du prétrait
 \setcounter{page}{4}
 \phantomsection
 \chapter*{\Huge\bfseries\hfill\textRL{مـلـخـص}}
+\thispagestyle{noheader}
 \addcontentsline{toc}{chapter}{\textRL{مـلـخـص}}
 
 \vspace{0.2cm}
 
 \begin{RLtext}
-يُعد القمح من أهم المحاصيل الزراعية التي تسهم بشكل كبير في تحقيق الأمن الغذائي العالمي، إلا أن إنتاجه بات مهددًا بشكل متزايد بسبب انتشار العديد من الأمراض. تعتمد طرق الكشف والإدارة التقليدية غالبًا على الفحص اليدوي والتدخل المتأخر، مما يقلل من فعاليتها. ومن هذا المنطلق، برزت تقنيات الزراعة الذكية، لا سيما الاستشعار عن بُعد والذكاء الاصطناعي، كحلول فعالة للكشف المبكر والدقيق عن الأمراض.
+    يُعدّ القمح من المحاصيل الأساسية التي تسهم بشكل كبير في تحقيق الأمن الغذائي على مستوى العالم، إلا أن إنتاجه يواجه تهديدات متزايدة بسبب انتشار العديد من الأمراض. وغالبًا ما تكون الطرق التقليدية للكشف والمعالجة غير كافية، نظرًا لاعتمادها على الفحص اليدوي وتأخر التدخلات. وفي هذا السياق، برزت التقنيات الزراعية الذكية، لا سيما الاستشعار عن بُعد والذكاء الاصطناعي، كحلول فعّالة للكشف المبكر والدقيق عن الأمراض.
 
-يستعرض هذا التقرير استخدام بيانات الاستشعار عن بُعد بالتكامل مع تقنيات التعلم الآلي والتعلم العميق لمواجهة تحديات مراقبة أمراض القمح. ويقدم لمحة شاملة عن تقنيات التصوير مثل كاميرات RGB، والتصوير الحراري، والتصوير متعدد الأطياف، والتصوير فائق الطيف، بالإضافة إلى منصات جمع البيانات مثل الأقمار الصناعية والطائرات والطائرات بدون طيار.
+يركز هذا التقرير على أكثر أمراض القمح والآفات الحشرية انتشارًا، موضحًا آثارها السلبية على الإنتاج الزراعي، ومؤكدًا على الحاجة الملحّة للكشف المبكر والدقيق من أجل حماية فعّالة للمحاصيل. كما يتناول التقرير الدور المحوري الذي يلعبه التعلم العميق في مهام التعرف البصري، مثل تصنيف الصور، واكتشاف الأجسام، وتقسيم المشاهد، مما يُسهم في التعرف التلقائي والدقيق على الأمراض النباتية.
 
-يتناول التقرير سلسلة العمليات من الحصول على الصور ومعالجتها إلى استخراج السمات والتصنيف باستخدام نماذج متنوعة من التعلم الآلي والتعلم العميق. كما يوضح كيف يمكن لتكامل البيانات من مصادر مختلفة أن يعزز دقة الكشف، ويستعرض الفرص المستقبلية لاستخدام هذه التقنيات من أجل زراعة أكثر كفاءة واستدامة.
+ويستعرض التقرير أيضًا تقنيات التصوير المتطورة، مثل التصوير الملون، والتصوير الحراري، والتصوير متعدد الأطياف، وفائق الطيف، بالإضافة إلى وسائل جمع المعطيات مثل الأقمار الصناعية، والطائرات التقليدية، والطائرات دون طيّار. كما يناقش الأبحاث التي تدمج بيانات الاستشعار عن بُعد مع تقنيات التعلم الآلي والعميق، من خلال دراسة شاملة لسلسلة المعالجة، بدايةً من التقاط الصور ومعالجتها، مرورًا باستخلاص الخصائص، وصولًا إلى التصنيف القائم على النماذج. ويُبرز التقرير كيف يمكن أن يؤدي دمج البيانات من مصادر متعددة إلى تحسين دقة الكشف، كما يسلط الضوء على آفاق استخدام هذه التقنيات في تطوير ممارسات زراعية أكثر كفاءة واستدامة.
+
 \end{RLtext}
 
 \vspace{0.3cm}
 \hspace*{0mm}\rule{\linewidth}{1pt}
 \vspace{0.1cm}
 \begin{RLtext}
-\noindent\textbf{الكلمات المفتاحية —} الاستشعار عن بُعد، الزراعة الدقيقة، التعلم الآلي، التعلم العميق، مؤشرات الغطاء النباتي (NDVI، NDRE).
+\noindent\textbf{الكلمات المفتاحية —} الاستشعار عن بُعد، الزراعة الدقيقة، التعلم الآلي، التعلم العميق، مؤشرات الغطاء النباتي.
 \end{RLtext}
 \vspace{0.1cm}
 \rule{\linewidth}{1pt}

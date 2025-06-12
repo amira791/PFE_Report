@@ -9,173 +9,98 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Abbreviations}{xiii}{section*.10}%
+\contentsline {chapter}{Abbreviations}{xii}{section*.10}%
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{General introduction}{1}{chapter*.12}%
 \select@language {english}
-\contentsline {chapter}{\numberline {1}\bgroup \beginL \latintext Threats to Wheat Production: Disease Identification and the Shift Toward Smart Agriculture\endL \egroup }{2}{chapter.1}%
+\contentsline {chapter}{\numberline {1}\bgroup \beginL \latintext Threats to Wheat Production: Disease Identification and the Shift Toward Smart Agriculture\endL \egroup }{3}{chapter.1}%
+\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }Motivation for the protection of wheat crops}{3}{section.1.2}%
+\contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }Wheat growth stages}{4}{section.1.3}%
+\contentsline {section}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }Wheat diseases: types and impacts}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.1}\else \textLR {1.4.1}\fi }Leaf rust (Brown Rust)}{6}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.1}\else \textLR {1.4.2}\fi }Stem rust (Black Rust)}{7}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.4.1}\else \textLR {1.4.3}\fi }Stripe rust (Yellow Rust)}{7}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.4.1}\else \textLR {1.4.4}\fi }Blotch diseases}{7}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.4.1}\else \textLR {1.4.5}\fi }Fusarium head blight (FHB)}{8}{subsection.1.4.5}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.4.1}\else \textLR {1.4.6}\fi }Loose smut}{8}{subsection.1.4.6}%
+\contentsline {subsection}{\numberline {\if@rl \I {7.4.1}\else \textLR {1.4.7}\fi }Powdery mildew}{9}{subsection.1.4.7}%
+\contentsline {subsection}{\numberline {\if@rl \I {8.4.1}\else \textLR {1.4.8}\fi }Common root rot}{9}{subsection.1.4.8}%
+\contentsline {section}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }Common insect pests in wheat cultivation}{9}{section.1.5}%
+\contentsline {section}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }Enhancing wheat disease control strategies}{11}{section.1.6}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.6.1}\else \textLR {1.6.1}\fi }Usual instruments (Classic Methods)}{11}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.6.1}\else \textLR {1.6.2}\fi }Technological tools}{12}{subsection.1.6.2}%
+\contentsline {section}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }Conclusion}{12}{section.1.7}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }\bgroup \beginL \latintext Introduction\endL \egroup }{2}{section.1.1}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }\bgroup \beginL \latintext Motivation for the protection of wheat crops\endL \egroup }{2}{section.1.2}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }\bgroup \beginL \latintext Wheat growth stages\endL \egroup }{3}{section.1.3}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }\bgroup \beginL \latintext Wheat diseases: types and impacts\endL \egroup }{4}{section.1.4}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.1}\else \textLR {1.4.1}\fi }\bgroup \beginL \latintext Leaf rust (Brown Rust)\endL \egroup }{5}{subsection.1.4.1}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.1}\else \textLR {1.4.2}\fi }\bgroup \beginL \latintext Stem rust (Black Rust)\endL \egroup }{6}{subsection.1.4.2}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.4.1}\else \textLR {1.4.3}\fi }\bgroup \beginL \latintext Stripe rust (Yellow Rust)\endL \egroup }{6}{subsection.1.4.3}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {4.4.1}\else \textLR {1.4.4}\fi }\bgroup \beginL \latintext Blotch diseases\endL \egroup }{6}{subsection.1.4.4}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {5.4.1}\else \textLR {1.4.5}\fi }\bgroup \beginL \latintext Fusarium head blight (FHB)\endL \egroup }{7}{subsection.1.4.5}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {6.4.1}\else \textLR {1.4.6}\fi }\bgroup \beginL \latintext Loose smut\endL \egroup }{7}{subsection.1.4.6}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {7.4.1}\else \textLR {1.4.7}\fi }\bgroup \beginL \latintext Powdery mildew\endL \egroup }{8}{subsection.1.4.7}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {8.4.1}\else \textLR {1.4.8}\fi }\bgroup \beginL \latintext Common root rot\endL \egroup }{8}{subsection.1.4.8}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }\bgroup \beginL \latintext Common insect pests in wheat cultivation\endL \egroup }{8}{section.1.5}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }\bgroup \beginL \latintext Enhancing wheat disease control strategies\endL \egroup }{10}{section.1.6}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.6.1}\else \textLR {1.6.1}\fi }\bgroup \beginL \latintext Usual instruments (Classic Methods)\endL \egroup }{10}{subsection.1.6.1}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.6.1}\else \textLR {1.6.2}\fi }\bgroup \beginL \latintext Technological tools\endL \egroup }{11}{subsection.1.6.2}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }\bgroup \beginL \latintext Conclusion\endL \egroup }{12}{section.1.7}%
-\select@language {english}
-\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext Applications of Deep Learning in Visual Recognition of Wheat Diseases\endL \egroup }{13}{chapter.2}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }\bgroup \beginL \latintext Introduction\endL \egroup }{13}{section.2.1}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }\bgroup \beginL \latintext Deep learning fundamentals\endL \egroup }{13}{section.2.2}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.2}\else \textLR {2.2.1}\fi }\bgroup \beginL \latintext Deep neural network basics (DNN)\endL \egroup }{14}{subsection.2.2.1}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Definition of DNN\endL \egroup }{14}{section*.25}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Structure of DNN\endL \egroup }{14}{section*.27}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Activation functions\endL \egroup }{15}{section*.30}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.2}\else \textLR {2.2.2}\fi }\bgroup \beginL \latintext Learning process in deep neural networks\endL \egroup }{15}{subsection.2.2.2}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.2}\else \textLR {2.2.3}\fi }\bgroup \beginL \latintext Model training concepts\endL \egroup }{17}{subsection.2.2.3}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Loss Functions\endL \egroup }{17}{section*.33}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Overfitting prevention\endL \egroup }{18}{section*.34}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Batch normalization\endL \egroup }{18}{section*.35}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {4.2.2}\else \textLR {2.2.4}\fi }\bgroup \beginL \latintext Optimization methods and strategies\endL \egroup }{18}{subsection.2.2.4}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {5.2.2}\else \textLR {2.2.5}\fi }\bgroup \beginL \latintext Model evaluation and validation\endL \egroup }{18}{subsection.2.2.5}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }\bgroup \beginL \latintext Core computer vision tasks in agriculture\endL \egroup }{19}{section.2.3}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }\bgroup \beginL \latintext Image classification\endL \egroup }{19}{subsection.2.3.1}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Fundamentals of \gls {abb:cnn}s\endL \egroup }{19}{section*.36}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Convolutional Neural Network Architectures for Image Classification\endL \egroup }{22}{section*.41}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Transfer learning and pretrained models\endL \egroup }{22}{section*.42}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.2}\else \textLR {2.3.2}\fi }\bgroup \beginL \latintext Object detection\endL \egroup }{23}{subsection.2.3.2}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Key architectures\endL \egroup }{24}{section*.44}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext You Only Look Once (\gls {abb:yolo})\endL \egroup }{24}{section*.45}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext R-\gls {abb:cnn}\endL \egroup }{25}{section*.47}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Single Shot Multibox Detector (\gls {abb:ssd})\endL \egroup }{26}{section*.49}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.3.2}\else \textLR {2.3.3}\fi }\bgroup \beginL \latintext Image segmentation\endL \egroup }{26}{subsection.2.3.3}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Pyramid Scene Parsing Network (PSPNet)\endL \egroup }{27}{section*.51}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext U-Net model architecture\endL \egroup }{27}{section*.53}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext DeepLabV3+\endL \egroup }{28}{section*.55}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }\bgroup \beginL \latintext Conclusion\endL \egroup }{29}{section.2.4}%
+\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext Applications of Deep Learning in Visual Recognition of Wheat Diseases\endL \egroup }{14}{chapter.2}%
+\contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }Introduction}{14}{section.2.1}%
+\contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }Deep learning fundamentals}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.2}\else \textLR {2.2.1}\fi }Deep neural network basics (DNN)}{14}{subsection.2.2.1}%
+\contentsline {subsubsection}{Definition of DNN}{15}{subsection.2.2.1}%
+\contentsline {subsubsection}{Structure of DNN}{15}{figure.caption.25}%
+\contentsline {subsubsection}{Activation functions}{16}{AMS.27}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.2}\else \textLR {2.2.2}\fi }Learning process in deep neural networks}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.2}\else \textLR {2.2.3}\fi }Model training concepts}{18}{subsection.2.2.3}%
+\contentsline {subsubsection}{Loss Functions}{18}{subsection.2.2.3}%
+\contentsline {subsubsection}{Overfitting prevention}{18}{subsection.2.2.3}%
+\contentsline {subsubsection}{Batch normalization}{18}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.2.2}\else \textLR {2.2.4}\fi }Optimization methods and strategies}{19}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.2.2}\else \textLR {2.2.5}\fi }Model evaluation and validation}{19}{subsection.2.2.5}%
+\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Core computer vision tasks in agriculture}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }Image classification}{20}{subsection.2.3.1}%
+\contentsline {subsubsection}{Fundamentals of \gls {abb:cnn}s}{20}{subsection.2.3.1}%
+\contentsline {subsubsection}{Convolutional Neural Network Architectures for Image Classification}{22}{figure.caption.32}%
+\contentsline {subsubsection}{Transfer learning and pretrained models}{22}{figure.caption.32}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.2}\else \textLR {2.3.2}\fi }Object detection}{23}{subsection.2.3.2}%
+\contentsline {subsubsection}{Evaluation metrics in object detection}{24}{subsection.2.3.2}%
+\contentsline {subsubsection}{Key architectures}{25}{subsection.2.3.2}%
+\contentsline {subsubsection}{You Only Look Once (\gls {abb:yolo})}{25}{subsection.2.3.2}%
+\contentsline {subsubsection}{R-\gls {abb:cnn}}{25}{figure.caption.34}%
+\contentsline {subsubsection}{Single Shot Multibox Detector (\gls {abb:ssd})}{26}{figure.caption.35}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.3.2}\else \textLR {2.3.3}\fi }Image segmentation}{27}{subsection.2.3.3}%
+\contentsline {subsubsection}{Pyramid Scene Parsing Network (PSPNet)}{27}{subsection.2.3.3}%
+\contentsline {subsubsection}{U-Net model architecture}{27}{figure.caption.37}%
+\contentsline {subsubsection}{DeepLabV3+}{28}{figure.caption.38}%
+\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Challenges of Deep Learning in Agricultural Contexts}{29}{section.2.4}%
+\contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Conclusion}{29}{section.2.5}%
 \select@language {english}
 \contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Integrating Remote Sensing and AI-Based Methods for Early Detection of Wheat Diseases\endL \egroup }{30}{chapter.3}%
+\contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }Introduction}{30}{section.3.1}%
+\contentsline {section}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }Imaging technologies in remote sensing}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }\gls {abb:rgb} cameras (Red, Green, Blue)}{31}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }Near-Infrared (NIR) cameras}{31}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.3}\else \textLR {3.2.3}\fi }Thermal infrared cameras}{31}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.2.3}\else \textLR {3.2.4}\fi }Multispectral cameras}{31}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.2.3}\else \textLR {3.2.5}\fi }\gls {abb:lidar} cameras (Light Detection and Ranging)}{32}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.2.3}\else \textLR {3.2.6}\fi }Hyperspectral cameras}{32}{subsection.3.2.6}%
+\contentsline {section}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }Remote Sensing platforms}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }Satellite-Based imaging}{32}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }Aircraft-Based imaging}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }\gls {abb:uav}-Based imaging}{34}{subsection.3.3.3}%
+\contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }Vegetation indices}{34}{section.3.4}%
+\contentsline {section}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }Image processing}{35}{section.3.5}%
+\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }Applications of remote sensing data}{37}{section.3.6}%
+\contentsline {section}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }Workflow for integrating remote sensing and \gls {abb:ml}/\gls {abb:dl} in wheat disease detection}{38}{section.3.7}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.7.3}\else \textLR {3.7.1}\fi }Features extraction}{38}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.7.3}\else \textLR {3.7.2}\fi }Statistics-Based methods}{39}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.7.3}\else \textLR {3.7.3}\fi }Conventional machine learning (ML)-Based methods}{40}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.7.3}\else \textLR {3.7.4}\fi }Deep learning (DL)-Based methods}{41}{subsection.3.7.4}%
+\contentsline {subsubsection}{Pixel-Based Segmentation Models}{42}{figure.caption.48}%
+\contentsline {subsubsection}{Object-Level classification models}{42}{figure.caption.48}%
+\contentsline {section}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }Fusion of satellite and \gls {abb:uav} data}{43}{section.3.8}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.8.3}\else \textLR {3.8.1}\fi }Systematic categorization of UAV/Satellite monitoring methods}{44}{subsection.3.8.1}%
+\contentsline {subsubsection}{Data comparison strategy}{45}{figure.caption.51}%
+\contentsline {subsubsection}{Multiscale explanation strategy}{45}{figure.caption.52}%
+\contentsline {subsubsection}{Model calibration strategy}{45}{figure.caption.53}%
+\contentsline {subsubsection}{Data fusion strategy}{46}{figure.caption.54}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.8.3}\else \textLR {3.8.2}\fi }Challenges of UAV/Satellite data fusion}{46}{subsection.3.8.2}%
+\contentsline {section}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }Challenges in integrating remote sensing with \gls {abb:ml}/\gls {abb:dl}}{47}{section.3.9}%
+\contentsline {section}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }Future perspectives}{47}{section.3.10}%
+\contentsline {section}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }Conclusion}{48}{section.3.11}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }\bgroup \beginL \latintext Introduction\endL \egroup }{30}{section.3.1}%
+\contentsline {chapter}{General conclusion}{49}{chapter*.56}%
 \select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }\bgroup \beginL \latintext Imaging technologies in remote sensing\endL \egroup }{30}{section.3.2}%
+\contentsline {chapter}{Bibliography}{50}{chapter*.57}%
 \select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }\bgroup \beginL \latintext \gls {abb:rgb} cameras (Red, Green, Blue)\endL \egroup }{31}{subsection.3.2.1}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }\bgroup \beginL \latintext Near-Infrared (NIR) cameras\endL \egroup }{31}{subsection.3.2.2}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.3}\else \textLR {3.2.3}\fi }\bgroup \beginL \latintext Thermal infrared cameras\endL \egroup }{31}{subsection.3.2.3}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {4.2.3}\else \textLR {3.2.4}\fi }\bgroup \beginL \latintext Multispectral cameras\endL \egroup }{31}{subsection.3.2.4}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {5.2.3}\else \textLR {3.2.5}\fi }\bgroup \beginL \latintext \gls {abb:lidar} cameras (Light Detection and Ranging)\endL \egroup }{32}{subsection.3.2.5}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {6.2.3}\else \textLR {3.2.6}\fi }\bgroup \beginL \latintext Hyperspectral cameras\endL \egroup }{32}{subsection.3.2.6}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }\bgroup \beginL \latintext Remote Sensing platforms\endL \egroup }{32}{section.3.3}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }\bgroup \beginL \latintext Satellite-Based imaging\endL \egroup }{32}{subsection.3.3.1}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }\bgroup \beginL \latintext Aircraft-Based imaging\endL \egroup }{33}{subsection.3.3.2}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }\bgroup \beginL \latintext \gls {abb:uav}-Based imaging\endL \egroup }{34}{subsection.3.3.3}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }\bgroup \beginL \latintext Vegetation indices\endL \egroup }{35}{section.3.4}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }\bgroup \beginL \latintext Image processing\endL \egroup }{35}{section.3.5}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }\bgroup \beginL \latintext Applications of remote sensing data\endL \egroup }{37}{section.3.6}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }\bgroup \beginL \latintext Workflow for integrating remote sensing and \gls {abb:ml}/\gls {abb:dl} in wheat disease detection\endL \egroup }{38}{section.3.7}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.7.3}\else \textLR {3.7.1}\fi }\bgroup \beginL \latintext Features extraction\endL \egroup }{39}{subsection.3.7.1}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.7.3}\else \textLR {3.7.2}\fi }\bgroup \beginL \latintext Statistics-Based methods\endL \egroup }{39}{subsection.3.7.2}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {3.7.3}\else \textLR {3.7.3}\fi }\bgroup \beginL \latintext Conventional machine learning (ML)-Based methods\endL \egroup }{40}{subsection.3.7.3}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {4.7.3}\else \textLR {3.7.4}\fi }\bgroup \beginL \latintext Deep learning (DL)-Based methods\endL \egroup }{42}{subsection.3.7.4}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Pixel-Based Segmentation Models\endL \egroup }{42}{section*.66}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Object-Level classification models\endL \egroup }{43}{section*.67}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }\bgroup \beginL \latintext Fusion of satellite and \gls {abb:uav} data\endL \egroup }{44}{section.3.8}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {1.8.3}\else \textLR {3.8.1}\fi }\bgroup \beginL \latintext Systematic categorization of UAV/Satellite monitoring methods\endL \egroup }{44}{subsection.3.8.1}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Data comparison strategy\endL \egroup }{45}{section*.71}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Multiscale explanation strategy\endL \egroup }{46}{section*.73}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Model calibration strategy\endL \egroup }{46}{section*.75}%
-\select@language {english}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Data fusion strategy\endL \egroup }{47}{section*.77}%
-\select@language {english}
-\contentsline {subsection}{\numberline {\if@rl \I {2.8.3}\else \textLR {3.8.2}\fi }\bgroup \beginL \latintext Challenges of UAV/Satellite data fusion\endL \egroup }{47}{subsection.3.8.2}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }\bgroup \beginL \latintext Challenges in integrating remote sensing with \gls {abb:ml}/\gls {abb:dl}\endL \egroup }{48}{section.3.9}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }\bgroup \beginL \latintext Future perspectives\endL \egroup }{48}{section.3.10}%
-\select@language {english}
-\contentsline {section}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }\bgroup \beginL \latintext Conclusion\endL \egroup }{49}{section.3.11}%
-\select@language {english}
-\contentsline {chapter}{General conclusion}{50}{chapter*.79}%
-\select@language {english}
-\contentsline {chapter}{Bibliography}{51}{chapter*.80}%
-\select@language {english}
-\contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Overview of Lightweight Neural Network Architectures and Vegetation Indices for Plant Disease Detection\endL \egroup }{55}{appendix.1.A}%
+\contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Overview of Lightweight Neural Network Architectures and Vegetation Indices for Plant Disease Detection\endL \egroup }{54}{appendix.1.A}%

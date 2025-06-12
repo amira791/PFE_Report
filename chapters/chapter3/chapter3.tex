@@ -9,10 +9,17 @@ This chapter presents an overview of the imaging tools and platforms used in agr
 \section{Imaging technologies in remote sensing}
 Imaging technologies play a key role in remote sensing systems by capturing high-resolution images of the Earth’s surface, which are crucial for agricultural monitoring. These technologies use different types of cameras to detect various parts of the electromagnetic spectrum (Figure~\ref{fig:ImageAcquisition}), enabling detailed analysis of vegetation, soil, and environmental conditions. The choice of camera depends on the specific agricultural purpose, such as disease detection, crop monitoring, or environmental assessment.
 
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9
+%     \textwidth]{chapters/chapter3/images/Figure01.png}
+%     \caption{Image acquisition techniques \protect\parencite{ghazal2024computer}.}
+%     \label{fig:ImageAcquisition}
+% \end{figure}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
-    \textwidth]{chapters/chapter3/images/Figure01.png}
+    \includegraphics[width=\textwidth]{chapters/chapter3/images/Figure01.png}
     \caption{Image acquisition techniques \protect\parencite{ghazal2024computer}.}
     \label{fig:ImageAcquisition}
 \end{figure}
@@ -24,7 +31,7 @@ Imaging technologies play a key role in remote sensing systems by capturing high
 
 \subsection{Near-Infrared (NIR) cameras}
 
-\gls{abb:nir} cameras capture images in the near-infrared spectrum, which lies just beyond the visible light range. These cameras are sensitive to light wavelengths that are not visible to the human eye, typically ranging from 700 to 1300 nm \parencite{delavarpour2021technical}. \gls{abb:nir} imaging is particularly valuable in plant health monitoring as it can detect subtle changes in vegetation that are not visible in the visible light spectrum.
+Near-Infrared cameras capture images in the near-infrared spectrum, which lies just beyond the visible light range. These cameras are sensitive to light wavelengths that are not visible to the human eye, typically ranging from 700 to 1300 nm \parencite{delavarpour2021technical}. \gls{abb:nir} imaging is particularly valuable in plant health monitoring as it can detect subtle changes in vegetation that are not visible in the visible light spectrum.
 
 \subsection{Thermal infrared cameras}
 
@@ -126,7 +133,7 @@ Vegetation indices are mathematical formulas that combine light reflectance data
 
 Thermal and infrared indices, including CWSI (Crop Water Stress Index) and SIWSI (Shortwave Infrared Water Stress Index), use thermal radiation data to estimate plant temperature, water stress, and transpiration, aiding in drought detection, crop yield estimation, and disease monitoring \parencite{sishodia2020applications}. For more vegetation indices, their mathematical formulas, and detailed applications, refer to Appendix~\ref{app:annexA}.
 \begin{table}[htbp]
-    \caption{Some recently used vegetation indices for remote sensing applications in precision agriculture.}
+    \caption{Some recently used vegetation indices for remote sensing applications in precision agriculture \parencite{sishodia2020applications}.}
     \centering
     \resizebox{\textwidth}{!}{%
     \begin{tabular}{|p{4cm}|p{5cm}|p{6cm}|}

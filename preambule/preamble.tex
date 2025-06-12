@@ -88,6 +88,12 @@
   \renewcommand{\headrulewidth}{0.4pt}
 }
 
+\fancypagestyle{noheader}{
+  \fancyhf{} % clear header and footer
+  \fancyfoot[R]{\thepage} % keep page number
+  \renewcommand{\headrulewidth}{0pt} % remove header line
+}
+
 
 
 \usepackage{enumitem}
@@ -104,7 +110,18 @@
 \makesavenoteenv{table}
 
 
-\setlength{\parskip}{.4cm}
+% \usepackage{setspace}
+% \onehalfspacing 
+
+\setlength{\parskip}{6pt}
+
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{12pt}{12pt}
+\titlespacing{\subsection}{0pt}{12pt}{12pt}
+\titlespacing{\subsubsection}{0pt}{12pt}{12pt}
+
+
+
 \import{preambule}{theorems}
 
 \input{preambule/notations}
