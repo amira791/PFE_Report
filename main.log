@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  12 JUN 2025 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  12 JUN 2025 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3722,12 +3722,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
 [56 <./chapters/chapter1/images/Figure10.png>]
-<chapters/chapter1/images/Figure12.png, id=1376, 523.20468pt x 371.88937pt>
+<chapters/chapter1/images/Figure12.png, id=1376, 144.54pt x 49.6254pt>
 File: chapters/chapter1/images/Figure12.png Graphic file (type png)
 <use chapters/chapter1/images/Figure12.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure12.png  used on input l
 ine 105.
-(pdftex.def)             Requested size: 273.14923pt x 194.15532pt.
+(pdftex.def)             Requested size: 273.14923pt x 93.7864pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3736,7 +3736,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[57 <./chapters/chapter1/images/Figure11.png>]
+[57 <./chapters/chapter1/images/Figure11.png> <./chapters/chapter1/images/Figur
+e12.png>]
 <appendices/images/MobileNet.png, id=1387, 696.35156pt x 310.91156pt>
 File: appendices/images/MobileNet.png Graphic file (type png)
 <use appendices/images/MobileNet.png>
@@ -3751,13 +3752,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[58 <./chapters/chapter1/images/Figure12.png>]
+[58 <./appendices/images/MobileNet.png>]
 <chapters/chapter1/images/Figure13.png, id=1396, 796.47563pt x 370.38374pt>
 File: chapters/chapter1/images/Figure13.png Graphic file (type png)
 <use chapters/chapter1/images/Figure13.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure13.png  used on input l
 ine 133.
 (pdftex.def)             Requested size: 364.19667pt x 169.3613pt.
+<appendices/images/ShuffleNet.png, id=1399, 293.59688pt x 505.13719pt>
+File: appendices/images/ShuffleNet.png Graphic file (type png)
+<use appendices/images/ShuffleNet.png>
+Package pdftex.def Info: appendices/images/ShuffleNet.png  used on input line 1
+48.
+(pdftex.def)             Requested size: 182.09486pt x 313.29744pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3766,15 +3773,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[59 <./appendices/images/MobileNet.png> <./chapters/chapter1/images/Figure13.pn
-g>]
-<appendices/images/ShuffleNet.png, id=1406, 293.59688pt x 505.13719pt>
-File: appendices/images/ShuffleNet.png Graphic file (type png)
-<use appendices/images/ShuffleNet.png>
-Package pdftex.def Info: appendices/images/ShuffleNet.png  used on input line 1
-48.
-(pdftex.def)             Requested size: 182.09486pt x 313.29744pt.
-
+[59 <./chapters/chapter1/images/Figure13.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 192--192
 []|\T1/ptm/m/n/12 (Bhandari
  []
@@ -4257,9 +4256,9 @@ sers/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C:/U
 sers/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pfb><
 C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14bf
 .pfb>
-Output written on main.pdf (75 pages, 24001636 bytes).
+Output written on main.pdf (75 pages, 23848655 bytes).
 PDF statistics:
- 1788 PDF objects out of 2073 (max. 8388607)
+ 1787 PDF objects out of 2073 (max. 8388607)
  292 named destinations out of 1000 (max. 500000)
  817 words of extra memory for PDF output out of 10000 (max. 10000000)
 
