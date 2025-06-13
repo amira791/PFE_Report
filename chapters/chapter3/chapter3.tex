@@ -1,225 +1,242 @@
 \chapter{Integrating Remote Sensing and AI-Based Methods for Early Detection of Wheat Diseases}
 
 \section{Introduction}
-Remote sensing technologies have become essential tools in modern agriculture, offering scalable and timely monitoring of crop conditions. Leveraging satellite and drone imagery, farmers and researchers can observe wheat fields with high spatial and temporal resolution, enabling the assessment of plant health and the early detection of disease symptoms. These technologies generate rich datasets that, when integrated with advanced machine learning (\gls{abb:ml}) and deep learning (\gls{abb:dl}) algorithms, facilitate precise identification, classification, and even prediction of wheat diseases. This synergy between remote sensing and \gls{abb:ai}-driven analysis contributes significantly to proactive crop management and improved agricultural productivity.
+Wheat is one of the most essential cereal crops globally, and its productivity is highly threatened by various diseases. Traditional methods of crop monitoring often fall short in providing timely and accurate detection, especially at scale. The integration of remote sensing technologies with artificial intelligence (AI) approaches such as machine learning (ML) and deep learning (DL) opens new possibilities for precision agriculture.
 
-
-This chapter presents an overview of the imaging tools and platforms used in agricultural remote sensing, followed by a focus on how \gls{abb:ml}/\gls{abb:dl} methods process this data to detect diseases in wheat crops. It highlights key workflows, data fusion techniques, and real-world examples, offering a practical perspective on improving disease management through technology
-
-\section{Imaging technologies in remote sensing}
-Imaging technologies play a key role in remote sensing systems by capturing high-resolution images of the Earth’s surface, which are crucial for agricultural monitoring. These technologies use different types of cameras to detect various parts of the electromagnetic spectrum (Figure~\ref{fig:ImageAcquisition}), enabling detailed analysis of vegetation, soil, and environmental conditions. The choice of camera depends on the specific agricultural purpose, such as disease detection, crop monitoring, or environmental assessment.
-
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.9
-%     \textwidth]{chapters/chapter3/images/Figure01.png}
-%     \caption{Image acquisition techniques \protect\parencite{ghazal2024computer}.}
-%     \label{fig:ImageAcquisition}
-% \end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{chapters/chapter3/images/Figure01.png}
-    \caption{Image acquisition techniques \protect\parencite{ghazal2024computer}.}
-    \label{fig:ImageAcquisition}
-\end{figure}
+This chapter aims to explore how these complementary tools can be combined to monitor wheat health and detect diseases early. We begin by outlining the motivation behind this integration, reviewing the major types of wheat diseases, and then discussing the methodologies and workflows for combining remote sensing data with intelligent AI-based analysis.
 
 
 
-\subsection{\gls{abb:rgb} cameras (Red, Green, Blue)}
-\gls{abb:rgb} cameras are the most common type of imaging technology used in remote sensing. They capture images in the visible light spectrum (red, green, and blue wavelengths), similar to how the human eye perceives the world \parencite{delavarpour2021technical}.
 
-\subsection{Near-Infrared (NIR) cameras}
+\section{Motivation for the protection of wheat crops}
 
-Near-Infrared cameras capture images in the near-infrared spectrum, which lies just beyond the visible light range. These cameras are sensitive to light wavelengths that are not visible to the human eye, typically ranging from 700 to 1300 nm \parencite{delavarpour2021technical}. \gls{abb:nir} imaging is particularly valuable in plant health monitoring as it can detect subtle changes in vegetation that are not visible in the visible light spectrum.
+Wheat is an ancient and vital food crop that provides energy and feeds billions of people around the world (see Figure~\ref{fig:Figure001}). Its demand is growing quickly because it’s used in many affordable food products and plays a big role in global food security. The \gls{abb:fao} estimates that by 2050, the world will need about 840 million tonnes of wheat, up from 642 million tonnes today \parencite{sharma2015wheat}. This doesn’t even include the extra needs like animal feed or the impact of climate change.
 
-\subsection{Thermal infrared cameras}
+The global importance of wheat is further reflected in its massive export volumes, with leading producers shipping tens of millions of tonnes annually (see Table~\ref{tab:wheat_exports_2022}), demonstrating its critical role in both domestic consumption and international food supply chains. To meet the growing demand, developing countries need to increase wheat production by 77\%, mostly by improving how much wheat is grown on the same land \parencite{sharma2015wheat}. But this is becoming harder, as wheat productivity is slowing down and diseases are becoming a bigger problem. If we don’t manage pests and diseases properly, wheat production could fall short of what the world needs.
 
-Thermal infrared cameras capture images based on the heat emitted by objects, operating in the infrared spectrum (wavelengths typically ranging from 8,000 to 14,000 nm). They detect temperature differences and translate them into visual representations, making them invaluable for identifying heat-related patterns in crops and soil \parencite{delavarpour2021technical}.
-
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8
-%     \textwidth]{chapters/chapter3/images/Figure04.png}
-%     \caption{Examples of acquired thermal images from FLIR Tau 2 and WIRIS 2nd Gen at two different UAV flight heights. RGB images acquired by the RGB cameras mounted on the same UAVs were also provided. ‘‘T’’ in the graphs refers to the measured temperature by the corresponding thermal cameras \protect\parencite{wan2024optimizing}.}
-%     \label{fig:thermalimages}
-% \end{figure}
+That’s why it's important to invest in research, use better farming methods, and grow disease-resistant wheat. Protecting this essential crop is key to making sure we have enough food for the future.
 
 
-\subsection{Multispectral cameras}
-
-Multispectral cameras capture images across multiple spectral bands, including visible (red, green, blue) and non-visible wavelengths (near-infrared and red-edge) across a limited number of discrete bands, each covering a wider spectral range spanning tens to hundreds of nanometers \parencite{lu2020recent}. These cameras typically have 5 to 10 bands, enabling detailed analysis of plant health and environmental conditions \parencite{delavarpour2021technical}. They are essential for applications that require data beyond what RGB cameras can provide.
-
-\subsection{\gls{abb:lidar} cameras (Light Detection and Ranging)}
-
-\gls{abb:lidar} cameras use laser pulses to measure distances by calculating the time it takes for the laser to bounce back from a surface. This technology generates high-resolution 3D maps, capturing detailed information about the shape and structure of the terrain, vegetation, and other objects. \gls{abb:lidar} operates effectively in various environmental conditions, including low light or dense canopy cover \parencite{delavarpour2021technical}.
-
-\subsection{Hyperspectral cameras}
-Hyperspectral cameras capture images across a vast range of continuous, narrow spectral bands, often exceeding hundreds. These bands typically have a spectral resolution below 10 nanometers, covering both visible and non-visible wavelengths. The fine-scale spectral data collected allows for the detection of subtle variations in reflectance, enabling detailed analysis of crop conditions, such as disease identification and nutrient stress. This high-resolution imaging is crucial for precision agriculture, where detecting subtle differences can significantly impact decision-making and yield optimization \parencite{delavarpour2021technical} \parencite{lu2020recent}.
-
-\section{Remote Sensing platforms}
-Remote sensing platforms are categorized based on their altitude and mobility, each offering unique capabilities for capturing agricultural data. The three main types are satellite-based imaging, UAV (drone) imaging, and aircraft imaging.
-
-\subsection{Satellite-Based imaging}
-Satellite-based imaging involves the use of Earth-observing satellites equipped with multispectral sensors to capture detailed images of the Earth's surface. These satellites, such as Quickbird and Landsat-1, can capture high-resolution images, providing data with varying levels of precision. Early satellite systems offered up to 6.5 meters per pixel in resolution \parencite{phang2023satellite}, while modern systems have significantly improved both spatial and spectral resolution. These advancements enable more accurate and comprehensive monitoring of large areas, laying the foundation for a wide range of applications, including agriculture and environmental studies \parencite{adao2017hyperspectral}. Despite its many advantages, satellite-based imaging also presents several challenges and limitations that must be considered in agricultural applications, including:
-
-\begin{itemize}
-    \item \textbf{Coarse Resolution:} The resolution of satellite imagery can be too coarse for some applications. For instance, imagery from platforms like Sentinel-2 (up to 10 m resolution) may not be detailed enough for fields with closely spaced rows, such as vines, leading to mixed pixel data that combines multiple rows and soil \parencite{adao2017hyperspectral}.
-    
-    \item \textbf{Data Processing Complexity:} Due to the coarse resolution, advanced methods like computer vision classifiers and statistical decision trees are often required to extract useful information, such as detecting shrubs or distinguishing plant species \parencite{phang2023from}.
-    
-    \item \textbf{Mixed Pixel Issue:} Low-resolution pixels, like those from Landsat, result in mixed data, complicating analysis and interpretation, especially in detailed applications \parencite{delavarpour2021technical}.
-    
-    \item \textbf{Spatiotemporal Challenges:} Obtaining timely spatiotemporal data on crop phenological status during critical growth periods is difficult, especially due to cloud coverage \parencite{delavarpour2021technical}.
-    
-    \item \textbf{High Costs:} Accessing satellite data equipped with multispectral sensors can be expensive, which limits its use for some applications \parencite{delavarpour2021technical}.
-  \end{itemize}
-  
-
-\subsection{Aircraft-Based imaging}
-
-Aircraft-based imaging involves the use of piloted or unpiloted aircraft, such as airplanes, equipped with various remote sensing tools to capture high-resolution imagery and sensor data over large agricultural areas. These systems offer a significant advantage in large-scale applications due to their flexibility and ability to carry heavier payloads of sensors, making them a viable alternative to satellite-based or \gls{abb:uav}-based solutions \parencite{delavarpour2021technical}.
-Before the widespread adoption of \gls{abb:uav}s, manned aircraft were commonly employed for lower-to-ground remote sensing, utilizing multi-spectral or electro-optic (EO) sensors to monitor agricultural conditions \parencite{phang2023satellite}, However, this approach also faces several limitations, including:
-
-\begin{itemize}
-    \item \textbf{High Operational Costs:} Operating aircraft-based systems involves significant expenses for fuel, maintenance, and pilot salaries, making them less affordable compared to UAVs \parencite{delavarpour2021technical, phang2023from}.
-    
-    \item \textbf{Complex Logistics and Pilot Requirement:} Certified pilots and specific flight logistics are essential, adding complexity and reducing flexibility in deployment \parencite{adao2017hyperspectral}.
-    
-    \item \textbf{Limited Flexibility:} Aircraft require designated takeoff and landing zones, restricting their use in remote or uneven terrains \parencite{delavarpour2021technical}.
-    
-    \item \textbf{Weather Sensitivity:} Adverse weather conditions, such as strong winds or rain, can impact flight stability and data quality, limiting operations during critical periods \parencite{delavarpour2021technical}.
-    
-    \item \textbf{Regulatory and Airspace Restrictions:} Aircraft-based systems are subject to strict aviation regulations and airspace restrictions, limiting their operational scope \parencite{delavarpour2021technical}.
-    
-    \item \textbf{High Data Processing Requirements:} Large volumes of data generated require specialized software and computing resources, making data processing resource-intensive \parencite{delavarpour2021technical}.
-    
-    \item \textbf{Costly for Large-Scale Use:} The expense and complexity of these systems make them impractical for frequent large-scale monitoring, favoring UAV alternatives for cost efficiency \parencite{phang2023from}.
-    
-    \item \textbf{Resolution Limitations:} Although aircraft provide better resolution than satellites, their imagery can still be too coarse for some precision applications \parencite{adao2017hyperspectral}.
-  \end{itemize}
-  
-\subsection{\gls{abb:uav}-Based imaging}
-
-Unmanned Aerial Vehicles (\gls{abb:uav}s), or drones, are versatile remote sensing platforms that have become essential tools in remote sensing due to their cost-effectiveness, flexibility, and ability to capture high-resolution (cm-level) images, making them ideal for precision agriculture \parencite{sishodia2020applications}. \gls{abb:uav}-based imaging typically involves using low-altitude remote Sensing Systems to acquire detailed imagery of the Earth’s surface at low altitudes, providing high precision and adaptability \parencite{phang2023satellite}.
-
-Unlike traditional satellite platforms, \gls{abb:uav}s offer several advantages, including on-demand data collection, high-resolution imagery, and flexible deployment, which enable real-time monitoring and analysis \parencite{phang2023satellite}. A complete Unmanned Aerial System (UAS) includes the \gls{abb:uav} and its remote sensing equipment, operating without a human pilot onboard, and is capable of carrying various sensors tailored to different agricultural needs \parencite{adao2017hyperspectral}, Despite their advantages, \gls{abb:uav}s also face some challenges, including:
-
-\begin{itemize}
-    \item \textbf{Short Flight Duration:} \gls{abb:uav}s, especially smaller models, often have flight durations of less than 30 minutes, which limits their coverage area, particularly for large-scale agricultural operations \parencite{phang2023from}.
-    
-    \item \textbf{Regulatory Challenges:} Stricter regulations, especially for larger \gls{abb:uav}ss, slow down their adoption and innovation, hindering their widespread use \parencite{phang2023from, delavarpour2021technical}.
-    
-    \item \textbf{Scalability:} \gls{abb:uav}-based remote sensing requires trained pilots and continuous monitoring, which limits scalability, particularly for small-scale applications \parencite{phang2023from}.
-    
-    \item \textbf{Environmental Sensitivity and Calibration Issues:} Hyperspectral sensors on \gls{abb:uav}ss face challenges related to environmental factors such as light exposure and atmospheric interference, necessitating frequent recalibration \parencite{adao2017hyperspectral}.
-    
-    \item \textbf{Weather Dependency:} \gls{abb:uav}s are susceptible to weather conditions like wind and rain, which can affect both flight stability and data quality \parencite{delavarpour2021technical}.
-    
-    \item \textbf{Battery Life:} The limited battery life of \gls{abb:uav}ss impacts their ability to cover large areas, particularly in extensive agricultural fields \parencite{delavarpour2021technical}.
-  \end{itemize}
-  
-\section{Vegetation indices}
-Vegetation indices are mathematical formulas that combine light reflectance data from different spectral bands (such as visible, near-infrared, and mid-infrared) captured by sensors on drones or satellites to assess plant health and condition. These indices provide valuable insights into growth stages, plant vigor, biomass, and chlorophyll levels \parencite{sishodia2020applications}. Plants reflect sunlight differently based on their type, structure, and water content: they reflect little in the blue and red regions, more in green (which makes them appear green), and strongly in the near-infrared (\gls{abb:nir}) if healthy (Figure~\ref{fig:bluegreenred}). 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8
-    \textwidth]{chapters/chapter3/images/Figure05.png}
-    \caption{Unique optical reflectance signature differences of blue, green, red, and near-infrared light emitted from dead, stressed, and healthy plant tissue \protect\parencite{olson2021review}.}
-    \label{fig:bluegreenred}
-\end{figure}
-
-
-Thermal and infrared indices, including CWSI (Crop Water Stress Index) and SIWSI (Shortwave Infrared Water Stress Index), use thermal radiation data to estimate plant temperature, water stress, and transpiration, aiding in drought detection, crop yield estimation, and disease monitoring \parencite{sishodia2020applications}. For more vegetation indices, their mathematical formulas, and detailed applications, refer to Appendix~\ref{app:annexA}.
-\begin{table}[htbp]
-    \caption{Some recently used vegetation indices for remote sensing applications in precision agriculture \parencite{sishodia2020applications}.}
-    \centering
-    \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|p{4cm}|p{5cm}|p{6cm}|}
-    \hline
-    \textbf{Spectral Index} & \textbf{Equation} & \textbf{Application} \\
-    \hline
-    Normalized Difference Vegetation Index (NDVI) & $NDVI = \frac{\text{NIR} - \text{Red}}{\text{NIR} + \text{Red}}$ & Measure of healthy, green vegetation \\
-    \hline
-    Green Normalized Difference Vegetation Index (GNDVI) & $GNDVI = \frac{\text{NIR} - \text{Green}}{\text{NIR} + \text{Green}}$ & Measure of healthy, green vegetation; higher chlorophyll concentration sensitivity than NDVI \\
-    \hline
-    Red Edge Normalized Difference Vegetation Index (RENDVI) & $RENDVI = \frac{\text{NIR} - \text{Red Edge}}{\text{NIR} + \text{Red Edge}}$ & Modification of NDVI; capitalizes on the sensitivity of the vegetation red edge \\
-    \hline
-    Soil Adjusted Vegetation Index (SAVI) & $SAVI = \frac{1.5(\text{NIR} - \text{Red})}{\text{NIR} + \text{Red} + 0.5}$ & Modification of NDVI; suppresses the effects of soil pixels \\
-    \hline
-    Atmospherically Resistant Vegetation Index (ARVI) & $ARVI = \frac{\text{NIR} - (\text{Red} - \text{Blue})}{\text{NIR} + (\text{Red} - \text{Blue})}$ & Disease; weed mapping \\
-    \hline
-    Wide Dynamic Range Vegetation Index (WDRVI) & $WDRVI = \frac{\text{NIR} - \text{Red}}{\text{NIR} + \text{Red}}$ & N-Application, yield; crop growth (LAI); disease \\
-    \hline
-    Normalized Difference Red Edge (NDRE) & $NDRE = \frac{\text{NIR} - \text{Red Edge}}{\text{NIR} + \text{Red Edge}}$ & Crop yield and biomass; N-management; disease \\
-    \hline
-    Red Edge DVI (REDVI) & $REDVI = \text{NIR} - \text{Red Edge}$ & Crop yield and biomass; biomass, N-uptake, and concentration \\
-    \hline
-    \end{tabular}%
-    }
-    \label{tab:vegetation-indices}
+\begin{table}[ht]
+\centering
+\caption{Top 10 Countries Exporting the Most Wheat (2022) \parencite{wprWheatExports}}
+\begin{tabular}{|l|r|}
+\hline
+\textbf{Country} & \textbf{Wheat Exports 2022 (T)} \\
+\hline
+Australia  & 28.8M \\
+United States & 20.9M \\
+France & 20.2M \\
+Canada & 18.5M \\
+Russia & 17.8M \\
+Argentina & 12.9M \\
+Ukraine & 11.2M \\
+India & 6.8M \\
+Kazakhstan & 6.3M \\
+Germany & 6.2M \\
+\hline
+\end{tabular}
+\label{tab:wheat_exports_2022}
 \end{table}
 
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{chapters/chapter3/images/CropsProduction.png}
+    \caption{Most Produced Commodities Worldwide in 2023 (in Million Tonnes) \parencite{faostat} }
+    \label{fig:Figure001}
+\end{figure}
 
 
-\section{Image processing}
 
-Imagery processing is the technique used to turn multiple aerial images captured by drones (\gls{abb:uav}s) or remote sensors into a single, accurate, and clear image known as an orthomosaic. Since drones don’t capture one large image but instead take many smaller ones of different parts of the area, these images must be merged using a process called image stitching  (as shown in Figure~\ref{fig:UAVDataProducts}), This involves merging individual images into one large composite by identifying and aligning “key points” such as a rock, plant, or edge of a field. While the drone captures these images, it simultaneously records \gls{abb:gps} or location metadata, which is then used in geographic alignment to position each image on a map accurately. The final output of this process is known as data products, which can include color mosaics (stitched colored images), spectral mosaics (capturing invisible wavelengths like near-infrared for agricultural analysis), thermal mosaics (highlighting temperature variations), surface and terrain models (representing elevation and landscape shapes), and point clouds (dense 3D representations of surfaces for detailed analysis) \parencite{olson2021review}.
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.7\textwidth]{chapters/chapter3/images/Figure001.png}
+%     \caption{Division of sowing area in the world in 2009 (in million hectares and percentage) Source: FAO, 2011}
+%     \label{fig:Figure001}
+% \end{figure}
+
+
+\section{Wheat growth stages}
+Wheat growth follows a series of distinct developmental stages (Figure~\ref{fig:WheatStages}), each with specific environmental needs and a direct impact on crop health and yield \parencite{shafi2020multi}. The key stages are:
+
+\begin{itemize}
+    \item \textbf{Seeding:} The initial stage where seeds germinate and seedlings emerge. Adequate soil moisture and suitable temperatures are essential for successful crop establishment.
+    
+    \item \textbf{Tillering:} The plant produces side shoots (tillers), which increase potential yield. This stage depends on sufficient nutrients and water.
+    
+    \item \textbf{Booting:} The wheat head develops inside the leaf sheath. Stress at this stage can reduce the number of spikelets and affect grain development.
+    
+    \item \textbf{Heading:} The spike emerges and flowering occurs. This is a sensitive period where drought or heat can severely impact pollination and grain set.
+    
+    \item \textbf{Ripening:} Grains mature and the plant loses its green color. Proper conditions are needed for effective grain filling and harvest readiness.
+\end{itemize}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8
-    \textwidth]{chapters/chapter3/images/Figure06.png}
-    \caption{Standard Workflow for Generating \gls{abb:uav}-Derived Imagery and Data Products \protect\parencite{olson2021review}.}
-    \label{fig:UAVDataProducts}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter3/images/WheatStages.png}
+    \caption{ wheat crop growth stages: (a) Tillering; (b) Jointing; (c) Booting; (d) Heading; and (e) Ripening \parencite{kumar2018estimation}}
+    \label{fig:WheatStages}
 \end{figure}
 
-% Imagery can be processed on-site with personal computers and the appropriate software or in the field with cloud computing imagery processing \parencite{olson2021review}. The pros and cons of each imagery processing option are discussed in Table~\ref{tab:ProcessingMethodComparison}.
 
-% \begin{table}[h]
-%     \centering
-%     \renewcommand{\arraystretch}{1.5} % Increase row height
-%     \setlength{\tabcolsep}{8pt} % Adjust column padding
-%     \begin{tabular}{|p{3cm}|p{5.5cm}|p{5.5cm}|}
-%     \hline
-%      & \textbf{Pros} & \textbf{Cons} \\ \hline
-    
-%      \multirow{4}{*}{\parbox{2.8cm}{\centering\textbf{Software (On-Site Processing on PC)}}}    & Customizable options & High-performance PC needed \\ \cline{2-3}
-%     & No limits on images & Expensive initial cost \\ \cline{2-3}
-%     & GIS software compatible & Steep learning curve \\ \cline{2-3}
-%     & One-time purchase & Slower processing \\ \hline
-    
-%     \multirow{4}{*}{\parbox{2.8cm}{\centering\textbf{Cloud Computing (Online/Remote Processing)}}}    & Easy to use & Fewer customizations \\ \cline{2-3}
-%     & Low upfront cost & Image limits \\ \cline{2-3}
-%     & Fast field processing & Ongoing costs \\ \cline{2-3}
-%     & No powerful PC needed & \\ \cline{2-3}
-%     & Simplified analysis & \\ \hline
-%     \end{tabular}
-%     \caption{Comparison of On-Site Software vs. Cloud Computing for Imagery Processing \parencite{olson2021review}.}
-%     \label{tab:ProcessingMethodComparison}
-%     \end{table}
-    
+\section{Wheat diseases: types and impacts}
+Wheat is affected by various diseases that can reduce yield and grain quality. These diseases, mainly caused by fungi, thrive under specific environmental conditions and target different parts of the plant. This section outlines the major types of wheat diseases, their symptoms, causes, and impacts on crop production.
 
-\section{Applications of remote sensing data}
-Remote sensing has diverse applications in agriculture, enabling precise, data-driven decision-making. It helps monitor field conditions, optimize resource use, and address issues early. The following sections highlight key areas where remote sensing enhances farm management:
 
-\begin{itemize}[leftmargin=1.5em]
+\subsection{Leaf rust (Brown Rust)} 
 
-    \item \textbf{Crop Health Monitoring:} Remote sensing enables regular monitoring of crop conditions, helping detect diseases, pest presence, and water or nutrient stress early. Vegetation indices (e.g., NDVI) derived from \gls{abb:rgb}, \gls{abb:nir}, multi-spectral, and hyperspectral sensors are commonly used to assess aspects such as foliage cover, pigment composition, and water stress. \gls{abb:lidar} and \gls{abb:gps} can also support the accurate mapping of plant structure and spatial positioning. These technologies collectively support better crop management and yield optimization \parencite{phang2023satellite}.
-    
-    \item \textbf{Weed Control:} Precise weed detection helps reduce competition for water, nutrients, and light. Aerial imagery from \gls{abb:uav}s and satellite platforms, often using \gls{abb:rgb} and multispectral cameras, supports vegetation indexing and mapping for weed identification. Some systems enable real-time onboard image analysis and spraying. These tools assist in implementing targeted and efficient weed management strategies while reducing input costs \parencite{phang2023satellite}.
-    
-    \item \textbf{Infectious Disease Epidemiology and Mapping:} \gls{abb:uav}s are used to gather high-resolution spatial data for studying the relationships between environmental conditions and disease spread. They help monitor changes in land use, population distribution, and vegetation patterns, which are valuable for identifying and mitigating disease risks affecting crops or livestock. UAV-collected data provide flexible, cost-effective alternatives to satellite and manned aerial surveys \parencite{phang2023satellite}.
-    
-    % \item \textbf{Spectral Imaging:} Multispectral and hyperspectral imaging technologies offer detailed insights into crop nutrient levels, stress, and overall vigor. Though hyperspectral data offer higher spectral resolution, they also require more complex processing, often conducted post-flight. These systems rely on sensors like CCD and CMOS and use scanning methods such as point, line, and plane scanning. Accurate georeferencing is achieved using ground control points (GCPs) or advanced navigation systems \parencite{phang2023satellite}.
-    
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.65\textwidth}
+        
+        Leaf rust, caused by \textit{Puccinia triticina}, appears as small, circular, orange to brown pustules on the upper surfaces of leaves and leaf sheaths. It spreads through wind-borne spores and develops quickly in moist conditions at around 20°C. New spores form every 10–14 days if conditions are favorable. As plants mature or conditions worsen, black spores may appear (as shown in Figure~\ref{fig:Figure003}). 
+        
+        This disease affects wheat, triticale, and related grasses and is common in temperate cereal-growing regions. Severe infections reduce grain yield, kernel number, weight, and quality \parencite{duveiller2012wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=0.6\linewidth]{chapters/chapter3/images/Figure003.png}
+        
+        \captionof{figure}{Leaf rust with Brown spores (1), Leaf rust with Black spores (2) \protect\parencite{duveiller2012wheat}}
+        \label{fig:Figure003}
+    \end{minipage}
+\end{figure}
+
+\subsection{Stem rust (Black Rust)}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.65\textwidth}
+        
+        Stem rust, caused by \textit{Puccinia graminis}, appears as dark reddish-brown pustules on leaves, stems, and spikes (as observed in Figure~\ref{fig:Figure004}). Light infections show scattered pustules, while severe cases cause them to merge. Before pustules form, small flecks may appear, and infected areas feel rough. The disease spreads through wind-borne spores and develops quickly in moist conditions with temperatures around 20°C. New spores can form in 10–15 days. It affects wheat, barley, triticale, and related grasses and is common in temperate cereal regions. Severe infections can reduce grain weight and quality and, in extreme cases, lead to total crop loss \parencite{duveiller2012wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=0.6\linewidth]{chapters/chapter3/images/Figure004.png}
+        \captionof{figure}{Stem rust \protect\parencite{duveiller2012wheat}}
+        \label{fig:Figure004}
+    \end{minipage}
+\end{figure}
+
+\subsection{Stripe rust (Yellow Rust)}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.65\textwidth}
+        
+        Stripe rust, caused by \textit{Puccinia striiformis}, appears as yellow to orange-yellow pustules forming narrow stripes on leaves, leaf sheaths, necks, and glumes (as seen in Figure~\ref{fig:Figure005}). It spreads through wind-borne spores and develops quickly in moist conditions at temperatures between 10–20°C but slows down above 25°C. Severe infections reduce grain yield, kernel number, weight, and quality \parencite{duveiller2012wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth, angle=90]{chapters/chapter3/images/Figure005.png}
+        \captionof{figure}{Stripe rust \protect\parencite{duveiller2012wheat}}
+        \label{fig:Figure005}
+    \end{minipage}
+\end{figure}
+
+\subsection{Blotch diseases} 
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.55\textwidth}
+        
+        The blotch diseases, which include Septoria tritici blotch (STB), Septoria nodorum blotch (SNB), and tan spot (TS) (as presented in Figure~\ref{fig:Figure006}), are caused by the  \textit{Ascomycete fungi Zymoseptoria tritici}, \textit{Parastagonospora nodorum}, and \textit{Pyrenophora tritici-repentis}, respectively \parencite{figueroa2018review}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{chapters/chapter3/images/Figure006.png}
+        \captionof{figure}{Symptoms of foliar blotch diseases. (A) Septoria tritici blotch. (B) Tan spot. (C) Septoria nodorum blotch \protect\parencite{figueroa2018review}}
+        \label{fig:Figure006}
+    \end{minipage}
+\end{figure}
+
+\subsection{Fusarium head blight (FHB)}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.55\textwidth}
+        
+        Fusarium head blight (FHB), also known as wheat scab or ear blight, is a major disease of wheat caused primarily by the Ascomycete fungus \textit{Fusarium graminearum} (Fg). It can also be caused by other regional \textit{Fusarium} species \parencite{figueroa2018review}.\\
+        Fusarium head blight appears as dark, oily florets with pinkish spores (as seen in Figure~\ref{fig:Figure007}). Infected kernels may be covered in white fungal growth. The disease spreads in warm, humid conditions (10–28°C), infecting spikes during flowering and spreading between florets. It affects all small grain cereals and is found in most soils and crop residues. Severe infections can reduce yields by over 50\% and lower grain quality. Contaminated grain may contain harmful mycotoxins, making it unsafe for humans and animals \parencite{duveiller2012wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.95\linewidth]{chapters/chapter3/images/Figure007.png}
+        \captionof{figure}{Symptoms of Fusarium head blight/scab: The left image shows early infection signs manifested as a partially bleached wheat head, while the right image illustrates advanced infection of \textit{Fusarium graminearum} \protect\parencite{figueroa2018review}.}
+        \label{fig:Figure007}
+    \end{minipage}
+\end{figure}
+
+\subsection{Loose smut}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.65\textwidth}
+        
+        Loose smut, caused by \textit{Ustilago tritici}, replaces wheat spikes with black fungal spores (as observed in Figure~\ref{fig:Figure008}), which are later dispersed by wind. The fungus infects wheat flowers and stays dormant in kernels until germination. It then grows with the plant, destroying floral parts at flowering. The disease thrives in cool, humid conditions and is found wherever wheat is grown. Yield losses depend on infection levels, usually below 1\% but sometimes reaching 30\% \parencite{duveiller2012wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=0.6\linewidth]{chapters/chapter3/images/Figure008.png}
+        \captionof{figure}{Loose smut \protect\parencite{duveiller2012wheat}}
+        \label{fig:Figure008}
+    \end{minipage}
+\end{figure}
+
+
+\subsection{Powdery mildew} 
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.55\textwidth}
+        
+        Powdery mildew (Figure~\ref{fig:Figure009}), caused by \textit{Blumeria graminis f. sp. tritici}, affects wheat globally, particularly in cool, dry climates, and can cause yield losses ranging from 10\% to 40\%, with severe cases leading to seedling or tiller death \parencite{singh2023wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=0.5\linewidth]{chapters/chapter3/images/Figure009.png}
+        \captionof{figure}{Powdery mildew from Kaggle dataset ‘Wheat Plant Diseases.'}
+        \label{fig:Figure009}
+    \end{minipage}
+\end{figure}
+
+\subsection{Common root rot}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.65\textwidth}
+        
+        Common root rot, caused by \textit{Cochliobolus sativus}, \textit{Fusarium spp}, and \textit{Pythium spp}, darkens and weakens wheat roots, crowns, and stems (as illustrated by Figure~\ref{fig:Figure010}), sometimes leading to plant lodging and white spikes before maturity. Early infections can cause seedling death.
+        The disease spreads from infected crop debris, thriving in different soil conditions: \textit{C. sativus} in warm, dry soils and \textit{Fusarium} and \textit{Pythium} in cool, moist soils. Found in temperate regions, it rarely causes major outbreaks but can lead to localized losses due to reduced plant growth and yield \parencite{duveiller2012wheat}.
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{chapters/chapter3/images/Figure010.png}
+        \captionof{figure}{Common root rot from Kaggle dataset ‘Wheat Plant Diseases.’}
+        \label{fig:Figure010}
+    \end{minipage}
+\end{figure}
+
+
+\section{Towards Scalable and Reliable Crop Disease Detection via AI and Remote Sensing}
+
+While deep learning has demonstrated remarkable performance across numerous domains, its application in agriculture particularly in crop disease detection presents distinct challenges. Key limitations include the scarcity and imbalance of annotated datasets, high intra-class variability, and low inter-class variability, all of which hinder robust model generalization. Additionally, real-world agricultural images are often affected by variations in lighting, occlusion from overlapping leaves, and cluttered backgrounds, further reducing detection accuracy \parencite{alzubaidi2021review}.
+
+A significant constraint is the reliance of most models on close-range imagery, which limits their effectiveness in early-stage detection across large-scale farmlands. To overcome these issues, recent research has increasingly focused on integrating remote sensing technologies with AI-based models. Remote sensing using data from satellites, drones (UAVs), and hyperspectral or multispectral sensors, provides valuable spectral, thermal, and spatial information across broad geographic areas. When combined with deep learning, this fusion enables more accurate early detection, classification, and spatial mapping of plant diseases, even before visible symptoms emerge. Such integration not only enhances detection accuracy but also supports scalable, timely, and cost-effective crop health monitoring and management strategies \parencite{wang2024integration}.
+
 
 \section{Workflow for integrating remote sensing and \gls{abb:ml}/\gls{abb:dl} in wheat disease detection}
 Existing research on crop disease detection using \gls{abb:uav} imagery can be grouped into three main methodological approaches (Figure~\ref{fig:Classificationapproaches}). The first involves statistics-based methods, which apply correlation and regression analyses to identify linear relationships between disease symptoms and spectral data from \gls{abb:uav} images. These methods commonly use vegetation indices (\gls{abb:vi}s) to extract relevant crop traits. The second approach includes conventional machine learning techniques, where \gls{abb:vi}s serve as input features for supervised or unsupervised models used in disease estimation. The third and most recent approach is based on deep learning, which leverages raw \gls{abb:uav} images alongside other features to train end-to-end models for automated crop disease recognition \parencite{shahi2023recent}.
+
 
 
 \begin{figure}[H]

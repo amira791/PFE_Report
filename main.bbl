@@ -888,63 +888,18 @@
       \field{pages}{5801}
       \range{pages}{1}
     \endentry
-    \entry{farook2019insect}{article}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=51c898e7dac01cb64570cff286a9efa7}{%
-           family={Farook},
-           familyi={F\bibinitperiod},
-           given={U.\bibnamedelimi B.},
-           giveni={U\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e49c62dd8a0b1d657cc8f5f431626a7e}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Z.\bibnamedelimi H.},
-           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2d11cf3afb88ff5ef5d3529a7943d415}{%
-           family={Ahad},
-           familyi={A\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9939bc695d31cb8a1628c82bed927381}{%
-           family={Maqbool},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ca7fcdc6bd45a50476798a79c1f5c10}{%
-           family={Yaqoob},
-           familyi={Y\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=544a79d96319ff89c4e9505136dbc650}{%
-           family={Rafieq},
-           familyi={R\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=122d19e3a6849e3f5d99efbdab4f6652}{%
-           family={Rehman},
-           familyi={R\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3be8f7f9793097a08912127e9f282cdd}{%
-           family={Sultan},
-           familyi={S\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
+    \entry{faostat}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4807e0aebe86c17f559853f35515b533}{%
+           family={{FAO}},
+           familyi={F\bibinitperiod}}}%
       }
-      \strng{namehash}{7483f9a7fe707888c2377764f2096315}
-      \strng{fullhash}{7d61ddac5ca5a10e85596206cd4ce170}
-      \strng{bibnamehash}{7d61ddac5ca5a10e85596206cd4ce170}
-      \strng{authorbibnamehash}{7d61ddac5ca5a10e85596206cd4ce170}
-      \strng{authornamehash}{7483f9a7fe707888c2377764f2096315}
-      \strng{authorfullhash}{7d61ddac5ca5a10e85596206cd4ce170}
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -952,13 +907,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Entomology and Zoology Studies}
-      \field{number}{1}
-      \field{title}{A Review on Insect Pest Complex of Wheat (Triticum aestivum L.)}
-      \field{volume}{7}
-      \field{year}{2019}
-      \field{pages}{1292\bibrangedash 1298}
-      \range{pages}{7}
+      \field{note}{Accessed: 2025-06-13}
+      \field{title}{FAOSTAT – Food and Agriculture Organization of the United Nations}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.fao.org/faostat/en/#home
+      \endverb
+      \verb{url}
+      \verb https://www.fao.org/faostat/en/#home
+      \endverb
     \endentry
     \entry{figueroa2018review}{article}{}
       \name{author}{3}{}{%
@@ -1129,56 +1086,6 @@
       \field{year}{2021}
       \field{pages}{123}
       \range{pages}{1}
-    \endentry
-    \entry{haider2021wheat}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=ea4499044eacadf01e2865059b3ad889}{%
-           family={Haider},
-           familyi={H\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f367fa52159118bf9283b81dbb93a631}{%
-           family={Rehman},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi U.},
-           giveni={A\bibinitperiod\bibinitdelim U\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9d04358da919f977df1fe78bfcaea9fa}{%
-           family={Durrani},
-           familyi={D\bibinitperiod},
-           given={N.\bibnamedelimi M.},
-           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e711de307d73c1d06e8bf0a190b9e668}{%
-           family={Rehman},
-           familyi={R\bibinitperiod},
-           given={S.\bibnamedelimi U.},
-           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a27e870eb739e11e3e4ac5e4a9211381}
-      \strng{fullhash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \strng{bibnamehash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \strng{authorbibnamehash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \strng{authornamehash}{a27e870eb739e11e3e4ac5e4a9211381}
-      \strng{authorfullhash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{A Generic Approach for Wheat Disease Classification and Verification Using Expert Opinion for Knowledge-Based Decisions}
-      \field{volume}{9}
-      \field{year}{2021}
-      \field{pages}{31104\bibrangedash 31129}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2021.3059421
-      \endverb
     \endentry
     \entry{HeidarianDehkordi2020}{article}{}
       \name{author}{5}{}{%
@@ -1409,60 +1316,6 @@
       \verb{doi}
       \verb 10.1155/2022/6845326
       \endverb
-    \endentry
-    \entry{kashyap2018identification}{report}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3b500d6736acc40dcf29ce8cb8d09004}{%
-           family={Kashyap},
-           familyi={K\bibinitperiod},
-           given={P.\bibnamedelimi L.},
-           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=87c6c4be317993dc1205fd4b92a586a8}{%
-           family={Jasrotia},
-           familyi={J\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a545bd13ef1e9c1672bfb284155fc1ad}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59ed1b3857c7a3f3c8ea26d2350b76ff}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi P.},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9e64543a0115377eb8a4dddcc257ce8e}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={G.\bibnamedelimi P.},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Technical Bulletin}%
-      }
-      \strng{namehash}{cc6ccf7a35cd046107bd6c2812caadfd}
-      \strng{fullhash}{63edbdb4cd58ace4814a5625bc299083}
-      \strng{bibnamehash}{63edbdb4cd58ace4814a5625bc299083}
-      \strng{authorbibnamehash}{63edbdb4cd58ace4814a5625bc299083}
-      \strng{authornamehash}{cc6ccf7a35cd046107bd6c2812caadfd}
-      \strng{authorfullhash}{63edbdb4cd58ace4814a5625bc299083}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{18}
-      \field{title}{Identification Guide for Major Diseases and Insect-Pests of Wheat}
-      \field{type}{techreport}
-      \field{year}{2018}
     \endentry
     \entry{Kelleher2019}{book}{}
       \name{author}{1}{}{%
@@ -2156,37 +2009,6 @@
       \verb 10.3390/rs12091357
       \endverb
     \endentry
-    \entry{mehta2014wheat}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=948f67d80396d638635370ce3c38f065}{%
-           family={Mehta},
-           familyi={M\bibinitperiod},
-           given={Y.\bibnamedelimi R.},
-           giveni={Y\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{948f67d80396d638635370ce3c38f065}
-      \strng{fullhash}{948f67d80396d638635370ce3c38f065}
-      \strng{bibnamehash}{948f67d80396d638635370ce3c38f065}
-      \strng{authorbibnamehash}{948f67d80396d638635370ce3c38f065}
-      \strng{authornamehash}{948f67d80396d638635370ce3c38f065}
-      \strng{authorfullhash}{948f67d80396d638635370ce3c38f065}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Wheat Diseases and Their Management}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.1007/978-3-319-06477-0
-      \endverb
-    \endentry
     \entry{olson2021review}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=240296fd7fa60f7998362de90fdc9444}{%
@@ -2850,96 +2672,33 @@
       \verb 10.3390/agronomy14091975
       \endverb
     \endentry
-    \entry{zhang2025precision}{article}{}
-      \name{author}{11}{}{%
-        {{un=1,uniquepart=given,hash=59d10f8a548ee180b28909fb783a76eb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=b49148177853ad89c516ef2a9ce6b3d1}{%
-           family={Hou},
-           familyi={H\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c82b01c34f35505892cd082b7baab487}{%
-           family={Lv},
-           familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5e7bbf0d2a2b478896de68e62a4f508f}{%
-           family={Qi},
-           familyi={Q\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4986615fe9031edfa590ac244b5c4dec}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=30ff3ef4a89e0c6777f480da5386b053}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ee6724aae227dcac2949962d898b300}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=de9a096c1d84724e4ddcaee8d3996997}{%
-           family={Min},
-           familyi={M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce084360cc68e7db4fe6cae1287b3adf}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89e4262752ea86e42aa98156908299ab}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=24632f45f47c1fd1a02e3dc9781ee768}{%
-           family={Liao},
-           familyi={L\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
+    \entry{wprWheatExports}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a00de8d0180886a8158fb9f668b1c33}{%
+           family={{World Population Review}},
+           familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{6e80ccfacfc928c6fba94baacaa2a725}
-      \strng{fullhash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \strng{bibnamehash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \strng{authorbibnamehash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \strng{authornamehash}{6e80ccfacfc928c6fba94baacaa2a725}
-      \strng{authorfullhash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \strng{namehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{fullhash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{bibnamehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{authorbibnamehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{authornamehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{authorfullhash}{7a00de8d0180886a8158fb9f668b1c33}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Agriculture}
-      \field{number}{3}
-      \field{title}{Precision Agriculture: Temporal and Spatial Modeling of Wheat Canopy Spectral Characteristics}
-      \field{volume}{15}
-      \field{year}{2025}
-      \field{pages}{326}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/agriculture15030326
+      \field{note}{Accessed June 13, 2025}
+      \field{title}{Wheat Exports by Country 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://worldpopulationreview.com/country-rankings/wheat-exports-by-country
+      \endverb
+      \verb{url}
+      \verb https://worldpopulationreview.com/country-rankings/wheat-exports-by-country
       \endverb
     \endentry
     \entry{zhang2021irunet}{article}{}
@@ -4124,63 +3883,18 @@
       \field{pages}{5801}
       \range{pages}{1}
     \endentry
-    \entry{farook2019insect}{article}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=51c898e7dac01cb64570cff286a9efa7}{%
-           family={Farook},
-           familyi={F\bibinitperiod},
-           given={U.\bibnamedelimi B.},
-           giveni={U\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e49c62dd8a0b1d657cc8f5f431626a7e}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Z.\bibnamedelimi H.},
-           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2d11cf3afb88ff5ef5d3529a7943d415}{%
-           family={Ahad},
-           familyi={A\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9939bc695d31cb8a1628c82bed927381}{%
-           family={Maqbool},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ca7fcdc6bd45a50476798a79c1f5c10}{%
-           family={Yaqoob},
-           familyi={Y\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=544a79d96319ff89c4e9505136dbc650}{%
-           family={Rafieq},
-           familyi={R\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=122d19e3a6849e3f5d99efbdab4f6652}{%
-           family={Rehman},
-           familyi={R\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3be8f7f9793097a08912127e9f282cdd}{%
-           family={Sultan},
-           familyi={S\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
+    \entry{faostat}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4807e0aebe86c17f559853f35515b533}{%
+           family={{FAO}},
+           familyi={F\bibinitperiod}}}%
       }
-      \strng{namehash}{7483f9a7fe707888c2377764f2096315}
-      \strng{fullhash}{7d61ddac5ca5a10e85596206cd4ce170}
-      \strng{bibnamehash}{7d61ddac5ca5a10e85596206cd4ce170}
-      \strng{authorbibnamehash}{7d61ddac5ca5a10e85596206cd4ce170}
-      \strng{authornamehash}{7483f9a7fe707888c2377764f2096315}
-      \strng{authorfullhash}{7d61ddac5ca5a10e85596206cd4ce170}
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -4188,13 +3902,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Entomology and Zoology Studies}
-      \field{number}{1}
-      \field{title}{A Review on Insect Pest Complex of Wheat (Triticum aestivum L.)}
-      \field{volume}{7}
-      \field{year}{2019}
-      \field{pages}{1292\bibrangedash 1298}
-      \range{pages}{7}
+      \field{note}{Accessed: 2025-06-13}
+      \field{title}{FAOSTAT – Food and Agriculture Organization of the United Nations}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.fao.org/faostat/en/#home
+      \endverb
+      \verb{url}
+      \verb https://www.fao.org/faostat/en/#home
+      \endverb
     \endentry
     \entry{figueroa2018review}{article}{}
       \name{author}{3}{}{%
@@ -4365,56 +4081,6 @@
       \field{year}{2021}
       \field{pages}{123}
       \range{pages}{1}
-    \endentry
-    \entry{haider2021wheat}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=ea4499044eacadf01e2865059b3ad889}{%
-           family={Haider},
-           familyi={H\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f367fa52159118bf9283b81dbb93a631}{%
-           family={Rehman},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi U.},
-           giveni={A\bibinitperiod\bibinitdelim U\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9d04358da919f977df1fe78bfcaea9fa}{%
-           family={Durrani},
-           familyi={D\bibinitperiod},
-           given={N.\bibnamedelimi M.},
-           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e711de307d73c1d06e8bf0a190b9e668}{%
-           family={Rehman},
-           familyi={R\bibinitperiod},
-           given={S.\bibnamedelimi U.},
-           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a27e870eb739e11e3e4ac5e4a9211381}
-      \strng{fullhash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \strng{bibnamehash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \strng{authorbibnamehash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \strng{authornamehash}{a27e870eb739e11e3e4ac5e4a9211381}
-      \strng{authorfullhash}{8fbcbb52134a7337ce563e4ffd62f6dc}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{A Generic Approach for Wheat Disease Classification and Verification Using Expert Opinion for Knowledge-Based Decisions}
-      \field{volume}{9}
-      \field{year}{2021}
-      \field{pages}{31104\bibrangedash 31129}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2021.3059421
-      \endverb
     \endentry
     \entry{HeidarianDehkordi2020}{article}{}
       \name{author}{5}{}{%
@@ -4645,60 +4311,6 @@
       \verb{doi}
       \verb 10.1155/2022/6845326
       \endverb
-    \endentry
-    \entry{kashyap2018identification}{report}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3b500d6736acc40dcf29ce8cb8d09004}{%
-           family={Kashyap},
-           familyi={K\bibinitperiod},
-           given={P.\bibnamedelimi L.},
-           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=87c6c4be317993dc1205fd4b92a586a8}{%
-           family={Jasrotia},
-           familyi={J\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a545bd13ef1e9c1672bfb284155fc1ad}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59ed1b3857c7a3f3c8ea26d2350b76ff}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi P.},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9e64543a0115377eb8a4dddcc257ce8e}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={G.\bibnamedelimi P.},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Technical Bulletin}%
-      }
-      \strng{namehash}{cc6ccf7a35cd046107bd6c2812caadfd}
-      \strng{fullhash}{63edbdb4cd58ace4814a5625bc299083}
-      \strng{bibnamehash}{63edbdb4cd58ace4814a5625bc299083}
-      \strng{authorbibnamehash}{63edbdb4cd58ace4814a5625bc299083}
-      \strng{authornamehash}{cc6ccf7a35cd046107bd6c2812caadfd}
-      \strng{authorfullhash}{63edbdb4cd58ace4814a5625bc299083}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{18}
-      \field{title}{Identification Guide for Major Diseases and Insect-Pests of Wheat}
-      \field{type}{techreport}
-      \field{year}{2018}
     \endentry
     \entry{Kelleher2019}{book}{}
       \name{author}{1}{}{%
@@ -5392,37 +5004,6 @@
       \verb 10.3390/rs12091357
       \endverb
     \endentry
-    \entry{mehta2014wheat}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=948f67d80396d638635370ce3c38f065}{%
-           family={Mehta},
-           familyi={M\bibinitperiod},
-           given={Y.\bibnamedelimi R.},
-           giveni={Y\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{948f67d80396d638635370ce3c38f065}
-      \strng{fullhash}{948f67d80396d638635370ce3c38f065}
-      \strng{bibnamehash}{948f67d80396d638635370ce3c38f065}
-      \strng{authorbibnamehash}{948f67d80396d638635370ce3c38f065}
-      \strng{authornamehash}{948f67d80396d638635370ce3c38f065}
-      \strng{authorfullhash}{948f67d80396d638635370ce3c38f065}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Wheat Diseases and Their Management}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.1007/978-3-319-06477-0
-      \endverb
-    \endentry
     \entry{olson2021review}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=240296fd7fa60f7998362de90fdc9444}{%
@@ -6086,96 +5667,33 @@
       \verb 10.3390/agronomy14091975
       \endverb
     \endentry
-    \entry{zhang2025precision}{article}{}
-      \name{author}{11}{}{%
-        {{un=1,uniquepart=given,hash=59d10f8a548ee180b28909fb783a76eb}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=b49148177853ad89c516ef2a9ce6b3d1}{%
-           family={Hou},
-           familyi={H\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c82b01c34f35505892cd082b7baab487}{%
-           family={Lv},
-           familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5e7bbf0d2a2b478896de68e62a4f508f}{%
-           family={Qi},
-           familyi={Q\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4986615fe9031edfa590ac244b5c4dec}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=30ff3ef4a89e0c6777f480da5386b053}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ee6724aae227dcac2949962d898b300}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=de9a096c1d84724e4ddcaee8d3996997}{%
-           family={Min},
-           familyi={M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce084360cc68e7db4fe6cae1287b3adf}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89e4262752ea86e42aa98156908299ab}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=24632f45f47c1fd1a02e3dc9781ee768}{%
-           family={Liao},
-           familyi={L\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
+    \entry{wprWheatExports}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a00de8d0180886a8158fb9f668b1c33}{%
+           family={{World Population Review}},
+           familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{6e80ccfacfc928c6fba94baacaa2a725}
-      \strng{fullhash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \strng{bibnamehash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \strng{authorbibnamehash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \strng{authornamehash}{6e80ccfacfc928c6fba94baacaa2a725}
-      \strng{authorfullhash}{2cdd8aae3b9f3d1d1305eecdc48496cc}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \strng{namehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{fullhash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{bibnamehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{authorbibnamehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{authornamehash}{7a00de8d0180886a8158fb9f668b1c33}
+      \strng{authorfullhash}{7a00de8d0180886a8158fb9f668b1c33}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Agriculture}
-      \field{number}{3}
-      \field{title}{Precision Agriculture: Temporal and Spatial Modeling of Wheat Canopy Spectral Characteristics}
-      \field{volume}{15}
-      \field{year}{2025}
-      \field{pages}{326}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/agriculture15030326
+      \field{note}{Accessed June 13, 2025}
+      \field{title}{Wheat Exports by Country 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://worldpopulationreview.com/country-rankings/wheat-exports-by-country
+      \endverb
+      \verb{url}
+      \verb https://worldpopulationreview.com/country-rankings/wheat-exports-by-country
       \endverb
     \endentry
     \entry{zhang2021irunet}{article}{}

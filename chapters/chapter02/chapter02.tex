@@ -28,7 +28,7 @@ Before defining deep neural networks, we first need to understand two essential 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure01.png}
+    \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure01.png}
     \caption{Biological Neuron Structure and Its Mathematical Model Representation \parencite{krenker2011introduction}.}
     \label{fig:figure01}
 \end{figure}
@@ -122,7 +122,7 @@ Figure \ref{fig:figure03} below provides a visual representation of the learning
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure03.png}
+    \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure03.png}
     \caption{The structure of the DNN \cite{ren2023review}.}
     \label{fig:figure03}
 \end{figure}
@@ -235,7 +235,7 @@ Image classification is the task of assigning a label to an entire image based o
     
     \begin{figure}[H] % 'H' needs \usepackage{float}
         \centering
-        \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure05.png}
+        \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure05.png}
         \caption{The primary calculations executed at each step of the convolutional layer \parencite{alzubaidi2021review}.}
         \label{fig:figure05}
     \end{figure}
@@ -249,7 +249,7 @@ Image classification is the task of assigning a label to an entire image based o
     
      \begin{figure}[H] % 'H' needs \usepackage{float}
         \centering
-        \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure06.png}
+        \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure06.png}
         \caption{Three types of pooling operations \parencite{alzubaidi2021review}.}
         \label{fig:figure06}
     \end{figure}
@@ -263,7 +263,7 @@ Figure~\ref{fig:figure07} below illustrates the general structure of a \gls{abb:
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure07.png}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter02/images/Figure07.png}
     \caption{The structure of the \gls{abb:cnn} \parencite{crocioni2020li}.}
     \label{fig:figure07}
 \end{figure}
@@ -288,7 +288,7 @@ This process is illustrated in Figure~\ref{fig:figure14}, which demonstrates how
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.5\textwidth]{chapters/chapter1/images/Figure14.png}
+    \includegraphics[width=0.5\textwidth]{chapters/chapter02/images/Figure14.png}
     \caption{Learning process of transfer learning \parencite{tan2018survey}.}
     \label{fig:figure14}
 \end{figure}
@@ -373,7 +373,7 @@ At test time, class-specific confidence scores are computed by multiplying the b
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure16.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter02/images/Figure16.png}
     \caption{Main idea of \gls{abb:yolo} \parencite{zhao2019objectdetection}.}
     \label{fig:figure16}
 \end{figure}
@@ -389,7 +389,7 @@ R-\gls{abb:cnn} is a significant advancement in object detection, improving the 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.7\textwidth]{chapters/chapter1/images/Figure17.png}
+    \includegraphics[width=0.7\textwidth]{chapters/chapter02/images/Figure17.png}
     \caption{Flowchart of R-\gls{abb:cnn} \parencite{zhao2019objectdetection}.}
     \label{fig:figure17}
 \end{figure}
@@ -416,7 +416,7 @@ The architecture of \gls{abb:ssd} is illustrated in Figure~\ref{fig:figure19}, h
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure19.png}
+\includegraphics[width=0.8\textwidth]{chapters/chapter02/images/Figure19.png}
 \caption{Architecture of \gls{abb:ssd} \parencite{li2021water}.}
 \label{fig:figure19}
 \end{figure}
@@ -429,7 +429,7 @@ Image segmentation is a computer vision task that involves partitioning an image
 \gls{abb:pspnet} is a deep convolutional neural network architecture designed for semantic segmentation tasks, particularly effective in capturing both local and global contextual information. The core innovation of \gls{abb:pspnet} lies in its Pyramid Pooling Module (PPM), which aggregates context from different regions of the image at multiple scales. This is achieved by applying pooling operations at varying grid sizes, then upsampling and concatenating these pooled features with the original feature maps \parencite{pan2021deep}. This fusion allows \gls{abb:pspnet} to understand the spatial hierarchy and global structure of scenes more effectively than traditional \gls{abb:cnn}s (Figure~\ref{fig:PSPNet}). \gls{abb:resnet} and its variants are usually used as the backbone for \gls{abb:pspnet} due to their residual (skip) connections, which help alleviate the vanishing gradient problem and enable effective training of deep networks, making them well-suited for extracting rich feature representations in segmentation tasks.
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure20.png}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter02/images/Figure20.png}
     \caption{Semantic Segmentation of Wheat Yellow Rust Using \gls{abb:pspnet} \parencite{pan2021deep}.}
     \label{fig:PSPNet}
 \end{figure}
@@ -438,7 +438,7 @@ Image segmentation is a computer vision task that involves partitioning an image
 U-Net is a convolutional neural network architecture designed for semantic segmentation, featuring a symmetric encoder-decoder structure. The encoder, or contracting path, captures contextual features using repeated 3×3 convolutions with ReLU activation, followed by 2×2 max pooling for downsampling. The decoder, or expansive path, performs upsampling and applies 3×3 convolutions to recover spatial resolution. Crucially, skip connections between corresponding encoder and decoder layers preserve high-resolution features, improving segmentation accuracy. A final 1×1 convolution maps the feature maps to the desired number of output classes. All convolutions use "same" padding with stride [1,1], and max pooling uses stride [2,2] with zero padding. ReLU activation is applied throughout the network, and input images undergo zero-center normalization for training stability \parencite{su2020aerial}. This architectural layout, including feature map sizes and layer depths, is depicted in Figure~\ref{fig:U-Net}.
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure21.png}
+    \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure21.png}
     \caption{U-Net Architecture for Semantic Segmentation \parencite{su2020aerial}.}
     \label{fig:U-Net}
 \end{figure}
@@ -453,7 +453,7 @@ Several U-Net variants have been proposed to address computational efficiency an
 DeepLabV3+ is an advanced semantic segmentation model that builds upon DeepLabV3 by combining powerful contextual feature extraction with precise boundary recovery. DeepLabV3 uses Atrous Spatial Pyramid Pooling (ASPP) to capture multi-scale contextual information through parallel atrous (dilated) convolutions with varying rates, allowing the model to extract rich semantic features without reducing spatial resolution too much. However, DeepLabV3 lacks a decoder and relies on simple bilinear upsampling, which limits its ability to recover fine object boundaries. DeepLabV3+ (Figure~\ref{fig:DeepLabv3+}) addresses this by introducing a decoder module that refines segmentation results, especially along object edges, by upsampling the encoder’s output and combining it with low-level features from earlier layers of the network, followed by a few convolutions for detail refinement. Additionally, DeepLabV3+ applies depthwise separable (atrous separable) convolutions in both the ASPP and decoder modules to reduce computational cost while maintaining high accuracy, resulting in a more accurate and efficient architecture \parencite{chen2018encoder}.
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure22.png}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter02/images/Figure22.png}
     \caption{DeepLabv3+ architecture \parencite{hussein2020semantic}.}
     \label{fig:DeepLabv3+}
 \end{figure}
@@ -468,13 +468,12 @@ DeepLabV3+ is an advanced semantic segmentation model that builds upon DeepLabV3
 
 % Lastly, ensuring the interpretability and trustworthiness of AI decisions is crucial in agricultural contexts, as these technologies directly impact yield, resource use, and farmers’ livelihoods. Addressing these challenges requires collaborative efforts in data collection, annotation, model adaptation, and efficient deployment strategies \parencite{alzubaidi2021review}.
 
-\section{Challenges of Deep Learning in Agricultural Contexts}
+% \section{Challenges of Deep Learning in Agricultural Contexts}
 
-While deep learning has shown strong performance across various domains, its application in agriculture faces unique challenges. Limited and imbalanced annotated datasets, high intra-class variability, and low inter-class variability hinder model generalization. Factors such as lighting changes, leaf occlusion, and cluttered backgrounds further reduce detection accuracy \parencite{alzubaidi2021review}. Moreover, most models rely on close-range imagery, which restricts early-stage detection over large fields. Integrating remote sensing (e.g., hyperspectral or multispectral imaging) with deep learning helps address these limitations by enabling large-scale monitoring and identifying stress indicators before symptoms appear. This fusion significantly improves accuracy and supports scalable, cost-effective disease management \parencite{wang2024integration}.
+% While deep learning has shown strong performance across various domains, its application in agriculture faces unique challenges. Limited and imbalanced annotated datasets, high intra-class variability, and low inter-class variability hinder model generalization. Factors such as lighting changes, leaf occlusion, and cluttered backgrounds further reduce detection accuracy \parencite{alzubaidi2021review}. Moreover, most models rely on close-range imagery, which restricts early-stage detection over large fields. Integrating remote sensing (e.g., hyperspectral or multispectral imaging) with deep learning helps address these limitations by enabling large-scale monitoring and identifying stress indicators before symptoms appear. This fusion significantly improves accuracy and supports scalable, cost-effective disease management \parencite{wang2024integration}.
 
 \section{Conclusion}
-In this chapter, we explored key deep learning concepts and models used for image-based recognition tasks, focusing on classification, object detection, and semantic segmentation. These techniques are essential for automating and improving agricultural workflows, especially in crop health monitoring. Building on this foundation, the next chapter will introduce remote sensing technologies and investigate how their integration with deep learning and machine learning can enable the accurate and scalable early detection of wheat diseases.
-
+In this chapter, we explored key deep learning concepts and models used for image-based recognition tasks, focusing on classification, object detection, and semantic segmentation. These techniques are essential for automating and improving agricultural workflows, especially in crop health monitoring. Building on this foundation, The next chapter explores how these techniques can be integrated with remote sensing data for early and accurate detection of wheat diseases.
 
 
 
