@@ -486,56 +486,6 @@
       \field{pages}{801\bibrangedash 818}
       \range{pages}{18}
     \endentry
-    \entry{crocioni2020li}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1a758ee1364064b4794acddfa62439f5}{%
-           family={Crocioni},
-           familyi={C\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0511b7f61b2ff6cc0169240ae0848b97}{%
-           family={Pau},
-           familyi={P\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ac8858b1404f346e7631b87248814bb3}{%
-           family={Delorme},
-           familyi={D\bibinitperiod},
-           given={J.M.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc87c92668d3e5c107543b4992ff0922}{%
-           family={Gruosso},
-           familyi={G\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e512d00e54d571208dd882356c6e1de6}
-      \strng{fullhash}{b920e81375137dd11f79f9594ae37a13}
-      \strng{bibnamehash}{b920e81375137dd11f79f9594ae37a13}
-      \strng{authorbibnamehash}{b920e81375137dd11f79f9594ae37a13}
-      \strng{authornamehash}{e512d00e54d571208dd882356c6e1de6}
-      \strng{authorfullhash}{b920e81375137dd11f79f9594ae37a13}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{Li-ion batteries parameter estimation with tiny neural networks embedded on intelligent IoT micro-controllers}
-      \field{volume}{8}
-      \field{year}{2020}
-      \field{pages}{122135\bibrangedash 122146}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2020.3007046
-      \endverb
-    \endentry
     \entry{delavarpour2021technical}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1603,87 +1553,6 @@
       \field{pages}{1\bibrangedash 18}
       \range{pages}{18}
     \endentry
-    \entry{kumar2018estimation}{article}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=79a186d52ed727389e81b3c3789b88d9}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Pawan},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c4700267abecded48bb23762bac6c82b}{%
-           family={Prasad},
-           familyi={P\bibinitperiod},
-           given={Rajendra},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0094a2fdfcaa1785de2bb916892b3fea}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={D.K.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b7b537975d1f797951d4a31b4767e742}{%
-           family={Mishra},
-           familyi={M\bibinitperiod},
-           given={V.N.},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=13f925784f76c1143fbbd1970a00afab}{%
-           family={Vishwakarma},
-           familyi={V\bibinitperiod},
-           given={A.K.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ed214cf76260a1dd0e38327fecac5617}{%
-           family={Yadav},
-           familyi={Y\bibinitperiod},
-           given={V.P.},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c4a65664dd6bf8cd4bdbb0f5d9a82f8d}{%
-           family={Bala},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1b5b9b6a9e10b7b5ec1e837c2fd35238}{%
-           family={Choudhary},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=064eb4eeb2e74368b3695dcdf5c073dd}{%
-           family={Avtar},
-           familyi={A\bibinitperiod},
-           given={Ram},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
-      \strng{fullhash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \strng{bibnamehash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \strng{authorbibnamehash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \strng{authornamehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
-      \strng{authorfullhash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Geocarto International}
-      \field{number}{9}
-      \field{title}{Estimation of winter wheat crop growth parameters using time series Sentinel-1A SAR data}
-      \field{volume}{33}
-      \field{year}{2018}
-      \field{pages}{942\bibrangedash 956}
-      \range{pages}{15}
-    \endentry
     \entry{li2021water}{article}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=e1d0b18d3f69e1eb9edd193ae8819954}{%
@@ -2555,6 +2424,35 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/TII.2020.2967982
+      \endverb
+    \endentry
+    \entry{tadamsa2024}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3929361f284fb6a4d27cc47c77663603}{%
+           family={{Tadamoun News}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{fullhash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{bibnamehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{authorbibnamehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{authornamehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{authorfullhash}{3929361f284fb6a4d27cc47c77663603}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-06-15}
+      \field{title}{Algeria Among the Top 5 African Wheat Producers}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tinyurl.com/4m8h7w9x
+      \endverb
+      \verb{url}
+      \verb https://tinyurl.com/4m8h7w9x
       \endverb
     \endentry
     \entry{tan2018survey}{article}{}
@@ -3481,56 +3379,6 @@
       \field{pages}{801\bibrangedash 818}
       \range{pages}{18}
     \endentry
-    \entry{crocioni2020li}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1a758ee1364064b4794acddfa62439f5}{%
-           family={Crocioni},
-           familyi={C\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0511b7f61b2ff6cc0169240ae0848b97}{%
-           family={Pau},
-           familyi={P\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ac8858b1404f346e7631b87248814bb3}{%
-           family={Delorme},
-           familyi={D\bibinitperiod},
-           given={J.M.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc87c92668d3e5c107543b4992ff0922}{%
-           family={Gruosso},
-           familyi={G\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e512d00e54d571208dd882356c6e1de6}
-      \strng{fullhash}{b920e81375137dd11f79f9594ae37a13}
-      \strng{bibnamehash}{b920e81375137dd11f79f9594ae37a13}
-      \strng{authorbibnamehash}{b920e81375137dd11f79f9594ae37a13}
-      \strng{authornamehash}{e512d00e54d571208dd882356c6e1de6}
-      \strng{authorfullhash}{b920e81375137dd11f79f9594ae37a13}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{title}{Li-ion batteries parameter estimation with tiny neural networks embedded on intelligent IoT micro-controllers}
-      \field{volume}{8}
-      \field{year}{2020}
-      \field{pages}{122135\bibrangedash 122146}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2020.3007046
-      \endverb
-    \endentry
     \entry{delavarpour2021technical}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -4598,87 +4446,6 @@
       \field{pages}{1\bibrangedash 18}
       \range{pages}{18}
     \endentry
-    \entry{kumar2018estimation}{article}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=79a186d52ed727389e81b3c3789b88d9}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Pawan},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c4700267abecded48bb23762bac6c82b}{%
-           family={Prasad},
-           familyi={P\bibinitperiod},
-           given={Rajendra},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0094a2fdfcaa1785de2bb916892b3fea}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={D.K.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b7b537975d1f797951d4a31b4767e742}{%
-           family={Mishra},
-           familyi={M\bibinitperiod},
-           given={V.N.},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=13f925784f76c1143fbbd1970a00afab}{%
-           family={Vishwakarma},
-           familyi={V\bibinitperiod},
-           given={A.K.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ed214cf76260a1dd0e38327fecac5617}{%
-           family={Yadav},
-           familyi={Y\bibinitperiod},
-           given={V.P.},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c4a65664dd6bf8cd4bdbb0f5d9a82f8d}{%
-           family={Bala},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1b5b9b6a9e10b7b5ec1e837c2fd35238}{%
-           family={Choudhary},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=064eb4eeb2e74368b3695dcdf5c073dd}{%
-           family={Avtar},
-           familyi={A\bibinitperiod},
-           given={Ram},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
-      \strng{fullhash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \strng{bibnamehash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \strng{authorbibnamehash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \strng{authornamehash}{c9e15dd9c2137d2fd8e9fd3ce76ef61d}
-      \strng{authorfullhash}{934e9b3a38c08faf1b8667a55a96dc3c}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Geocarto International}
-      \field{number}{9}
-      \field{title}{Estimation of winter wheat crop growth parameters using time series Sentinel-1A SAR data}
-      \field{volume}{33}
-      \field{year}{2018}
-      \field{pages}{942\bibrangedash 956}
-      \range{pages}{15}
-    \endentry
     \entry{li2021water}{article}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=e1d0b18d3f69e1eb9edd193ae8819954}{%
@@ -5550,6 +5317,35 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/TII.2020.2967982
+      \endverb
+    \endentry
+    \entry{tadamsa2024}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3929361f284fb6a4d27cc47c77663603}{%
+           family={{Tadamoun News}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{fullhash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{bibnamehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{authorbibnamehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{authornamehash}{3929361f284fb6a4d27cc47c77663603}
+      \strng{authorfullhash}{3929361f284fb6a4d27cc47c77663603}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-06-15}
+      \field{title}{Algeria Among the Top 5 African Wheat Producers}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://tinyurl.com/4m8h7w9x
+      \endverb
+      \verb{url}
+      \verb https://tinyurl.com/4m8h7w9x
       \endverb
     \endentry
     \entry{tan2018survey}{article}{}

@@ -1,25 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[122] biber-MSWIN64:340> INFO - === 
-[178] Biber.pm:419> INFO - Reading 'main.bcf'
-[328] Biber.pm:979> INFO - Found 55 citekeys in bib section 0
-[349] Biber.pm:4419> INFO - Processing section 0
-[361] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[443] bibtex.pm:1713> INFO - LaTeX decoding ...
-[513] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[846] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[846] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[847] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[847] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[957] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[957] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[958] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[958] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1027] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1115] bbl.pm:763> INFO - Output to main.bbl
-[1116] Biber.pm:131> WARN - Duplicate entry key: 'ghazal2024computer' in file 'references.bib', skipping ...
-[1116] Biber.pm:131> WARN - Duplicate entry key: 'sishodia2020applications' in file 'references.bib', skipping ...
-[1116] Biber.pm:131> WARN - Duplicate entry key: 'pan2021deep' in file 'references.bib', skipping ...
-[1116] Biber.pm:131> WARN - Duplicate entry key: 'su2020aerial' in file 'references.bib', skipping ...
-[1117] Biber.pm:131> WARN - Duplicate entry key: 'zhang2022wheat' in file 'references.bib', skipping ...
-[1117] Biber.pm:133> INFO - WARNINGS: 5
+[154] biber-MSWIN64:340> INFO - === 
+[210] Biber.pm:419> INFO - Reading 'main.bcf'
+[381] Biber.pm:979> INFO - Found 54 citekeys in bib section 0
+[399] Biber.pm:4419> INFO - Processing section 0
+[411] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[479] bibtex.pm:1713> INFO - LaTeX decoding ...
+[566] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[970] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[970] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[971] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[971] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1115] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1115] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1116] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1116] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1201] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1306] bbl.pm:763> INFO - Output to main.bbl
+[1306] Biber.pm:131> WARN - Duplicate entry key: 'ghazal2024computer' in file 'references.bib', skipping ...
+[1307] Biber.pm:131> WARN - Duplicate entry key: 'sishodia2020applications' in file 'references.bib', skipping ...
+[1307] Biber.pm:131> WARN - Duplicate entry key: 'pan2021deep' in file 'references.bib', skipping ...
+[1308] Biber.pm:131> WARN - Duplicate entry key: 'su2020aerial' in file 'references.bib', skipping ...
+[1308] Biber.pm:131> WARN - Duplicate entry key: 'zhang2022wheat' in file 'references.bib', skipping ...
+[1308] Biber.pm:133> INFO - WARNINGS: 5
