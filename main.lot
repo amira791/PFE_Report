@@ -3,7 +3,6 @@
 \contentsline {table}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces Some recently used vegetation indices for remote sensing applications in precision agriculture \blx@tocontentsinit {0}\parencite {sishodia2020applications}. \textbf {Note:} \textit {Red, Green, and Blue} refer to visible bands of the electromagnetic spectrum. \textit {NIR (Near-Infrared)} refers to wavelengths (~700–1300 nm). \textit {Red Edge} is the narrow spectral region (~680–750 nm) between the red and NIR bands. }}{9}{table.caption.15}%
 \contentsline {table}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces Comparison of On-Site Software vs. Cloud Computing for Imagery Processing \blx@tocontentsinit {0}\parencite {olson2021review}.}}{10}{table.caption.17}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Common Activation Functions in Deep Learning \blx@tocontentsinit {0}\parencite {dubey2022activation}}}{15}{table.caption.21}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Top 10 Countries Exporting the Most Wheat (2022) \blx@tocontentsinit {0}\parencite {wprWheatExports}}}{29}{table.caption.31}%
 \contentsline {table}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Summary of ST-based methods for Wheat disease estimation using \gls {abb:uav} imagery.}}{37}{table.caption.43}%

@@ -28,7 +28,7 @@ Before defining deep neural networks, we first need to understand two essential 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure01.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter02/images/Figure01.png}
     \caption{Biological Neuron Structure and Its Mathematical Model Representation \parencite{krenker2011introduction}.}
     \label{fig:figure01}
 \end{figure}
@@ -36,7 +36,7 @@ Before defining deep neural networks, we first need to understand two essential 
 
 By combining multiple layers of interconnected artificial neurons, we arrive at the concept of a Deep Neural Network (DNN). A DNN is a neural network that contains multiple hidden layers between the input and output layers. These additional layers enable the network to learn complex patterns and high-level features from data. Each layer transforms its input into a more abstract representation, improving the network’s ability to recognize intricate structures and relationships \parencite{li2021water}.
 \subsubsection{Structure of DNN}
-A neural network consists of three main layers \parencite{ren2023review}:
+A neural network (Figure~\ref{fig:figure03}) consists of three main layers \parencite{ren2023review}:
 
 \noindent
 \textbf{The input layer:} Represents the features of the input data, such as pixel values in an image, denoted as a vector 
@@ -67,6 +67,14 @@ Each neuron in the hidden layers applies an activation function to capture compl
 
 
 
+\begin{figure}[H] % 'H' needs \usepackage{float}
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapters/chapter02/images/DNN.png}
+    \caption{The structure of the DNN \cite{ren2023review}.}
+    \label{fig:figure03}
+\end{figure}
+
+
 % \begin{figure}[H] % 'H' needs \usepackage{float}
 %     \centering
 %     \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure02.png}
@@ -74,30 +82,60 @@ Each neuron in the hidden layers applies an activation function to capture compl
 %     \label{fig:figure02}
 % \end{figure}
 
-\subsubsection{Activation functions}
-An activation function is a mathematical function applied to a neuron's output in a neural network to introduce non-linearity. Without an activation function, a neural network with multiple layers would behave like a single-layer perceptron, limiting its ability to model complex relationships \parencite{dubey2022activation}. Activation functions decide whether a neuron should be activated based on its input. Table \ref{tab:activation-functions} summarizes the most commonly used activation functions, their formulas, ranges, and typical use cases in deep neural networks.
+\subsubsection{Activation functions (AF)}
+An \gls{abb:af} is a mathematical function applied to a neuron's output in a neural network to introduce non-linearity. Without an activation function, a neural network with multiple layers would behave like a single-layer perceptron, limiting its ability to model complex relationships \parencite{dubey2022activation}. Activation functions decide whether a neuron should be activated based on its input. Here are some used activation functions in \gls{abb:dnn} models \parencite{dubey2022activation}:
 
-\begin{table}[htbp]
-    \caption{Common Activation Functions in Deep Learning \parencite{dubey2022activation}}
-    \centering
-    \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|p{3cm}|p{4.5cm}|p{3cm}|p{3.5cm}|}
-    \hline
-    \textbf{Activation Function} & \textbf{Formula} & \textbf{Range} & \textbf{Usage} \\
-    \hline
-    Sigmoid                      & $\text{Sigmoid}(x) = \frac{1}{1+e^{-x}}$         & [0, 1]               & Commonly used in binary classification problems, especially in the output layer of models predicting probabilities. \\
-    \hline
-    Tanh (Hyperbolic Tangent)     & $\tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$ & [-1, 1] & Often used in hidden layers of neural networks, as it outputs values centered around zero, which helps in reducing bias during optimization. \\
-    \hline
-    ReLU (Rectified Linear Unit)  & $\relu(x) =\text{max}(0, x)$            & [0, $\infty$)        & Widely used in hidden layers of deep neural networks due to its simplicity and effectiveness in handling the vanishing gradient problem. \\
-    \hline
-    Softmax & $\text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}$, where $x_i$: current element, $x_j$: all elements in the vector. & (0, 1) (outputs sum to 1) & Used in the output layer for multi-class classification. \\
-    \hline
+\begin{itemize}
+    \item \textbf{Sigmoid function}: Commonly used in binary classification problems, especially in the output layer of models predicting probabilities. It maps input values to a range between 0 and 1, making it suitable for representing probabilities, as shown in equation~\ref{eq:sigmoid}.
+    \begin{equation}
+        \text{Sigmoid}(x) = \frac{1}{1 + e^{-x}}
+        \label{eq:sigmoid}
+    \end{equation}
+    
+    \item \textbf{Tanh (Hyperbolic tangent)}: Often used in hidden layers of neural networks. It outputs values centered around zero, helping reduce bias during optimization. Its formulation is given in equation~\ref{eq:tanh}.
+    \begin{equation}
+        \tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}
+        \label{eq:tanh}
+    \end{equation}
 
-    \end{tabular}%
-    }
-    \label{tab:activation-functions}
-\end{table}
+    \item \textbf{ReLU (Rectified linear unit)}: Widely used in hidden layers due to its simplicity and effectiveness in handling the vanishing gradient problem. It outputs zero for negative inputs and the input itself for positive values, as defined in equation~\ref{eq:relu}.
+    \begin{equation}
+        \text{ReLU}(x) = \max(0, x)
+        \label{eq:relu}
+    \end{equation}
+
+    \item \textbf{Softmax function}: Used in the output layer for multi-class classification. It converts a vector of values into a probability distribution, as illustrated in equation~\ref{eq:softmax}.
+    \begin{equation}
+        \text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}
+        \label{eq:softmax}
+    \end{equation}
+    where $x_i$ is the current element and the denominator sums over all elements $x_j$ in the vector.
+\end{itemize}
+
+% \subsubsection{Activation functions}
+% An activation function is a mathematical function applied to a neuron's output in a neural network to introduce non-linearity. Without an activation function, a neural network with multiple layers would behave like a single-layer perceptron, limiting its ability to model complex relationships \parencite{dubey2022activation}. Activation functions decide whether a neuron should be activated based on its input. Table \ref{tab:activation-functions} summarizes the most commonly used activation functions, their formulas, ranges, and typical use cases in deep neural networks.
+
+% \begin{table}[htbp]
+%     \caption{Common Activation Functions in Deep Learning \parencite{dubey2022activation}}
+%     \centering
+%     \resizebox{\textwidth}{!}{%
+%     \begin{tabular}{|p{3cm}|p{4.5cm}|p{3cm}|p{3.5cm}|}
+%     \hline
+%     \textbf{Activation Function} & \textbf{Formula} & \textbf{Range} & \textbf{Usage} \\
+%     \hline
+%     Sigmoid                      & $\text{Sigmoid}(x) = \frac{1}{1+e^{-x}}$         & [0, 1]               & Commonly used in binary classification problems, especially in the output layer of models predicting probabilities. \\
+%     \hline
+%     Tanh (Hyperbolic Tangent)     & $\tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$ & [-1, 1] & Often used in hidden layers of neural networks, as it outputs values centered around zero, which helps in reducing bias during optimization. \\
+%     \hline
+%     ReLU (Rectified Linear Unit)  & $\relu(x) =\text{max}(0, x)$            & [0, $\infty$)        & Widely used in hidden layers of deep neural networks due to its simplicity and effectiveness in handling the vanishing gradient problem. \\
+%     \hline
+%     Softmax & $\text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_j e^{x_j}}$, where $x_i$: current element, $x_j$: all elements in the vector. & (0, 1) (outputs sum to 1) & Used in the output layer for multi-class classification. \\
+%     \hline
+
+%     \end{tabular}%
+%     }
+%     \label{tab:activation-functions}
+% \end{table}
 
 
     
@@ -117,15 +155,15 @@ The learning process in neural networks involves training the model to map input
     \item \textbf{Backward Propagation}: Backward propagation (or backpropagation) is used to update the network's weights. After calculating the error (the difference between the predicted and actual output), the error is propagated back through the network. The weights are adjusted based on the gradient of the error with respect to each weight, using optimization algorithms like gradient descent.
 \end{itemize}
 
-Figure \ref{fig:figure03} below provides a visual representation of the learning process in a neural network, illustrating the flow of information from the input layer through multiple hidden layers to the output layer.
+% Figure \ref{fig:figure03} below provides a visual representation of the learning process in a neural network, illustrating the flow of information from the input layer through multiple hidden layers to the output layer.
 
 
-\begin{figure}[H] % 'H' needs \usepackage{float}
-    \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure03.png}
-    \caption{The structure of the DNN \cite{ren2023review}.}
-    \label{fig:figure03}
-\end{figure}
+% \begin{figure}[H] % 'H' needs \usepackage{float}
+%     \centering
+%     \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure03.png}
+%     \caption{The structure of the DNN \cite{ren2023review}.}
+%     \label{fig:figure03}
+% \end{figure}
 
 
 
@@ -213,7 +251,7 @@ The most common and impactful computer vision tasks include image classification
 Image classification is the task of assigning a label to an entire image based on its visual content. In deep learning, this is typically achieved using \gls{abb:cnn}s, which are designed to automatically learn hierarchical features from raw pixel data.
 
 \subsubsection{Fundamentals of \gls{abb:cnn}s}
-\gls{abb:cnn}s consist of multiple layers designed to process and learn spatial hierarchies from image data \parencite{alzubaidi2021review}. Their architecture typically includes:
+\gls{abb:cnn}s (Figure~\ref{fig:cnns_archi}) consist of multiple layers designed to process and learn spatial hierarchies from image data \parencite{alzubaidi2021review}. Their architecture typically includes:
 
 % \begin{figure}[H] % 'H' needs \usepackage{float}
 %         \centering
@@ -222,13 +260,30 @@ Image classification is the task of assigning a label to an entire image based o
 %         \label{fig:figure04}
 %     \end{figure}
 
+
+\begin{figure}[H] % 'H' needs \usepackage{float}
+        \centering
+        \includegraphics[width=0.9\textwidth]{chapters/chapter02/images/CNNarchitecture.png}
+        \caption{Architecture of CNN \parencite{Ang2022Optimal}.}
+        \label{fig:cnns_archi}
+    \end{figure}
+
 \begin{itemize}
     \item \textbf{Convolutional Layers:} Extract features using small filters (kernels) that detect edges, textures, and patterns. A kernel is a grid of values (weights) initialized randomly at the start of training and adjusted through learning to identify important features.
      
      
     \begin{itemize}
         \item \textbf{Input and Kernel Dimensions:} In a \gls{abb:cnn} layer, each input $x$ is structured in three dimensions: height, width, and depth. The depth corresponds to the number of channels (e.g., an \gls{abb:rgb} image has three channels). Similarly, the kernels are also three-dimensional, with spatial dimensions (height and width) and a depth matching the input channels. Each kernel has shared parameters, a set of weights and a bias. When applied to the input, these kernels generate a corresponding set of feature maps. These kernels establish local connections by interacting only with small regions of the input at a time, allowing the network to extract patterns such as edges and textures by computing dot products across these regions.
-        \item \textbf{Convolutional Operation:} The convolutional process begins by sliding the kernel across the input image in both horizontal and vertical directions. At each location, the dot product between the kernel and the overlapping region of the input is computed, producing a scalar value that becomes part of the resulting feature map. As this process is repeated across the image, a full feature map is constructed, highlighting areas where the kernel detects specific patterns. Parameters such as stride (controlling how far the kernel moves at each step) and padding (adding borders to the input to preserve edge information) affect the size and coverage of the output feature map. These concepts are illustrated in Figure~\ref{fig:figure05}.
+\item \textbf{Convolutional operation:} Mathematically, a 2D convolution operation between an input matrix $I$ and a kernel (or filter) $K$ is expressed as shown in equation~\ref{eq:convolution}:
+
+        \begin{equation}
+        S(i, j) = \sum_{m} \sum_{n} I(i + m, j + n) \cdot K(m, n)
+        \label{eq:convolution}
+        \end{equation}
+
+        where $S(i, j)$ is the output feature map value at position $(i, j)$, $I$ is the input image, and $K$ is the kernel.
+
+        The convolutional process involves sliding the kernel across the input image in both horizontal and vertical directions. At each location, the dot product between the kernel and the overlapping region of the input is computed, producing a scalar value that becomes part of the resulting feature map. As this process is repeated across the image, a full feature map is constructed, highlighting areas where the kernel detects specific patterns. Parameters such as stride (which controls how far the kernel moves at each step) and padding (which adds borders to the input to preserve edge information) affect the size and coverage of the output feature map. These concepts are illustrated in Figure~\ref{fig:figure05}.
      \end{itemize}   
     
      
@@ -389,7 +444,7 @@ R-\gls{abb:cnn} is a significant advancement in object detection, improving the 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.7\textwidth]{chapters/chapter02/images/Figure17.png}
+    \includegraphics[width=0.9\textwidth]{chapters/chapter02/images/Figure17.png}
     \caption{Flowchart of R-\gls{abb:cnn} \parencite{zhao2019objectdetection}.}
     \label{fig:figure17}
 \end{figure}
@@ -416,7 +471,7 @@ The architecture of \gls{abb:ssd} is illustrated in Figure~\ref{fig:figure19}, h
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{chapters/chapter02/images/Figure19.png}
+\includegraphics[width=0.9\textwidth]{chapters/chapter02/images/Figure19.png}
 \caption{Architecture of \gls{abb:ssd} \parencite{li2021water}.}
 \label{fig:figure19}
 \end{figure}
@@ -438,7 +493,7 @@ Image segmentation is a computer vision task that involves partitioning an image
 U-Net is a convolutional neural network architecture designed for semantic segmentation, featuring a symmetric encoder-decoder structure. The encoder, or contracting path, captures contextual features using repeated 3×3 convolutions with ReLU activation, followed by 2×2 max pooling for downsampling. The decoder, or expansive path, performs upsampling and applies 3×3 convolutions to recover spatial resolution. Crucially, skip connections between corresponding encoder and decoder layers preserve high-resolution features, improving segmentation accuracy. A final 1×1 convolution maps the feature maps to the desired number of output classes. All convolutions use "same" padding with stride [1,1], and max pooling uses stride [2,2] with zero padding. ReLU activation is applied throughout the network, and input images undergo zero-center normalization for training stability \parencite{su2020aerial}. This architectural layout, including feature map sizes and layer depths, is depicted in Figure~\ref{fig:U-Net}.
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
-    \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure21.png}
+    \includegraphics[width=0.8\textwidth]{chapters/chapter02/images/Figure21.png}
     \caption{U-Net Architecture for Semantic Segmentation \parencite{su2020aerial}.}
     \label{fig:U-Net}
 \end{figure}

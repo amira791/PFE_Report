@@ -38,17 +38,17 @@
 \contentsline {subsection}{\numberline {\if@rl \I {1.2.2}\else \textLR {2.2.1}\fi }Deep neural network basics (DNN)}{12}{subsection.2.2.1}%
 \contentsline {subsubsection}{Definition of DNN}{13}{subsection.2.2.1}%
 \contentsline {subsubsection}{Structure of DNN}{13}{figure.caption.18}%
-\contentsline {subsubsection}{Activation functions}{14}{AMS.20}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.2}\else \textLR {2.2.2}\fi }Learning process in deep neural networks}{14}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.2}\else \textLR {2.2.3}\fi }Model training concepts}{16}{subsection.2.2.3}%
+\contentsline {subsubsection}{Activation functions (AF)}{14}{figure.caption.21}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.2}\else \textLR {2.2.2}\fi }Learning process in deep neural networks}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.2}\else \textLR {2.2.3}\fi }Model training concepts}{15}{subsection.2.2.3}%
 \contentsline {subsubsection}{Loss Functions}{16}{subsection.2.2.3}%
 \contentsline {subsubsection}{Overfitting prevention}{16}{subsection.2.2.3}%
 \contentsline {subsubsection}{Batch normalization}{16}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {\if@rl \I {4.2.2}\else \textLR {2.2.4}\fi }Optimization methods and strategies}{17}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.2.2}\else \textLR {2.2.4}\fi }Optimization methods and strategies}{16}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {\if@rl \I {5.2.2}\else \textLR {2.2.5}\fi }Model evaluation and validation}{17}{subsection.2.2.5}%
-\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Core computer vision tasks in agriculture}{18}{section.2.3}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }Image classification}{18}{subsection.2.3.1}%
-\contentsline {subsubsection}{Fundamentals of \gls {abb:cnn}s}{18}{subsection.2.3.1}%
+\contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Core computer vision tasks in agriculture}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }Image classification}{17}{subsection.2.3.1}%
+\contentsline {subsubsection}{Fundamentals of \gls {abb:cnn}s}{17}{subsection.2.3.1}%
 \contentsline {subsubsection}{Convolutional Neural Network Architectures for Image Classification}{20}{figure.caption.24}%
 \contentsline {subsubsection}{Transfer learning and pretrained models}{20}{figure.caption.24}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.3.2}\else \textLR {2.3.2}\fi }Object detection}{20}{subsection.2.3.2}%
@@ -61,7 +61,7 @@
 \contentsline {subsubsection}{Pyramid Scene Parsing Network (PSPNet)}{24}{subsection.2.3.3}%
 \contentsline {subsubsection}{U-Net model architecture}{25}{figure.caption.28}%
 \contentsline {subsubsection}{DeepLabV3+}{26}{figure.caption.29}%
-\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Conclusion}{26}{section.2.4}%
+\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Conclusion}{27}{section.2.4}%
 \select@language {english}
 \contentsline {chapter}{\numberline {3}\bgroup \beginL \latintext Integrating Remote Sensing and AI-Based Methods for Early Detection of Wheat Diseases\endL \egroup }{28}{chapter.3}%
 \contentsline {section}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }Introduction}{28}{section.3.1}%
@@ -91,9 +91,8 @@
 \contentsline {subsubsection}{Model calibration strategy}{42}{figure.caption.51}%
 \contentsline {subsubsection}{Data fusion strategy}{43}{figure.caption.52}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.7.3}\else \textLR {3.7.2}\fi }Challenges of UAV/Satellite data fusion}{43}{subsection.3.7.2}%
-\contentsline {section}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }Challenges in integrating remote sensing with \gls {abb:ml}/\gls {abb:dl}}{44}{section.3.8}%
-\contentsline {section}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }Future perspectives}{44}{section.3.9}%
-\contentsline {section}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }Conclusion}{45}{section.3.10}%
+\contentsline {section}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }Discussion}{44}{section.3.8}%
+\contentsline {section}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }Conclusion}{45}{section.3.9}%
 \select@language {english}
 \contentsline {chapter}{General conclusion}{46}{chapter*.54}%
 \select@language {english}
@@ -101,3 +100,14 @@
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Overview of Lightweight Neural Network Architectures and Vegetation Indices for Plant Disease Detection\endL \egroup }{52}{appendix.1.A}%
+\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }CNN Architectures}{52}{section.1.A.1}%
+\contentsline {subsubsection}{Visual geometry group network (VGGNet)}{52}{section.1.A.1}%
+\contentsline {subsubsection}{Inception Net (GoogLeNet)}{53}{figure.caption.57}%
+\contentsline {subsubsection}{Xception Net}{53}{figure.caption.58}%
+\contentsline {subsubsection}{Residual Networks (ResNet)}{54}{figure.caption.59}%
+\contentsline {subsubsection}{DenseNet}{55}{figure.caption.61}%
+\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }Lightweight Neural Network Architectures}{56}{section.1.A.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.1}\else \textLR {1.2.1}\fi }MobileNetV1}{56}{subsection.1.A.2.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.1}\else \textLR {1.2.2}\fi }EfficientNet}{56}{subsection.1.A.2.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.1}\else \textLR {1.2.3}\fi }ShuffleNet V2}{57}{subsection.1.A.2.3}%
+\contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }Vegitation Indices}{58}{section.1.A.3}%

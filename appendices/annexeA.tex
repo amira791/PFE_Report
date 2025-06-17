@@ -7,18 +7,17 @@
 %     \end{verbatim}
 % \end{center}
 
-\section*{CNN Architectures}
+\section{CNN Architectures}
 
 This section presents several notable Convolutional Neural Network (CNN) architectures that have significantly advanced image recognition tasks, particularly in the context of plant disease detection and classification. Each architecture introduces unique design principles to improve accuracy, efficiency, and scalability.
 
-\subsubsection*{Visual geometry group network (VGGNet)}
-Proposed by Simonyan and Zisserman, \gls{abb:vggnet} is a \gls{abb:cnn} architecture widely recognized for its simplicity and strong performance in image recognition tasks.
 
-\gls{abb:vggnet} is characterized by its deep architecture, typically comprising 16 to 19 layers, which significantly enhances its representational power compared to earlier models like ZFNet and AlexNet. One of its key innovations is the replacement of large convolutional filters (such as $11 \times 11$ or $5 \times 5$) with multiple stacked $3 \times 3$ filters. This strategy maintains an equivalent receptive field while reducing the number of parameters and improving computational efficiency.
+\subsubsection{Visual geometry group network (VGGNet)}
+Proposed by Simonyan and Zisserman, VGGNet is a convolutional neural network (CNN) architecture widely recognized for its simplicity and strong performance in image recognition tasks \parencite{alzubaidi2021review}.
 
-In addition, \gls{abb:vggnet} uses $1 \times 1$ convolutions to control the model’s complexity and includes max pooling layers to progressively reduce the spatial dimensions of the feature maps, as illustrated in Figure~\ref{fig:figure08}.
+VGG is characterized by its deep architecture, typically comprising 16 to 19 layers. One of its key innovations is the replacement of large convolutional filters (such as $11 \times 11$ or $5 \times 5$) with multiple stacked $3 \times 3$ filters. This strategy maintains an equivalent receptive field while reducing the number of parameters and improving computational efficiency.
 
-Despite its effectiveness, a major drawback of \gls{abb:vggnet} is its high computational cost, with around 140 million parameters \parencite{alzubaidi2021review}. Nonetheless, its reliable feature extraction capabilities have made it a popular choice in applications like plant disease classification, especially for detecting early-stage or visually subtle symptoms.
+In addition, VGG uses $1 \times 1$ convolutions to control the model’s complexity and includes max pooling layers to progressively reduce the spatial dimensions of the feature maps, as illustrated in figure~\ref{fig:figure08}.Despite its effectiveness, a major drawback of VGGNet is its high computational cost, with around 140 million parameters \parencite{alzubaidi2021review}. 
 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
@@ -28,7 +27,8 @@ Despite its effectiveness, a major drawback of \gls{abb:vggnet} is its high comp
     \label{fig:figure08}
 \end{figure}
 
-\subsubsection*{Inception Net (GoogLeNet)}
+
+\subsubsection{Inception Net (GoogLeNet)}
 Inception Net, introduced by Szegedy et al., uses Inception modules that apply multiple convolutional filters ($1 \times 1$, $3 \times 3$, $5 \times 5$) in parallel, followed by concatenation (see Figure~\ref{fig:figure09}). This design captures multi-scale information efficiently while reducing computational cost. The architecture has been successfully applied in plant phenotyping and classification of complex disease patterns.
 
 It replaced standard convolutional layers with micro-neural networks and regulated computation through $1 \times 1$ convolutions as bottleneck layers. Sparse connections addressed redundant information by selectively connecting input and output channels, while the global average pooling (GAP) layer reduced parameters from 40 million to just 5 million, enhancing efficiency. Additional features included the RmsProp optimizer, batch normalization, and auxiliary learners to accelerate convergence \parencite{alzubaidi2021review}.
@@ -42,7 +42,7 @@ It replaced standard convolutional layers with micro-neural networks and regulat
     \label{fig:figure09}
 \end{figure}
 
-\subsubsection*{Xception Net}
+\subsubsection{Xception Net}
 
 The Xception model is an extension of the Inception architecture that replaces standard convolutions with depth-wise separable convolutions, significantly improving efficiency. It has been shown to outperform Inception in many tasks, especially with high-resolution agricultural images, by learning spatial and cross-channel correlations separately.
 
@@ -56,7 +56,7 @@ The core concept behind Xception is the modification of the traditional Inceptio
     \label{fig:figure10}
 \end{figure}
 
-\subsubsection*{Residual Networks (ResNet)}
+\subsubsection{Residual Networks (ResNet)}
 \gls{abb:resnet} is a deep convolutional neural network architecture developed to facilitate the training of very deep networks, ranging from 18 to 152 layers, by introducing the concept of residual learning through shortcut (or skip) connections that bypass one or more layers.
 
 These residual connections address the degradation problem that often occurs in deeper networks, where increasing depth leads to performance saturation or even degradation. By enabling gradients to flow more efficiently, ResNet makes it easier for the network to learn identity mappings or residual functions, simplifying the overall training process.
@@ -73,7 +73,7 @@ Where:
     \item $x$: the input passed through the shortcut connection.
 \end{itemize}
 
-This formulation (3) makes it easier to optimize deep networks by learning the difference (residual) between the desired mapping and the identity. Additionally, it helps increase the rank of the weight matrices, enhancing the network’s expressiveness and preventing performance degradation.
+This formulation (3) makes it easier to optimize deep networks by learning the difference (residual) between the desired mapping and the identity. Instead of learning the full transformation \( H(x) \), the network focuses on learning the residual function \( F(x) = H(x) - x \), which is often easier to optimize, especially when the identity mapping is a reasonable starting point. This approach improves gradient flow during training, leading to better convergence and more stable deep models. 
 
 An illustration of the residual module structure is provided in Figure~\ref{fig:figure11}.
 
@@ -85,9 +85,9 @@ An illustration of the residual module structure is provided in Figure~\ref{fig:
     \label{fig:figure11}
 \end{figure}
 
-\subsubsection*{DenseNet}
+\subsubsection{DenseNet}
 
-DenseNet is a convolutional neural network architecture that introduces the concept of dense connectivity, in which each layer is directly connected to every other layer in a feed-forward fashion, as illustrated in Figure~\ref{fig:figure12}. This unique design enables feature reuse, enhances gradient flow, and significantly reduces the number of parameters compared to traditional \gls{abb:cnn}s.
+DenseNet is a convolutional neural network architecture that introduces the concept of dense connectivity, in which each layer is directly connected to every other layer in a feed-forward manner, as illustrated in Figure~\ref{fig:figure12}. This unique design enables feature reuse, enhances gradient flow, and significantly reduces the number of parameters compared to traditional \gls{abb:cnn}s.
 
 Inspired by ResNet and Highway Networks, DenseNet addresses a key limitation in ResNet, where each layer maintains isolated weights and where certain transformations contribute minimal new information. In contrast, DenseNet concatenates the outputs of all preceding layers and feeds them as input to each subsequent layer.
 
@@ -103,16 +103,16 @@ Despite the computational cost introduced by the accumulation of feature maps, D
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
     \includegraphics[width=0.6\textwidth]{chapters/chapter02/images/Figure12.png}
-    \caption{The architecture of DenseNet Network \parencite{alzubaidi2021review}.}
+    \caption{The architecture of DenseNet Network (BN is batch normalisation) \parencite{alzubaidi2021review}.}
     \label{fig:figure12}
 \end{figure}
 
 
-\section*{Lightweight Neural Network Architectures}
+\section{Lightweight Neural Network Architectures}
 Lightweight neural network architectures are designed to be efficient, enabling high performance on resource-constrained devices like mobile phones and edge devices. These models balance accuracy and computational efficiency, making them ideal for real-time applications. The following are some key lightweight architectures and how they address these challenges.
 
 
-\subsection*{MobileNetV1}
+\subsection{MobileNetV1}
 MobileNet V1 is a lightweight convolutional neural network that efficiently processes input images by utilizing depthwise separable convolutions to reduce computational cost and model size. Starting with an input image resized to 224×224×3, the network first applies a standard convolution followed by a series of depthwise separable convolutions that decompose standard convolutions into two steps: a depthwise convolution that filters each input channel independently and a pointwise (1×1) convolution that combines these filtered outputs. This approach drastically reduces the number of parameters and operations, as seen in the progressive reduction of feature map dimensions from 112×112×32 to 56×56×64, 28×28×256, and eventually to 7×7×1024 (Figure~\ref{fig:MobileNet}). An average pooling operation then reduces the spatial dimension to 1×1×1024, after which a fully connected layer performs the final classification \parencite{kadam2022efficient}.
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
@@ -123,7 +123,7 @@ MobileNet V1 is a lightweight convolutional neural network that efficiently proc
 \end{figure}
 
 
-\subsection*{EfficientNet}
+\subsection{EfficientNet}
 EfficientNet is a family of convolutional neural networks developed by Google AI that introduces a compound scaling method to efficiently scale deep learning models. Traditional approaches often scale models arbitrarily in one of three dimensions: depth (number of layers), width (number of channels), or input resolution. However, EfficientNet proposes a more balanced and systematic strategy, where all three dimensions are scaled simultaneously and proportionally using a fixed set of scaling coefficients. This compound approach maintains model efficiency while significantly boosting accuracy.
 
 The baseline model, EfficientNet-B0 (see Figure~\ref{fig:figure13}), is built using Neural Architecture Search (NAS) to optimize both performance and efficiency. Larger variants (B1 to B7) are derived by uniformly scaling the baseline model using the compound scaling principle. This results in models that achieve state-of-the-art performance on image classification tasks with dramatically fewer parameters and lower computational cost compared to earlier architectures like ResNet or Inception.
@@ -135,7 +135,7 @@ The baseline model, EfficientNet-B0 (see Figure~\ref{fig:figure13}), is built us
     \label{fig:figure13}
 \end{figure}
 
-\subsection*{ShuffleNet V2}
+\subsection{ShuffleNet V2}
 
 ShuffleNet V2 is a family of lightweight convolutional neural networks specifically designed for mobile and embedded platforms with limited computational resources. It improves upon ShuffleNet V1 by addressing practical deployment issues, such as memory access cost and actual inference latency, which are often overlooked in models optimized purely for FLOPs.
 
@@ -146,12 +146,12 @@ These architectural improvements allow ShuffleNet V2 to achieve a strong trade-o
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{appendices/images/ShuffleNet.png}
-    \caption{\footnotesize Architecture of the basic building block of ShuffleNet V2 with residual connection. CONV: convolution layer; DWCONV: depthwise convolution; BN: batch normalization. Channel Shuffle: a key operation enabling inter-group communication in ShuffleNet architectures \parencite{dobko2020cnn}.}
+    \caption{Architecture of the basic building block of ShuffleNet V2 with residual connection. CONV: convolution layer; DWCONV: depthwise convolution; BN: batch normalization. Channel Shuffle: a key operation enabling inter-group communication in ShuffleNet architectures \parencite{dobko2020cnn}.}
     \label{fig:ShuffleNet}
 \end{figure}
 
 
-\section*{Vegitation Indices}
+\section{Vegitation Indices}
 The table below (Table~\ref{tab:vegetation-indices2}) summarizes the vegetation indices used in the previously discussed studies, along with their formulas and applications.
 
 \begin{table}[htbp]

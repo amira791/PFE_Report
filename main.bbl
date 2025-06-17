@@ -257,6 +257,84 @@
       \field{pages}{1\bibrangedash 74}
       \range{pages}{74}
     \endentry
+    \entry{Ang2022Optimal}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=27e0c26a2849254c25769cd34efe89e3}{%
+           family={Ang},
+           familyi={A\bibinitperiod},
+           given={Kok\bibnamedelima Min},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2232e35b52acc3245062a98cd5e9ed8a}{%
+           family={El-Kenawy},
+           familyi={E\bibinithyphendelim K\bibinitperiod},
+           given={El-Sayed\bibnamedelima M.},
+           giveni={E\bibinithyphendelim S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66f0cbe6933bea34c28a1bc0c58c4c3a}{%
+           family={Abdelhamid},
+           familyi={A\bibinitperiod},
+           given={Ahmed\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4789a99efccb59e6b395c34dbc387636}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18bfdb51b0cb929725af05f640bbc344}{%
+           family={Alharbi},
+           familyi={A\bibinitperiod},
+           given={Abdullah\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e33dcf660098c1f8c5c33deb4be98e24}{%
+           family={Khafaga},
+           familyi={K\bibinitperiod},
+           given={Dalia\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f58a6aa231aa053ac606b46b97d4e57}{%
+           family={Tiang},
+           familyi={T\bibinitperiod},
+           given={See\bibnamedelima Swee},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8805189fd70118e93cc1f07ffc247a6}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Wei\bibnamedelima Han},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{740f0a85a14ae26a3e35c173fe95361f}
+      \strng{fullhash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \strng{bibnamehash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \strng{authorbibnamehash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \strng{authornamehash}{740f0a85a14ae26a3e35c173fe95361f}
+      \strng{authorfullhash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symmetry}
+      \field{number}{11}
+      \field{title}{Optimal Design of Convolutional Neural Network Architectures Using Teaching–Learning-Based Optimization for Image Classification}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{2323}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/sym14112323
+      \endverb
+    \endentry
     \entry{bengio2017deep}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
@@ -1421,93 +1499,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/rs13183612
-      \endverb
-    \endentry
-    \entry{Kouadio2023}{article}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=fcdf7339a015c98dbc4e8c1e528250a8}{%
-           family={Kouadio},
-           familyi={K\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c37a9947b33d153fa7711511399e4360}{%
-           family={El\bibnamedelima Jarroudi},
-           familyi={E\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c1cbb842ea2155f5fddb37234986ef1e}{%
-           family={Belabess},
-           familyi={B\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=346ce929119ff886fd6651a09f4f2d6b}{%
-           family={Laasli},
-           familyi={L\bibinitperiod},
-           given={S.\bibnamedelimi E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b7ce87dbbd600cb8678f0b8d14d7efb}{%
-           family={Roni},
-           familyi={R\bibinitperiod},
-           given={M.\bibnamedelimi Z.\bibnamedelimi K.},
-           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7582edfe446c5bad2900e52ff508fd0b}{%
-           family={Amine},
-           familyi={A\bibinitperiod},
-           given={I.\bibnamedelimi D.\bibnamedelimi I.},
-           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9994bc4961e3980c6537566e4f9c5010}{%
-           family={Mokhtari},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9dede74e614e77615465d7a51e272b2}{%
-           family={Mokrini},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5675ab3257ee556ca6eb3b00d272b84f}{%
-           family={Junk},
-           familyi={J\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bfc54b98ddce741ec77d367518b868d8}{%
-           family={Lahlali},
-           familyi={L\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1a1e9cadf44f145de0eeb70199b2ea07}
-      \strng{fullhash}{d0778eb79c0a4932b884b7563a6889f8}
-      \strng{bibnamehash}{d0778eb79c0a4932b884b7563a6889f8}
-      \strng{authorbibnamehash}{d0778eb79c0a4932b884b7563a6889f8}
-      \strng{authornamehash}{1a1e9cadf44f145de0eeb70199b2ea07}
-      \strng{authorfullhash}{d0778eb79c0a4932b884b7563a6889f8}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Remote Sensing}
-      \field{number}{17}
-      \field{title}{A review on UAV-based applications for plant disease detection and monitoring}
-      \field{volume}{15}
-      \field{year}{2023}
-      \field{pages}{4273}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/rs15174273
       \endverb
     \endentry
     \entry{krenker2011introduction}{inbook}{}
@@ -3150,6 +3141,84 @@
       \field{pages}{1\bibrangedash 74}
       \range{pages}{74}
     \endentry
+    \entry{Ang2022Optimal}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=27e0c26a2849254c25769cd34efe89e3}{%
+           family={Ang},
+           familyi={A\bibinitperiod},
+           given={Kok\bibnamedelima Min},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2232e35b52acc3245062a98cd5e9ed8a}{%
+           family={El-Kenawy},
+           familyi={E\bibinithyphendelim K\bibinitperiod},
+           given={El-Sayed\bibnamedelima M.},
+           giveni={E\bibinithyphendelim S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66f0cbe6933bea34c28a1bc0c58c4c3a}{%
+           family={Abdelhamid},
+           familyi={A\bibinitperiod},
+           given={Ahmed\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4789a99efccb59e6b395c34dbc387636}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18bfdb51b0cb929725af05f640bbc344}{%
+           family={Alharbi},
+           familyi={A\bibinitperiod},
+           given={Abdullah\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e33dcf660098c1f8c5c33deb4be98e24}{%
+           family={Khafaga},
+           familyi={K\bibinitperiod},
+           given={Dalia\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f58a6aa231aa053ac606b46b97d4e57}{%
+           family={Tiang},
+           familyi={T\bibinitperiod},
+           given={See\bibnamedelima Swee},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8805189fd70118e93cc1f07ffc247a6}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Wei\bibnamedelima Han},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{740f0a85a14ae26a3e35c173fe95361f}
+      \strng{fullhash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \strng{bibnamehash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \strng{authorbibnamehash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \strng{authornamehash}{740f0a85a14ae26a3e35c173fe95361f}
+      \strng{authorfullhash}{421a271ff8dcaa99c68c6386cc6c7129}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symmetry}
+      \field{number}{11}
+      \field{title}{Optimal Design of Convolutional Neural Network Architectures Using Teaching–Learning-Based Optimization for Image Classification}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{2323}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/sym14112323
+      \endverb
+    \endentry
     \entry{bengio2017deep}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
@@ -4314,93 +4383,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/rs13183612
-      \endverb
-    \endentry
-    \entry{Kouadio2023}{article}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=fcdf7339a015c98dbc4e8c1e528250a8}{%
-           family={Kouadio},
-           familyi={K\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c37a9947b33d153fa7711511399e4360}{%
-           family={El\bibnamedelima Jarroudi},
-           familyi={E\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c1cbb842ea2155f5fddb37234986ef1e}{%
-           family={Belabess},
-           familyi={B\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=346ce929119ff886fd6651a09f4f2d6b}{%
-           family={Laasli},
-           familyi={L\bibinitperiod},
-           given={S.\bibnamedelimi E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b7ce87dbbd600cb8678f0b8d14d7efb}{%
-           family={Roni},
-           familyi={R\bibinitperiod},
-           given={M.\bibnamedelimi Z.\bibnamedelimi K.},
-           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7582edfe446c5bad2900e52ff508fd0b}{%
-           family={Amine},
-           familyi={A\bibinitperiod},
-           given={I.\bibnamedelimi D.\bibnamedelimi I.},
-           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9994bc4961e3980c6537566e4f9c5010}{%
-           family={Mokhtari},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9dede74e614e77615465d7a51e272b2}{%
-           family={Mokrini},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5675ab3257ee556ca6eb3b00d272b84f}{%
-           family={Junk},
-           familyi={J\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bfc54b98ddce741ec77d367518b868d8}{%
-           family={Lahlali},
-           familyi={L\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1a1e9cadf44f145de0eeb70199b2ea07}
-      \strng{fullhash}{d0778eb79c0a4932b884b7563a6889f8}
-      \strng{bibnamehash}{d0778eb79c0a4932b884b7563a6889f8}
-      \strng{authorbibnamehash}{d0778eb79c0a4932b884b7563a6889f8}
-      \strng{authornamehash}{1a1e9cadf44f145de0eeb70199b2ea07}
-      \strng{authorfullhash}{d0778eb79c0a4932b884b7563a6889f8}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Remote Sensing}
-      \field{number}{17}
-      \field{title}{A review on UAV-based applications for plant disease detection and monitoring}
-      \field{volume}{15}
-      \field{year}{2023}
-      \field{pages}{4273}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/rs15174273
       \endverb
     \endentry
     \entry{krenker2011introduction}{inbook}{}
