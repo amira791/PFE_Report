@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  7 JUL 2025 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.24)  7 JUL 2025 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1673,6 +1673,22 @@ Package caption Info: New subtype `subfigure' on input line 238.
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count530
 )
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
@@ -2074,10 +2090,88 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (main.aux (titlepage.aux) (acknowledgement.aux) (dedication.aux)
 (dedicationz.aux) (abstract.aux) (introduction.aux)
-(chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux)
-(chapters/chapter3/chapter3.aux) (chapters/chapter44/chapter44.aux)
-(chapters/chapter56/chapter56.aux) (appendices/annexeA.aux)
-(appendices/annexeC.aux) (appendices/annexeD.aux))
+(chapters/chapter13/chapter13.aux) (chapters/chapter2/chapter2.aux
+
+LaTeX Warning: Label `tab:wheat_exports_2022' multiply defined.
+
+
+LaTeX Warning: Label `tab:wheat_exports_2022@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Figure001' multiply defined.
+
+
+LaTeX Warning: Label `fig:Figure001@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Alg' multiply defined.
+
+
+LaTeX Warning: Label `fig:Alg@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Figure02' multiply defined.
+
+
+LaTeX Warning: Label `fig:Figure02@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:wheat-pests' multiply defined.
+
+
+LaTeX Warning: Label `fig:wheat-pests@cref' multiply defined.
+
+) (chapters/chapter1/chapter1.aux) (chapters/chapter3/chapter3.aux
+
+LaTeX Warning: Label `fig:CLAHE' multiply defined.
+
+
+LaTeX Warning: Label `fig:CLAHE@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Dataaugmentation' multiply defined.
+
+
+LaTeX Warning: Label `fig:Dataaugmentation@cref' multiply defined.
+
+
+LaTeX Warning: Label `tab:wheat-disease-related-work' multiply defined.
+
+
+LaTeX Warning: Label `tab:wheat-disease-related-work@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:TrainingStrategies' multiply defined.
+
+
+LaTeX Warning: Label `fig:TrainingStrategies@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:hybridframework' multiply defined.
+
+
+LaTeX Warning: Label `fig:hybridframework@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:CustomDeepCN' multiply defined.
+
+
+LaTeX Warning: Label `fig:CustomDeepCN@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Few-shot' multiply defined.
+
+
+LaTeX Warning: Label `fig:Few-shot@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:Figure0001' multiply defined.
+
+
+LaTeX Warning: Label `fig:Figure0001@cref' multiply defined.
+
+) (chapters/chapter44/chapter44.aux) (chapters/chapter56/chapter56.aux)
+(appendices/annexeA.aux) (appendices/annexeC.aux) (appendices/annexeD.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -2102,8 +2196,9 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Info: Redefining \degres on input line 9.
 LaTeX Info: Redefining \up on input line 9.
- ArabTeX is aleready loaded,
- No support is provided with ArabTeX 7 bit input encoding
+
+ArabTeX is aleready loaded,  No support is provided
+with ArabTeX 7 bit input encoding
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2465,22 +2560,12 @@ l.80 ...تصنيف يتكون من مرحلتين:
 \openout6 = `main.err'.
 
 (main.err)
-Overfull \hbox (10.27249pt too wide) in paragraph at lines 80--80
-[]\T1/ptm/m/n/12 CNN  
- []
-
-
-Overfull \hbox (36.67857pt too wide) in paragraph at lines 80--80
+Overfull \hbox (4.09839pt too wide) in paragraph at lines 80--80
 []\T1/ptm/m/n/12 99,83%  
  []
 
 LaTeX Font Info:    Font shape `U/xnsh/bx/n' will be
 (Font)              scaled to size 17.28003pt on input line 91.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 88--91
-[]|[]
- []
-
 
 Overfull \hbox (2.28003pt too wide) in paragraph at lines 92--95
  [] 
@@ -2525,7 +2610,13 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 92--95
  (main.toc
 LaTeX Font Info:    Font shape `LAE/ptm/b/n' will be
 (Font)              scaled to size 15.0pt on input line 5.
- [4
+
+Overfull \hbox (5.8825pt too wide) in paragraph at lines 23--23
+ [] [][][][]\T1/ptm/b/n/12 From Threats to So-lu-tions: A Lit-er-a-ture Re-view
+ of Image-Based Ap-proaches[] 
+ []
+
+[4
 
 
 
@@ -2565,6 +2656,12 @@ Overfull \hbox (16.87576pt too wide) in paragraph at lines 5--5
 lion Tonnes)(Tadamoun 
  []
 
+
+Overfull \hbox (16.87576pt too wide) in paragraph at lines 18--18
+ [][] [][][]\T1/ptm/m/n/12 Main African wheat pro-duc-ers in 2022/2023 (in Mil-
+lion Tonnes)(Tadamoun 
+ []
+
 [8
 
 ]
@@ -2576,9 +2673,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-Overfull \hbox (11.50975pt too wide) in paragraph at lines 65--65
+Overfull \hbox (11.50975pt too wide) in paragraph at lines 78--78
  [][] [][][]\T1/ptm/m/n/12 Grad-CAM Vi-su-al-iza-tion of Dif-fer-ent At-ten-tio
 n Mech-a-nisms: SE, CBAM, 
+ []
+
+
+Overfull \hbox (2.1757pt too wide) in paragraph at lines 98--98
+ [][] [][][]\T1/ptm/m/n/12 Screenshots of Key Or-ga-ni-za-tional and Com-mu-ni-
+ca-tion Tools Used Dur- 
  []
 
 
@@ -2588,13 +2691,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
-Overfull \hbox (2.1757pt too wide) in paragraph at lines 85--85
- [][] [][][]\T1/ptm/m/n/12 Screenshots of Key Or-ga-ni-za-tional and Com-mu-ni-
-ca-tion Tools Used Dur- 
- []
-
-)
+[10])
 \tf@lof=\write12
 \openout12 = `main.lof'.
 
@@ -2609,7 +2706,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11] (main.lot [12
 
 ]
-Overfull \hbox (3.495pt too wide) in paragraph at lines 32--32
+Overfull \hbox (3.495pt too wide) in paragraph at lines 35--35
  [][] [][][]\T1/ptm/m/n/12 Comparative re-sults be-tween our ap-proach and two 
 state-of-the-art meth- 
  []
@@ -2651,7 +2748,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 
-]
+])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2659,15 +2756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
+[2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 52.
@@ -2684,14 +2773,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 52.
 
-[4
+[3
 
 
 
 ]
-\openout2 = `chapters/chapter2/chapter2.aux'.
+\openout2 = `chapters/chapter1/chapter1.aux'.
 
- (chapters/chapter2/chapter2.tex
+ (chapters/chapter1/chapter1.tex
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2709,258 +2798,262 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-<chapters/chapter2/images/CropsProduction.png, id=661, 764.8575pt x 402.75468pt
->
-File: chapters/chapter2/images/CropsProduction.png Graphic file (type png)
-<use chapters/chapter2/images/CropsProduction.png>
-Package pdftex.def Info: chapters/chapter2/images/CropsProduction.png  used on 
-input line 41.
-(pdftex.def)             Requested size: 409.71692pt x 215.7451pt.
-[5
+[4
 
 
 ]
-<chapters/chapter2/images/AlgeriaWheat.png, id=671, 517.935pt x 326.4195pt>
-File: chapters/chapter2/images/AlgeriaWheat.png Graphic file (type png)
-<use chapters/chapter2/images/AlgeriaWheat.png>
-Package pdftex.def Info: chapters/chapter2/images/AlgeriaWheat.png  used on inp
-ut line 50.
-(pdftex.def)             Requested size: 364.19667pt x 229.53804pt.
+<chapters/chapter1/images/Figure01.png, id=744, 563.85657pt x 146.04562pt>
+File: chapters/chapter1/images/Figure01.png Graphic file (type png)
+<use chapters/chapter1/images/Figure01.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure01.png  used on input l
+ine 27.
+(pdftex.def)             Requested size: 364.19667pt x 94.33128pt.
+<chapters/chapter1/images/Dnn.png, id=752, 482.0409pt x 262.3401pt>
+File: chapters/chapter1/images/Dnn.png Graphic file (type png)
+<use chapters/chapter1/images/Dnn.png>
+Package pdftex.def Info: chapters/chapter1/images/Dnn.png  used on input line 7
+1.
+(pdftex.def)             Requested size: 409.71692pt x 222.98212pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6 <./chapters/chapter2/images/CropsProduction.png>]
-<chapters/chapter2/images/Figure02.png, id=682, 661.72218pt x 587.19376pt>
-File: chapters/chapter2/images/Figure02.png Graphic file (type png)
-<use chapters/chapter2/images/Figure02.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure02.png  used on input l
-ine 88.
-(pdftex.def)             Requested size: 455.24411pt x 403.96352pt.
+[5 <./chapters/chapter1/images/Figure01.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./chapters/chapter1/images/Dnn.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+<chapters/chapter1/images/CNNarchitecture.png, id=851, 969.6225pt x 450.18187pt
+>
+File: chapters/chapter1/images/CNNarchitecture.png Graphic file (type png)
+<use chapters/chapter1/images/CNNarchitecture.png>
+Package pdftex.def Info: chapters/chapter1/images/CNNarchitecture.png  used on 
+input line 238.
+(pdftex.def)             Requested size: 409.71692pt x 190.22913pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7 <./chapters/chapter2/images/AlgeriaWheat.png>]
-<chapters/chapter2/images/Figure21.png, id=693, 192.4791pt x 251.4996pt>
-File: chapters/chapter2/images/Figure21.png Graphic file (type png)
-<use chapters/chapter2/images/Figure21.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure21.png  used on input l
-ine 106.
-(pdftex.def)             Requested size: 81.9456pt x 107.07202pt.
-<chapters/chapter2/images/Figure04.png, id=698, 320.69812pt x 565.36218pt>
-File: chapters/chapter2/images/Figure04.png Graphic file (type png)
-<use chapters/chapter2/images/Figure04.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure04.png  used on input l
-ine 127.
-(pdftex.def)             Requested size: 81.9456pt x 144.46306pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
-
-[8 <./chapters/chapter2/images/Figure02.png> <./chapters/chapter2/images/Figure
-21.png>]
-<chapters/chapter2/images/Figure05.png, id=709, 325.215pt x 154.32657pt>
-File: chapters/chapter2/images/Figure05.png Graphic file (type png)
-<use chapters/chapter2/images/Figure05.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure05.png  used on input l
-ine 144.
-(pdftex.def)             Requested size: 122.9163pt x 58.32678pt.
-<chapters/chapter2/images/Figure06.png, id=714, 755.82375pt x 445.665pt>
-File: chapters/chapter2/images/Figure06.png Graphic file (type png)
-<use chapters/chapter2/images/Figure06.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure06.png  used on input l
-ine 161.
-(pdftex.def)             Requested size: 163.88426pt x 96.63214pt.
-<chapters/chapter2/images/Figure07.png, id=721, 816.04875pt x 569.12625pt>
-File: chapters/chapter2/images/Figure07.png Graphic file (type png)
-<use chapters/chapter2/images/Figure07.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure07.png  used on input l
-ine 179.
-(pdftex.def)             Requested size: 172.98956pt x 120.64029pt.
-
-Underfull \hbox (badness 2990) in paragraph at lines 180--180
-[]\T1/ptm/m/n/12 Figure []1.8[]: |Symp-toms of Fusar-
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 180--180
-\T1/ptm/m/n/12 head, while the right im-age il-lus-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
-
-[9 <./chapters/chapter2/images/Figure04.png> <./chapters/chapter2/images/Figure
-05.png> <./chapters/chapter2/images/Figure06.png>]
-<chapters/chapter2/images/Figure20.png, id=733, 266.1945pt x 460.72125pt>
-File: chapters/chapter2/images/Figure20.png Graphic file (type png)
-<use chapters/chapter2/images/Figure20.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure20.png  used on input l
-ine 198.
-(pdftex.def)             Requested size: 81.9456pt x 141.83087pt.
-<chapters/chapter2/images/test.png, id=738, 335.45325pt x 400.49625pt>
-File: chapters/chapter2/images/test.png Graphic file (type png)
-<use chapters/chapter2/images/test.png>
-Package pdftex.def Info: chapters/chapter2/images/test.png  used on input line 
-216.
-(pdftex.def)             Requested size: 109.25803pt x 130.44084pt.
-
-Underfull \hbox (badness 2644) in paragraph at lines 217--217
-\T1/ptm/m/n/12 Kag-gle dataset `Wheat Plant Dis-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
-
-[10 <./chapters/chapter2/images/Figure07.png> <./chapters/chapter2/images/Figur
-e20.png>]
-<chapters/chapter2/images/Figure10.png, id=747, 746.79pt x 547.2947pt>
-File: chapters/chapter2/images/Figure10.png Graphic file (type png)
-<use chapters/chapter2/images/Figure10.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure10.png  used on input l
-ine 234.
-(pdftex.def)             Requested size: 109.2601pt x 80.0697pt.
-
-Underfull \hbox (badness 7649) in paragraph at lines 235--235
-\T1/ptm/m/n/12 rot from Kag-gle dataset
- []
-
-
-Overfull \hbox (4.79472pt too wide) in paragraph at lines 244--245
-\T1/ptm/m/n/12 heads, caus-ing yel-low-ing, leaf rolling, and poor pol-li-na-ti
-on, es-pe-cially dur-ing early growth.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
-
-[11 <./chapters/chapter2/images/test.png> <./chapters/chapter2/images/Figure10.
-png>]
-<chapters/chapter2/images/Figure11.png, id=765, 1247.41031pt x 371.13657pt>
-File: chapters/chapter2/images/Figure11.png Graphic file (type png)
-<use chapters/chapter2/images/Figure11.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure11.png  used on input l
+[10 <./chapters/chapter1/images/CNNarchitecture.png>]
+<chapters/chapter1/images/Figure05.png, id=863, 331.99031pt x 273.27094pt>
+File: chapters/chapter1/images/Figure05.png Graphic file (type png)
+<use chapters/chapter1/images/Figure05.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure05.png  used on input l
 ine 265.
-(pdftex.def)             Requested size: 136.5684pt x 77.38599pt.
-<chapters/chapter2/images/Figure12.png, id=768, 1202.99437pt x 303.38344pt>
-File: chapters/chapter2/images/Figure12.png Graphic file (type png)
-<use chapters/chapter2/images/Figure12.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure12.png  used on input l
-ine 268.
-(pdftex.def)             Requested size: 136.57007pt x 77.39183pt.
-<chapters/chapter2/images/Figure13.png, id=771, 881.54344pt x 514.92375pt>
-File: chapters/chapter2/images/Figure13.png Graphic file (type png)
-<use chapters/chapter2/images/Figure13.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure13.png  used on input l
-ine 271.
-(pdftex.def)             Requested size: 136.57056pt x 77.3845pt.
-<chapters/chapter2/images/Figure15.png, id=774, 293.59688pt x 226.59656pt>
-File: chapters/chapter2/images/Figure15.png Graphic file (type png)
-<use chapters/chapter2/images/Figure15.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure15.png  used on input l
-ine 275.
-(pdftex.def)             Requested size: 136.57489pt x 77.39102pt.
-<chapters/chapter2/images/Figure16.png, id=777, 280.79906pt x 362.85562pt>
-File: chapters/chapter2/images/Figure16.png Graphic file (type png)
-<use chapters/chapter2/images/Figure16.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure16.png  used on input l
-ine 278.
-(pdftex.def)             Requested size: 136.573pt x 77.38678pt.
-<chapters/chapter2/images/Figure17.png, id=780, 547.2947pt x 408.77719pt>
-File: chapters/chapter2/images/Figure17.png Graphic file (type png)
-<use chapters/chapter2/images/Figure17.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure17.png  used on input l
-ine 281.
-(pdftex.def)             Requested size: 136.5728pt x 77.38779pt.
-
-Underfull \hbox (badness 7291) in paragraph at lines 281--281
-[]\T1/ptm/m/n/10.95 (f) |Sawfly (Kag-gle "Dataset
- []
-
-<chapters/chapter2/images/Figure18.png, id=781, 429.10312pt x 286.82156pt>
-File: chapters/chapter2/images/Figure18.png Graphic file (type png)
-<use chapters/chapter2/images/Figure18.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure18.png  used on input l
-ine 285.
-(pdftex.def)             Requested size: 136.57591pt x 77.39034pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-[]\T1/ptm/m/n/10.95 (g) |Grasshop-pers (Kag-gle
- []
-
-<chapters/chapter2/images/Figure19.png, id=782, 713.66624pt x 393.72093pt>
-File: chapters/chapter2/images/Figure19.png Graphic file (type png)
-<use chapters/chapter2/images/Figure19.png>
-Package pdftex.def Info: chapters/chapter2/images/Figure19.png  used on input l
-ine 288.
-(pdftex.def)             Requested size: 136.56717pt x 77.38504pt.
-
-Underfull \hbox (badness 1565) in paragraph at lines 288--288
-[]\T1/ptm/m/n/10.95 (h) |Wire-worm (Fa-rook et al.,
- []
+(pdftex.def)             Requested size: 273.14923pt x 224.85083pt.
+<chapters/chapter1/images/Figure06.png, id=868, 399.74344pt x 244.66406pt>
+File: chapters/chapter1/images/Figure06.png Graphic file (type png)
+<use chapters/chapter1/images/Figure06.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure06.png  used on input l
+ine 279.
+(pdftex.def)             Requested size: 273.14923pt x 167.19067pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[11 <./chapters/chapter1/images/Figure05.png>]
+<chapters/chapter1/images/Figure08.png, id=890, 522.45187pt x 160.34906pt>
+File: chapters/chapter1/images/Figure08.png Graphic file (type png)
+<use chapters/chapter1/images/Figure08.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure08.png  used on input l
+ine 313.
+(pdftex.def)             Requested size: 364.19667pt x 111.77869pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13 <./chapters/chapter2/images/Figure11.png> <./chapters/chapter2/images/Figur
-e12.png> <./chapters/chapter2/images/Figure13.png> <./chapters/chapter2/images/
-Figure15.png> <./chapters/chapter2/images/Figure16.png> <./chapters/chapter2/im
-ages/Figure17.png> <./chapters/chapter2/images/Figure18.png> <./chapters/chapte
-r2/images/Figure19.png>]
-Overfull \hbox (3.20944pt too wide) in paragraph at lines 308--309
-\T1/ptm/m/n/12 growth, de-tect-ing dis-eases, and as-sess-ing yield. It plays a
- cru-cial role in real-time decision-
- []
+[12 <./chapters/chapter1/images/Figure06.png>]
+<chapters/chapter1/images/Figure11.png, id=905, 561.59813pt x 268.75406pt>
+File: chapters/chapter1/images/Figure11.png Graphic file (type png)
+<use chapters/chapter1/images/Figure11.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure11.png  used on input l
+ine 367.
+(pdftex.def)             Requested size: 364.19667pt x 174.28618pt.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./chapters/chapter1/images/Figure08.png>]
+<chapters/chapter1/images/Figure12.png, id=920, 523.20468pt x 371.88937pt>
+File: chapters/chapter1/images/Figure12.png Graphic file (type png)
+<use chapters/chapter1/images/Figure12.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure12.png  used on input l
+ine 387.
+(pdftex.def)             Requested size: 364.19667pt x 258.87376pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./chapters/chapter1/images/Figure11.png>]
+<chapters/chapter1/images/Figure13.png, id=933, 796.47563pt x 370.38374pt>
+File: chapters/chapter1/images/Figure13.png Graphic file (type png)
+<use chapters/chapter1/images/Figure13.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure13.png  used on input l
+ine 402.
+(pdftex.def)             Requested size: 364.19667pt x 169.3613pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15 <./chapters/chapter1/images/Figure12.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./chapters/chapter1/images/Figure13.png>]
+<chapters/chapter1/images/Figure15.png, id=954, 1118.37825pt x 749.34956pt>
+File: chapters/chapter1/images/Figure15.png Graphic file (type png)
+<use chapters/chapter1/images/Figure15.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure15.png  used on input l
+ine 497.
+(pdftex.def)             Requested size: 455.24411pt x 305.01709pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17 <./chapters/chapter1/images/Figure15.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+<chapters/chapter1/images/Figure16.png, id=987, 1080.28593pt x 545.03625pt>
+File: chapters/chapter1/images/Figure16.png Graphic file (type png)
+<use chapters/chapter1/images/Figure16.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure16.png  used on input l
+ine 572.
+(pdftex.def)             Requested size: 364.19667pt x 183.74635pt.
+<chapters/chapter1/images/Figure17.png, id=992, 989.94844pt x 338.01282pt>
+File: chapters/chapter1/images/Figure17.png Graphic file (type png)
+<use chapters/chapter1/images/Figure17.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure17.png  used on input l
+ine 588.
+(pdftex.def)             Requested size: 364.19667pt x 124.35101pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./chapters/chapter1/images/Figure16.png> <./chapters/chapter1/images/Figur
+e17.png>]
+<chapters/chapter1/images/Figure18.png, id=1004, 362.10281pt x 362.85562pt>
+File: chapters/chapter1/images/Figure18.png Graphic file (type png)
+<use chapters/chapter1/images/Figure18.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure18.png  used on input l
+ine 603.
+(pdftex.def)             Requested size: 273.14923pt x 273.71901pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./chapters/chapter1/images/Figure18.png>]
+<chapters/chapter1/images/Figure19.png, id=1014, 1067.48813pt x 472.01344pt>
+File: chapters/chapter1/images/Figure19.png Graphic file (type png)
+<use chapters/chapter1/images/Figure19.png>
+Package pdftex.def Info: chapters/chapter1/images/Figure19.png  used on input l
+ine 617.
+(pdftex.def)             Requested size: 364.19667pt x 161.03702pt.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.98592pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
-\openout2 = `chapters/chapter1/chapter1.aux'.
+[22 <./chapters/chapter1/images/Figure19.png>]
 
- (chapters/chapter1/chapter1.tex
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+\openout2 = `chapters/chapter13/chapter13.aux'.
+
+ (chapters/chapter13/chapter13.tex
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2978,680 +3071,615 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-[15
+[24
 
 
 
 
 ]
-<chapters/chapter1/images/Figure01.png, id=833, 563.85657pt x 146.04562pt>
-File: chapters/chapter1/images/Figure01.png Graphic file (type png)
-<use chapters/chapter1/images/Figure01.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure01.png  used on input l
-ine 27.
-(pdftex.def)             Requested size: 364.19667pt x 94.33128pt.
+<chapters/chapter2/images/CropsProduction.png, id=1045, 764.8575pt x 402.75468p
+t>
+File: chapters/chapter2/images/CropsProduction.png Graphic file (type png)
+<use chapters/chapter2/images/CropsProduction.png>
+Package pdftex.def Info: chapters/chapter2/images/CropsProduction.png  used on 
+input line 40.
+(pdftex.def)             Requested size: 409.71692pt x 215.7451pt.
+<chapters/chapter2/images/AlgeriaWheat.png, id=1049, 517.935pt x 326.4195pt>
+File: chapters/chapter2/images/AlgeriaWheat.png Graphic file (type png)
+<use chapters/chapter2/images/AlgeriaWheat.png>
+Package pdftex.def Info: chapters/chapter2/images/AlgeriaWheat.png  used on inp
+ut line 49.
+(pdftex.def)             Requested size: 364.19667pt x 229.53804pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[16 <./chapters/chapter1/images/Figure01.png>]
-<chapters/chapter1/images/Dnn.png, id=852, 482.0409pt x 262.3401pt>
-File: chapters/chapter1/images/Dnn.png Graphic file (type png)
-<use chapters/chapter1/images/Dnn.png>
-Package pdftex.def Info: chapters/chapter1/images/Dnn.png  used on input line 7
-1.
-(pdftex.def)             Requested size: 409.71692pt x 222.98212pt.
+[25 <./chapters/chapter2/images/CropsProduction.png>]
+<chapters/chapter2/images/Figure02.png, id=1061, 661.72218pt x 587.19376pt>
+File: chapters/chapter2/images/Figure02.png Graphic file (type png)
+<use chapters/chapter2/images/Figure02.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure02.png  used on input l
+ine 62.
+(pdftex.def)             Requested size: 455.24411pt x 403.96352pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[17 <./chapters/chapter1/images/Dnn.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20]
-<chapters/chapter1/images/CNNarchitecture.png, id=931, 969.6225pt x 450.18187pt
->
-File: chapters/chapter1/images/CNNarchitecture.png Graphic file (type png)
-<use chapters/chapter1/images/CNNarchitecture.png>
-Package pdftex.def Info: chapters/chapter1/images/CNNarchitecture.png  used on 
-input line 238.
-(pdftex.def)             Requested size: 409.71692pt x 190.22913pt.
+[26 <./chapters/chapter2/images/AlgeriaWheat.png>]
+Overfull \hbox (7.91464pt too wide) in paragraph at lines 73--74
+\T1/ptm/m/n/12 yellow-orange stripes on leaves and glumes. It thrives in moist 
+con-di-tions be-tween 10^^U20\TS1/ptm/m/n/12 �\T1/ptm/m/n/12 C
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[21]
-<chapters/chapter1/images/Figure05.png, id=942, 331.99031pt x 273.27094pt>
-File: chapters/chapter1/images/Figure05.png Graphic file (type png)
-<use chapters/chapter1/images/Figure05.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure05.png  used on input l
-ine 265.
-(pdftex.def)             Requested size: 273.14923pt x 224.85083pt.
+[27 <./chapters/chapter2/images/Figure02.png>]
+<chapters/chapter2/images/Figure21.png, id=1083, 192.4791pt x 251.4996pt>
+File: chapters/chapter2/images/Figure21.png Graphic file (type png)
+<use chapters/chapter2/images/Figure21.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure21.png  used on input l
+ine 91.
+(pdftex.def)             Requested size: 87.10233pt x 113.8108pt.
+<chapters/chapter2/images/Figure04.png, id=1084, 320.69812pt x 565.36218pt>
+File: chapters/chapter2/images/Figure04.png Graphic file (type png)
+<use chapters/chapter2/images/Figure04.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure04.png  used on input l
+ine 94.
+(pdftex.def)             Requested size: 64.55443pt x 113.8037pt.
+<chapters/chapter2/images/Figure05.png, id=1085, 325.215pt x 154.32657pt>
+File: chapters/chapter2/images/Figure05.png Graphic file (type png)
+<use chapters/chapter2/images/Figure05.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure05.png  used on input l
+ine 97.
+(pdftex.def)             Requested size: 142.26631pt x 67.51064pt.
+<chapters/chapter2/images/Figure06.png, id=1086, 755.82375pt x 445.665pt>
+File: chapters/chapter2/images/Figure06.png Graphic file (type png)
+<use chapters/chapter2/images/Figure06.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure06.png  used on input l
+ine 101.
+(pdftex.def)             Requested size: 142.25865pt x 83.88159pt.
+<chapters/chapter2/images/Figure07.png, id=1087, 816.04875pt x 569.12625pt>
+File: chapters/chapter2/images/Figure07.png Graphic file (type png)
+<use chapters/chapter2/images/Figure07.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure07.png  used on input l
+ine 104.
+(pdftex.def)             Requested size: 142.26279pt x 99.21648pt.
+<chapters/chapter2/images/Figure20.png, id=1088, 266.1945pt x 460.72125pt>
+File: chapters/chapter2/images/Figure20.png Graphic file (type png)
+<use chapters/chapter2/images/Figure20.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure20.png  used on input l
+ine 107.
+(pdftex.def)             Requested size: 65.75641pt x 113.80917pt.
+<chapters/chapter2/images/test.png, id=1089, 335.45325pt x 400.49625pt>
+File: chapters/chapter2/images/test.png Graphic file (type png)
+<use chapters/chapter2/images/test.png>
+Package pdftex.def Info: chapters/chapter2/images/test.png  used on input line 
+111.
+(pdftex.def)             Requested size: 95.32364pt x 113.8065pt.
+<chapters/chapter2/images/Figure10.png, id=1090, 746.79pt x 547.2947pt>
+File: chapters/chapter2/images/Figure10.png Graphic file (type png)
+<use chapters/chapter2/images/Figure10.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure10.png  used on input l
+ine 114.
+(pdftex.def)             Requested size: 142.25621pt x 104.2543pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[22 <./chapters/chapter1/images/CNNarchitecture.png>]
-<chapters/chapter1/images/Figure06.png, id=953, 399.74344pt x 244.66406pt>
-File: chapters/chapter1/images/Figure06.png Graphic file (type png)
-<use chapters/chapter1/images/Figure06.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure06.png  used on input l
-ine 279.
-(pdftex.def)             Requested size: 273.14923pt x 167.19067pt.
+[28 <./chapters/chapter2/images/Figure21.png> <./chapters/chapter2/images/Figur
+e04.png> <./chapters/chapter2/images/Figure05.png> <./chapters/chapter2/images/
+Figure06.png> <./chapters/chapter2/images/Figure07.png> <./chapters/chapter2/im
+ages/Figure20.png> <./chapters/chapter2/images/test.png> <./chapters/chapter2/i
+mages/Figure10.png>]
+Overfull \hbox (4.79472pt too wide) in paragraph at lines 134--135
+\T1/ptm/m/n/12 heads, caus-ing yel-low-ing, leaf rolling, and poor pol-li-na-ti
+on, es-pe-cially dur-ing early growth.
+ []
+
+<chapters/chapter2/images/Figure11.png, id=1128, 1247.41031pt x 371.13657pt>
+File: chapters/chapter2/images/Figure11.png Graphic file (type png)
+<use chapters/chapter2/images/Figure11.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure11.png  used on input l
+ine 155.
+(pdftex.def)             Requested size: 136.5684pt x 77.38599pt.
+<chapters/chapter2/images/Figure12.png, id=1131, 1202.99437pt x 303.38344pt>
+File: chapters/chapter2/images/Figure12.png Graphic file (type png)
+<use chapters/chapter2/images/Figure12.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure12.png  used on input l
+ine 158.
+(pdftex.def)             Requested size: 136.57007pt x 77.39183pt.
+<chapters/chapter2/images/Figure13.png, id=1134, 881.54344pt x 514.92375pt>
+File: chapters/chapter2/images/Figure13.png Graphic file (type png)
+<use chapters/chapter2/images/Figure13.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure13.png  used on input l
+ine 161.
+(pdftex.def)             Requested size: 136.57056pt x 77.3845pt.
+<chapters/chapter2/images/Figure15.png, id=1137, 293.59688pt x 226.59656pt>
+File: chapters/chapter2/images/Figure15.png Graphic file (type png)
+<use chapters/chapter2/images/Figure15.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure15.png  used on input l
+ine 165.
+(pdftex.def)             Requested size: 136.57489pt x 77.39102pt.
+<chapters/chapter2/images/Figure16.png, id=1140, 280.79906pt x 362.85562pt>
+File: chapters/chapter2/images/Figure16.png Graphic file (type png)
+<use chapters/chapter2/images/Figure16.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure16.png  used on input l
+ine 168.
+(pdftex.def)             Requested size: 136.573pt x 77.38678pt.
+<chapters/chapter2/images/Figure17.png, id=1143, 547.2947pt x 408.77719pt>
+File: chapters/chapter2/images/Figure17.png Graphic file (type png)
+<use chapters/chapter2/images/Figure17.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure17.png  used on input l
+ine 171.
+(pdftex.def)             Requested size: 136.5728pt x 77.38779pt.
+
+Underfull \hbox (badness 7291) in paragraph at lines 171--171
+[]\T1/ptm/m/n/10.95 (f) |Sawfly (Kag-gle "Dataset
+ []
+
+<chapters/chapter2/images/Figure18.png, id=1144, 429.10312pt x 286.82156pt>
+File: chapters/chapter2/images/Figure18.png Graphic file (type png)
+<use chapters/chapter2/images/Figure18.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure18.png  used on input l
+ine 175.
+(pdftex.def)             Requested size: 136.57591pt x 77.39034pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]\T1/ptm/m/n/10.95 (g) |Grasshop-pers (Kag-gle
+ []
+
+<chapters/chapter2/images/Figure19.png, id=1145, 713.66624pt x 393.72093pt>
+File: chapters/chapter2/images/Figure19.png Graphic file (type png)
+<use chapters/chapter2/images/Figure19.png>
+Package pdftex.def Info: chapters/chapter2/images/Figure19.png  used on input l
+ine 178.
+(pdftex.def)             Requested size: 136.56717pt x 77.38504pt.
+
+Underfull \hbox (badness 1565) in paragraph at lines 178--178
+[]\T1/ptm/m/n/10.95 (h) |Wire-worm (Fa-rook et al.,
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[23 <./chapters/chapter1/images/Figure05.png> <./chapters/chapter1/images/Figur
-e06.png>]
-<chapters/chapter1/images/Figure08.png, id=974, 522.45187pt x 160.34906pt>
-File: chapters/chapter1/images/Figure08.png Graphic file (type png)
-<use chapters/chapter1/images/Figure08.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure08.png  used on input l
-ine 313.
-(pdftex.def)             Requested size: 364.19667pt x 111.77869pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[24 <./chapters/chapter1/images/Figure08.png>]
-<chapters/chapter1/images/Figure11.png, id=988, 561.59813pt x 268.75406pt>
-File: chapters/chapter1/images/Figure11.png Graphic file (type png)
-<use chapters/chapter1/images/Figure11.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure11.png  used on input l
-ine 367.
-(pdftex.def)             Requested size: 364.19667pt x 174.28618pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[25 <./chapters/chapter1/images/Figure11.png>]
-<chapters/chapter1/images/Figure12.png, id=1002, 523.20468pt x 371.88937pt>
-File: chapters/chapter1/images/Figure12.png Graphic file (type png)
-<use chapters/chapter1/images/Figure12.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure12.png  used on input l
-ine 387.
-(pdftex.def)             Requested size: 364.19667pt x 258.87376pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[26 <./chapters/chapter1/images/Figure12.png>]
-<chapters/chapter1/images/Figure13.png, id=1014, 796.47563pt x 370.38374pt>
-File: chapters/chapter1/images/Figure13.png Graphic file (type png)
-<use chapters/chapter1/images/Figure13.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure13.png  used on input l
-ine 402.
-(pdftex.def)             Requested size: 364.19667pt x 169.3613pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27 <./chapters/chapter1/images/Figure13.png>]
-<chapters/chapter1/images/Figure15.png, id=1029, 1118.37825pt x 749.34956pt>
-File: chapters/chapter1/images/Figure15.png Graphic file (type png)
-<use chapters/chapter1/images/Figure15.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure15.png  used on input l
-ine 497.
-(pdftex.def)             Requested size: 455.24411pt x 305.01709pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28 <./chapters/chapter1/images/Figure15.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
 [29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[30]
-<chapters/chapter1/images/Figure16.png, id=1059, 1080.28593pt x 545.03625pt>
-File: chapters/chapter1/images/Figure16.png Graphic file (type png)
-<use chapters/chapter1/images/Figure16.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure16.png  used on input l
-ine 572.
-(pdftex.def)             Requested size: 364.19667pt x 183.74635pt.
+[30 <./chapters/chapter2/images/Figure11.png> <./chapters/chapter2/images/Figur
+e12.png> <./chapters/chapter2/images/Figure13.png> <./chapters/chapter2/images/
+Figure15.png> <./chapters/chapter2/images/Figure16.png> <./chapters/chapter2/im
+ages/Figure17.png> <./chapters/chapter2/images/Figure18.png> <./chapters/chapte
+r2/images/Figure19.png>]
+Overfull \hbox (3.20944pt too wide) in paragraph at lines 198--199
+\T1/ptm/m/n/12 growth, de-tect-ing dis-eases, and as-sess-ing yield. It plays a
+ cru-cial role in real-time decision-
+ []
+
+
+Overfull \hbox (15.49365pt too wide) in paragraph at lines 212--212
+|[]\T1/ptm/b/n/17.28 Review of Image-Based Ap-proaches in Wheat Dis-ease Iden-
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[31 <./chapters/chapter1/images/Figure16.png>]
-<chapters/chapter1/images/Figure17.png, id=1069, 989.94844pt x 338.01282pt>
-File: chapters/chapter1/images/Figure17.png Graphic file (type png)
-<use chapters/chapter1/images/Figure17.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure17.png  used on input l
-ine 588.
-(pdftex.def)             Requested size: 364.19667pt x 124.35101pt.
-<chapters/chapter1/images/Figure18.png, id=1075, 362.10281pt x 362.85562pt>
-File: chapters/chapter1/images/Figure18.png Graphic file (type png)
-<use chapters/chapter1/images/Figure18.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure18.png  used on input l
-ine 603.
-(pdftex.def)             Requested size: 273.14923pt x 273.71901pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32 <./chapters/chapter1/images/Figure17.png>]
-<chapters/chapter1/images/Figure19.png, id=1085, 1067.48813pt x 472.01344pt>
-File: chapters/chapter1/images/Figure19.png Graphic file (type png)
-<use chapters/chapter1/images/Figure19.png>
-Package pdftex.def Info: chapters/chapter1/images/Figure19.png  used on input l
-ine 617.
-(pdftex.def)             Requested size: 364.19667pt x 161.03702pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[33 <./chapters/chapter1/images/Figure18.png>])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34 <./chapters/chapter1/images/Figure19.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[35]
-\openout2 = `chapters/chapter3/chapter3.aux'.
-
- (chapters/chapter3/chapter3.tex
-Chapter 3.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 1.
-
-[36
-
-
-
-
-]
-<chapters/chapter3/images/Figure01.png, id=1120, 949.29657pt x 440.39531pt>
+[31]
+<chapters/chapter3/images/Figure01.png, id=1197, 949.29657pt x 440.39531pt>
 File: chapters/chapter3/images/Figure01.png Graphic file (type png)
 <use chapters/chapter3/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure01.png  used on input l
-ine 21.
+ine 231.
 (pdftex.def)             Requested size: 364.19667pt x 168.95801pt.
-<chapters/chapter3/images/Figure02.png, id=1127, 722.7pt x 227.1988pt>
-File: chapters/chapter3/images/Figure02.png Graphic file (type png)
-<use chapters/chapter3/images/Figure02.png>
-Package pdftex.def Info: chapters/chapter3/images/Figure02.png  used on input l
-ine 32.
-(pdftex.def)             Requested size: 364.19667pt x 114.49355pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[37 <./chapters/chapter3/images/Figure01.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[32 <./chapters/chapter3/images/Figure01.png>]
+<chapters/chapter3/images/Figure02.png, id=1212, 722.7pt x 227.1988pt>
+File: chapters/chapter3/images/Figure02.png Graphic file (type png)
+<use chapters/chapter3/images/Figure02.png>
+Package pdftex.def Info: chapters/chapter3/images/Figure02.png  used on input l
+ine 242.
+(pdftex.def)             Requested size: 364.19667pt x 114.49355pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []|\T1/ptm/b/n/12 Categories and
  []
 
 
-Overfull \hbox (21.54716pt too wide) in alignment at lines 49--54
+Overfull \hbox (21.54716pt too wide) in alignment at lines 258--263
  [] [] [] [] 
  []
 
 
-Overfull \hbox (21.54716pt too wide) in alignment at lines 54--55
+Overfull \hbox (21.54716pt too wide) in alignment at lines 263--264
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 []\T1/ptm/b/n/12 Preprocessing: \T1/ptm/m/n/12 Cy-cle-
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 60--61
+Underfull \hbox (badness 2582) in paragraph at lines 269--270
 \T1/ptm/m/n/12 GAN, ADASYN, SMOTE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/ptm/m/n/12 Wheat Leaf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/ptm/m/n/12 Dataset (407
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 66--67
+Underfull \hbox (badness 6893) in paragraph at lines 275--276
 []|\T1/ptm/m/n/12 CycleGAN +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/ptm/m/n/12 Mo-bileNetV2:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/ptm/m/n/12 100% ac-cu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []|\T1/ptm/m/n/12 ([]Nagpal et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 []\T1/ptm/b/n/12 Method: \T1/ptm/m/n/12 Hy-brid (Mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \T1/ptm/m/n/12 Yel-low rust,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \T1/ptm/m/n/12 brown rust,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \T1/ptm/m/n/12 loose smut,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 []|\T1/ptm/m/n/12 ([]Reis & Turk,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 \T1/ptm/m/n/12 Healthy,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 \T1/ptm/m/n/12 yel-low rust,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 \T1/ptm/m/n/12 Wheat Dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 []|\T1/ptm/m/n/12 ([]Goyal et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 \T1/ptm/m/n/12 10 (kar-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 \T1/ptm/m/n/12 LWDCD2020
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 \T1/ptm/m/n/12 (12,000 im-
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 105--105
+Underfull \hbox (badness 7777) in paragraph at lines 314--314
 []|\T1/ptm/m/n/12 ([]Alharbi et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 \T1/ptm/m/n/12 PlantVil-lage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 \T1/ptm/m/n/12 ual, Google
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 112--113
+Underfull \hbox (badness 1622) in paragraph at lines 321--322
 \T1/ptm/m/n/12 Im-ages (1530
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []|\T1/ptm/m/n/12 ([]Jouini et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 123--124
+Underfull \hbox (badness 3088) in paragraph at lines 332--333
 \T1/ptm/m/n/12 Healthy, sep-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []|\T1/ptm/m/n/12 ([]Fang et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 \T1/ptm/m/n/12 (rusts, smut,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 \T1/ptm/m/n/12 LWDCD2020,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 \T1/ptm/m/n/12 PlantVil-lage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 []|\T1/ptm/m/n/12 ([]Nigam et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \T1/ptm/m/n/12 Stripe rust,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 \T1/ptm/m/n/12 WheatRust21
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
 []|\T1/ptm/m/n/12 ([]Jiang et al.,
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 155--156
+Underfull \hbox (badness 5446) in paragraph at lines 364--365
 []\T1/ptm/b/n/12 Method: \T1/ptm/m/n/12 7 CNNs (e.g.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 []\T1/ptm/b/n/12 Categories:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 \T1/ptm/m/n/12 Healthy,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 []\T1/ptm/b/n/12 Dataset:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T1/ptm/m/n/12 Field-based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 \T1/ptm/m/n/12 Wheat Dis-
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 160--161
+Underfull \hbox (badness 6477) in paragraph at lines 369--370
 \T1/ptm/m/n/12 eases Im-ages
  []
 
 
-Overfull \hbox (21.54716pt too wide) in alignment at lines 55--165
+Overfull \hbox (21.54716pt too wide) in alignment at lines 264--374
  [] [] [] [] 
  []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[38 <./chapters/chapter3/images/Figure02.png>]
+[33 <./chapters/chapter3/images/Figure02.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[39]
+[34]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[40]
-<chapters/chapter3/images/Figure03.png, id=1167, 943.27406pt x 526.96875pt>
+[35]
+<chapters/chapter3/images/Figure03.png, id=1247, 943.27406pt x 526.96875pt>
 File: chapters/chapter3/images/Figure03.png Graphic file (type png)
 <use chapters/chapter3/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure03.png  used on input l
-ine 193.
+ine 393.
 (pdftex.def)             Requested size: 500.77129pt x 279.76651pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 193--194
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 393--394
  [][] 
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[41 <./chapters/chapter3/images/Figure03.png>]
-<chapters/chapter3/images/Figure04.png, id=1177, 922.79756pt x 380.32088pt>
+<chapters/chapter3/images/Figure04.png, id=1252, 922.79756pt x 380.32088pt>
 File: chapters/chapter3/images/Figure04.png Graphic file (type png)
 <use chapters/chapter3/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure04.png  used on input l
-ine 205.
+ine 405.
 (pdftex.def)             Requested size: 500.77129pt x 206.38577pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 205--206
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 405--406
  [][] 
  []
 
-<chapters/chapter3/images/Figure05.png, id=1182, 737.75626pt x 453.19313pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[36 <./chapters/chapter3/images/Figure03.png>]
+<chapters/chapter3/images/Figure05.png, id=1263, 737.75626pt x 453.19313pt>
 File: chapters/chapter3/images/Figure05.png Graphic file (type png)
 <use chapters/chapter3/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure05.png  used on input l
-ine 222.
+ine 422.
 (pdftex.def)             Requested size: 455.24411pt x 279.64912pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./chapters/chapter3/images/Figure04.png>]
-<chapters/chapter3/images/Figure06.png, id=1193, 874.76813pt x 422.32782pt>
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
+
+[37 <./chapters/chapter3/images/Figure04.png> <./chapters/chapter3/images/Figur
+e05.png>]
+<chapters/chapter3/images/Figure06.png, id=1274, 874.76813pt x 422.32782pt>
 File: chapters/chapter3/images/Figure06.png Graphic file (type png)
 <use chapters/chapter3/images/Figure06.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure06.png  used on input l
-ine 233.
+ine 433.
 (pdftex.def)             Requested size: 409.71692pt x 197.80457pt.
 
 
@@ -3662,77 +3690,67 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 ... on wheat disease classification tasks​
+l.439 ... on wheat disease classification tasks​
                                                   . Likewise, \parencite{jou...
 
 ? 
-
-Overfull \hbox (0.70071pt too wide) in paragraph at lines 239--240
-[]\T1/ptm/b/n/12 Lightweight CNNs for ef-fi-cient clas-si-fi-ca-tion ([]Fang et
- al., [][]2023[][]): \T1/ptm/m/n/12 In-tro-duced a lightweight
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[43 <./chapters/chapter3/images/Figure05.png> <./chapters/chapter3/images/Figur
-e06.png>]
-<chapters/chapter3/images/Figure09.png, id=1206, 604.35788pt x 334.24875pt>
+<chapters/chapter3/images/Figure09.png, id=1281, 604.35788pt x 334.24875pt>
 File: chapters/chapter3/images/Figure09.png Graphic file (type png)
 <use chapters/chapter3/images/Figure09.png>
 Package pdftex.def Info: chapters/chapter3/images/Figure09.png  used on input l
-ine 256.
+ine 446.
 (pdftex.def)             Requested size: 500.77129pt x 276.96227pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 256--257
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 446--447
  [][] 
  []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[44 <./chapters/chapter3/images/Figure09.png>]
+[38 <./chapters/chapter3/images/Figure06.png>]
+Overfull \hbox (10.49457pt too wide) in paragraph at lines 453--454
+\T1/ptm/m/n/12 and pre-cise so-lu-tions for sus-tain-able agri-cul-ture. How-ev
+er, key chal-lenges still limit its widespread
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[45])
+[39 <./chapters/chapter3/images/Figure09.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 26.98592pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.98592pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.98592pt}.
 
-[46]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 58.
-
+[40]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 58.
+(hyperref)                removing `\beginL' on input line 59.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 58.
+(hyperref)                removing `\<def>-command' on input line 59.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 58.
+(hyperref)                removing `\encodingdefault' on input line 59.
 
-[47
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 59.
+
+[41
 
 
 
@@ -3740,7 +3758,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \openout2 = `chapters/chapter44/chapter44.aux'.
 
  (chapters/chapter44/chapter44.tex
-Chapter 4.
+Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 2.
@@ -3757,11 +3775,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 2.
 
-[48
+[42
 
 
 ]
-<chapters/chapter4/images/Figure00.png, id=1230, 959.83594pt x 1160.3852pt>
+<chapters/chapter4/images/Figure00.png, id=1308, 959.83594pt x 1160.3852pt>
 File: chapters/chapter4/images/Figure00.png Graphic file (type png)
 <use chapters/chapter4/images/Figure00.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure00.png  used on input l
@@ -3775,7 +3793,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
+[43]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3783,13 +3801,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./chapters/chapter4/images/Figure00.png>]
+[44 <./chapters/chapter4/images/Figure00.png>]
 ! Undefined control sequence.
 l.49 ...llow Rust, Brown Rust, Stem Rust, \Powdery
                                                    Mildew, Loose Smut, Septo...
 
 ? 
-<chapters/chapter4/images/Figure01.png, id=1241, 980.7039pt x 762.9303pt>
+<chapters/chapter4/images/Figure01.png, id=1320, 980.7039pt x 762.9303pt>
 File: chapters/chapter4/images/Figure01.png Graphic file (type png)
 <use chapters/chapter4/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure01.png  used on input l
@@ -3802,7 +3820,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51 <./chapters/chapter4/images/Figure01.png>]
+[45 <./chapters/chapter4/images/Figure01.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []|\T1/ptm/m/n/12 Mendeley
  []
@@ -3839,14 +3857,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52]
-<chapters/chapter4/images/Figure02.png, id=1256, 531.78674pt x 296.90926pt>
+[46]
+<chapters/chapter4/images/Figure02.png, id=1337, 531.78674pt x 296.90926pt>
 File: chapters/chapter4/images/Figure02.png Graphic file (type png)
 <use chapters/chapter4/images/Figure02.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure02.png  used on input l
 ine 105.
 (pdftex.def)             Requested size: 409.71692pt x 228.75221pt.
-<chapters/chapter4/images/Figure03.png, id=1258, 3021.33769pt x 1033.00931pt>
+<chapters/chapter4/images/Figure03.png, id=1339, 3021.33769pt x 1033.00931pt>
 File: chapters/chapter4/images/Figure03.png Graphic file (type png)
 <use chapters/chapter4/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure03.png  used on input l
@@ -3864,12 +3882,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53 <./chapters/chapter4/images/Figure02.png>]
+[47 <./chapters/chapter4/images/Figure02.png>]
 Overfull \hbox (8.69038pt too wide) in paragraph at lines 133--142
  [][]\T1/ptm/m/n/12 - 
  []
 
-<chapters/chapter5/images/Figure01.png, id=1266, 927.76613pt x 681.59644pt>
+<chapters/chapter5/images/Figure01.png, id=1348, 927.76613pt x 681.59644pt>
 File: chapters/chapter5/images/Figure01.png Graphic file (type png)
 <use chapters/chapter5/images/Figure01.png>
 Package pdftex.def Info: chapters/chapter5/images/Figure01.png  used on input l
@@ -3882,8 +3900,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./chapters/chapter4/images/Figure03.png>]
-<chapters/chapter5/images/Figure02b.png, id=1275, 572.89032pt x 443.40656pt>
+[48 <./chapters/chapter4/images/Figure03.png>]
+<chapters/chapter5/images/Figure02b.png, id=1358, 572.89032pt x 443.40656pt>
 File: chapters/chapter5/images/Figure02b.png Graphic file (type png)
 <use chapters/chapter5/images/Figure02b.png>
 Package pdftex.def Info: chapters/chapter5/images/Figure02b.png  used on input 
@@ -3897,7 +3915,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55 <./chapters/chapter5/images/Figure01.png> <./chapters/chapter5/images/Figur
+[49 <./chapters/chapter5/images/Figure01.png> <./chapters/chapter5/images/Figur
 e02b.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3906,22 +3924,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
-<chapters/chapter4/images/Figure04.png, id=1294, 638.385pt x 284.56313pt>
+[50]
+<chapters/chapter4/images/Figure04.png, id=1377, 638.385pt x 284.56313pt>
 File: chapters/chapter4/images/Figure04.png Graphic file (type png)
 <use chapters/chapter4/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure04.png  used on input l
 ine 200.
 (pdftex.def)             Requested size: 409.71692pt x 182.63214pt.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[57 <./chapters/chapter4/images/Figure04.png>]
 Underfull \hbox (badness 6893) in paragraph at lines 221--221
 []|\T1/ptm/m/n/12 Kernel (type of ker-nel
  []
@@ -3943,8 +3953,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
-<chapters/chapter4/images/Figure05.png, id=1310, 731.73375pt x 260.172pt>
+[51 <./chapters/chapter4/images/Figure04.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+<chapters/chapter4/images/Figure05.png, id=1396, 731.73375pt x 260.172pt>
 File: chapters/chapter4/images/Figure05.png Graphic file (type png)
 <use chapters/chapter4/images/Figure05.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure05.png  used on input l
@@ -3958,8 +3976,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
-<chapters/chapter5/images/Figure08.png, id=1345, 696.35156pt x 351.56343pt>
+[53]
+<chapters/chapter5/images/Figure08.png, id=1432, 696.35156pt x 351.56343pt>
 File: chapters/chapter5/images/Figure08.png Graphic file (type png)
 <use chapters/chapter5/images/Figure08.png>
 Package pdftex.def Info: chapters/chapter5/images/Figure08.png  used on input l
@@ -3973,7 +3991,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60 <./chapters/chapter4/images/Figure05.png>]
+[54 <./chapters/chapter4/images/Figure05.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3981,8 +3999,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61 <./chapters/chapter5/images/Figure08.png>]
-<appendices/images/FigureA9.png, id=1361, 628.59843pt x 261.22594pt>
+[55 <./chapters/chapter5/images/Figure08.png>]
+<appendices/images/FigureA9.png, id=1449, 628.59843pt x 261.22594pt>
 File: appendices/images/FigureA9.png Graphic file (type png)
 <use appendices/images/FigureA9.png>
 Package pdftex.def Info: appendices/images/FigureA9.png  used on input line 418
@@ -3996,7 +4014,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[62]
+[56]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4004,7 +4022,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63 <./appendices/images/FigureA9.png>]
+[57 <./appendices/images/FigureA9.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4012,8 +4030,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
-<chapters/chapter5/images/Figure03.png, id=1394, 928.97063pt x 378.66469pt>
+[58]
+<chapters/chapter5/images/Figure03.png, id=1486, 928.97063pt x 378.66469pt>
 File: chapters/chapter5/images/Figure03.png Graphic file (type png)
 <use chapters/chapter5/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter5/images/Figure03.png  used on input l
@@ -4027,7 +4045,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65 <./chapters/chapter5/images/Figure03.png>]
+[59 <./chapters/chapter5/images/Figure03.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4035,8 +4053,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66]
-<chapters/chapter4/images/Figure08.png, id=1446, 560.0925pt x 587.94656pt>
+[60]
+<chapters/chapter4/images/Figure08.png, id=1538, 560.0925pt x 587.94656pt>
 File: chapters/chapter4/images/Figure08.png Graphic file (type png)
 <use chapters/chapter4/images/Figure08.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure08.png  used on input l
@@ -4050,7 +4068,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67]
+[61]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4058,14 +4076,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68 <./chapters/chapter4/images/Figure08.png>]
+[62 <./chapters/chapter4/images/Figure08.png>]
 Overfull \hbox (53.60112pt too wide) in paragraph at lines 688--690
 []\T1/ptm/m/n/12 In YOLOv8m-OBB, the head is mod-i-fied to out-put eight co-or-
 di-nates $\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x[]; y[]; x[]; y[]; x[]; y[]; x
 []; y[]\OT1/ztmcm/m/n/12 )$\T1/ptm/m/n/12 ,
  []
 
-<chapters/chapter4/images/Figure13.jpeg, id=1459, 637.4214pt x 254.8722pt>
+<chapters/chapter4/images/Figure13.jpeg, id=1553, 637.4214pt x 254.8722pt>
 File: chapters/chapter4/images/Figure13.jpeg Graphic file (type jpg)
 <use chapters/chapter4/images/Figure13.jpeg>
 Package pdftex.def Info: chapters/chapter4/images/Figure13.jpeg  used on input 
@@ -4078,7 +4096,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 745--745
 []|\T1/ptm/b/n/12 Augmentation Tech-nique
  []
@@ -4090,7 +4108,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70 <./chapters/chapter4/images/Figure13.jpeg>]
+[64 <./chapters/chapter4/images/Figure13.jpeg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4098,8 +4116,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
-<chapters/chapter4/images/Figure14.png, id=1476, 708.246pt x 228.6141pt>
+[65]
+<chapters/chapter4/images/Figure14.png, id=1572, 708.246pt x 228.6141pt>
 File: chapters/chapter4/images/Figure14.png Graphic file (type png)
 <use chapters/chapter4/images/Figure14.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure14.png  used on input l
@@ -4113,18 +4131,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72]
-Overfull \hbox (9.95235pt too wide) in paragraph at lines 849--851
-[]\T1/ptm/m/n/12 To en-sure prac-ti-cal us-abil-ity of the pro-posed sys-tem by
- end users such as farm-ers, agronomists,
- []
-
-
-Overfull \hbox (1.93646pt too wide) in paragraph at lines 855--856
-[]\T1/ptm/m/n/12 The func-tional re-quire-ments of our sys-tem are de-tailed in
- the ta-ble be-low us-ing the MoSCoW
- []
-
+[66]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4132,14 +4139,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73 <./chapters/chapter4/images/Figure14.png>]
-<chapters/chapter4/images/Figure10.png, id=1489, 841.4938pt x 707.79431pt>
+[67 <./chapters/chapter4/images/Figure14.png>]
+<chapters/chapter4/images/Figure10.png, id=1587, 841.4938pt x 707.79431pt>
 File: chapters/chapter4/images/Figure10.png Graphic file (type png)
 <use chapters/chapter4/images/Figure10.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure10.png  used on input l
 ine 891.
 (pdftex.def)             Requested size: 409.71692pt x 344.61903pt.
-<chapters/chapter4/images/Figure12.png, id=1492, 646.3648pt x 501.37312pt>
+<chapters/chapter4/images/Figure12.png, id=1590, 646.3648pt x 501.37312pt>
 File: chapters/chapter4/images/Figure12.png Graphic file (type png)
 <use chapters/chapter4/images/Figure12.png>
 Package pdftex.def Info: chapters/chapter4/images/Figure12.png  used on input l
@@ -4153,7 +4160,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74 <./chapters/chapter4/images/Figure10.png>])
+[68 <./chapters/chapter4/images/Figure10.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4161,12 +4168,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75 <./chapters/chapter4/images/Figure12.png>]
+[69 <./chapters/chapter4/images/Figure12.png>]
 \openout2 = `chapters/chapter56/chapter56.aux'.
 
 
 (chapters/chapter56/chapter56.tex
-Chapter 5.
+Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\beginL' on input line 1.
@@ -4193,17 +4200,17 @@ Underfull \hbox (badness 5189) in paragraph at lines 31--31
 []|\T1/ptm/b/n/12 Insect-Pest De-tec-tion (Lo-cal
  []
 
-[76
+[70
 
 
 
 
 ]
-<chapters/chapter56/images/Figure13.png, id=1512, 1013.9481pt x 902.4114pt>
+<chapters/chapter56/images/Figure13.png, id=1613, 1013.9481pt x 902.4114pt>
 File: chapters/chapter56/images/Figure13.png Graphic file (type png)
 <use chapters/chapter56/images/Figure13.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure13.png  used on input 
-line 70.
+line 69.
 (pdftex.def)             Requested size: 455.24411pt x 405.15881pt.
 
 
@@ -4213,7 +4220,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77]
+[71]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4221,55 +4228,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78 <./chapters/chapter56/images/Figure13.png>]
-Underfull \hbox (badness 1152) in paragraph at lines 102--103
+[72 <./chapters/chapter56/images/Figure13.png>]
+Underfull \hbox (badness 1152) in paragraph at lines 101--102
 []|\T1/ptm/m/n/12 The im-ple-men-ta-tion frame-work is Py-
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 104--105
+Underfull \hbox (badness 1152) in paragraph at lines 103--104
 []|\T1/ptm/m/n/12 The im-ple-men-ta-tion frame-work is Py-
  []
 
 
-Overfull \hbox (57.91792pt too wide) in paragraph at lines 96--108
+Overfull \hbox (57.91792pt too wide) in paragraph at lines 95--107
  [][] 
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 127--128
+Underfull \hbox (badness 3735) in paragraph at lines 126--127
 []\T1/ptm/b/n/12 venv/\T1/ptm/m/n/12 : The Python [][][]Vir-tual En-vi-ron-ment
 
  []
 
-<chapters/chapter56/images/Figure04.png, id=1527, 457.71pt x 651.18282pt>
+<chapters/chapter56/images/Figure04.png, id=1629, 457.71pt x 651.18282pt>
 File: chapters/chapter56/images/Figure04.png Graphic file (type png)
 <use chapters/chapter56/images/Figure04.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure04.png  used on input 
-line 133.
+line 132.
 (pdftex.def)             Requested size: 163.88426pt x 233.1538pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[79]
-Underfull \hbox (badness 6592) in paragraph at lines 152--153
+Underfull \hbox (badness 6592) in paragraph at lines 151--152
 []\T1/ptm/b/n/12 index.css\T1/ptm/m/n/12 : Global [][][]Cas-cad-ing Style
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 153--154
+Underfull \hbox (badness 3525) in paragraph at lines 152--153
 \T1/ptm/m/n/12 Re-act app to the [][][]Doc-u-ment Ob-ject
  []
 
-<chapters/chapter56/images/Figure10.png, id=1539, 251.43938pt x 557.83406pt>
+<chapters/chapter56/images/Figure10.png, id=1637, 251.43938pt x 557.83406pt>
 File: chapters/chapter56/images/Figure10.png Graphic file (type png)
 <use chapters/chapter56/images/Figure10.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure10.png  used on input 
-line 168.
+line 167.
 (pdftex.def)             Requested size: 163.88426pt x 363.58372pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4278,7 +4278,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80 <./chapters/chapter56/images/Figure04.png>]
+[73 <./chapters/chapter56/images/Figure04.png>]
+<chapters/chapter56/images/Figure05.png, id=1650, 1420.55719pt x 834.11626pt>
+File: chapters/chapter56/images/Figure05.png Graphic file (type png)
+<use chapters/chapter56/images/Figure05.png>
+Package pdftex.def Info: chapters/chapter56/images/Figure05.png  used on input 
+line 186.
+(pdftex.def)             Requested size: 218.51521pt x 128.30666pt.
+<chapters/chapter56/images/Figure06.png, id=1651, 2055.68pt x 2390.9325pt>
+File: chapters/chapter56/images/Figure06.png Graphic file (type png)
+<use chapters/chapter56/images/Figure06.png>
+Package pdftex.def Info: chapters/chapter56/images/Figure06.png  used on input 
+line 193.
+(pdftex.def)             Requested size: 218.51521pt x 254.1381pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4286,24 +4299,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81 <./chapters/chapter56/images/Figure10.png>]
-<chapters/chapter56/images/Figure05.png, id=1560, 1420.55719pt x 834.11626pt>
-File: chapters/chapter56/images/Figure05.png Graphic file (type png)
-<use chapters/chapter56/images/Figure05.png>
-Package pdftex.def Info: chapters/chapter56/images/Figure05.png  used on input 
-line 187.
-(pdftex.def)             Requested size: 218.51521pt x 128.30666pt.
-<chapters/chapter56/images/Figure06.png, id=1561, 2055.68pt x 2390.9325pt>
-File: chapters/chapter56/images/Figure06.png Graphic file (type png)
-<use chapters/chapter56/images/Figure06.png>
-Package pdftex.def Info: chapters/chapter56/images/Figure06.png  used on input 
-line 194.
-(pdftex.def)             Requested size: 218.51521pt x 254.1381pt.
-<chapters/chapter56/images/Figure07.png, id=1563, 2055.68pt x 2268.475pt>
+[74 <./chapters/chapter56/images/Figure10.png>]
+<chapters/chapter56/images/Figure07.png, id=1664, 2055.68pt x 2268.475pt>
 File: chapters/chapter56/images/Figure07.png Graphic file (type png)
 <use chapters/chapter56/images/Figure07.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure07.png  used on input 
-line 208.
+line 207.
 (pdftex.def)             Requested size: 318.66948pt x 351.6446pt.
 
 
@@ -4313,13 +4314,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82 <./chapters/chapter56/images/Figure05.png> <./chapters/chapter56/images/Fig
+[75 <./chapters/chapter56/images/Figure05.png> <./chapters/chapter56/images/Fig
 ure06.png>]
-<chapters/chapter5/images/Figure11.png, id=1571, 2569.6pt x 1606.0pt>
+<chapters/chapter5/images/Figure11.png, id=1672, 2569.6pt x 1606.0pt>
 File: chapters/chapter5/images/Figure11.png Graphic file (type png)
 <use chapters/chapter5/images/Figure11.png>
 Package pdftex.def Info: chapters/chapter5/images/Figure11.png  used on input l
-ine 220.
+ine 219.
 (pdftex.def)             Requested size: 364.19667pt x 227.60759pt.
 
 
@@ -4329,7 +4330,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[83 <./chapters/chapter56/images/Figure07.png>]
+[76 <./chapters/chapter56/images/Figure07.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4337,7 +4338,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84 <./chapters/chapter5/images/Figure11.png>]
+[77 <./chapters/chapter5/images/Figure11.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4345,7 +4346,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85]
+[78]
+Overfull \hbox (23.29915pt too wide) in paragraph at lines 320--321
+[]\T1/ptm/m/n/12 Finally, we com-pare our pro-posed so-lu-tion with ex-ist-ing 
+state-of-the-art meth-ods by re-implementing
+ []
+
+
+Overfull \hbox (3.63177pt too wide) in paragraph at lines 331--332
+[]\T1/ptm/m/n/12 This sec-tion ex-plores the ef-fec-tive-ness of var-i-ous pre-
+trained con-vo-lu-tional neu-ral net-work (CNN)
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4353,8 +4365,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[86]
-Overfull \hbox (26.79204pt too wide) in paragraph at lines 338--339
+[79]
+Overfull \hbox (26.79204pt too wide) in paragraph at lines 337--338
 \T1/ptm/m/n/12 cient-NetB2, Mo-bileNet, VGG19, Xcep-tion, In-cep-tionV3, DenseN
 et169, DenseNet201, ResNet50V2,
  []
@@ -4366,13 +4378,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87]
-Overfull \hbox (5.32011pt too wide) in paragraph at lines 425--425
+[80]
+Overfull \hbox (5.32011pt too wide) in paragraph at lines 424--424
 []|\T1/ptm/b/n/12 Classifier| 
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 431--431
+Underfull \hbox (badness 1231) in paragraph at lines 430--430
 []|\T1/ptm/m/n/12 Polynomial de-gree (for poly
  []
 
@@ -4383,23 +4395,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88]
-Overfull \hbox (2.52364pt too wide) in paragraph at lines 466--467
+[81]
+Overfull \hbox (2.52364pt too wide) in paragraph at lines 465--466
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--469
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 []|\T1/ptm/m/n/12 Support Vec-tor Ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
 []|\T1/ptm/m/n/12 Multilayer Per-cep-tron
  []
 
 
-Overfull \hbox (27.0255pt too wide) in paragraph at lines 462--472
+Overfull \hbox (27.0255pt too wide) in paragraph at lines 461--471
  [][] 
  []
 
@@ -4410,18 +4422,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89]
-Underfull \hbox (badness 2393) in paragraph at lines 499--499
+[82]
+Underfull \hbox (badness 2393) in paragraph at lines 498--498
 \T1/ptm/m/n/12 it-er-a-tions = 25, min-i-mum learn-ing rate =
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 505--505
+Underfull \hbox (badness 1226) in paragraph at lines 504--504
 \T1/ptm/m/n/12 dom 90-degree Ro-ta-tion, Shift-Scale-Rotate,
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 505--505
+Underfull \hbox (badness 7796) in paragraph at lines 504--504
 \T1/ptm/m/n/12 Hue-Saturation-Value Ad-just-ment, Ran-dom
  []
 
@@ -4432,47 +4444,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[90]
-Overfull \hbox (18.79912pt too wide) in paragraph at lines 517--545
+[83]
+Overfull \hbox (18.79912pt too wide) in paragraph at lines 516--544
  [][] 
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[91]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[92]
-Overfull \hbox (1.06024pt too wide) in paragraph at lines 584--585
-[]\T1/ptm/m/n/12 This is fur-ther il-lus-trated in Fig-ure [][][]5.8[][][], whi
-ch presents the con-fu-sion ma-trix for the ResNet50
+Overfull \hbox (15.60725pt too wide) in paragraph at lines 555--556
+\T1/ptm/m/n/12 cally, we ex-am-ined four widely adopted at-ten-tion mod-ules: S
+elf-Attention, Squeeze-and-Excitation
  []
 
-<chapters/chapter56/images/Figure02.png, id=1643, 806.26219pt x 719.68875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[84]
+<chapters/chapter56/images/Figure02.png, id=1754, 806.26219pt x 719.68875pt>
 File: chapters/chapter56/images/Figure02.png Graphic file (type png)
 <use chapters/chapter56/images/Figure02.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure02.png  used on input 
-line 588.
+line 587.
 (pdftex.def)             Requested size: 409.71692pt x 365.71863pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
+Underfull \hbox (badness 10000) in paragraph at lines 593--594
 
- []
-
-
-Overfull \hbox (9.40034pt too wide) in paragraph at lines 596--597
-[]\T1/ptm/m/n/12 To gain deeper in-sight into how dif-fer-ent at-ten-tion mech-
-a-nisms in-flu-ence the model's decision-
  []
 
 
@@ -4482,51 +4484,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93 <./chapters/chapter56/images/Figure02.png>]
-<chapters/chapter56/images/Figure03.png, id=1650, 1169.11781pt x 280.04625pt>
+[85 <./chapters/chapter56/images/Figure02.png>]
+<chapters/chapter56/images/Figure03.png, id=1762, 1169.11781pt x 280.04625pt>
 File: chapters/chapter56/images/Figure03.png Graphic file (type png)
 <use chapters/chapter56/images/Figure03.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure03.png  used on input 
-line 604.
+line 603.
 (pdftex.def)             Requested size: 409.71692pt x 98.14157pt.
 
-Overfull \hbox (16.96193pt too wide) in paragraph at lines 610--610
+Overfull \hbox (16.96193pt too wide) in paragraph at lines 609--609
 |[]\T1/ptm/b/n/17.28 The per-for-mance of the hi-er-ar-chi-cal clas-si-fi-ca-ti
 on ap-proach| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\T1/ptm/b/n/12 Accuracy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\T1/ptm/b/n/12 Recall
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\T1/ptm/b/n/12 Precision
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
 []|\T1/ptm/b/n/12 F1-score
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--629
+Underfull \hbox (badness 10000) in paragraph at lines 628--628
 []|\T1/ptm/m/n/12 Model 2 (All
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--631
+Underfull \hbox (badness 10000) in paragraph at lines 630--630
 []|\T1/ptm/m/n/12 Hierarchical Ap-
  []
 
 
-Overfull \hbox (40.65582pt too wide) in paragraph at lines 625--635
+Overfull \hbox (40.65582pt too wide) in paragraph at lines 624--634
  [][] 
  []
 
@@ -4537,51 +4539,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94 <./chapters/chapter56/images/Figure03.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 659--659
+[86 <./chapters/chapter56/images/Figure03.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
 []|\T1/ptm/b/n/12 Accuracy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--659
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
 []|\T1/ptm/b/n/12 Recall
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--659
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
 []|\T1/ptm/b/n/12 Precision
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--660
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 []|\T1/ptm/b/n/12 F1-score
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 661--661
+Underfull \hbox (badness 1009) in paragraph at lines 660--660
 []|\T1/ptm/m/n/12 2 classes (Healthy /
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 663--663
+Underfull \hbox (badness 2318) in paragraph at lines 662--662
 []|\T1/ptm/m/n/12 Model 2 (Dis-eases
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
 []|\T1/ptm/m/n/12 Hierarchical Ap-
  []
 
 
-Overfull \hbox (40.65582pt too wide) in paragraph at lines 657--669
+Overfull \hbox (40.65582pt too wide) in paragraph at lines 656--668
  [][] 
  []
 
-<chapters/chapter56/images/Figure004.png, id=1660, 729.927pt x 570.33075pt>
+<chapters/chapter56/images/Figure004.png, id=1774, 729.927pt x 570.33075pt>
 File: chapters/chapter56/images/Figure004.png Graphic file (type png)
 <use chapters/chapter56/images/Figure004.png>
 Package pdftex.def Info: chapters/chapter56/images/Figure004.png  used on input
- line 683.
+ line 682.
 (pdftex.def)             Requested size: 364.19667pt x 284.57289pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4590,14 +4592,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[95]
-<chapters/chapter56/images/ConfusionMatricsSingleModel.png, id=1665, 806.26219p
+[87]
+<chapters/chapter56/images/ConfusionMatricsSingleModel.png, id=1780, 806.26219p
 t x 686.565pt>
 File: chapters/chapter56/images/ConfusionMatricsSingleModel.png Graphic file (t
 ype png)
 <use chapters/chapter56/images/ConfusionMatricsSingleModel.png>
 Package pdftex.def Info: chapters/chapter56/images/ConfusionMatricsSingleModel.
-png  used on input line 693.
+png  used on input line 692.
 (pdftex.def)             Requested size: 364.19667pt x 310.12473pt.
 
 
@@ -4607,74 +4609,74 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[96 <./chapters/chapter56/images/Figure004.png> <./chapters/chapter56/images/Co
+[88 <./chapters/chapter56/images/Figure004.png> <./chapters/chapter56/images/Co
 nfusionMatricsSingleModel.png>]
-Underfull \hbox (badness 4391) in paragraph at lines 734--734
+Underfull \hbox (badness 4391) in paragraph at lines 733--733
 []|\T1/ptm/m/it/12 (Fang et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--735
+Underfull \hbox (badness 10000) in paragraph at lines 734--734
 []|\T1/ptm/m/n/12 Modified Inception-ResNet
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 735--735
+Underfull \hbox (badness 4673) in paragraph at lines 734--734
 \T1/ptm/m/n/12 ar-chi-tec-ture en-hanced with
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 735--735
+Underfull \hbox (badness 1077) in paragraph at lines 734--734
 \T1/ptm/m/n/12 Chan-nel and Spa-tial At-ten-
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 735--735
+Underfull \hbox (badness 1194) in paragraph at lines 734--734
 \T1/ptm/m/n/12 tion Mod-ules (CBAM) and
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 735--735
+Underfull \hbox (badness 2080) in paragraph at lines 734--734
 \T1/ptm/m/n/12 Ef-fi-cient Chan-nel At-ten-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--735
+Underfull \hbox (badness 10000) in paragraph at lines 734--734
 \T1/ptm/m/n/12 (ECA). Com-bines mul-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--752
+Underfull \hbox (badness 10000) in paragraph at lines 751--751
 []|\T1/ptm/m/n/12 Hybrid trans-fer learn-ing
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 752--752
+Underfull \hbox (badness 8151) in paragraph at lines 751--751
 \T1/ptm/m/n/12 pipeline com-bin-ing frozen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--752
+Underfull \hbox (badness 10000) in paragraph at lines 751--751
 \T1/ptm/m/n/12 Ef-fi-cient-NetB0 for ini-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 752--752
+Underfull \hbox (badness 10000) in paragraph at lines 751--751
 \T1/ptm/m/n/12 fea-ture ex-trac-tion with a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
 []\T1/ptm/m/n/12 Loss: Cat-e-gor-i-cal cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--767
+Underfull \hbox (badness 10000) in paragraph at lines 765--766
 []\T1/ptm/m/n/12 Augmentation: ro-ta-tion
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 766--767
+Underfull \hbox (badness 1371) in paragraph at lines 765--766
 \T1/ptm/m/n/12 (\TS1/ptm/m/n/12 �\T1/ptm/m/n/12 20\TS1/ptm/m/n/12 �\T1/ptm/m/n/
 12 ), shift (\TS1/ptm/m/n/12 �\T1/ptm/m/n/12 20%), zoom
  []
@@ -4686,38 +4688,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[97]
-Underfull \hbox (badness 10000) in paragraph at lines 782--782
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 781--781
 []|\T1/ptm/b/n/12 Accuracy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--782
+Underfull \hbox (badness 10000) in paragraph at lines 781--781
 []|\T1/ptm/b/n/12 Precision
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 782--782
+Underfull \hbox (badness 10000) in paragraph at lines 781--781
 []|\T1/ptm/b/n/12 F1-score
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--784
+Underfull \hbox (badness 10000) in paragraph at lines 783--783
 []|\T1/ptm/m/n/12 (Fang et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--786
+Underfull \hbox (badness 10000) in paragraph at lines 785--785
 []|\T1/ptm/m/n/12 (Jouini et al.,
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 788--788
+Underfull \hbox (badness 1454) in paragraph at lines 787--787
 []|\T1/ptm/m/n/12 Our Hi-er-ar-chi-cal
  []
 
 
-Overfull \hbox (3.668pt too wide) in paragraph at lines 780--792
+Overfull \hbox (3.668pt too wide) in paragraph at lines 779--791
  [][] 
  []
 
@@ -4728,8 +4730,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[98]
-Overfull \hbox (38.71439pt too wide) in paragraph at lines 820--834
+[90]
+Overfull \hbox (38.71439pt too wide) in paragraph at lines 819--833
  [][] 
  []
 
@@ -4740,30 +4742,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[99]
-<chapters/chapter56/images/ConfusionMatricsPests.png, id=1697, 510.10574pt x 44
+[91]
+<chapters/chapter56/images/ConfusionMatricsPests.png, id=1815, 510.10574pt x 44
 0.24475pt>
 File: chapters/chapter56/images/ConfusionMatricsPests.png Graphic file (type pn
 g)
 <use chapters/chapter56/images/ConfusionMatricsPests.png>
 Package pdftex.def Info: chapters/chapter56/images/ConfusionMatricsPests.png  u
-sed on input line 844.
+sed on input line 843.
 (pdftex.def)             Requested size: 409.71692pt x 353.60698pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[100]
-<chapters/chapter56/images/YoloObbResualts.png, id=1702, 1020.81375pt x 647.268
+<chapters/chapter56/images/YoloObbResualts.png, id=1816, 1020.81375pt x 647.268
 19pt>
 File: chapters/chapter56/images/YoloObbResualts.png Graphic file (type png)
 <use chapters/chapter56/images/YoloObbResualts.png>
 Package pdftex.def Info: chapters/chapter56/images/YoloObbResualts.png  used on
- input line 851.
+ input line 850.
 (pdftex.def)             Requested size: 409.71692pt x 259.79156pt.
 
 
@@ -4773,8 +4766,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[101 <./chapters/chapter56/images/ConfusionMatricsPests.png> <./chapters/chapte
-r56/images/YoloObbResualts.png>])
+[92 <./chapters/chapter56/images/ConfusionMatricsPests.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4782,7 +4774,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[102] (conclusion.tex [103
+[93 <./chapters/chapter56/images/YoloObbResualts.png>] (conclusion.tex [94
 
 
 
@@ -4795,7 +4787,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[104])
+[95])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4803,10 +4795,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[105] [106
+[96] [97
 
 ]
-Overfull \hbox (1.57726pt too wide) in paragraph at lines 70--70
+Overfull \hbox (1.57726pt too wide) in paragraph at lines 71--71
 [][]\T1/ptm/m/n/12 Hao, M., Sun, Q., Xuan, C., Zhang, X., & Zhao, M. (2024). Sq
 ueezenet: an im-proved lightweight
  []
@@ -4818,7 +4810,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[107]
+[98]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4826,7 +4818,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[108] [109
+[99] [100
 
 
 ]
@@ -4850,23 +4842,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-<chapters/chapter1/images/Figure09.png, id=1771, 519.44063pt x 203.25937pt>
+<chapters/chapter1/images/Figure09.png, id=1888, 519.44063pt x 203.25937pt>
 File: chapters/chapter1/images/Figure09.png Graphic file (type png)
 <use chapters/chapter1/images/Figure09.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure09.png  used on input l
 ine 14.
 (pdftex.def)             Requested size: 364.19667pt x 142.51009pt.
-[110
+[101
 
 
  <./chapters/chapter1/images/Figure09.png>]
-<chapters/chapter1/images/Figure10.png, id=1781, 520.19344pt x 224.33812pt>
+<chapters/chapter1/images/Figure10.png, id=1899, 520.19344pt x 224.33812pt>
 File: chapters/chapter1/images/Figure10.png Graphic file (type png)
 <use chapters/chapter1/images/Figure10.png>
 Package pdftex.def Info: chapters/chapter1/images/Figure10.png  used on input l
 ine 27.
 (pdftex.def)             Requested size: 364.19667pt x 157.06299pt.
-<appendices/images/FigureA1.png, id=1786, 681.29532pt x 301.8778pt>
+<appendices/images/FigureA1.png, id=1904, 681.29532pt x 301.8778pt>
 File: appendices/images/FigureA1.png Graphic file (type png)
 <use appendices/images/FigureA1.png>
 Package pdftex.def Info: appendices/images/FigureA1.png  used on input line 41.
@@ -4880,14 +4872,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[111 <./chapters/chapter1/images/Figure10.png>]
-<appendices/images/FigureA5.png, id=1796, 579.66562pt x 193.47281pt>
+[102 <./chapters/chapter1/images/Figure10.png>]
+<appendices/images/FigureA5.png, id=1916, 579.66562pt x 193.47281pt>
 File: appendices/images/FigureA5.png Graphic file (type png)
 <use appendices/images/FigureA5.png>
 Package pdftex.def Info: appendices/images/FigureA5.png  used on input line 110
 .
 (pdftex.def)             Requested size: 273.14923pt x 91.1684pt.
-<appendices/images/FigureA6.png, id=1801, 597.73312pt x 152.82094pt>
+<appendices/images/FigureA6.png, id=1921, 597.73312pt x 152.82094pt>
 File: appendices/images/FigureA6.png Graphic file (type png)
 <use appendices/images/FigureA6.png>
 Package pdftex.def Info: appendices/images/FigureA6.png  used on input line 122
@@ -4901,14 +4893,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[112 <./appendices/images/FigureA1.png> <./appendices/images/FigureA5.png>]
-<appendices/images/FigureA7.png, id=1812, 600.74437pt x 154.32657pt>
+[103 <./appendices/images/FigureA1.png> <./appendices/images/FigureA5.png>]
+<appendices/images/FigureA7.png, id=1934, 600.74437pt x 154.32657pt>
 File: appendices/images/FigureA7.png Graphic file (type png)
 <use appendices/images/FigureA7.png>
 Package pdftex.def Info: appendices/images/FigureA7.png  used on input line 133
 .
 (pdftex.def)             Requested size: 364.19667pt x 93.56212pt.
-<appendices/images/FigureA8.png, id=1817, 577.40718pt x 154.32657pt>
+<appendices/images/FigureA8.png, id=1939, 577.40718pt x 154.32657pt>
 File: appendices/images/FigureA8.png Graphic file (type png)
 <use appendices/images/FigureA8.png>
 Package pdftex.def Info: appendices/images/FigureA8.png  used on input line 143
@@ -4927,9 +4919,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[113 <./appendices/images/FigureA6.png> <./appendices/images/FigureA7.png> <./a
+[104 <./appendices/images/FigureA6.png> <./appendices/images/FigureA7.png> <./a
 ppendices/images/FigureA8.png>]
-<appendices/images/FigureOBB.png, id=1828, 730.52925pt x 317.38576pt>
+<appendices/images/FigureOBB.png, id=1951, 730.52925pt x 317.38576pt>
 File: appendices/images/FigureOBB.png Graphic file (type png)
 <use appendices/images/FigureOBB.png>
 Package pdftex.def Info: appendices/images/FigureOBB.png  used on input line 18
@@ -4943,7 +4935,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[114 <./appendices/images/FigureOBB.png>]
+[105 <./appendices/images/FigureOBB.png>]
 \openout2 = `appendices/annexeC.aux'.
 
  (appendices/annexeC.tex
@@ -4970,65 +4962,70 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 l.7 ...tion*{Programming Languages & Environments}
                                                   
 ? 
-<appendices/images/Python.png, id=1837, 105.39375pt x 107.65219pt>
+<appendices/images/Python.png, id=1960, 105.39375pt x 107.65219pt>
 File: appendices/images/Python.png Graphic file (type png)
 <use appendices/images/Python.png>
 Package pdftex.def Info: appendices/images/Python.png  used on input line 19.
 (pdftex.def)             Requested size: 45.52371pt x 46.49979pt.
-<appendices/images/GoogleColab.png, id=1838, 137.01187pt x 79.04532pt>
+<appendices/images/GoogleColab.png, id=1961, 137.01187pt x 79.04532pt>
 File: appendices/images/GoogleColab.png Graphic file (type png)
 <use appendices/images/GoogleColab.png>
 Package pdftex.def Info: appendices/images/GoogleColab.png  used on input line 
 36.
 (pdftex.def)             Requested size: 45.52371pt x 26.26353pt.
-<appendices/images/JupyterNotebook.png, id=1839, 118.94438pt x 140.02313pt>
+<appendices/images/JupyterNotebook.png, id=1962, 118.94438pt x 140.02313pt>
 File: appendices/images/JupyterNotebook.png Graphic file (type png)
 <use appendices/images/JupyterNotebook.png>
 Package pdftex.def Info: appendices/images/JupyterNotebook.png  used on input l
 ine 53.
 (pdftex.def)             Requested size: 45.52371pt x 53.59178pt.
-[115
-
-
-
-
- <./appendices/images/Python.png> <./appendices/images/GoogleColab.png>]
-<appendices/images/VSCode.png, id=1848, 112.16907pt x 111.41624pt>
+<appendices/images/VSCode.png, id=1963, 112.16907pt x 111.41624pt>
 File: appendices/images/VSCode.png Graphic file (type png)
 <use appendices/images/VSCode.png>
 Package pdftex.def Info: appendices/images/VSCode.png  used on input line 70.
 (pdftex.def)             Requested size: 45.52371pt x 45.21683pt.
+[106
 
+
+
+
+ <./appendices/images/Python.png> <./appendices/images/GoogleColab.png> <./appe
+ndices/images/JupyterNotebook.png>]
 ! Misplaced alignment tab character &.
 <argument> Machine Learning &
                               Deep Learning Libraries
 l.76 ...achine Learning & Deep Learning Libraries}
                                                   
 ? 
-<appendices/images/TensorFlow.png, id=1849, 121.20282pt x 128.73094pt>
+<appendices/images/TensorFlow.png, id=1972, 121.20282pt x 128.73094pt>
 File: appendices/images/TensorFlow.png Graphic file (type png)
 <use appendices/images/TensorFlow.png>
 Package pdftex.def Info: appendices/images/TensorFlow.png  used on input line 9
 0.
 (pdftex.def)             Requested size: 45.52371pt x 48.35254pt.
-<appendices/images/PyTorch.png, id=1850, 112.92188pt x 134.00063pt>
+<appendices/images/PyTorch.png, id=1973, 112.92188pt x 134.00063pt>
 File: appendices/images/PyTorch.png Graphic file (type png)
 <use appendices/images/PyTorch.png>
 Package pdftex.def Info: appendices/images/PyTorch.png  used on input line 121.
 
 (pdftex.def)             Requested size: 45.52371pt x 54.02254pt.
-<appendices/images/Ultralytics.png, id=1851, 112.16907pt x 97.86563pt>
+<appendices/images/Ultralytics.png, id=1974, 112.16907pt x 97.86563pt>
 File: appendices/images/Ultralytics.png Graphic file (type png)
 <use appendices/images/Ultralytics.png>
 Package pdftex.def Info: appendices/images/Ultralytics.png  used on input line 
 136.
 (pdftex.def)             Requested size: 45.52371pt x 39.71748pt.
-<appendices/images/scikit-learn.png, id=1852, 152.82094pt x 85.06781pt>
+<appendices/images/scikit-learn.png, id=1975, 152.82094pt x 85.06781pt>
 File: appendices/images/scikit-learn.png Graphic file (type png)
 <use appendices/images/scikit-learn.png>
 Package pdftex.def Info: appendices/images/scikit-learn.png  used on input line
  151.
 (pdftex.def)             Requested size: 45.52371pt x 25.3401pt.
+<appendices/images/Joblib.png, id=1976, 182.18062pt x 158.84344pt>
+File: appendices/images/Joblib.png Graphic file (type png)
+<use appendices/images/Joblib.png>
+Package pdftex.def Info: appendices/images/Joblib.png  used on input line 183.
+(pdftex.def)             Requested size: 45.52371pt x 39.69136pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5036,37 +5033,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[116 <./appendices/images/JupyterNotebook.png> <./appendices/images/VSCode.png>
- <./appendices/images/TensorFlow.png> <./appendices/images/PyTorch.png> <./appe
-ndices/images/Ultralytics.png>]
-<appendices/images/Joblib.png, id=1867, 182.18062pt x 158.84344pt>
-File: appendices/images/Joblib.png Graphic file (type png)
-<use appendices/images/Joblib.png>
-Package pdftex.def Info: appendices/images/Joblib.png  used on input line 183.
-(pdftex.def)             Requested size: 45.52371pt x 39.69136pt.
-
+[107 <./appendices/images/VSCode.png> <./appendices/images/TensorFlow.png> <./a
+ppendices/images/PyTorch.png> <./appendices/images/Ultralytics.png> <./appendic
+es/images/scikit-learn.png>]
 ! Misplaced alignment tab character &.
 <argument> Data Handling &
                            Processing
 l.189 \subsection*{Data Handling & Processing}
                                               
 ? 
-<appendices/images/NumPy.png, id=1868, 98.61844pt x 100.12407pt>
+<appendices/images/NumPy.png, id=1989, 98.61844pt x 100.12407pt>
 File: appendices/images/NumPy.png Graphic file (type png)
 <use appendices/images/NumPy.png>
 Package pdftex.def Info: appendices/images/NumPy.png  used on input line 203.
 (pdftex.def)             Requested size: 45.52371pt x 46.21803pt.
-<appendices/images/OpenCV.png, id=1869, 149.8097pt x 134.75343pt>
+<appendices/images/OpenCV.png, id=1990, 149.8097pt x 134.75343pt>
 File: appendices/images/OpenCV.png Graphic file (type png)
 <use appendices/images/OpenCV.png>
 Package pdftex.def Info: appendices/images/OpenCV.png  used on input line 219.
 (pdftex.def)             Requested size: 45.52371pt x 40.9486pt.
-<appendices/images/Albumentations.png, id=1870, 94.85437pt x 93.34875pt>
+<appendices/images/Albumentations.png, id=1991, 94.85437pt x 93.34875pt>
 File: appendices/images/Albumentations.png Graphic file (type png)
 <use appendices/images/Albumentations.png>
 Package pdftex.def Info: appendices/images/Albumentations.png  used on input li
 ne 235.
 (pdftex.def)             Requested size: 45.52371pt x 44.80118pt.
+<appendices/images/Matplotlib.png, id=1992, 121.20282pt x 118.94438pt>
+File: appendices/images/Matplotlib.png Graphic file (type png)
+<use appendices/images/Matplotlib.png>
+Package pdftex.def Info: appendices/images/Matplotlib.png  used on input line 2
+62.
+(pdftex.def)             Requested size: 45.52371pt x 44.67662pt.
+<appendices/images/Seaborn.png, id=1993, 158.84344pt x 158.09062pt>
+File: appendices/images/Seaborn.png Graphic file (type png)
+<use appendices/images/Seaborn.png>
+Package pdftex.def Info: appendices/images/Seaborn.png  used on input line 278.
+
+(pdftex.def)             Requested size: 45.52371pt x 45.30716pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5074,29 +5077,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[117 <./appendices/images/scikit-learn.png> <./appendices/images/Joblib.png> <.
-/appendices/images/NumPy.png> <./appendices/images/OpenCV.png> <./appendices/im
-ages/Albumentations.png>]
-<appendices/images/Matplotlib.png, id=1885, 121.20282pt x 118.94438pt>
-File: appendices/images/Matplotlib.png Graphic file (type png)
-<use appendices/images/Matplotlib.png>
-Package pdftex.def Info: appendices/images/Matplotlib.png  used on input line 2
-62.
-(pdftex.def)             Requested size: 45.52371pt x 44.67662pt.
-<appendices/images/Seaborn.png, id=1886, 158.84344pt x 158.09062pt>
-File: appendices/images/Seaborn.png Graphic file (type png)
-<use appendices/images/Seaborn.png>
-Package pdftex.def Info: appendices/images/Seaborn.png  used on input line 278.
-
-(pdftex.def)             Requested size: 45.52371pt x 45.30716pt.
-
+[108 <./appendices/images/Joblib.png> <./appendices/images/NumPy.png> <./append
+ices/images/OpenCV.png> <./appendices/images/Albumentations.png> <./appendices/
+images/Matplotlib.png>]
 ! Misplaced alignment tab character &.
 <argument> Annotation &
                         Dataset Preparation
 l.284 ...ection*{Annotation & Dataset Preparation}
                                                   
 ? 
-<appendices/images/CVAT.png, id=1887, 118.19156pt x 118.19156pt>
+<appendices/images/CVAT.png, id=2008, 118.19156pt x 118.19156pt>
 File: appendices/images/CVAT.png Graphic file (type png)
 <use appendices/images/CVAT.png>
 Package pdftex.def Info: appendices/images/CVAT.png  used on input line 298.
@@ -5106,54 +5096,28 @@ Underfull \hbox (badness 3128) in paragraph at lines 313--314
 []\T1/ptm/m/n/12 Lucidchart is a web-based tool for cre-at-ing di-a-grams and
  []
 
-<appendices/images/Lucidchart.png, id=1888, 127.22531pt x 140.02313pt>
+<appendices/images/Lucidchart.png, id=2009, 127.22531pt x 140.02313pt>
 File: appendices/images/Lucidchart.png Graphic file (type png)
 <use appendices/images/Lucidchart.png>
 Package pdftex.def Info: appendices/images/Lucidchart.png  used on input line 3
 18.
 (pdftex.def)             Requested size: 45.52371pt x 50.10275pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[118 <./appendices/images/Matplotlib.png> <./appendices/images/Seaborn.png> <./
-appendices/images/CVAT.png>]
-<appendices/images/Figma.png, id=1899, 96.36pt x 142.28156pt>
+<appendices/images/Figma.png, id=2010, 96.36pt x 142.28156pt>
 File: appendices/images/Figma.png Graphic file (type png)
 <use appendices/images/Figma.png>
 Package pdftex.def Info: appendices/images/Figma.png  used on input line 335.
 (pdftex.def)             Requested size: 45.52371pt x 67.21753pt.
-
 ! Misplaced alignment tab character &.
 <argument> Web Development &
                              Deployment
 l.341 \subsection*{Web Development & Deployment}
                                                 
 ? 
-<appendices/images/Flask.png, id=1900, 94.85437pt x 117.43875pt>
+<appendices/images/Flask.png, id=2011, 94.85437pt x 117.43875pt>
 File: appendices/images/Flask.png Graphic file (type png)
 <use appendices/images/Flask.png>
 Package pdftex.def Info: appendices/images/Flask.png  used on input line 354.
 (pdftex.def)             Requested size: 45.52371pt x 56.36278pt.
-<appendices/images/React.png, id=1901, 140.77594pt x 129.48375pt>
-File: appendices/images/React.png Graphic file (type png)
-<use appendices/images/React.png>
-Package pdftex.def Info: appendices/images/React.png  used on input line 369.
-(pdftex.def)             Requested size: 45.52371pt x 41.87227pt.
-<appendices/images/TailwindCSS.png, id=1902, 173.89969pt x 103.13531pt>
-File: appendices/images/TailwindCSS.png Graphic file (type png)
-<use appendices/images/TailwindCSS.png>
-Package pdftex.def Info: appendices/images/TailwindCSS.png  used on input line 
-384.
-(pdftex.def)             Requested size: 45.52371pt x 26.99866pt.
-<appendices/images/Vite.png, id=1903, 133.24782pt x 130.23656pt>
-File: appendices/images/Vite.png Graphic file (type png)
-<use appendices/images/Vite.png>
-Package pdftex.def Info: appendices/images/Vite.png  used on input line 400.
-(pdftex.def)             Requested size: 45.52371pt x 44.49446pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5161,21 +5125,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[119 <./appendices/images/Lucidchart.png> <./appendices/images/Figma.png> <./ap
-pendices/images/Flask.png> <./appendices/images/React.png> <./appendices/images
-/TailwindCSS.png>]
-<appendices/images/HomePage.png, id=1918, 1437.87187pt x 813.0375pt>
+[109 <./appendices/images/Seaborn.png> <./appendices/images/CVAT.png> <./append
+ices/images/Lucidchart.png> <./appendices/images/Figma.png>]
+<appendices/images/React.png, id=2020, 140.77594pt x 129.48375pt>
+File: appendices/images/React.png Graphic file (type png)
+<use appendices/images/React.png>
+Package pdftex.def Info: appendices/images/React.png  used on input line 369.
+(pdftex.def)             Requested size: 45.52371pt x 41.87227pt.
+<appendices/images/TailwindCSS.png, id=2021, 173.89969pt x 103.13531pt>
+File: appendices/images/TailwindCSS.png Graphic file (type png)
+<use appendices/images/TailwindCSS.png>
+Package pdftex.def Info: appendices/images/TailwindCSS.png  used on input line 
+384.
+(pdftex.def)             Requested size: 45.52371pt x 26.99866pt.
+<appendices/images/Vite.png, id=2022, 133.24782pt x 130.23656pt>
+File: appendices/images/Vite.png Graphic file (type png)
+<use appendices/images/Vite.png>
+Package pdftex.def Info: appendices/images/Vite.png  used on input line 400.
+(pdftex.def)             Requested size: 45.52371pt x 44.49446pt.
+<appendices/images/HomePage.png, id=2023, 1437.87187pt x 813.0375pt>
 File: appendices/images/HomePage.png Graphic file (type png)
 <use appendices/images/HomePage.png>
 Package pdftex.def Info: appendices/images/HomePage.png  used on input line 414
 .
 (pdftex.def)             Requested size: 273.14923pt x 154.44151pt.
-<appendices/images/About.png, id=1921, 2055.68pt x 5418.2425pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[110 <./appendices/images/Flask.png> <./appendices/images/React.png> <./appendi
+ces/images/TailwindCSS.png> <./appendices/images/Vite.png>]
+<appendices/images/About.png, id=2035, 2055.68pt x 5418.2425pt>
 File: appendices/images/About.png Graphic file (type png)
 <use appendices/images/About.png>
 Package pdftex.def Info: appendices/images/About.png  used on input line 448.
 (pdftex.def)             Requested size: 218.51521pt x 575.91835pt.
-<appendices/images/Documentation.png, id=1922, 2569.6pt x 7313.3225pt>
+<appendices/images/Documentation.png, id=2036, 2569.6pt x 7313.3225pt>
 File: appendices/images/Documentation.png Graphic file (type png)
 <use appendices/images/Documentation.png>
 Package pdftex.def Info: appendices/images/Documentation.png  used on input lin
@@ -5189,8 +5178,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[120 <./appendices/images/Vite.png> <./appendices/images/HomePage.png>]
-<appendices/images/ContactUs.png, id=1931, 2055.68pt x 2527.4425pt>
+[111 <./appendices/images/HomePage.png>]
+<appendices/images/ContactUs.png, id=2043, 2055.68pt x 2527.4425pt>
 File: appendices/images/ContactUs.png Graphic file (type png)
 <use appendices/images/ContactUs.png>
 Package pdftex.def Info: appendices/images/ContactUs.png  used on input line 46
@@ -5204,7 +5193,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[121 <./appendices/images/About.png> <./appendices/images/Documentation.png>])
+[112 <./appendices/images/About.png> <./appendices/images/Documentation.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5212,7 +5201,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[122 <./appendices/images/ContactUs.png>]
+[113 <./appendices/images/ContactUs.png>]
 \openout2 = `appendices/annexeD.aux'.
 
  (appendices/annexeD.tex
@@ -5233,18 +5222,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-[123
+[114
 
 
 
 
 ]
-<appendices/images/comm.png, id=1948, 755.82375pt x 426.393pt>
+<appendices/images/comm.png, id=2063, 755.82375pt x 426.393pt>
 File: appendices/images/comm.png Graphic file (type png)
 <use appendices/images/comm.png>
 Package pdftex.def Info: appendices/images/comm.png  used on input line 29.
 (pdftex.def)             Requested size: 432.48051pt x 243.98343pt.
-<appendices/images/GANTTCHART.jpg, id=1950, 917.67844pt x 248.42813pt>
+<appendices/images/GANTTCHART.jpg, id=2065, 917.67844pt x 248.42813pt>
 File: appendices/images/GANTTCHART.jpg Graphic file (type jpg)
 <use appendices/images/GANTTCHART.jpg>
 Package pdftex.def Info: appendices/images/GANTTCHART.jpg  used on input line 3
@@ -5258,31 +5247,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[124 <./appendices/images/comm.png>]
+[115 <./appendices/images/comm.png> <./appendices/images/GANTTCHART.jpg>]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[125 <./appendices/images/GANTTCHART.jpg>]
-
-! LaTeX Error: \begin{table} on input line 815 ended by \end{document}.
+! LaTeX Error: \begin{table} on input line 814 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 \end{document}
+l.88 \end{document}
                    
 ? 
 (main.aux (titlepage.aux) (acknowledgement.aux) (dedication.aux)
 (dedicationz.aux) (abstract.aux) (introduction.aux)
-(chapters/chapter2/chapter2.aux) (chapters/chapter1/chapter1.aux)
-(chapters/chapter3/chapter3.aux) (chapters/chapter44/chapter44.aux)
-(chapters/chapter56/chapter56.aux) (appendices/annexeA.aux)
-(appendices/annexeC.aux) (appendices/annexeD.aux))
+(chapters/chapter1/chapter1.aux) (chapters/chapter13/chapter13.aux)
+(chapters/chapter44/chapter44.aux) (chapters/chapter56/chapter56.aux)
+(appendices/annexeA.aux) (appendices/annexeC.aux) (appendices/annexeD.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -5465,6 +5445,11 @@ arabchrs.sty    1998/07/11  3.07 letter token definitions
 afterpage.sty    2023/07/04 v1.08 After-Page Package (DPC)
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
 subcaption.sty    2023/07/28 v1.6b Sub-captions (AR)
+pdflscape.sty    2022-10-27 v0.13 Display of landscape pages in PDF
+pdflscape-nometadata.sty    2022-10-28 v0.13 Display of landscape pages in PDF 
+(HO)
+  lscape.sty    2020/05/28 v3.02 Landscape Pages (DPC)
+ parskip.sty    2021-03-14 v2.0h non-zero parskip adjustments
 stmaryrd.sty    1994/03/03 St Mary's Road symbol package
 bookmark.sty    2023-12-10 v1.31 PDF bookmarks (HO)
 bkm-pdftex.def    2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
@@ -5540,7 +5525,22 @@ abstract.tex
     main.gls-abr
 introduction.tex
   ts1ptm.fd    2001/06/04 font definitions for TS1/ptm.
-chapters/chapter2/chapter2.tex
+chapters/chapter1/chapter1.tex
+chapters/chapter1/images/Figure01.png
+chapters/chapter1/images/Dnn.png
+chapters/chapter1/images/CNNarchitecture.png
+chapters/chapter1/images/Figure05.png
+chapters/chapter1/images/Figure06.png
+chapters/chapter1/images/Figure08.png
+chapters/chapter1/images/Figure11.png
+chapters/chapter1/images/Figure12.png
+chapters/chapter1/images/Figure13.png
+chapters/chapter1/images/Figure15.png
+chapters/chapter1/images/Figure16.png
+chapters/chapter1/images/Figure17.png
+chapters/chapter1/images/Figure18.png
+chapters/chapter1/images/Figure19.png
+chapters/chapter13/chapter13.tex
 chapters/chapter2/images/CropsProduction.png
 chapters/chapter2/images/AlgeriaWheat.png
 chapters/chapter2/images/Figure02.png
@@ -5560,22 +5560,6 @@ chapters/chapter2/images/Figure16.png
 chapters/chapter2/images/Figure17.png
 chapters/chapter2/images/Figure18.png
 chapters/chapter2/images/Figure19.png
-chapters/chapter1/chapter1.tex
-chapters/chapter1/images/Figure01.png
-chapters/chapter1/images/Dnn.png
-chapters/chapter1/images/CNNarchitecture.png
-chapters/chapter1/images/Figure05.png
-chapters/chapter1/images/Figure06.png
-chapters/chapter1/images/Figure08.png
-chapters/chapter1/images/Figure11.png
-chapters/chapter1/images/Figure12.png
-chapters/chapter1/images/Figure13.png
-chapters/chapter1/images/Figure15.png
-chapters/chapter1/images/Figure16.png
-chapters/chapter1/images/Figure17.png
-chapters/chapter1/images/Figure18.png
-chapters/chapter1/images/Figure19.png
-chapters/chapter3/chapter3.tex
 chapters/chapter3/images/Figure01.png
 chapters/chapter3/images/Figure02.png
 chapters/chapter3/images/Figure03.png
@@ -5658,58 +5642,549 @@ appendices/images/GANTTCHART.jpg
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred inside a group at level 14)
 
-### semi simple group (level 14) entered at line 815 (\begingroup)
-### semi simple group (level 13) entered at line 775 (\begingroup)
-### semi simple group (level 12) entered at line 707 (\begingroup)
-### semi simple group (level 11) entered at line 652 (\begingroup)
-### semi simple group (level 10) entered at line 620 (\begingroup)
-### semi simple group (level 9) entered at line 511 (\begingroup)
-### semi simple group (level 8) entered at line 489 (\begingroup)
-### semi simple group (level 7) entered at line 456 (\begingroup)
-### semi simple group (level 6) entered at line 417 (\begingroup)
-### semi simple group (level 5) entered at line 92 (\begingroup)
+### semi simple group (level 14) entered at line 814 (\begingroup)
+### semi simple group (level 13) entered at line 774 (\begingroup)
+### semi simple group (level 12) entered at line 706 (\begingroup)
+### semi simple group (level 11) entered at line 651 (\begingroup)
+### semi simple group (level 10) entered at line 619 (\begingroup)
+### semi simple group (level 9) entered at line 510 (\begingroup)
+### semi simple group (level 8) entered at line 488 (\begingroup)
+### semi simple group (level 7) entered at line 455 (\begingroup)
+### semi simple group (level 6) entered at line 416 (\begingroup)
+### semi simple group (level 5) entered at line 91 (\begingroup)
 ### semi simple group (level 4) entered at line 14 (\begingroup)
 ### semi simple group (level 3) entered at line 771 (\begingroup)
 ### semi simple group (level 2) entered at line 740 (\begingroup)
 ### semi simple group (level 1) entered at line 9 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 78401 strings out of 474486
- 1743004 string characters out of 5744227
- 3059018 words of memory out of 5000000
- 98981 multiletter control sequences out of 15000+600000
+ 78642 strings out of 474486
+ 1747660 string characters out of 5744227
+ 3064597 words of memory out of 5000000
+ 99117 multiletter control sequences out of 15000+600000
  637681 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,15n,109p,2598b,9221s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
-c/dpi600\ectt1200.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ectt1440.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/arabi/ae_almohanad_bold.pfb><C:/Users/DELL/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users
-/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C
-:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-symbols/msbm10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/rsfs/rsfs10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/ur
-w/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
-es/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/time
-s/utmri8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-rabtex/xnsh14.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/arabtex/xnsh14bf.pfb>
-Output written on main.pdf (144 pages, 67979675 bytes).
+ 95i,15n,109p,2598b,9258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{equation.6.7.11} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.6.7.10} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.6.5.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.6.5.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.6.5.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.6.5.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.5.3.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.5.3.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.5.3.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.5.3.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.4.9} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.4.8} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.4.7} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.2.6} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.2.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.2.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{equation.3.2.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.113} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.112} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.111} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.108} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.107} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.104} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.103} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.102} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.101} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.100} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.99} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.86} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.85} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.77} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.74} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.69} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.4.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.30} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.1.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.17} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.153} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.152} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.151} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.150} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.149} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.98} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.97} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.96} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.92} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.87} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.83} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.82} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.79} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.71} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.68} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.65} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.64} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.61} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.60} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.57} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.46} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.119} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter*.118} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.116} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.9} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.8} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.7} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.5} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.8} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+ <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt120
+0.pk> <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
+tt1440.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi
+/ae_almohanad_bold.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/DELL/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/DELL/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.
+pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pf
+b><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb>
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
+C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
+:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb><C
+:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh14.pf
+b><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabtex/xnsh1
+4bf.pfb>
+Output written on main.pdf (134 pages, 67983063 bytes).
 PDF statistics:
- 2496 PDF objects out of 2984 (max. 8388607)
- 544 named destinations out of 1000 (max. 500000)
- 1290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2587 PDF objects out of 2984 (max. 8388607)
+ 635 named destinations out of 1000 (max. 500000)
+ 1186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
