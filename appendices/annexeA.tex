@@ -7,7 +7,7 @@
 %     \end{verbatim}
 % \end{center}
 
-\section{CNN Architectures}
+\section*{CNN Architectures}
 
 This section presents several notable Convolutional Neural Network (CNN) architectures that have significantly advanced image recognition tasks, particularly in the context of plant disease detection and classification. Each architecture introduces unique design principles to improve accuracy, efficiency, and scalability.
 
@@ -108,11 +108,11 @@ Despite the computational cost introduced by the accumulation of feature maps, D
 \end{figure}
 
 
-\section{Lightweight Neural Network Architectures}
+\section*{Lightweight Neural Network Architectures}
 Lightweight neural network architectures are designed to be efficient, enabling high performance on resource-constrained devices like mobile phones and edge devices. These models balance accuracy and computational efficiency, making them ideal for real-time applications. The following are some key lightweight architectures and how they address these challenges.
 
 
-\subsection{MobileNetV1}
+\subsection*{MobileNetV1}
 MobileNet V1 is a lightweight convolutional neural network that efficiently processes input images by utilizing depthwise separable convolutions to reduce computational cost and model size. Starting with an input image resized to 224×224×3, the network first applies a standard convolution followed by a series of depthwise separable convolutions that decompose standard convolutions into two steps: a depthwise convolution that filters each input channel independently and a pointwise (1×1) convolution that combines these filtered outputs. This approach drastically reduces the number of parameters and operations, as seen in the progressive reduction of feature map dimensions from 112×112×32 to 56×56×64, 28×28×256, and eventually to 7×7×1024 (Figure~\ref{fig:MobileNet}). An average pooling operation then reduces the spatial dimension to 1×1×1024, after which a fully connected layer performs the final classification \parencite{kadam2022efficient}.
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
@@ -123,7 +123,7 @@ MobileNet V1 is a lightweight convolutional neural network that efficiently proc
 \end{figure}
 
 
-\subsection{EfficientNet}
+\subsection*{EfficientNet}
 EfficientNet is a family of convolutional neural networks developed by Google AI that introduces a compound scaling method to efficiently scale deep learning models. Traditional approaches often scale models arbitrarily in one of three dimensions: depth (number of layers), width (number of channels), or input resolution. However, EfficientNet proposes a more balanced and systematic strategy, where all three dimensions are scaled simultaneously and proportionally using a fixed set of scaling coefficients. This compound approach maintains model efficiency while significantly boosting accuracy.
 
 The baseline model, EfficientNet-B0 (see Figure~\ref{fig:figure13}), is built using Neural Architecture Search (NAS) to optimize both performance and efficiency. Larger variants (B1 to B7) are derived by uniformly scaling the baseline model using the compound scaling principle. This results in models that achieve state-of-the-art performance on image classification tasks with dramatically fewer parameters and lower computational cost compared to earlier architectures like ResNet or Inception.
@@ -135,7 +135,7 @@ The baseline model, EfficientNet-B0 (see Figure~\ref{fig:figure13}), is built us
     \label{fig:figure13}
 \end{figure}
 
-\subsection{ShuffleNet V2}
+\subsection*{ShuffleNet V2}
 
 ShuffleNet V2 is a family of lightweight convolutional neural networks specifically designed for mobile and embedded platforms with limited computational resources. It improves upon ShuffleNet V1 by addressing practical deployment issues, such as memory access cost and actual inference latency, which are often overlooked in models optimized purely for FLOPs.
 
@@ -151,7 +151,7 @@ These architectural improvements allow ShuffleNet V2 to achieve a strong trade-o
 \end{figure}
 
 
-\section{Vegitation Indices}
+\section*{Vegitation Indices}
 The table below (Table~\ref{tab:vegetation-indices2}) summarizes the vegetation indices used in the previously discussed studies, along with their formulas and applications.
 
 \begin{table}[htbp]

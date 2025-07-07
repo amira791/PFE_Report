@@ -98,16 +98,12 @@
 \select@language {english}
 \contentsline {chapter}{Bibliography}{47}{chapter*.55}%
 \select@language {english}
+\contentsline {chapter}{Webography}{51}{chapter*.56}%
+\contentsline {chapter}{Appendices}{51}{chapter*.56}%
 \select@language {english}
 \contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Overview of Lightweight Neural Network Architectures and Vegetation Indices for Plant Disease Detection\endL \egroup }{52}{appendix.1.A}%
-\contentsline {section}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }CNN Architectures}{52}{section.1.A.1}%
-\contentsline {subsubsection}{Visual geometry group network (VGGNet)}{52}{section.1.A.1}%
+\contentsline {subsubsection}{Visual geometry group network (VGGNet)}{52}{appendix.1.A}%
 \contentsline {subsubsection}{Inception Net (GoogLeNet)}{53}{figure.caption.57}%
 \contentsline {subsubsection}{Xception Net}{53}{figure.caption.58}%
 \contentsline {subsubsection}{Residual Networks (ResNet)}{54}{figure.caption.59}%
 \contentsline {subsubsection}{DenseNet}{55}{figure.caption.61}%
-\contentsline {section}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }Lightweight Neural Network Architectures}{56}{section.1.A.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.1}\else \textLR {1.2.1}\fi }MobileNetV1}{56}{subsection.1.A.2.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.1}\else \textLR {1.2.2}\fi }EfficientNet}{56}{subsection.1.A.2.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.1}\else \textLR {1.2.3}\fi }ShuffleNet V2}{57}{subsection.1.A.2.3}%
-\contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }Vegitation Indices}{58}{section.1.A.3}%

@@ -47,14 +47,20 @@
 % Conclusion
 \include{conclusion}
 
-% Bibliography
-\printbibliography[heading=bibintoc]
-\printbibliography[type=online,title={Webography}]
+\printbibliography[heading=bibintoc, nottype=online, title={Bibliography}]
+
+\clearpage
+
+
+\printbibliography[heading=bibintoc, type=online, title={Webography}]
+
 
 % Appendices
+\addcontentsline{toc}{chapter}{Appendices}
+\markboth{Appendices}{Appendices}
 \begin{appendices}
     \include{appendices/annexeA}
-    \include{appendices/annexeB}
+    % \include{appendices/annexeB}
 \end{appendices}
 
 \end{document}
