@@ -1,0 +1,134 @@
+\usepackage[utf8]{inputenc}
+\usepackage[french, arabic, main=english,]{babel}
+\usepackage{csquotes}
+\usepackage[LAE, T1]{fontenc}
+\usepackage{array}
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{bbm}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\graphicspath{{assets/images}{assets/pdf}{assets/python}}
+\usepackage[inline]{enumitem}
+\usepackage{import}
+\usepackage{colonequals}
+\usepackage{hyperref}
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=DarkGreen,
+    pdfauthor={Mohammed Belgoumri},
+    pdfkeywords={this is a kw}
+}
+\usepackage{cleveref}
+\usepackage[top=2.5cm,bottom=2.5cm,right=2.5cm,left=2.5cm]{geometry}
+\usepackage{appendix}
+\usepackage{wrapfig}
+\usepackage{cprotect}
+
+
+
+
+\import{preambule}{tikz}
+
+\newlength\figureheight
+\newlength\figurewidth
+
+% \usepackage[backend=biber, style=apa]{biblatex}
+
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{etoolbox}
+
+\usepackage{caption}
+
+\import{preambule}{codestyle}
+\input{preambule/algo-style.tex}
+
+
+\usepackage{arabtex}
+\usepackage{utf8}
+\setcode{utf8}
+
+\usepackage{afterpage}
+\usepackage{float}
+\usepackage{subcaption}
+
+
+
+\usepackage{stmaryrd}
+\usepackage{bookmark}
+\usepackage{booktabs}
+\usepackage{stackengine}
+\usepackage{adjustbox}
+\usepackage{footnote}
+
+
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{booktabs} % For better horizontal lines
+\usepackage{makecell}
+
+
+
+% pakages for header writing 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% Header: current chapter title (automatically set by \chapter)
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyfoot[R]{\thepage}
+
+\renewcommand{\headrulewidth}{0.8pt}
+
+% Make sure plain pages (e.g. at start of chapters) use same style
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\fancypagestyle{noheader}{
+  \fancyhf{} % clear header and footer
+  \fancyfoot[R]{\thepage} % keep page number
+  \renewcommand{\headrulewidth}{0pt} % remove header line
+}
+
+\usepackage{enumitem}
+
+
+
+
+
+
+\usepackage{mathptmx} % or use \usepackage{times}
+
+
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+
+
+\setlength{\parskip}{6pt}
+
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{12pt}{12pt}
+\titlespacing{\subsection}{0pt}{12pt}{12pt}
+\titlespacing{\subsubsection}{0pt}{12pt}{12pt}
+
+
+
+
+\import{preambule}{theorems}
+
+\input{preambule/notations}
+
+%citation style
+\let\barecite\cite
+\let\cite\parencite
+
+\import{preambule}{abbreviations}

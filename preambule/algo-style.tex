@@ -1,0 +1,27 @@
+% %% Algorithm style
+% \usepackage[ruled,linesnumbered,nosemicolon]{algorithm2e}
+% \SetFuncArgSty{}
+% \definecolor{codegreen}{rgb}{0,0.6,0}
+% \newcommand{\mycomntsty}[1]{\texttt{\textcolor{codegreen}{#1}}}
+% \newlength{\commentWidth}
+% \setlength{\commentWidth}{7cm}
+% \SetCommentSty{mycomntsty}
+% \newcommand{\atcp}[1]{\tcp*[r]{\makebox[\commentWidth]{#1\hfill}}}
+% % no line break version of \atcp
+% \newcommand{\atcpl}[1]{\tcp*[f]{\makebox[\commentWidth]{#1\hfill}}}
+
+
+
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\SetKwInput{KwInput}{Input}
+\SetKwInput{KwOutput}{Output}
+\SetKwComment{Comment}{$\triangleright$\ }{}
+\SetAlCapSkip{1em}
+\SetAlCapNameFnt{\normalsize\bfseries}
+\SetAlCapFnt{\normalsize}
+\SetAlgoNlRelativeSize{-1}
+\DontPrintSemicolon
+
+\newcommand{\ForEach}{\ForEachNoPar}
+\newcommand{\Indp}{\Indp}
+\newcommand{\Indm}{\Indm}

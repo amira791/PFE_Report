@@ -1,0 +1,46 @@
+\chapter*{General Conclusion}
+
+Wheat is one of the world’s most essential food crops, providing sustenance for billions of peopl. However, its production is frequently affected by various plant diseases, which can significantly reduce yield and crop quality. Traditional disease diagnosis methods, based on visual inspection by farmers or experts, are limited by subjectivity, time consumption, and potential for error. Misdiagnosis can result in inappropriate treatments, confusion between visually similar diseases, and delays in intervention. These limitations contribute to economic losses due to inefficient resource use and decreased productivity.
+
+
+To overcome these challenges, our research focused on designing an intelligent and automated system for classifying wheat diseases. The main goal was to improve diagnostic accuracy, reducing both false alarms and incorrect treatments. Special attention was given to distinguishing between visually similar diseases particularly among rust variants where precise identification is critical for effective management. We also aimed to ensure reliable performance across different stages of infection and varying image conditions. To maximize usability, the system was deployed as a web-based platform that allows farmers to upload images directly from the field and receive instant results. 
+
+
+We started by reviewing a wide range of scientific publications focused on wheat disease detection. This analysis enabled us to develop a comprehensive taxonomy of existing approaches, classified by input data types, model architectures, learning strategies  and evaluation metrics. In addition, we constructed a taxonomy of wheat diseases based on visual symptoms. These classifications helped identify gaps in the literature and informed the selection of models best suited for specific disease types and environmental conditions.
+
+During the data collection phase, we encountered numerous critical challenges. The publicly available datasets we examined exhibited several flaws, including duplicate images present across training, validation, and test splits; mislabeled disease categories; inconsistent image resolutions and lighting conditions; and, in some cases, images that were not even related to wheat. These issues severely compromised data integrity. When we attempted to reproduce results from existing methods using these flawed datasets, the model performance was significantly degraded often yielding accuracies below 40\%, rendering them unsuitable for any practical deployment in real agricultural scenarios.
+
+To address this, we undertook a rigorous three-month process of data collection and cleaning. Images were gathered from reliable sources, including scientific publications, agricultural extension resources, and carefully selected online materials. We removed duplicates, corrected mislabeled samples, standardized image resolution and format, and organized the final dataset into a clean, well structured form suitable for training robust deep learning models.
+
+
+To ensure the system performs well under real-world agricultural conditions, we designed it to handle complex scenarios. For example, when a leaf shows signs of multiple infections, the model outputs the top three most probable diseases, allowing farmers to consider different possibilities before applying treatments. Additionally, we integrated a pest detection module, recognizing the role insects play in both crop damage and disease transmission. This module contributes to more comprehensive field analysis. The entire system was deployed through an intuitive web platform that allows users to upload images and their diagnosis results.
+
+
+To achieve accurate pest and disease detection, we incorporated an object detection model based on the YOLO architecture. During dataset preparation, we annotated the data twice using different strategies. Initially, we applied standard horizontal bounding boxes, but this proved insufficient for detecting small or rotated pests and disease spots. We then adopted oriented bounding box (OBB) annotation, which significantly improved detection performance, especially for irregular shapes and angles. This enhancement led to more precise localization and classification, reinforcing the system’s reliability in diverse field conditions.
+
+
+To enhance user support, we integrated an AI assistant into the platform, designed to provide personalized guidance and recommendations. This assistant interacts with users through a chat interface and is connected to an external API. By combining our detection system with this intelligent assistant, we offer a comprehensive tool that supports decision-making and improves accessibility to expert-level agricultural advice.
+
+
+
+
+
+These results confirm the feasibility and utility of deep learning for automated disease detection, with the potential to accelerate interventions, reduce crop loss, and foster more sustainable farming practices.
+
+\subsection*{Limitations}
+\begin{itemize}
+  \item \textbf{Scope of disease coverage} : The proposed classification pipeline currently identifies \emph{only nine fungal wheat diseases}. Expanding to bacterial, viral, and abiotic disorders will require additional data collection \emph{in real agricultural fields} and the development of a broader framework of models.
+  \item \textbf{Generic AI assistant} : The conversational assistant is functional yet generic; a domain specific version is needed to deliver context aware agronomic guidance tailored to wheat farming.
+  \item \textbf{Web platform functionality} : The platform offers core diagnostics but lacks user dashboards, disease history tracking, localized recommendations, and alert notifications.
+  \item \textbf{Image variety \& preprocessing} : Most training images are close up leaf photos. Performance degrades on drone/satellite imagery and under highly variable field conditions.
+\end{itemize}
+
+\subsection*{Perspectives for Future Work}
+\begin{itemize}
+  \item \textbf{Multispectral and NIR imagery} : Integrate multispectral and near infrared data to detect physiological stress and hidden infections earlier.
+  \item \textbf{Drone and satellite integration} : Adapt models for aerial imagery to enable large area monitoring and automated scouting of entire fields.
+  \item \textbf{Domain specific AI assistant} – Retrain the assistant with agronomic ontologies, local languages, and region specific best practices to provide actionable guidance.
+  \item \textbf{Edge deployment and IoT connectivity} : Port lightweight models to edge devices and integrate with on farm sensors for real time, in field diagnosis without reliable internet.
+  \item \textbf{Intelligent recommendation system} : Develop a dynamic recommendation engine that suggests optimal treatments, preventive measures, and crop management practices based on disease type, severity, and local agronomic data. The system should be continuously updated with new expert knowledge, user feedback, and real-time field data to ensure relevance and accuracy over time.
+  \item \textbf{Continuous and active learning} : Implement feedback loops so that new user images and expert corrections are fed back to retrain the models, steadily improving accuracy and robustness.
+\end{itemize}

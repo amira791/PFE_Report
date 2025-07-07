@@ -1,0 +1,191 @@
+\chapter{Lightweight CNNs and Efficient Attention Mechanisms}
+\label{app:annexA}
+
+ \section*{CNN Architecture}
+ \subsection*{Inception Net (GoogLeNet)}
+ Inception Net, introduced by Szegedy, uses Inception modules that apply multiple convolutional filters ($1 \times 1$, $3 \times 3$, $5 \times 5$) in parallel, followed by concatenation (See figure~\ref{fig:figure09}). This design captures multi-scale information efficiently while reducing computational cost \parencite{alzubaidi2021review}.
+
+It replaced standard convolutional layers with micro-neural networks and regulated computation through $1 \times 1$ convolutions as bottleneck layers. Sparse connections addressed redundant information by selectively connecting input and output channels, while the global average pooling (GAP) layer reduced parameters from 40 million to just 5 million, enhancing efficiency. Additional features included the RmsProp optimizer, batch normalization, and auxiliary learners to accelerate convergence \parencite{alzubaidi2021review}.
+
+
+
+\begin{figure}[H] % 'H' needs \usepackage{float}
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure09.png}
+    \caption{The basic structure of Google Block \parencite{alzubaidi2021review}.}
+    \label{fig:figure09}
+\end{figure}
+
+
+
+\subsection*{Xception Net}
+The Xception model is an extension of the Inception architecture that replaces standard convolutions with depth-wise separable convolutions, significantly improving efficiency.The core concept behind Xception is the modification of the traditional Inception block by making it wider and replacing the standard $3 \times 3$ convolution followed by a $1 \times 1$ convolution with depthwise separable convolutions, which reduces computational complexity while enhancing performance \parencite{alzubaidi2021review}. An illustration of the basic Xception block structure is presented in figure~\ref{fig:figure10}.
+
+
+\begin{figure}[H] % 'H' needs \usepackage{float}
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure10.png}
+    \caption{The basic block diagram for the Xception block architecture \parencite{alzubaidi2021review}.}
+    \label{fig:figure10}
+\end{figure}
+
+
+
+\subsection*{MobileNetV1}
+MobileNet V1 (Figure~\ref{fig:MobileNetV1}) is a lightweight convolutional neural network that efficiently processes input images using depthwise separable convolutions to reduce computational cost and model size. Starting with an input image resized to 224×224×3, the network first applies a standard convolution followed by a series of depthwise separable convolutions that decompose standard convolutions into two steps: a depthwise convolution that filters each input channel independently and a pointwise (1×1) convolution that combines these filtered outputs. This approach drastically reduces the number of parameters and operations, as seen in the progressive reduction of feature map dimensions from 112×112×32 to 56×56×64, 28×28×256, and eventually to 7×7×1024. An average pooling operation then reduces the spatial dimension to 1×1×1024, after which a fully connected layer performs the final classification \parencite{kadam2022efficient}.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9
+    \textwidth]{appendices/images/FigureA1.png}
+    \caption{The architecture of MobileNet V1 \protect\parencite{kadam2022efficient}}
+    \label{fig:MobileNetV1}
+\end{figure}
+
+% \subsection*{MobileNetV1}
+% MobileNet V1 (Figure~\ref{fig:MobileNetV1}) is a lightweight convolutional neural network that efficiently processes input images using depthwise separable convolutions to reduce computational cost and model size. Starting with an input image resized to 224×224×3, the network first applies a standard convolution followed by a series of depthwise separable convolutions that decompose standard convolutions into two steps: a depthwise convolution that filters each input channel independently and a pointwise (1×1) convolution that combines these filtered outputs. This approach drastically reduces the number of parameters and operations, as seen in the progressive reduction of feature map dimensions from 112×112×32 to 56×56×64, 28×28×256, and eventually to 7×7×1024. An average pooling operation then reduces the spatial dimension to 1×1×1024, after which a fully connected layer performs the final classification \parencite{kadam2022efficient}.
+
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.6
+%     \textwidth]{appendices/images/FigureA1.png}
+%     \caption{The architecture of MobileNet V1 \protect\parencite{kadam2022efficient}}
+%     \label{fig:MobileNetV1}
+% \end{figure}
+
+
+% \subsection*{ShuffleNet V2}
+% ShuffleNet-v2 is a highly efficient convolutional neural network architecture tailored for mobile and low-power devices. It builds on the original ShuffleNet-v1 by further minimizing computational complexity through the use of pointwise group convolutions and a refined channel shuffle mechanism, which helps reduce cost while preserving accuracy. Unlike models optimized using indirect metrics, ShuffleNet-v2 focuses on direct measures such as actual runtime and memory access efficiency. A key improvement in ShuffleNet-v2 is introducing a channel split operation and repositioning the channel shuffle operation to a later stage within each block (Figure~\ref{fig:ShuffleNetV2}), enhancing the model's performance and practicality for real-world deployment \parencite{jiang2022evaluation}.
+
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.3
+%     \textwidth]{appendices/images/FigureA2.png}
+%     \caption{ Structure of the basic building block of ShuffleNet V2 with residual. CONV: convolution layer. DWCONV: depthwise convolution. BN: batch normalization. Channel Shuffle: crucial operation for ShuffleNet architectures \protect\parencite{dobko2020cnn}.}
+%     \label{fig:ShuffleNetV2}
+% \end{figure}
+
+
+% \subsection*{SqueezeNet}
+
+% SqueezeNet is a lightweight convolutional neural network architecture (Figure~\ref{fig:SqueezeNet}) designed to reduce model size while maintaining high accuracy. Its core building block is the Fire module (Figure~\ref{fig:Firemodule}), which consists of two main layers: the squeeze layer and the expand layer. The squeeze layer uses 1×1 convolutions to reduce the number of input channels, effectively compressing the feature representation. This is followed by the expand layer, which applies a mix of 1×1 and 3×3 convolutions to the compressed output. The use of 1×1 convolutions keeps the parameter count low, while 3×3 convolutions allow for more complex feature extraction. Multiple Fire modules are stacked together to form the full network, which significantly reduces the number of parameters compared to traditional CNNs while retaining representational strength \parencite{hao2024squeezenet}.
+
+% \begin{figure}[H]
+%     \centering
+
+%     % First subfigure: Fire module
+%     \begin{subfigure}[b]{0.6\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{appendices/images/FigureA3.png}
+%         \caption{The architecture of the Fire module.}
+%         \label{fig:Firemodule}
+%     \end{subfigure}
+
+%     \vspace{1em} % Vertical space between the figures
+
+%     % Second subfigure: SqueezeNet module
+%     \begin{subfigure}[b]{0.8\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{appendices/images/FigureA4.png}
+%         \caption{The structure of a SqueezeNet module incorporating Fire layers.}
+%         \label{fig:SqueezeNet}
+%     \end{subfigure}
+
+%     \caption{Visualization of components in the SqueezeNet architecture: (a) the Fire module consisting of squeeze and expand layers, and (b) a SqueezeNet module integrating multiple Fire modules.}
+%     \label{fig:fire_and_squeezenet}
+% \end{figure}
+
+
+\section*{Attention Mechanisms}
+
+\subsection*{Squeeze and Excitation (SE) Connection}
+The Squeeze and Excitation (SE) connection (Figure~\ref{fig:SqueezeExcitation}) introduces a lightweight channel attention mechanism designed to improve the representational power of a network by modeling the interdependencies between feature channels. It operates in three stages: first, a "squeeze" step performs global average pooling to compress each channel’s spatial information into a single scalar; second, an "excitation" step uses two fully connected layers to learn channel-wise relationships and generate a set of modulation weights; third, these weights are applied to the original feature map via channel-wise multiplication, emphasizing informative features and suppressing less relevant ones. This selective feature enhancement improves performance in various computer vision tasks while maintaining low computational cost \parencite{dobko2020cnn}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6
+    \textwidth]{appendices/images/FigureA5.png}
+    \caption{Squeeze and Excitation \protect\parencite{chitty2022neural}.}
+    \label{fig:SqueezeExcitation}
+\end{figure}
+
+\subsection*{Convolutional Block Attention Module (CBAM)}
+
+The Convolutional Block Attention Module (CBAM) is a lightweight and general-purpose attention mechanism that enhances feature representation by sequentially applying attention along the channel and spatial dimensions (Figure~\ref{fig:CBAMArchitecture}). It enables convolutional neural networks to adaptively refine feature maps by focusing on both what to emphasize (via channel attention) and where to emphasize (via spatial attention), thus improving the network's ability to extract relevant information from complex visual inputs \parencite{fang2023lightweight}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8
+    \textwidth]{appendices/images/FigureA6.png}
+    \caption{CBAM architecture \protect\parencite{fang2023lightweight}.}
+    \label{fig:CBAMArchitecture}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{The Channel Attention Module} is designed to identify what information is important in a feature map. It begins by applying both average pooling and max pooling operations across the spatial dimensions of the input feature map, generating two different channel-wise descriptors that summarize global spatial information. These descriptors are then passed through a shared multilayer perceptron (MLP), and their outputs are summed element-wise. A sigmoid activation function is applied to the result to produce a channel attention map, which highlights important channels (Figure~\ref{fig:ChannelAttention}). This attention map is then multiplied by the original feature map, allowing the network to give greater weight to the most informative feature channels \parencite{fang2023lightweight}.
+     
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8
+    \textwidth]{appendices/images/FigureA7.png}
+    \caption{Channel Attention Architecture \protect\parencite{fang2023lightweight}.}
+    \label{fig:ChannelAttention}
+\end{figure}
+   
+    \item \textbf{Spatial Attention Module} focuses on locating where the important information lies within the feature map. It takes the channel-refined feature map from the previous step and performs average pooling and max pooling across the channel axis, resulting in two spatial descriptors that capture complementary spatial information. These descriptors are concatenated and passed through a convolutional layer, followed by a sigmoid activation to generate a spatial attention map (Figure~\ref{fig:SpatialAttention}). This map is then multiplied by the feature map to enhance or suppress specific spatial regions, guiding the network’s focus to the most relevant areas in the input image \parencite{fang2023lightweight}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8
+    \textwidth]{appendices/images/FigureA8.png}
+    \caption{Spatial Attention Architecture \protect\parencite{fang2023lightweight}.}
+    \label{fig:SpatialAttention}
+\end{figure}
+
+\end{itemize}
+
+
+
+% \subsection*{Efficient Channel Attention (ECA)}
+
+% Efficient Channel Attention (ECA) is a lightweight attention mechanism designed to improve feature representation by focusing on the most informative channels in a feature map. The ECA module begins by taking a feature map of dimensions H × W × C and applying global average pooling, compressing the spatial information into a 1 × 1 × C vector that summarizes each channel's response. This vector is then passed through a 1D convolution (with a small kernel size) to learn channel-wise dependencies without reducing dimensionality. The resulting attention weights are used to scale the original channels through element-wise multiplication, effectively enhancing important features and suppressing less relevant ones (Figure~\ref{fig:ECA}). The design avoids fully connected layers, keeping the parameter count low and making the module suitable for lightweight networks \parencite{hao2024squeezenet}.
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8
+%     \textwidth]{appendices/images/FigureA9.png}
+%     \caption{ECA mechanism module \protect\parencite{hao2024squeezenet}.}
+%     \label{fig:ECA}
+% \end{figure}
+
+
+\section*{YOLOv8-OBB: Extending YOLO for Oriented Bounding Boxes}
+Standard object detectors struggle with rotated objects, particularly in aerial images or industrial inspection. YOLOv8-OBB addresses this by integrating orientation regression directly into the detection head, allowing it to output 5 parameters per box: center coordinates (x, y), width, height, and rotation angle $\theta$.
+
+\subsection*{Angle Representations}
+There are several ways to represent angles in OBB:
+
+\begin{itemize}
+    \item \textbf{Angle regression}: Directly regresses the angle using a continuous value (e.g., in degrees or radians).
+    \item \textbf{Angle classification}: Discretizes angles into bins (e.g., 180 classes for every 2 degrees).
+    \item \textbf{Sin-Cos encoding}: Regresses $\sin(\theta)$ and $\cos(\theta)$ to avoid discontinuities at $0^\circ/360^\circ$.
+\end{itemize}
+
+\subsection*{Architecture Modification}
+To enable OBB prediction, YOLOv8’s detection head is extended to output an additional angle or angle components (e.g., sin, cos) alongside the usual box regression and object classification. The modified output vector per anchor includes \parencite{ultralytics2023yolov8}:
+
+\[
+\text{Output} = \left[ x, y, w, h, \theta, \text{class scores} \right]
+\]
+
+The training loss function is also adapted to incorporate angle prediction error, using Smooth L1 or MSE losses.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{appendices/images/FigureOBB.png}
+    \caption{Comparing normal bounding boxes and oriented bounding boxes. \parencite{ultralytics2024obbblog}.}
+    \label{fig:YOLOv8OBBHead}
+\end{figure}

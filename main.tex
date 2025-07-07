@@ -1,0 +1,87 @@
+
+\documentclass[12pt, a4paper]{report}
+
+
+
+\input{preambule/preamble}
+
+% !TEX root = main.tex
+\begin{document}
+
+% Depth of TOC
+\setcounter{tocdepth}{2}
+
+% Title page
+\include{titlepage}
+
+
+\include{acknowledgement}
+
+\include{dedication}
+\include{dedicationz}
+
+\include{abstract}
+
+\selectlanguage{english}
+
+% Table of contents and lists
+\afterpage{
+    \newgeometry{bottom=3cm}
+    \tableofcontents
+    % \addcontentsline{toc}{chapter}{Table of contents}
+    \listoffigures
+    % \addcontentsline{toc}{chapter}{List of Figures}
+    \listoftables
+    % \addcontentsline{toc}{chapter}{List of Tables}
+    % \lstlistoflistings
+    % \addcontentsline{toc}{chapter}{List of Listings}
+}
+
+\cleardoublepage
+\printabbreviations[
+    title=Abbreviations,
+    % toctitle=Abbreviations,
+    style=long,nonumberlist
+]
+\restoregeometry
+\pagenumbering{arabic}
+
+% Chapters
+
+\include{introduction}
+\part{State of The Art}
+\include{chapters/chapter2/chapter2}
+\include{chapters/chapter1/chapter1}
+\include{chapters/chapter3/chapter3} 
+
+% === Deuxième Partie: Contribution ===
+\part{Contribution}
+\include{chapters/chapter44/chapter44} % Conception
+\include{chapters/chapter56/chapter56} % Résultats ou évaluation
+
+% Conclusion Générale
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{General Conclusion}
+\markboth{General Conclusion}{General Conclusion} % ← Add this line
+\input{conclusion}
+
+
+\printbibliography[heading=bibintoc, nottype=online, title={Bibliography}]
+
+\clearpage
+
+\printbibliography[heading=bibintoc, type=online, title={Webography}]
+
+% Appendices
+
+\addcontentsline{toc}{chapter}{Appendices}
+\markboth{Appendices}{Appendices}
+
+\begin{appendices}   
+    \include{appendices/annexeA}
+    \include{appendices/annexeC}
+    \include{appendices/annexeD}
+\end{appendices}
+
+\end{document}

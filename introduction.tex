@@ -1,0 +1,60 @@
+\chapter*{General introduction}
+\markboth{General Introduction}{General Introduction}
+\addcontentsline{toc}{chapter}{General introduction}
+\label{chap.intro}
+
+
+\section*{Context and problem statement}
+
+Wheat is one of the most important staple crops worldwide, playing a vital role in global food security. However, wheat crops are highly susceptible to various diseases that can severely reduce yield and quality. Traditional methods of disease identification, which rely on manual observation by agricultural experts, are often time consuming, subjective, and inaccessible to farmers in remote areas. With the increasing availability of imaging devices (e.g., smartphones, drones) and the rise of smart agriculture, there is a growing demand for automated and accurate systems to detect wheat diseases efficiently.
+
+Recent advances in artificial intelligence, especially deep learning and computer vision, have enabled significant progress in the field of plant disease recognition. Despite promising results, several challenges remain. Many existing solutions struggle with high false positive rates, misclassifying healthy crops as diseased, or with poor generalization to varying environmental conditions, image sources, and wheat varieties. In addition, the visual similarity between symptoms of different diseases often makes it difficult to distinguish them correctly, increasing the risk of wrong diagnoses. This can lead to inappropriate interventions or treatments, resulting in wasted resources, higher costs, time loss, and even economic losses for farmers. Moreover, few approaches offer practical deployment for farmers through user friendly platforms.
+\section*{Objectives}
+
+The main objective of this work is to develop a robust and efficient deep learning-based solution for the classification of wheat diseases. Specifically, this project aims to:
+
+\begin{itemize}
+    \item Collect, clean, and create a reliable dataset of wheat images representing various diseases and healthy samples, suitable for deep learning applications.
+    \item Accurately classify multiple wheat disease types with high precision and recall, reducing false alarms and missed detections.
+    \item Enhance the generalization capabilities of the model across diverse conditions, such as lighting variations, background clutter, and differences in image quality.
+    \item Deploy the proposed solution into a user-friendly system accessible through a web interface for farmers.
+    \item Integrate complementary functionalities into the system, including:
+    \begin{itemize}
+        \item An insect pest detection module.
+        \item A general-purpose AI assistant accessible via an API to support users with contextual guidance.
+    \end{itemize}
+\end{itemize}
+
+\section*{Methodology}
+
+To achieve these goals, our methodology is structured as follows:
+
+\begin{itemize}
+    \item Conduct a thorough review of the literature on wheat disease detection and smart agriculture technologies.
+    \item Collect and prepare a relevant dataset consisting of wheat images representing different disease classes and healthy samples.
+    \item Train and evaluate models for disease classification and insect pest detection, while focusing on robustness and performance.
+    \item Deploy the implemented models on a web platform, providing interactive access to farmers.
+    \item Evaluate the system using quantitative performance metrics and real world test cases.
+\end{itemize}
+
+\section*{Structure of the thesis}
+
+This thesis is organized into two main parts:
+
+\begin{itemize}
+    \item \textbf{Part I – State of the Art}
+    \begin{itemize}
+        \item \textbf{Chapter 1 – Threats to Wheat Production: Disease Identification and the Shift Toward Smart Agriculture:} Introduces the main diseases and insects pest affecting wheat and discusses the motivation for smart agriculture as a solution.
+        \item \textbf{Chapter 2 – Deep Learning: Concepts, Architectures, and Applications:} Provides an overview of deep learning models, training strategies, evaluation methods, and their applications.
+        \item \textbf{Chapter 3 – Review of Image-Based Approaches in Wheat Disease Identification:} This chapter explores various image-based techniques used by studies for wheat disease classification and highlights their strengths and limitations to inform future improvements in the field.
+        
+    \end{itemize}
+
+    \item \textbf{Part II – Contribution}
+    \begin{itemize}
+        \item \textbf{Chapter 4 – Solution Design:} Describes the global system architecture, datasets construction, the different AI-based models architectures used for both tasks: wheat disease classification and insect pest detection, and key specifications of the web platform tailored for user-friendly farmer interaction.
+        \item \textbf{Chapter 5 – Implementation and Tests:} Describes the development environment, deployment of models into the web platform, and integration of the AI assistant. Various tests were conducted to justify architectural choices and evaluate model performance using quantitative metrics. The results are then compared to existing state-of-the-art methods, demonstrating that our proposed solution achieves better accuracy and reliability.
+    \end{itemize}
+\end{itemize}
+
+The thesis concludes with a general summary of our work and outlines possible future directions for improving and extending the proposed solution.

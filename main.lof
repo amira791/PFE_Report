@@ -1,0 +1,86 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces Most Produced Commodities Worldwide in 2023 (in Million Tonnes) \blx@tocontentsinit {0}\parencite {faostat} }}{6}{figure.caption.18}%
+\contentsline {figure}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces Main African wheat producers in 2022/2023 (in Million Tonnes)\blx@tocontentsinit {0}\parencite {tadamsa2024} }}{7}{figure.caption.19}%
+\contentsline {figure}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }{\ignorespaces Taxonomy of wheat diseases \parencite {haider2021wheat}}}{8}{figure.caption.20}%
+\contentsline {figure}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }{\ignorespaces Leaf rust with Brown spores (1), Leaf rust with Black spores (2) \parencite {duveiller2012wheat}}}{8}{figure.caption.21}%
+\contentsline {figure}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }{\ignorespaces Stem rust \parencite {duveiller2012wheat}}}{9}{figure.caption.22}%
+\contentsline {figure}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }{\ignorespaces Stripe rust \parencite {duveiller2012wheat}}}{9}{figure.caption.23}%
+\contentsline {figure}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }{\ignorespaces Symptoms of foliar blotch diseases. (A) Septoria tritici blotch. (B) Tan spot. (C) Septoria nodorum blotch \parencite {figueroa2018review}}}{9}{figure.caption.24}%
+\contentsline {figure}{\numberline {\if@rl \I {8.1}\else \textLR {1.8}\fi }{\ignorespaces Symptoms of Fusarium head blight/scab: The left image shows early infection signs manifested as a partially bleached wheat head, while the right image illustrates advanced infection of \textit {Fusarium graminearum} \parencite {figueroa2018review}.}}{10}{figure.caption.25}%
+\contentsline {figure}{\numberline {\if@rl \I {9.1}\else \textLR {1.9}\fi }{\ignorespaces Loose smut \parencite {duveiller2012wheat}}}{10}{figure.caption.26}%
+\contentsline {figure}{\numberline {\if@rl \I {10.1}\else \textLR {1.10}\fi }{\ignorespaces Powdery mildew from Kaggle dataset ‘Wheat Plant Diseases.'}}{11}{figure.caption.27}%
+\contentsline {figure}{\numberline {\if@rl \I {11.1}\else \textLR {1.11}\fi }{\ignorespaces Common root rot from Kaggle dataset ‘Wheat Plant Diseases.’}}{11}{figure.caption.28}%
+\contentsline {figure}{\numberline {\if@rl \I {12.1}\else \textLR {1.12}\fi }{\ignorespaces Common pests affecting wheat crops.}}{13}{figure.caption.29}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Biological Neuron Structure and Its Mathematical Model Representation \blx@tocontentsinit {0}\parencite {krenker2011introduction}.}}{16}{figure.caption.30}%
+\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces Architecture of simple \gls {abb:dnn} \blx@tocontentsinit {0}\parencite {ren2023review}.}}{17}{figure.caption.31}%
+\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces Architecture of CNN \blx@tocontentsinit {0}\parencite {Ang2022Optimal}.}}{22}{figure.caption.32}%
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces The primary calculations executed at each step of the convolutional layer \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces Three types of pooling operations \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces The architecture of VGG \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{24}{figure.caption.35}%
+\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Residual module diagram \blx@tocontentsinit {0}\parencite {fang2023lightweight}.}}{25}{figure.caption.36}%
+\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces The architecture of DenseNet Network \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces Architecture of EfficientNet-B0 with MBConv as basic building blocks \blx@tocontentsinit {0}\parencite {ahmed2022classification}.}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces Integration of the custom CNN with transfer learning networks \blx@tocontentsinit {0}\parencite {jouini2024wheat}.}}{28}{figure.caption.39}%
+\contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces Main idea of YOLO \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{31}{figure.caption.40}%
+\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces Flowchart of R-CNN \blx@tocontentsinit {0}\parencite {zhao2019objectdetection}.}}{32}{figure.caption.41}%
+\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces An illustration of the Faster R-CNN model \blx@tocontentsinit {0}\parencite {ren2016faster}.}}{33}{figure.caption.42}%
+\contentsline {figure}{\numberline {\if@rl \I {14.2}\else \textLR {2.14}\fi }{\ignorespaces Architecture of SSD \blx@tocontentsinit {0}\parencite {li2021water}.}}{34}{figure.caption.43}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Sub-data samples of the wheat disease original dataset obtained by the CLAHE, Contrast stretching, and hypercolumn technique \blx@tocontentsinit {0}\parencite {reis2024integrated}.}}{37}{figure.caption.44}%
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Data augmentation techniques \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{38}{figure.caption.45}%
+\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Training strategies of a convolutional neural network (CNN) \blx@tocontentsinit {0}\parencite {jiang2022evaluation}.}}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces The architecture of the hybrid framework \blx@tocontentsinit {0}\parencite {nagpal2024hybrid}.}}{42}{figure.caption.47}%
+\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces The proposed deep convolutional neural network \blx@tocontentsinit {0}\parencite {goyal2021leaf}.}}{43}{figure.caption.48}%
+\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces Architecture diagram of a Few-shot Learning-based network \blx@tocontentsinit {0}\parencite {alharbi2023wheat}.}}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Taxonomy of approaches for classifying wheat diseases.}}{44}{figure.caption.50}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Block Diagram of the Proposed Multi-Module Wheat Monitoring System.}}{50}{figure.caption.51}%
+\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces Hierarchical system for wheat disease classification.}}{51}{figure.caption.52}%
+\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces Sample images from our custom dataset.}}{53}{figure.caption.54}%
+\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces Architecture of the binary classification model.}}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Data augmentation techniques (Example of application).}}{55}{figure.caption.57}%
+\contentsline {figure}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces Class Distribution After Augmentation..}}{55}{figure.caption.58}%
+\contentsline {figure}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces An example of the “kernel trick” \blx@tocontentsinit {0}\parencite {guido2024}.}}{57}{figure.caption.59}%
+\contentsline {figure}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Architecture of the multi-class wheat disease classification model.}}{60}{figure.caption.62}%
+\contentsline {figure}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Visual Examples of Image Variations Generated Through Data Augmentation Techniques.}}{61}{figure.caption.63}%
+\contentsline {figure}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces ECA mechanism module \parencite {hao2024squeezenet}.}}{63}{figure.caption.65}%
+\contentsline {figure}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Model 3 Training Performance: Loss and Accuracy Curves.}}{65}{figure.caption.66}%
+\contentsline {figure}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Wheat insect pest annotation task in CVAT.}}{68}{figure.caption.69}%
+\contentsline {figure}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Comparison between regular bounding boxes and oriented bounding boxes.}}{70}{figure.caption.70}%
+\contentsline {figure}{\numberline {\if@rl \I {14.4}\else \textLR {4.14}\fi }{\ignorespaces AI assistant integration workflow.}}{73}{figure.caption.74}%
+\contentsline {figure}{\numberline {\if@rl \I {15.4}\else \textLR {4.15}\fi }{\ignorespaces The use case diagram of the system.}}{74}{figure.caption.76}%
+\contentsline {figure}{\numberline {\if@rl \I {16.4}\else \textLR {4.16}\fi }{\ignorespaces Activity diagrams for Wheat disease classification and insect pest detection}}{75}{figure.caption.77}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces Pipeline of the AI assistant from input reception to Gemini-based response generation.}}{78}{figure.caption.79}%
+\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Backend project directory structure.}}{80}{figure.caption.81}%
+\contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces Frontend Project Directory Structure.}}{81}{figure.caption.82}%
+\contentsline {figure}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces Upload an image to analyze and detect wheat diseases.}}{82}{figure.caption.83}%
+\contentsline {figure}{\numberline {\if@rl \I {5.5}\else \textLR {5.5}\fi }{\ignorespaces Wheat disease classification results.}}{82}{figure.caption.83}%
+\contentsline {figure}{\numberline {\if@rl \I {6.5}\else \textLR {5.6}\fi }{\ignorespaces Insect pest detection page.}}{83}{figure.caption.84}%
+\contentsline {figure}{\numberline {\if@rl \I {7.5}\else \textLR {5.7}\fi }{\ignorespaces AI Assistant page interface.}}{84}{figure.caption.85}%
+\contentsline {figure}{\numberline {\if@rl \I {8.5}\else \textLR {5.8}\fi }{\ignorespaces Confusion matrix of the multiclass classification model (M2).}}{93}{figure.caption.92}%
+\contentsline {figure}{\numberline {\if@rl \I {9.5}\else \textLR {5.9}\fi }{\ignorespaces Grad-CAM Visualization of Different Attention Mechanisms: SE, CBAM, ECA, and Self-Attention.}}{94}{figure.caption.93}%
+\contentsline {figure}{\numberline {\if@rl \I {10.5}\else \textLR {5.10}\fi }{\ignorespaces Confusion Matrix of the Hierarchical Classification System.}}{96}{figure.caption.96}%
+\contentsline {figure}{\numberline {\if@rl \I {11.5}\else \textLR {5.11}\fi }{\ignorespaces Confusion Matrix of Model 2 for Multiclass Classification (10 Classes: Healthy + 9 Diseases)}}{96}{figure.caption.97}%
+\contentsline {figure}{\numberline {\if@rl \I {12.5}\else \textLR {5.12}\fi }{\ignorespaces Confusion matrics of Insect detection model.}}{101}{figure.caption.101}%
+\contentsline {figure}{\numberline {\if@rl \I {13.5}\else \textLR {5.13}\fi }{\ignorespaces Insect detection model results.}}{101}{figure.caption.102}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.1}\else \textLR {1.1}\fi }{\ignorespaces The basic structure of Google Block \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{110}{figure.caption.107}%
+\contentsline {figure}{\numberline {\if@rl \I {2.1}\else \textLR {1.2}\fi }{\ignorespaces The basic block diagram for the Xception block architecture \blx@tocontentsinit {0}\parencite {alzubaidi2021review}.}}{111}{figure.caption.108}%
+\contentsline {figure}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }{\ignorespaces The architecture of MobileNet V1 \parencite {kadam2022efficient}}}{112}{figure.caption.109}%
+\contentsline {figure}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }{\ignorespaces Squeeze and Excitation \parencite {chitty2022neural}.}}{112}{figure.caption.110}%
+\contentsline {figure}{\numberline {\if@rl \I {5.1}\else \textLR {1.5}\fi }{\ignorespaces CBAM architecture \parencite {fang2023lightweight}.}}{113}{figure.caption.111}%
+\contentsline {figure}{\numberline {\if@rl \I {6.1}\else \textLR {1.6}\fi }{\ignorespaces Channel Attention Architecture \parencite {fang2023lightweight}.}}{113}{figure.caption.112}%
+\contentsline {figure}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }{\ignorespaces Spatial Attention Architecture \parencite {fang2023lightweight}.}}{113}{figure.caption.113}%
+\contentsline {figure}{\numberline {\if@rl \I {8.1}\else \textLR {1.8}\fi }{\ignorespaces Comparing normal bounding boxes and oriented bounding boxes. \blx@tocontentsinit {0}\parencite {ultralytics2024obbblog}.}}{114}{figure.caption.114}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Home Page \parencite {fang2023lightweight}.}}{120}{figure.caption.136}%
+\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces Home Page.}}{121}{figure.caption.137}%
+\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces Documentation Page.}}{121}{figure.caption.137}%
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces Contact Page.}}{122}{figure.caption.138}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Screenshots of Key Organizational and Communication Tools Used During the Project}}{124}{figure.caption.139}%
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Gantt diagram representing the planning and scheduling of project phases.}}{125}{figure.caption.140}%

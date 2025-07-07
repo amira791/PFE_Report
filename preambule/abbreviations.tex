@@ -1,0 +1,152 @@
+% abbreviation.tex
+
+\usepackage[abbreviations, automake]{glossaries-extra}
+\setabbreviationstyle{long-short}
+\GlsXtrEnableInitialTagging{abbreviation}{\itag}
+\newcommand{\taghighlight}[1]{\uppercase{\textbf{#1}}}
+\renewcommand{\glsxtrtagfont}{\taghighlight}
+\makeglossaries
+
+% Abbreviations
+\newabbreviation{abb:fao}{FAO}{\itag{F}ood and \itag{A}griculture \itag{O}rganization}
+\newabbreviation{abb:stb}{STB}{\itag{S}eptoria \itag{T}ritici \itag{B}lotch}
+\newabbreviation{abb:snb}{SNB}{\itag{S}eptoria \itag{N}odorum \itag{B}lotch}
+\newabbreviation{abb:ts}{TS}{\itag{T}an \itag{S}pot}
+\newabbreviation{abb:fhb}{FHB}{\itag{F}usarium \itag{H}ead \itag{B}light}
+\newabbreviation{abb:fg}{FG}{\itag{F}usarium \itag{G}raminearum}
+
+\newabbreviation{abb:uav}{UAV}{\itag{U}nmanned \itag{A}erial \itag{V}ehicle}
+\newabbreviation{abb:gps}{GPS}{\itag{G}lobal \itag{P}ositioning \itag{S}ystem}
+\newabbreviation{abb:iot}{IoT}{\itag{I}nternet \itag{O}f \itag{T}hings}
+\newabbreviation{abb:ai}{AI}{\itag{A}rtificial \itag{I}ntelligence}
+\newabbreviation{abb:ml}{ML}{\itag{M}achine \itag{L}earning}
+\newabbreviation{abb:cnn}{CNN}{\itag{C}onvolutional \itag{N}eural \itag{N}etwork}
+\newabbreviation{abb:dnn}{DNN}{\itag{D}eep \itag{N}eural \itag{N}etwork}
+\newabbreviation{abb:rnn}{RNN}{\itag{R}ecurrent \itag{N}eural \itag{N}etwork}
+\newabbreviation{abb:lstm}{LSTM}{\itag{L}ong \itag{S}hort-\itag{T}erm \itag{M}emory}
+\newabbreviation{abb:gru}{GRU}{\itag{G}ated \itag{R}ecurrent \itag{U}nit}
+\newabbreviation{abb:gan}{GAN}{\itag{G}enerative \itag{A}dversarial \itag{N}etwork}
+\newabbreviation{abb:drl}{DRL}{\itag{D}eep \itag{R}einforcement \itag{L}earning}
+\newabbreviation{abb:ann}{ANN}{\itag{A}rtificial \itag{N}eural \itag{N}etwork}
+\newabbreviation{abb:mlp}{MLP}{\itag{M}ultilayer \itag{P}erceptron}
+
+\newabbreviation{abb:gpu}{GPU}{\itag{G}raphics \itag{P}rocessing \itag{U}nit}
+\newabbreviation{abb:cpu}{CPU}{\itag{C}entral \itag{P}rocessing \itag{U}nit}
+\newabbreviation{abb:ram}{RAM}{\itag{R}andom \itag{A}ccess \itag{M}emory}
+\newabbreviation{abb:ssd}{SSD}{\itag{S}olid-\itag{S}tate \itag{D}rive}
+\newabbreviation{abb:gb}{GB}{\itag{G}igabyte}
+
+\newabbreviation{abb:relu}{ReLU}{\itag{R}ectified \itag{L}inear \itag{U}nit}
+\newabbreviation{abb:af}{AF}{\itag{A}ctivation \itag{F}unction}
+\newabbreviation{abb:fp}{FP}{\itag{F}orward \itag{P}ropagation}
+\newabbreviation{abb:bp}{BP}{\itag{B}ackward \itag{P}ropagation}
+\newabbreviation{abb:mse}{MSE}{\itag{M}ean \itag{S}quared \itag{E}rror}
+\newabbreviation{abb:sgd}{SGD}{\itag{S}tochastic \itag{G}radient \itag{D}escent}
+\newabbreviation{abb:adam}{Adam}{\itag{A}daptive \itag{M}oment \itag{E}stimation}
+\newabbreviation{abb:rmsprop}{RMSprop}{\itag{R}oot \itag{M}ean \itag{S}quare \itag{P}ropagation}
+
+\newabbreviation{abb:precision}{Precision}{\itag{P}recision}
+\newabbreviation{abb:recall}{Recall}{\itag{R}ecall}
+\newabbreviation{abb:f1score}{F1-score}{\itag{H}armonic \itag{M}ean of \itag{P}recision and \itag{R}ecall}
+\newabbreviation{abb:iou}{IoU}{\itag{I}ntersection \itag{O}ver \itag{U}nion}
+\newabbreviation{abb:map}{mAP}{\itag{M}ean \itag{A}verage \itag{P}recision}
+
+\newabbreviation{abb:tl}{TL}{\itag{T}ransfer \itag{L}earning}
+\newabbreviation{abb:od}{OD}{\itag{O}bject \itag{D}etection}
+
+\newabbreviation{abb:fc}{FC}{\itag{F}ully \itag{C}onnected}
+\newabbreviation{abb:rgb}{RGB}{\itag{R}ed, \itag{G}reen, \itag{B}lue}
+
+\newabbreviation{abb:api}{API}{\itag{A}pplication \itag{P}rogramming \itag{I}nterface}
+\newabbreviation{abb:venv}{VENV}{\itag{V}irtual \itag{E}nvironment}
+\newabbreviation{abb:ui}{UI}{\itag{U}ser \itag{I}nterface}
+\newabbreviation{abb:css}{CSS}{\itag{C}ascading \itag{S}tyle \itag{S}heets}
+\newabbreviation{abb:dom}{DOM}{\itag{D}ocument \itag{O}bject \itag{M}odel}
+\newabbreviation{abb:html}{HTML}{\itag{H}yper\itag{T}ext \itag{M}arkup \itag{L}anguage}
+\newabbreviation{abb:js}{JS}{\itag{J}ava\itag{S}cript}
+\newabbreviation{abb:typescript}{TS}{\itag{T}ype\itag{S}cript}
+
+
+\newabbreviation{abb:dt}{DT}{\textit{D}ecision \textit{T}ree}
+\newabbreviation{abb:rf}{RF}{\textit{R}andom \textit{F}orest}
+\newabbreviation{abb:svm}{SVM}{\textit{S}upport \textit{V}ector \textit{M}achine}
+
+% \newabbreviation{abb:nir}{NIR}{\itag{n}ear \itag{i}nfrared}
+
+% \newabbreviation{abb:relu}{ReLU}{\itag{r}ectified \itag{l}inear \itag{u}nit}
+% \newabbreviation{abb:mse}{MSE}{\itag{m}ean \itag{s}quared \itag{e}rror}
+% \newabbreviation{abb:sgd}{SGD}{\itag{s}tochastic \itag{g}radient \itag{d}escent}
+% \newabbreviation{abb:adam}{Adam}{\itag{a}daptive \itag{m}oment \itag{e}stimation}
+% \newabbreviation{abb:rmsprop}{RMSprop}{\itag{r}oot \itag{m}ean \itag{s}quare \itag{p}ropagation}
+% \newabbreviation{abb:drl}{DRL}{\itag{d}eep \itag{r}einforcement \itag{l}earning}
+% \newabbreviation{abb:rnn}{RNN}{\itag{r}ecurrent \itag{n}eural \itag{n}etwork}
+% \newabbreviation{abb:lstm}{LSTM}{\itag{l}ong \itag{s}hort-\itag{t}erm \itag{m}emory}
+% \newabbreviation{abb:gru}{GRU}{\itag{g}ated \itag{r}ecurrent \itag{u}nit}
+% \newabbreviation{abb:gan}{GAN}{\itag{g}enerative \itag{a}dversarial \itag{n}etwork}
+% \newabbreviation{abb:rbm}{RBM}{\itag{r}estricted \itag{b}oltzmann \itag{m}achine}
+% \newabbreviation{abb:r2}{R²}{\itag{r}-squared (coefficient of determination)}
+% \newabbreviation{abb:rgb}{RGB}{\itag{r}ed \itag{g}reen \itag{b}lue}
+% \newabbreviation{abb:fc}{FC}{\itag{f}ully \itag{c}onnected}
+% \newabbreviation{abb:mlp}{MLP}{\itag{m}ulti-\itag{l}ayer \itag{p}erceptron}
+% \newabbreviation{abb:ann}{ANN}{\itag{a}rtificial \itag{n}eural \itag{n}etwork}
+% \newabbreviation{abb:vgg}{VGG}{\itag{v}isual \itag{g}eometry \itag{g}roup}
+% \newabbreviation{abb:zfnet}{ZFNet}{\itag{z}eiler \itag{a}nd \itag{f}ergus \itag{n}et}
+% \newabbreviation{abb:gap}{GAP}{\itag{g}lobal \itag{a}verage \itag{p}ooling}
+% \newabbreviation{abb:nas}{NAS}{\itag{n}eural \itag{a}rchitecture \itag{s}earch}
+% \newabbreviation{abb:mbconv}{MBConv}{\itag{m}obile \itag{i}nverted \itag{b}ottleneck \itag{c}onvolution}
+% \newabbreviation{abb:tl}{TL}{\itag{t}ransfer \itag{l}earning}
+% \newabbreviation{abb:lr}{LR}{\itag{l}earning \itag{r}ate}
+% \newabbreviation{abb:smote}{SMOTE}{\itag{s}ynthetic \itag{m}inority \itag{o}ver-\itag{s}ampling \itag{t}echnique}
+% \newabbreviation{abb:od}{OD}{\itag{o}bject \itag{d}etection}
+% \newabbreviation{abb:rpn}{RPN}{\itag{r}egion \itag{p}roposal \itag{n}etwork}
+% \newabbreviation{abb:fcn}{FCN}{\itag{f}ully \itag{c}onvolutional \itag{n}etwork}
+% \newabbreviation{abb:bb}{BB}{\itag{b}ounding \itag{b}ox}
+% \newabbreviation{abb:sift}{SIFT}{\itag{s}cale-\itag{i}nvariant \itag{f}eature \itag{t}ransform}
+% \newabbreviation{abb:hog}{HOG}{\itag{h}istogram \itag{o}f \itag{o}riented \itag{g}radients}
+% \newabbreviation{abb:iou}{IoU}{\itag{i}ntersection \itag{o}ver \itag{u}nion}
+% \newabbreviation{abb:map}{mAP}{\itag{m}ean \itag{a}verage \itag{p}recision}
+% \newabbreviation{abb:ar}{AR}{\itag{a}verage \itag{r}ecall}
+% \newabbreviation{abb:fps}{FPS}{\itag{f}rames \itag{p}er \itag{s}econd}
+% \newabbreviation{abb:nms}{NMS}{\itag{n}on-\itag{m}aximum \itag{s}uppression}
+% \newabbreviation{abb:rcnn}{R-CNN}{\itag{r}egion-based \itag{c}onvolutional \itag{n}eural \itag{n}etwork}
+% \newabbreviation{abb:frcnn}{Fast R-CNN}{\itag{f}ast \itag{r}egion-based \itag{c}onvolutional \itag{n}eural \itag{n}etwork}
+% \newabbreviation{abb:fasterrcnn}{Faster R-CNN}{\itag{f}aster \itag{r}egion-based \itag{c}onvolutional \itag{n}eural \itag{n}etwork}
+% \newabbreviation{abb:yolo}{YOLO}{\itag{y}ou \itag{o}nly \itag{l}ook \itag{o}nce}
+% \newabbreviation{abb:ssd}{SSD}{\itag{s}ingle \itag{s}hot \itag{m}ultibox \itag{d}etector}
+% \newabbreviation{abb:voc}{VOC}{\itag{v}isual \itag{o}bject \itag{c}lasses}
+% \newabbreviation{abb:coco}{COCO}{\itag{c}ommon \itag{o}bjects \itag{i}n \itag{c}ontext}
+% \newabbreviation{abb:clahe}{CLAHE}{\itag{c}ontrast \itag{l}imited \itag{a}daptive \itag{h}istogram \itag{e}qualization}
+% \newabbreviation{abb:adasyn}{ADASYN}{\itag{a}daptive \itag{s}ynthetic \itag{s}ampling}
+% \newabbreviation{abb:rf}{RF}{\itag{r}andom \itag{f}orest}
+% \newabbreviation{abb:dt}{DT}{\itag{d}ecision \itag{t}ree}
+% \newabbreviation{abb:pso}{PSO}{\itag{p}article \itag{s}warm \itag{o}ptimization}
+% \newabbreviation{abb:softmax}{SoftMax}{\itag{s}oftmax \itag{f}unction}
+% \newabbreviation{abb:cbam}{CBAM}{\itag{c}onvolutional \itag{b}lock \itag{a}ttention \itag{m}odule}
+% \newabbreviation{abb:eca}{ECA}{\itag{e}fficient \itag{c}hannel \itag{a}ttention}
+% \newabbreviation{abb:cvat}{CVAT}{\itag{c}omputer \itag{v}ision \itag{a}nnotation \itag{t}ool}
+% \newabbreviation{abb:obb}{OBB}{\itag{o}riented \itag{b}ounding \itag{b}ox}
+% \newabbreviation{abb:csp}{CSP}{\itag{c}ross-\itag{s}tage \itag{p}artial}
+% \newabbreviation{abb:panet}{PANet}{\itag{p}ath \itag{a}ggregation \itag{n}etwork}
+% \newabbreviation{abb:llm}{LLM}{\itag{l}arge \itag{l}anguage \itag{m}odel}
+% \newabbreviation{abb:gcp}{GCP}{\itag{g}oogle \itag{c}loud \itag{p}latform}
+% \newabbreviation{abb:moscow}{MoSCoW}{\itag{m}ust, \itag{s}hould, \itag{c}ould, \itag{w}on’t}
+% \newabbreviation{abb:uml}{UML}{\itag{u}nified \itag{m}odeling \itag{l}anguage}
+% \newabbreviation{abb:api}{API}{\itag{a}pplication \itag{p}rogramming \itag{i}nterface}
+% \newabbreviation{abb:rbf}{RBF}{\itag{r}adial \itag{b}asis \itag{f}unction}
+% \newabbreviation{abb:nlp}{NLP}{\itag{n}atural \itag{l}anguage \itag{p}rocessing}
+% \newabbreviation{abb:rtx}{RTX}{\itag{r}ay \itag{t}racing \itag{t}exel \itag{e}xtreme}
+% \newabbreviation{abb:cpu}{CPU}{\itag{c}entral \itag{p}rocessing \itag{u}nit}
+% \newabbreviation{abb:ram}{RAM}{\itag{r}andom \itag{a}ccess \itag{m}emory}
+% \newabbreviation{abb:cv}{CV}{\itag{c}ross-\itag{v}alidation}
+% \newabbreviation{abb:resnet}{ResNet}{\itag{r}esidual \itag{n}etwork}
+% \newabbreviation{abb:inceptionv3}{InceptionV3}{\itag{i}nception \itag{v}ersion \itag{3}}
+% \newabbreviation{abb:densenet}{DenseNet}{\itag{d}ensely \itag{c}onnected \itag{c}onvolutional \itag{n}etworks}
+% \newabbreviation{abb:sdk}{SDK}{\itag{s}oftware \itag{d}evelopment \itag{k}it}
+% \newabbreviation{abb:cors}{CORS}{\itag{c}ross-\itag{o}rigin \itag{r}esource \itag{s}haring}
+% \newabbreviation{abb:json}{JSON}{\itag{j}ava\itag{s}cript \itag{o}bject \itag{n}otation}
+% \newabbreviation{abb:dom}{DOM}{\itag{d}ocument \itag{o}bject \itag{m}odel}
+% \newabbreviation{abb:css}{CSS}{\itag{c}ascading \itag{s}tyle \itag{s}heets}
+% \newabbreviation{abb:tsx}{TS/TSX}{\itag{t}ypescript / \itag{t}ypescript with \itag{j}sx}
+% \newabbreviation{abb:js}{JS}{\itag{j}ava\itag{s}cript}
+% \newabbreviation{abb:eslint}{ESLint}{\itag{e}cmascript \itag{l}int}
+% \newabbreviation{abb:hdf5}{HDF5}{\itag{h}ierarchical \itag{d}ata \itag{f}ormat version 5}

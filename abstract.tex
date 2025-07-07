@@ -1,0 +1,123 @@
+% ────────────────────  English abstract  ────────────────────
+\cleardoublepage
+\pagenumbering{roman}
+\phantomsection
+\chapter*{{\Huge\bfseries Abstract}}   % big on the page
+\thispagestyle{noheader}
+\addcontentsline{toc}{chapter}{Abstract}
+
+\vspace{0.5cm}
+
+
+Wheat is a globally essential cereal crop, but its yield is significantly threatened by a variety of diseases. Traditional diagnostic methods, which rely on manual visual inspection, are often time-consuming, subjective, and inaccessible to many farmers, especially in remote areas. With the emergence of smart agriculture and the advancement of deep learning, automated image-based disease recognition has become a promising solution.
+
+This project aims to design and implement a robust system based on deep learning techniques for the classification of wheat diseases using images of various plant parts such as leaves, stems, and spikes. Our methodology involves a comprehensive literature review, data collection and preprocessing, model training and evaluation, and finally the integration of the solution into an interactive web platform tailored for farmers. To enhance system utility, we also include insect pest detection and an AI assistant module accessible via API to guide users.
+
+We propose a hierarchical classification framework composed of two stages. In the first stage, multiple CNN architectures are combined with a Support Vector Machine (SVM) classifier to distinguish between healthy and diseased samples, forming a hybrid CNN-SVM approach. The second stage employs a ResNet50V2 backbone enhanced with an Efficient Channel Attention (ECA) module to identify nine specific wheat diseases. Experimental results show that the binary classifier (Model 1) achieved an accuracy of 99.60\%, while the multi-class classifier (Model 2) reached 99.83\% accuracy. The full system attained an overall accuracy of 99.48\%. These results demonstrate that our global system outperforms existing state-of-the-art methods in terms of accuracy and robustness.
+
+The proposed solution contributes to smart agriculture by enabling efficient, accessible, and reliable diagnosis, thus aiding in timely intervention and improving overall crop management.
+
+
+\vspace{1cm}
+\noindent\rule{\linewidth}{1pt}
+\noindent
+\textbf{Keywords —} Smart Agriculture, Deep Learning, Convolutional Neural Networks, Wheat Disease Detection, Computer Vision.\\
+\noindent\rule{\linewidth}{1pt}
+
+
+
+
+
+
+ 
+
+% ────────────────────  French résumé  ────────────────────
+\cleardoublepage
+\phantomsection
+\chapter*{{\Huge\bfseries Résumé}}
+\thispagestyle{noheader}
+\addcontentsline{toc}{chapter}{Résumé}
+
+\vspace{0.5cm}
+
+Le blé est une culture céréalière essentielle à l’échelle mondiale, mais son rendement est fortement menacé par diverses maladies. Les méthodes de diagnostic traditionnelles, reposant sur l’inspection visuelle manuelle, sont souvent longues, subjectives et inaccessibles à de nombreux agriculteurs, notamment dans les zones rurales. Avec l’essor de l’agriculture intelligente et les avancées de l’apprentissage profond, la reconnaissance automatisée des maladies à partir d’images est devenue une solution prometteuse.
+
+Ce projet vise à concevoir et mettre en œuvre un système robuste basé sur des techniques d’apprentissage profond pour la classification des maladies du blé à partir d’images de différentes parties de la plante, telles que les feuilles, les tiges et les épis. Notre méthodologie comprend une revue de littérature, la collecte et le prétraitement des données, l’entraînement et l’évaluation des modèles, ainsi que l’intégration de la solution dans une plateforme web interactive destinée aux agriculteurs. Afin d’améliorer l’utilité du système, nous avons également intégré un module de détection des insectes nuisibles ainsi qu’un assistant intelligent accessible via une API pour guider les utilisateurs.
+
+Nous proposons un cadre de classification hiérarchique composé de deux étapes. Dans la première, plusieurs architectures de réseaux de neurones convolutifs (CNN) sont combinées avec un classificateur à vecteurs de support (SVM) pour distinguer les échantillons sains des échantillons malades, formant ainsi une approche hybride CNN-SVM. La seconde étape utilise un réseau ResNet50V2 enrichi par un module d’attention efficace par canal (ECA) pour identifier neuf maladies spécifiques du blé. Les résultats expérimentaux montrent que le classificateur binaire (Modèle 1) a atteint une précision de 99,60 \%, tandis que le classificateur multi-classes (Modèle 2) a obtenu une précision de 99,83 \%. Le système global a atteint une précision globale de 99,48 \%. Ces résultats montrent que notre système dépasse les méthodes de l’état de l’art existantes en termes de précision et de robustesse.
+
+La solution proposée contribue à l’agriculture intelligente en permettant un diagnostic efficace, accessible et fiable, favorisant ainsi une intervention rapide et une meilleure gestion des cultures.
+
+\vspace{1cm}
+
+\noindent\rule{\linewidth}{1pt}
+\noindent
+\textbf{Mots clés —} Agriculture intelligente, Apprentissage profond, Réseaux de neurones convolutifs, Détection des maladies du blé, Vision par ordinateur.\\
+\noindent\rule{\linewidth}{1pt}
+
+
+
+
+
+
+
+% ────────────────────  Arabic ملخص  ────────────────────
+\cleardoublepage
+\phantomsection
+\chapter*{\Huge\bfseries\hfill\textRL{مـلـخـص}}
+\thispagestyle{noheader}
+\addcontentsline{toc}{chapter}{\textRL{مـلـخـص}}
+
+
+
+\vspace{0.1cm}
+\begin{RLtext}
+
+يُعد القمح من المحاصيل الزراعية الأساسية على مستوى العالم، إلا أن إنتاجه يواجه تهديدًا كبيرًا بسبب تنوع الأمراض التي تصيبه. تُعتبر طرق التشخيص التقليدية المعتمدة على الفحص البصري اليدوي بطيئة وذات طابع ذاتي، وغالبًا ما تكون غير متاحة للمزارعين خاصة في المناطق النائية. ومع ظهور الزراعة الذكية وتطور تقنيات التعلم العميق، أصبحت عملية التعرف التلقائي على الأمراض من خلال الصور تمثل حلاً واعدًا.
+
+يهدف هذا المشروع إلى تصميم وتنفيذ نظام فعّال يعتمد على تقنيات التعلم العميق لتصنيف أمراض  للكشف عن أمراض القمح وتصنيفها باستخدام صور لمختلف أجزاء النبات مثل الأوراق والسيقان والسُنابل. تشمل منهجيتنا مراجعة شاملة للدراسات السابقة، جمع البيانات ومعالجتها، تدريب النماذج وتقييمها، ثم دمج الحل في منصة ويب تفاعلية موجهة للمزارعين. ولتعزيز فاعلية النظام، قمنا أيضًا بإدراج وحدة لاكتشاف الحشرات الضارة ومساعد ذكي يعمل عبر واجهة برمجة التطبيقات \LR{API} لتوجيه المستخدمين.
+
+نقترح إطارًا هرميًا للتصنيف يتكون من مرحلتين: في المرحلة الأولى، يتم دمج عدة هياكل \LR{CNN} بشكل فردي مع خوارزمية آلة متجهة الدعم \LR{SVM} للتمييز بين العينات السليمة والمصابة، مشكلين بذلك مقاربة هجينة \LR{CNN-SVM}. أما في المرحلة الثانية، فنستخدم بنية \LR{ResNet50} معززة بوحدة الانتباه  \LR{ECA} للتعرف على تسعة أمراض محددة تصيب القمح. أظهرت النتائج التجريبية أن نموذج التصنيف الثنائي حقق دقة بلغت \LR{99,60\%}، بينما بلغ النموذج متعدد الأصناف دقة قدرها \LR{99,83\%}. وبلغت الدقة الإجمالية للنظام كاملا  \LR{99,48\%}.
+
+تُساهم الحلول المقترحة في تطوير الزراعة الذكية من خلال تمكين تشخيص فعّال، موثوق وسهل الوصول، مما يساعد في التدخل في الوقت المناسب وتحسين إدارة المحاصيل الزراعية.
+
+\end{RLtext}
+
+
+\vspace{0.1cm}
+\hspace*{0mm}\rule{\linewidth}{1pt}
+\vspace{0.1cm}
+\begin{RLtext}
+\noindent\textbf{الكلمات المفتاحية —} الزراعة الذكية، التعلُّم العميق، الشبكات العصبية الالتفافية، الرؤية الحاسوبية، اكتشاف أمراض القمح.
+\end{RLtext}
+\vspace{0.1cm}
+\rule{\linewidth}{1pt}
+
+
+
+
+
+
+% \cleardoublepage
+% \pagenumbering{roman}
+% \setcounter{page}{2}
+% \phantomsection  
+% \begin{flushright}
+%     {\Huge\bfseries\RL{مـلـخـص}}
+% \end{flushright}
+% \addcontentsline{toc}{chapter}{\textRL{مـلـخـص}}
+
+
+
+
+% \begin{RLtext}
+
+% يُعد القمح من المحاصيل الزراعية الأساسية على مستوى العالم، إلا أن إنتاجه يواجه تهديدًا كبيرًا بسبب تنوع الأمراض التي تصيبه. تُعتبر طرق التشخيص التقليدية، المعتمدة على الفحص البصري اليدوي، بطيئة، وذات طابع ذاتي، وغالبًا ما تكون غير متاحة للمزارعين، خاصة في المناطق النائية. ومع ظهور الزراعة الذكية وتطور تقنيات التعلم العميق، أصبحت عملية التعرف التلقائي على الأمراض من خلال الصور حلاً واعدًا.
+
+% يهدف هذا المشروع إلى تصميم وتنفيذ نظام فعّال يعتمد على الشبكات العصبية الالتفافية (CNN) للكشف عن أمراض القمح وتصنيفها باستخدام صور لمختلف أجزاء النبات مثل الأوراق والسيقان والسُنابل. تشمل منهجيتنا مراجعة شاملة للدراسات السابقة، وجمع البيانات ومعالجتها، وتدريب النماذج وتقييمها، ثم دمج الحل في منصة ويب تفاعلية موجهة للمزارعين. ولتعزيز فاعلية النظام، قمنا أيضًا بإدراج وحدة لاكتشاف الحشرات الضارة ومساعد ذكي يعمل عبر واجهة برمجة التطبيقات (API) لتوجيه المستخدمين.
+
+% نقترح إطارًا هرميًا للتصنيف يتكون من مرحلتين: في المرحلة الأولى، يتم دمج عدة هياكل CNN بشكل فردي مع خوارزمية آلة متجه الدعم (SVM) للتمييز بين العينات السليمة والمصابة، مشكلين بذلك مقاربة هجينة CNN-SVM. أما في المرحلة الثانية، فنستخدم بنية ResNet50 معززة بوحدة الانتباه الكفء للقنوات (ECA) للتعرف على تسع أمراض محددة تصيب القمح. أظهرت النتائج التجريبية أن المصنف الثنائي (النموذج 1) حقق دقة بلغت 99{،}60\%، بينما بلغ المصنف متعدد الأصناف (النموذج 2) دقة قدرها 99{،}83\%. وبلغت الدقة الإجمالية للنظام الكامل 99{،}48\%.
+
+% تُساهم الحلول المقترحة في تطوير الزراعة الذكية من خلال تمكين التشخيص المبكر والموثوق، مما يساعد في التدخل في الوقت المناسب وتحسين إدارة المحاصيل الزراعية.
+
+% \end{RLtext}
