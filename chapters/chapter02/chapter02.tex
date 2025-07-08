@@ -387,7 +387,7 @@ In the context of precision agriculture, object detection has emerged as a criti
 
 At its core, object detection involves predicting both the category and precise location of objects within an image, thus combining classification with localization. Traditional approaches consist of stages such as region proposal, feature extraction, and object classification. Over time, detection methods have evolved to address increasing demands for accuracy and speed, giving rise to both two-stage and one-stage detection frameworks \parencite{zhao2019objectdetection}.
 
-Here are more details about the concepts of object detection \parencite{zhao2019objectdetection}: 
+Here are more details about the concepts of object detection: 
 \begin{itemize}
     \item \textbf{Informative Region Selection} focuses on identifying likely object areas in an image to reduce computation by avoiding full image scans. While early methods like sliding windows were costly and redundant, modern approaches use region proposal algorithms or attention mechanisms to efficiently target relevant areas, especially useful in agricultural images with variable object sizes and shapes.
     \item \textbf{Feature Extraction} is the process of isolating important visual attributes from an image to effectively represent objects. Traditional methods, such as Scale Invariant Feature Transform (SIFT), Histograms of Oriented Gradients (HOG), and Haar-like features were designed to mimic human vision by focusing on edges, textures, and patterns. However, these handcrafted techniques often faced difficulties in real-world conditions due to variations in object appearance, lighting, and cluttered backgrounds, limiting their reliability in complex environments.
