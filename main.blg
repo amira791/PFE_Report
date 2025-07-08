@@ -1,25 +1,25 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'main.blg'
-[148] biber-MSWIN64:340> INFO - === 
-[223] Biber.pm:419> INFO - Reading 'main.bcf'
-[410] Biber.pm:979> INFO - Found 54 citekeys in bib section 0
-[425] Biber.pm:4419> INFO - Processing section 0
-[439] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[561] bibtex.pm:1713> INFO - LaTeX decoding ...
-[637] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[1019] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1019] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1020] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1020] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1135] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1135] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1136] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1136] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1209] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1324] bbl.pm:763> INFO - Output to main.bbl
-[1325] Biber.pm:131> WARN - Duplicate entry key: 'ghazal2024computer' in file 'references.bib', skipping ...
-[1325] Biber.pm:131> WARN - Duplicate entry key: 'sishodia2020applications' in file 'references.bib', skipping ...
-[1325] Biber.pm:131> WARN - Duplicate entry key: 'pan2021deep' in file 'references.bib', skipping ...
-[1326] Biber.pm:131> WARN - Duplicate entry key: 'su2020aerial' in file 'references.bib', skipping ...
-[1326] Biber.pm:131> WARN - Duplicate entry key: 'zhang2022wheat' in file 'references.bib', skipping ...
-[1326] Biber.pm:133> INFO - WARNINGS: 5
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[168] biber-MSWIN64:340> INFO - === 
+[229] Biber.pm:419> INFO - Reading 'main.bcf'
+[384] Biber.pm:979> INFO - Found 54 citekeys in bib section 0
+[402] Biber.pm:4419> INFO - Processing section 0
+[415] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[495] bibtex.pm:1713> INFO - LaTeX decoding ...
+[563] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[925] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[925] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[926] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[926] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1031] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1031] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1032] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1032] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1096] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1200] bbl.pm:763> INFO - Output to main.bbl
+[1201] Biber.pm:131> WARN - Duplicate entry key: 'ghazal2024computer' in file 'references.bib', skipping ...
+[1202] Biber.pm:131> WARN - Duplicate entry key: 'sishodia2020applications' in file 'references.bib', skipping ...
+[1202] Biber.pm:131> WARN - Duplicate entry key: 'pan2021deep' in file 'references.bib', skipping ...
+[1202] Biber.pm:131> WARN - Duplicate entry key: 'su2020aerial' in file 'references.bib', skipping ...
+[1203] Biber.pm:131> WARN - Duplicate entry key: 'zhang2022wheat' in file 'references.bib', skipping ...
+[1203] Biber.pm:133> INFO - WARNINGS: 5
