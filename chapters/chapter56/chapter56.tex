@@ -4,7 +4,7 @@
 
 After completing the design of our solution in the previous chapter, this chapter focuses on its concrete implementation and testing. We detail the development process of the system components, including the integration of the deep learning models for both wheat disease classification and insect pest detection.
 
-We also explain how these models were deployed into a functional and accessible web platform tailored for farmers. The implementation of the AI assistant is also covered, highlighting how it supports users through an interactive and user-friendly interface. Finally, this chapter presents the different tests conducted to verify the behavior, functionality, and robustness of the system in real conditions. These tests help ensure that the system performs as intended and is ready for practical deployment.
+We also explain how these models were deployed into a functional and accessible web platform tailored for farmers. The implementation of the \gls{abb:ai} assistant is also covered, highlighting how it supports users through an interactive and user-friendly interface. Finally, this chapter presents the different tests conducted to verify the behavior, functionality, and robustness of the system in real conditions. These tests help ensure that the system performs as intended and is ready for practical deployment.
 
 
 
@@ -21,7 +21,7 @@ Training the proposed wheat-health models required the use of two distinct compu
         \hline
         Processor & Intel Xeon or equivalent (shared cloud CPU) & AMD Ryzen 5  \\
         \hline
-        GPU & T4 GPU (allocated per session) & NVIDIA GeForce RTX 4050  \\
+        \gls{abb:gpu} & T4 \gls{abb:gpu} (allocated per session) & NVIDIA GeForce RTX 4050  \\
         \hline
         System Memory & 12 GB & 16 GB  \\
         \hline
@@ -32,25 +32,25 @@ Training the proposed wheat-health models required the use of two distinct compu
     \label{tab:hardware-specs}
 \end{table}
 
-A consistent and modular software toolchain was used to support all stages of development, from data preparation to model training and deployment. Key tools and frameworks included Python (main programming language), Google Colab and Jupyter Notebook (development environments), TensorFlow and PyTorch (deep learning frameworks), Albumentations and OpenCV (data preprocessing and augmentation), scikit-learn (for classical ML tasks), CVAT (for annotation), and Flask, React, and Tailwind CSS (for deployment and UI development). For more details on the tools, libraries, and configurations, see Appendix \ref{app:annexC}.
+A consistent and modular software toolchain was used to support all stages of development, from data preparation to model training and deployment. Key tools and frameworks included Python (main programming language), Google Colab and Jupyter Notebook (development environments), TensorFlow and PyTorch (deep learning frameworks), Albumentations and OpenCV (data preprocessing and augmentation), scikit-learn (for classical \gls{abb:ml} tasks), CVAT (for annotation), and Flask, React, and Tailwind \gls{abb:css} (for deployment and \gls{abb:ui} development). For more details on the tools, libraries, and configurations, see Appendix \ref{app:annexC}.
 
 
-\section{Implementation of the AI Assistant}
+\section{Implementation of the \gls{abb:ai} assistant}
 
-This AI assistant is powered by Google's Gemini API and allows users to input questions or photos of wheat crops to receive real-time AI-generated feedback.The assistant was implemented as a web API using the Flask microframework.The entire process from user input to response generation and return is visually summarized in Figure~\ref{fig:chatbot-process}. The main components are described below:
+This \gls{abb:ai} assistant is powered by Google's Gemini \gls{abb:api}  and allows users to input questions or photos of wheat crops to receive real-time AI-generated feedback.The assistant was implemented as a web \gls{abb:api}  using the Flask microframework.The entire process from user input to response generation and return is visually summarized in Figure~\ref{fig:chatbot-process}. The main components are described below:
 
 \begin{itemize}
     \item \textbf{API access key acquisition:}  
-    An API key was obtained from the Google AI Studio platform, which grants access to the Gemini models via the \texttt{google.generativeai} Python package.
+    An \gls{abb:api}  key was obtained from the Google AI Studio platform, which grants access to the Gemini models via the \texttt{google.generativeai} Python package.
 
     \item \textbf{Environment variable configuration:}  
-    To secure the API key and prevent hardcoding, it was stored in an \texttt{.env} file. This variable is loaded securely during runtime to configure the Gemini SDK.
+    To secure the \gls{abb:api}  key and prevent hardcoding, it was stored in an \texttt{.env} file. This variable is loaded securely during runtime to configure the Gemini SDK.
 
     \item \textbf{Setting up Flask with CORS:}  
     A Flask server was initialized to handle HTTP requests. CORS (Cross-Origin Resource Sharing) was enabled to allow access from front-end applications hosted on different domains.
 
     \item \textbf{Gemini Flash model integration:}  
-    The \texttt{gemini-1.5-flash} model was selected due to its efficiency and support for both image and text inputs. The model was initialized once using the configured API key.
+    The \texttt{gemini-1.5-flash} model was selected due to its efficiency and support for both image and text inputs. The model was initialized once using the configured \gls{abb:api}  key.
 
     \item \textbf{Handling chat requests:}  
     The endpoint \texttt{/chatbot} listens for POST requests containing either a textual message, an image, or both. Submitted images are validated for allowed file types and verified to ensure they are readable.
@@ -67,7 +67,7 @@ This AI assistant is powered by Google's Gemini API and allows users to input qu
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{chapters/chapter56/images/Figure13.png}
-\caption{Pipeline of the AI assistant from input reception to Gemini-based response generation.}
+\caption{Pipeline of the \gls{abb:ai} assistant from input reception to Gemini-based response generation.}
 \label{fig:chatbot-process}
 \end{figure}
 
@@ -108,7 +108,7 @@ Insect\_pest\_detection & \texttt{.pt} & The implementation framework is PyTorch
 
 
 \subsection{Project structure}
-The project is structured into two main parts: Frontend and Backend. The Frontend handles the user interface, while the Backend is responsible for model integration, file handling, and API communication.
+The project is structured into two main parts: Frontend and Backend. The Frontend handles the user interface, while the Backend is responsible for model integration, file handling, and \gls{abb:api}  communication.
 
 \begin{figure}[H]
     \centering
@@ -210,14 +210,14 @@ The Insect Pest Detection page (Figure~\ref{fig:Insectpestdetectionpage}) allows
 \end{figure}
 
 
-\subsubsection{AI Assistant Page}
+\subsubsection{\gls{abb:ai} assistant Page}
 
-The AI Assistant page (Figure~\ref{fig:AIAssistantPage}) is designed to provide users with a conversational interface for interactive support. Users can either send a message or upload an image to ask questions related to wheat diseases and pest control. The assistant leverages an integrated natural language processing model to deliver informative and context-aware responses, making the platform more accessible and user-friendly, especially for non-experts in agriculture or technology.
+The \gls{abb:ai} assistant page (Figure~\ref{fig:AIAssistantPage}) is designed to provide users with a conversational interface for interactive support. Users can either send a message or upload an image to ask questions related to wheat diseases and pest control. The assistant leverages an integrated natural language processing model to deliver informative and context-aware responses, making the platform more accessible and user-friendly, especially for non-experts in agriculture or technology.
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
     \includegraphics[width=0.8\textwidth]{chapters/chapter5/images/Figure11.png}
-    \caption{AI Assistant page interface.}
+    \caption{\gls{abb:ai} assistant page interface.}
     \label{fig:AIAssistantPage}
 \end{figure}
 
@@ -313,7 +313,7 @@ These metrics provide a holistic evaluation of the model's ability to classify a
 
 \section{Objectives of the experiments}
 
-The main objective of our experiments is to justify the choices made during the design and implementation of our system. This includes evaluating the different CNN architectures used, as well as the selection of optimizers and technologies such as attention mechanisms. Each component was chosen based on its potential to enhance the model’s performance in detecting and classifying wheat diseases.
+The main objective of our experiments is to justify the choices made during the design and implementation of our system. This includes evaluating the different \gls{abb:cnn} architectures used, as well as the selection of optimizers and technologies such as attention mechanisms. Each component was chosen based on its potential to enhance the model’s performance in detecting and classifying wheat diseases.
 
 Moreover, we aim to prove the effectiveness of the hierarchical classification approach, which is central to our system. By conducting various tests and comparisons, we seek to assess how this approach performs under different configurations and against alternative strategies.
 
@@ -326,18 +326,18 @@ We defined two distinct test scenarios to evaluate our system. The first scenari
 
 \subsection{Scenario 1: Justification of the Architecture Selection for the Binary Classification Model}
 \label{sec:testcnnModel1}
-In this scenario, we will investigate the performance of multiple CNN architectures as feature extractors and assess their integration with a range of traditional machine learning classifiers to determine the most effective combinations for our task.
-\subsubsection{Testing different CNN architectures for feature extraction}
-This section explores the effectiveness of various pretrained convolutional neural network (CNN) architectures for image feature extraction. By evaluating the quality of extracted features using unsupervised clustering metrics, the goal is to identify models that best capture discriminative patterns while balancing accuracy, dimensionality, and computational cost.
+In this scenario, we will investigate the performance of multiple \gls{abb:cnn} architectures as feature extractors and assess their integration with a range of traditional machine learning classifiers to determine the most effective combinations for our task.
+\subsubsection{Testing different \gls{abb:cnn} architectures for feature extraction}
+This section explores the effectiveness of various pretrained (\gls{abb:cnn}) architectures for image feature extraction. By evaluating the quality of extracted features using unsupervised clustering metrics, the goal is to identify models that best capture discriminative patterns while balancing accuracy, dimensionality, and computational cost.
 
 \paragraph{Load and preprocess the dataset:}  
 The dataset D1 is prepared by normalizing image pixel values to a [0, 1] scale, selecting 80\% of the data for training, and loading this subset in a fixed order to maintain the correct association between images and their labels during feature extraction. Additionally, the D1 dataset was augmented using a combination of techniques, including gamma correction, CutOut, Mixup, and CutMix.
 
-\paragraph{Define pretrained CNN architectures:}  
-A set of pretrained CNN architectures, such as EfficientNetB2, MobileNet, VGG19, Xception, InceptionV3, DenseNet169, DenseNet201, ResNet50V2, and ResNet101V2, all trained on the ImageNet dataset, are used as feature extractors. These models are applied without their original classification layers and fixed during evaluation to ensure they only generate feature representations. The model outputs a one-dimensional feature vector for each input image using global average pooling, capturing the most relevant high-level information from the image.
+\paragraph{Define pretrained \gls{abb:cnn} architectures:}  
+A set of pretrained \gls{abb:cnn} architectures, such as EfficientNetB2, MobileNet, VGG19, Xception, InceptionV3, DenseNet169, DenseNet201, ResNet50V2, and ResNet101V2, all trained on the ImageNet dataset, are used as feature extractors. These models are applied without their original classification layers and fixed during evaluation to ensure they only generate feature representations. The model outputs a one-dimensional feature vector for each input image using global average pooling, capturing the most relevant high-level information from the image.
 
 \paragraph{Extract features and evaluate feature quality using clustering metrics:}  
-Deep features are extracted from each image in the training set using the selected CNN architectures. The resulting feature vectors, along with their corresponding class labels, are collected for further analysis.
+Deep features are extracted from each image in the training set using the selected \gls{abb:cnn} architectures. The resulting feature vectors, along with their corresponding class labels, are collected for further analysis.
 
 To evaluate the discriminative power of these features without relying on a supervised classifier, two unsupervised clustering metrics are employed:
 
@@ -361,7 +361,7 @@ To evaluate the discriminative power of these features without relying on a supe
 
 
 \paragraph{Compare and summarize results:}  
-Table~\ref{tab:cnn_comparison_res} presents the results of applying various pre-trained CNN architectures for feature extraction. Based on the comparison, the three best-performing models are EfficientNetB2, VGG19, and DenseNet169.
+Table~\ref{tab:cnn_comparison_res} presents the results of applying various pre-trained \gls{abb:cnn} architectures for feature extraction. Based on the comparison, the three best-performing models are EfficientNetB2, VGG19, and DenseNet169.
 
 \begin{itemize}
     \item \textbf{EfficientNetB2} achieved the highest silhouette score (0.034) and a reasonable extraction time (38.14 s) with moderate feature dimensionality (1408), making it a strong candidate for capturing discriminative features while maintaining computational efficiency.
@@ -387,9 +387,9 @@ These models were selected for their ability to extract informative and discrimi
 \hline
 \textbf{Model} & \textbf{Silhouette} & \textbf{DB Score} & \textbf{Feat Dim} & \textbf{Time (s)} \\
 \hline
-EfficientNetB2 & 0.034 & 14.279 & 1408 & 38.14 \\
-VGG19          & 0.024 & 6.368  & 512  & 112.41 \\
-DenseNet169    & 0.020 & 6.739  & 1664 & 53.28 \\
+EfficientNetB2 & \textbf{0.034} & 14.279 & 1408 & \textbf{38.14} \\
+VGG19          & \textbf{0.024} & \textbf{6.368}  & 512  & 112.41 \\
+DenseNet169    & \textbf{0.020} & \textbf{6.739}  & 1664 & \textbf{53.28} \\
 DenseNet201    & 0.019 & 6.968  & 1920 & 63.90 \\
 MobileNet      & 0.016 & 7.707  & 1024 & 27.07 \\
 ResNet101V2    & 0.016 & 7.834  & 2048 & 78.35 \\
@@ -398,7 +398,7 @@ Xception       & 0.013 & 7.862  & 2048 & 56.64 \\
 InceptionV3    & 0.011 & 8.641  & 2048 & 38.34 \\
 \hline
 \end{tabular}
-\caption{Comparison of different CNN models based on clustering performance and feature extraction time.}
+\caption{Comparison of different \gls{abb:cnn} models based on clustering performance and feature extraction time.}
 \label{tab:cnn_comparison_res}
 \end{table}
 
@@ -411,7 +411,7 @@ InceptionV3    & 0.011 & 8.641  & 2048 & 38.34 \\
 \subsubsection{Testing different machine learning models for classification}
 \label{sec:MLclassifiertest}
 
-In this experiment, EfficientNetB2, VGG19, and DenseNet169 were selected as the feature extractors, based on their strong performance in the previous evaluation. Features extracted from each CNN were then used to train and evaluate multiple machine learning classifiers for binary classification: Decision Tree (DT), Random Forest (RF), Support Vector Machine (SVM), and Multi-Layer Perceptron (MLP). A comprehensive grid search was performed to optimize the hyperparameters of each classifier (as detailed in Table~\ref{tab:hyperparams}). The models were assessed using standard classification metrics, including accuracy, recall, precision, and F1-score (see Table~\ref{tab:performance}). Among the evaluated classifiers, the SVM achieved the best overall performance, demonstrating its effectiveness in leveraging the extracted features for accurate classification.
+In this experiment, EfficientNetB2, VGG19, and DenseNet169 were selected as the feature extractors, based on their strong performance in the previous evaluation. Features extracted from each \gls{abb:cnn} were then used to train and evaluate multiple machine learning classifiers for binary classification: Decision Tree (DT), Random Forest (RF), Support Vector Machine (\gls{abb:svm}), and \gls{abb:mlp}. A comprehensive grid search was performed to optimize the hyperparameters of each classifier (as detailed in Table~\ref{tab:hyperparams}). The models were assessed using standard classification metrics, including accuracy, recall, precision, and F1-score (see Table~\ref{tab:performance}). Among the evaluated classifiers, the \gls{abb:svm} achieved the best overall performance, demonstrating its effectiveness in leveraging the extracted features for accurate classification.
 
 \begin{table}[H]
     \centering
@@ -423,25 +423,25 @@ In this experiment, EfficientNetB2, VGG19, and DenseNet169 were selected as the 
         \hline
         \textbf{Classifier} & \textbf{Hyperparameter} & \textbf{Explored Values} \\ \hline
 
-        \multirow{4}{*}{SVM} 
+        \multirow{4}{*}{\gls{abb:svm}} 
         & Regularization parameter ($C$) & \{0.1, 1, 10\} \\ \cline{2-3}
         & Kernel type & \{linear, rbf, poly\} \\ \cline{2-3}
         & Kernel coefficient ($\gamma$) & \{scale, auto\} \\ \cline{2-3}
         & Polynomial degree (for poly kernel) & \{2, 3, 4\} \\ \hline
 
-        \multirow{4}{*}{MLP} 
+        \multirow{4}{*}{\gls{abb:mlp}} 
         & Hidden layer sizes & (50), (100), (100, 50) \\ \cline{2-3}
-        & Activation function & \{ReLU, tanh\} \\ \cline{2-3}
-        & Optimizer & \{adam, sgd\} \\ \cline{2-3}
+        & Activation function & \{\gls{abb:relu}, tanh\} \\ \cline{2-3}
+        & Optimizer & \{\gls{abb:adam}, \gls{abb:sgd}\} \\ \cline{2-3}
         & Learning rate strategy & \{constant, adaptive\} \\ \hline
 
-        \multirow{4}{*}{RF} 
+        \multirow{4}{*}{\gls{abb:rf}} 
         & Number of estimators & \{50, 100, 200\} \\ \cline{2-3}
         & Max features & \{sqrt, log2\} \\ \cline{2-3}
         & Min samples per leaf & \{1, 2, 5\} \\ \cline{2-3}
         & Min samples to split & \{2, 5, 10\} \\ \hline
 
-        \multirow{3}{*}{DT} 
+        \multirow{3}{*}{\gls{abb:dt}} 
         & Maximum depth & \{50, 100, 200\} \\ \cline{2-3}
         & Split criterion & \{gini, entropy\} \\ \cline{2-3}
         & Min samples per leaf & \{1, 2, 5\} \\ \hline
@@ -456,7 +456,7 @@ In this experiment, EfficientNetB2, VGG19, and DenseNet169 were selected as the 
     \centering
     \renewcommand{\arraystretch}{1.4}
     \setlength{\tabcolsep}{10pt}
-    \caption{Performance of machine learning classifiers using CNN feature extraction on the augmented D1 dataset.}
+    \caption{Performance of machine learning classifiers using \gls{abb:cnn} feature extraction on the augmented D1 dataset.}
     \label{tab:performance}
     \begin{tabular}{|p{2.5cm}|p{4cm}|c|c|c|c|}
         \hline
@@ -465,7 +465,7 @@ In this experiment, EfficientNetB2, VGG19, and DenseNet169 were selected as the 
         \multirow{4}{*}{Augmented D1} 
         & Random Forest (RF) & 0.9867 & 0.9852 & 0.9880 & 0.9865 \\ \cline{2-6}
         & Decision Tree (DT) & 0.9547 & 0.9553 & 0.9534 & 0.9543 \\ \cline{2-6}
-        & Support Vector Machine (SVM) & \textbf{0.9960} & \textbf{0.9958} & \textbf{0.9961} & \textbf{0.9960} \\ \cline{2-6}
+        & Support Vector Machine (\gls{abb:svm}) & \textbf{0.9960} & \textbf{0.9958} & \textbf{0.9961} & \textbf{0.9960} \\ \cline{2-6}
         & Multilayer Perceptron (MLP) & 0.9940 & 0.9940 & 0.9939 & 0.9939 \\ \hline
     \end{tabular}
 \end{table}
@@ -475,25 +475,25 @@ In this experiment, EfficientNetB2, VGG19, and DenseNet169 were selected as the 
 
 
 \subsection{Scenario 2: Justification of the Architecture Selection for the multiclass disease classification model}
-This scenario involves testing \gls{abb:cnn} architectures with optimizers (Stochastic Gradient Descent (SGD) and Adaptive Moment Estimation (ADAM)) for feature extraction and examining the effect of different attention mechanisms on multiclass disease classification.
+This scenario involves testing \gls{abb:cnn} architectures with optimizers (\gls{abb:sgd} and \gls{abb:adam}) for feature extraction and examining the effect of different attention mechanisms on multiclass disease classification.
 
-\subsubsection{Testing different CNN architectures with optimizers for feature extraction}
+\subsubsection{Testing different \gls{abb:cnn} architectures with optimizers for feature extraction}
 \label{sec:TestCnnM2}
-In this experiment, we systematically evaluated the influence of various convolutional neural network (CNN) architectures combined with different optimization algorithms on the performance of multiclass classification tasks. We utilized CNNs not only for feature extraction but also for the end-to-end classification process, allowing the networks to learn both robust feature representations and decision boundaries simultaneously. The dataset employed, referred to as D2, incorporated extensive data augmentation techniques as described in Section~\ref{sec:data_augmentation}, which helped improve model generalization by increasing the diversity of the training samples.
+In this experiment, we systematically evaluated the influence of various (\gls{abb:cnn}) architectures combined with different optimization algorithms on the performance of multiclass classification tasks. We utilized \gls{abb:cnn}s not only for feature extraction but also for the end-to-end classification process, allowing the networks to learn both robust feature representations and decision boundaries simultaneously. The dataset employed, referred to as D2, incorporated extensive data augmentation techniques as described in Section~\ref{sec:data_augmentation}, which helped improve model generalization by increasing the diversity of the training samples.
 
-For each CNN architecture, we tested two widely used optimizers, SGD and Adam, to analyze how the choice of optimization strategy affects the training dynamics and final model accuracy. Model performance was rigorously evaluated using four key metrics: accuracy, recall, precision, and F1-score, providing a comprehensive understanding of classification effectiveness from multiple perspectives, including overall correctness, sensitivity to positive classes, and balance between precision and recall.
+For each \gls{abb:cnn} architecture, we tested two widely used optimizers, \gls{abb:sgd} and \gls{abb:adam}, to analyze how the choice of optimization strategy affects the training dynamics and final model accuracy. Model performance was rigorously evaluated using four key metrics: accuracy, recall, precision, and F1-score, providing a comprehensive understanding of classification effectiveness from multiple perspectives, including overall correctness, sensitivity to positive classes, and balance between precision and recall.
 
 The experiments were conducted using consistent training settings, outlined in Table~\ref{tab:hyperparameters}, to ensure fair comparison between different models.
 
 \begin{table}[H]
     \centering
-    \caption{Training hyperparameters used for CNN evaluation.}
+    \caption{Training hyperparameters used for \gls{abb:cnn} evaluation.}
     \label{tab:hyperparameters}
     \renewcommand{\arraystretch}{1.4}
     \begin{tabular}{|p{5.5cm}|p{8cm}|}
         \hline
         \textbf{Hyperparameter} & \textbf{Value} \\ \hline
-        Optimizers Tested & Stochastic Gradient Descent (momentum = 0.9, weight decay = 0.00001), Adam \\ \hline
+        Optimizers Tested & Stochastic Gradient Descent (momentum = 0.9, weight decay = 0.00001), \gls{abb:adam} \\ \hline
         Initial Learning Rate & 0.001 \\ \hline
         Learning Rate Scheduler & Cosine Annealing Learning Rate (maximum iterations = 25, minimum learning rate = 0.00001) \\ \hline
         Loss Function & Cross-Entropy Loss with label smoothing factor = 0.1 \\ \hline
@@ -505,41 +505,41 @@ The experiments were conducted using consistent training settings, outlined in T
     \end{tabular}
 \end{table}
 
-As summarized in Table~\ref{tab:cnn_performance}, the ResNet50V2 architecture coupled with the SGD optimizer consistently delivered superior results, achieving an accuracy of 99.25\%, a recall of 99.35\%, a precision of 98.80\%, and an F1-score of 99.04\%. These results indicate that this combination is highly effective at extracting discriminative features that enable the model to distinguish between classes with remarkable precision and reliability.
+As summarized in Table~\ref{tab:cnn_performance}, the ResNet50V2 architecture coupled with the \gls{abb:sgd} optimizer consistently delivered superior results, achieving an accuracy of 99.25\%, a recall of 99.35\%, a precision of 98.80\%, and an F1-score of 99.04\%. These results indicate that this combination is highly effective at extracting discriminative features that enable the model to distinguish between classes with remarkable precision and reliability.
 
 \begin{table}[H]
     \centering
     \renewcommand{\arraystretch}{1.4}
     \setlength{\tabcolsep}{10pt}
-    \caption{Classification performance of CNN architectures using SGD and Adam optimizers.}
+    \caption{Classification performance of \gls{abb:cnn} architectures using \gls{abb:sgd} and \gls{abb:adam} optimizers.}
     \label{tab:cnn_performance}
     \begin{tabular}{|p{4cm}|p{2cm}|c|c|c|c|}
         \hline
-        \textbf{CNN Architecture} & \textbf{Optimizer} & \textbf{Accuracy} & \textbf{Recall} & \textbf{Precision} & \textbf{F1-Score} \\ \hline
+        \textbf{\gls{abb:cnn} Architecture} & \textbf{Optimizer} & \textbf{Accuracy} & \textbf{Recall} & \textbf{Precision} & \textbf{F1-Score} \\ \hline
 
         \multirow{2}{*}{EfficientNetB2} 
-        & SGD  & 96.57\% & 95.54\% & 94.34\% & 94.73\% \\ \cline{2-6}
-        & Adam & 98.10\% & 96.94\% & 97.51\% & 97.22\% \\ \hline
+        & \gls{abb:sgd}  & 96.57\% & 95.54\% & 94.34\% & 94.73\% \\ \cline{2-6}
+        & \gls{abb:adam} & 98.10\% & 96.94\% & 97.51\% & 97.22\% \\ \hline
 
         \multirow{2}{*}{MobileNet} 
-        & SGD  & 94.29\% & 90.87\% & 94.14\% & 91.97\% \\ \cline{2-6}
-        & Adam & 95.81\% & 94.02\% & 94.98\% & 94.45\% \\ \hline
+        & \gls{abb:sgd}  & 94.29\% & 90.87\% & 94.14\% & 91.97\% \\ \cline{2-6}
+        & \gls{abb:adam} & 95.81\% & 94.02\% & 94.98\% & 94.45\% \\ \hline
 
         \multirow{2}{*}{Xception} 
-        & SGD  & 96.99\% & 96.16\% & 96.40\% & 96.25\% \\ \cline{2-6}
-        & Adam & 96.61\% & 94.11\% & 95.77\% & 94.86\% \\ \hline
+        & \gls{abb:sgd}  & 96.99\% & 96.16\% & 96.40\% & 96.25\% \\ \cline{2-6}
+        & \gls{abb:adam} & 96.61\% & 94.11\% & 95.77\% & 94.86\% \\ \hline
 
         \multirow{2}{*}{InceptionV3} 
-        & SGD  & 97.90\% & 97.47\% & 98.19\% & 97.81\% \\ \cline{2-6}
-        & Adam & 92.38\% & 93.43\% & 89.91\% & 91.05\% \\ \hline
+        & \gls{abb:sgd}  & 97.90\% & 97.47\% & 98.19\% & 97.81\% \\ \cline{2-6}
+        & \gls{abb:adam} & 92.38\% & 93.43\% & 89.91\% & 91.05\% \\ \hline
 
         \multirow{2}{*}{DenseNet201} 
-        & SGD  & 98.87\% & 97.99\% & 98.43\% & 98.19\% \\ \cline{2-6}
-        & Adam & 95.86\% & 94.87\% & 95.13\% & 94.97\% \\ \hline
+        & \gls{abb:sgd}  & 98.87\% & 97.99\% & 98.43\% & 98.19\% \\ \cline{2-6}
+        & \gls{abb:adam} & 95.86\% & 94.87\% & 95.13\% & 94.97\% \\ \hline
 
         \multirow{2}{*}{ResNet50V2} 
-        & SGD  & \textbf{99.25\%} & \textbf{99.35\%} & \textbf{98.80\%} & \textbf{99.04\%} \\ \cline{2-6}
-        & Adam & 92.28\% & 89.67\% & 92.27\% & 90.57\% \\ \hline
+        & \gls{abb:sgd}  & \textbf{99.25\%} & \textbf{99.35\%} & \textbf{98.80\%} & \textbf{99.04\%} \\ \cline{2-6}
+        & \gls{abb:adam} & 92.28\% & 89.67\% & 92.27\% & 90.57\% \\ \hline
     \end{tabular}
 \end{table}
 
@@ -550,7 +550,7 @@ As summarized in Table~\ref{tab:cnn_performance}, the ResNet50V2 architecture co
 
 \subsubsection{Testing different attention mechanisms}
 \label{sec:attentionMecanisme}
-Building on the results obtained from the previous experiment, where the ResNet50V2 architecture combined with the Stochastic Gradient Descent (SGD) optimizer achieved the best overall performance, we selected this configuration as the baseline for further enhancement.
+Building on the results obtained from the previous experiment, where the ResNet50V2 architecture combined with the \gls{abb:sgd} optimizer achieved the best overall performance, we selected this configuration as the baseline for further enhancement.
 
 To further improve the classification performance, particularly in capturing subtle inter-class variations, we extended our investigation by integrating various attention mechanisms into the ResNet50V2 backbone. This experiment aims to evaluate the impact of spatial and channel-wise attention on the model’s capacity to prioritize informative regions in feature maps. Specifically, we examined four widely adopted attention modules: Self-Attention, Squeeze-and-Excitation (SE), Convolutional Block Attention Module (CBAM), and Efficient Channel Attention (ECA). Each of these mechanisms is designed to guide the network’s focus toward the most relevant features, thereby enhancing representational power and ultimately classification accuracy.
 
@@ -606,47 +606,83 @@ The effectiveness of different attention mechanisms is illustrated in Figure~\re
 \end{figure}
 
 
-\section{The performance of the hierarchical classification approach}
+% \section{The performance of the hierarchical classification approach}
+% \label{sec:justifyHAmodel}
+
+% In our work, we deliberately chose a hierarchical classification framework over a single multi-class model for several important technical and performance related reasons.
+
+% Firstly, attempting to use a single model to classify all ten classes distinguishing between healthy plants and nine disease categories presented significant challenges. Specifically, integrating Model 1 into a full-scale multi-class setting led to memory overflow issues. The SVM component, in particular, does not scale well when dealing with large, complex multi-class feature spaces extracted from deep CNNs. Its performance degrades considerably and becomes computationally infeasible on our hardware setup.
+
+% Secondly, we explored an alternative approach by applying Model 2 directly to predict all ten classes in a flat manner, including the healthy class. This model was evaluated using 20\% of the global dataset and achieved an overall accuracy of 98.99\% (Table~\ref{tab:single-hierarchical}). However, its performance on the “healthy” class was noticeably poor. As illustrated in Figure~\ref{fig:confusion_matrics_single_model}, there was a significant rate of false positives, where healthy samples were frequently misclassified as diseased. This is highly undesirable in a real-world agricultural setting, as it can lead to false alarms and unnecessary interventions.
+
+
+% \begin{table}[H]
+% \centering
+% \renewcommand{\arraystretch}{1.3}
+% \setlength{\tabcolsep}{6pt}
+% \caption{Performance comparison of individual and hierarchical classification strategies}
+% \begin{tabular}{|p{3.5cm}|p{3.7cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|}
+% \hline
+% \textbf{Model} & \textbf{Classification Scope} & \textbf{Accuracy (\%)} & \textbf{Recall (\%)} & \textbf{Precision (\%)} & \textbf{F1-score (\%)} \\
+% \hline
+% Model 2 (All classes) & 10 classes (Healthy + 9 diseases) & 98.99 & 98.99 & 99.00 & 98.98 \\
+% \hline
+% Hierarchical Approach & 10 classes (Model 1 + Model 2) & \textbf{99.48} & \textbf{99.18} & \textbf{99.29} & \textbf{99.31} \\
+% \hline
+% \end{tabular}
+% \label{tab:single-hierarchical}
+% \end{table}
+
+
+
+% In contrast, our hierarchical approach effectively mitigates these issues by decomposing the problem into two manageable sub-tasks:
+
+% \begin{itemize}
+% \item \textbf{Model 1} performs a robust binary classification (Healthy vs. Not Healthy), achieving \textbf{99.60\%} accuracy.
+% \item \textbf{Model 2} then classifies the diseased samples into one of the nine specific disease categories, achieving \textbf{99.83\%} accuracy.
+% \end{itemize}
+
+% The full hierarchical system evaluated on the same 20\% test portion of the global dataset achieved an overall accuracy of \textbf{99.48\%}. This two-stage decomposition not only improves interpretability but also ensures better resource management and enhanced precision in distinguishing healthy cases.
+
+% All performance metrics are summarized in Table~\ref{tab:hierarchical}, clearly demonstrating that the hierarchical approach outperforms the conventional multi-class alternative, particularly in minimizing false positives and maintaining high accuracy across all classes. These improvements are further illustrated in the confusion matrix shown in Figure~\ref{fig:confusion_hierarchical}, which highlights the model’s ability to significantly reduce misclassification of healthy samples.
+
+
+
+% \begin{table}[H]
+% \centering
+% \renewcommand{\arraystretch}{1.3}
+% \setlength{\tabcolsep}{6pt}
+% \caption{Performance Summary of the Hierarchical Classification Approach}
+% \begin{tabular}{|p{3.5cm}|p{3.7cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|}
+% \hline
+% \textbf{Model} & \textbf{Classification Scope} & \textbf{Accuracy (\%)} & \textbf{Recall (\%)} & \textbf{Precision (\%)} & \textbf{F1-score (\%)} \\
+% \hline
+% Model 1 (Binary) & 2 classes (Healthy / Not Healthy) & 99.60 & 99.58 & 99.59 & 99.60 \\
+% \hline
+% Model 2 (Diseases only) & 9 classes (given Not Healthy) & 99.83 & 99.78 & 99.79 & 99.81 \\
+% \hline
+% Hierarchical Approach & 10 classes (Model 1 + Model 2) & 99.48 & 99.18 & 99.29 & 99.31 \\
+% \hline
+% \end{tabular}
+% \label{tab:hierarchical}
+% \end{table}
+
+
+\section{The Performance of the Hierarchical Classification Approach}
 \label{sec:justifyHAmodel}
 
-In our work, we deliberately chose a hierarchical classification framework over a single multi-class model for several important technical and performance related reasons.
+In our work, we deliberately adopted a hierarchical classification framework instead of relying on a single multi-class model due to several critical performance and resource-related considerations.
 
-Firstly, attempting to use a single model to classify all ten classes distinguishing between healthy plants and nine disease categories presented significant challenges. Specifically, integrating Model 1 into a full-scale multi-class setting led to memory overflow issues. The SVM component, in particular, does not scale well when dealing with large, complex multi-class feature spaces extracted from deep CNNs. Its performance degrades considerably and becomes computationally infeasible on our hardware setup.
-
-Secondly, we explored an alternative approach by applying Model 2 directly to predict all ten classes in a flat manner, including the healthy class. This model was evaluated using 20\% of the global dataset and achieved an overall accuracy of 98.99\% (Table~\ref{tab:single-hierarchical}). However, its performance on the “healthy” class was noticeably poor. As illustrated in Figure~\ref{fig:confusion_matrics_single_model}, there was a significant rate of false positives, where healthy samples were frequently misclassified as diseased. This is highly undesirable in a real-world agricultural setting, as it can lead to false alarms and unnecessary interventions.
-
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\setlength{\tabcolsep}{6pt}
-\caption{Performance comparison of individual and hierarchical classification strategies}
-\begin{tabular}{|p{3.5cm}|p{3.7cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|}
-\hline
-\textbf{Model} & \textbf{Classification Scope} & \textbf{Accuracy (\%)} & \textbf{Recall (\%)} & \textbf{Precision (\%)} & \textbf{F1-score (\%)} \\
-\hline
-Model 2 (All classes) & 10 classes (Healthy + 9 diseases) & 98.99 & 98.99 & 99.00 & 98.98 \\
-\hline
-Hierarchical Approach & 10 classes (Model 1 + Model 2) & \textbf{99.48} & \textbf{99.18} & \textbf{99.29} & \textbf{99.31} \\
-\hline
-\end{tabular}
-\label{tab:single-hierarchical}
-\end{table}
-
-
-
-In contrast, our hierarchical approach effectively mitigates these issues by decomposing the problem into two manageable sub-tasks:
+The hierarchical structure breaks the problem into two successive stages, making it computationally efficient and more reliable in real-world applications:
 
 \begin{itemize}
-\item \textbf{Model 1} performs a robust binary classification (Healthy vs. Not Healthy), achieving \textbf{99.60\%} accuracy.
-\item \textbf{Model 2} then classifies the diseased samples into one of the nine specific disease categories, achieving \textbf{99.83\%} accuracy.
+    \item \textbf{Model 1} performs a binary classification to distinguish between \textit{Healthy} and \textit{Not Healthy} samples, achieving an accuracy of \textbf{99.60\%}.
+    \item \textbf{Model 2} takes the \textit{Not Healthy} samples and classifies them into one of the nine specific disease categories, with an accuracy of \textbf{99.83\%}.
 \end{itemize}
 
-The full hierarchical system evaluated on the same 20\% test portion of the global dataset achieved an overall accuracy of \textbf{99.48\%}. This two-stage decomposition not only improves interpretability but also ensures better resource management and enhanced precision in distinguishing healthy cases.
+The full hierarchical system, when evaluated on 20\% of the global dataset, achieved an overall accuracy of \textbf{99.48\%}. This two-phase approach offers a number of benefits, including improved interpretability, reduced computational overhead, and higher precision in differentiating healthy samples from diseased ones.
 
-All performance metrics are summarized in Table~\ref{tab:hierarchical}, clearly demonstrating that the hierarchical approach outperforms the conventional multi-class alternative, particularly in minimizing false positives and maintaining high accuracy across all classes. These improvements are further illustrated in the confusion matrix shown in Figure~\ref{fig:confusion_hierarchical}, which highlights the model’s ability to significantly reduce misclassification of healthy samples.
-
-
+All performance metrics for the hierarchical setup are presented in Table~\ref{tab:hierarchical}, and the effectiveness of this approach in reducing false positives is further highlighted in the confusion matrix shown in Figure~\ref{fig:confusion_hierarchical}.
 
 \begin{table}[H]
 \centering
@@ -667,10 +703,30 @@ Hierarchical Approach & 10 classes (Model 1 + Model 2) & 99.48 & 99.18 & 99.29 &
 \label{tab:hierarchical}
 \end{table}
 
+To benchmark this approach, we also explored the use of a single model to classify all ten classes directly, including the healthy class.
 
+Firstly, attempting to use a single model to classify all ten classes, distinguishing between healthy plants and nine disease categories presented significant challenges. Specifically, integrating Model 1 into a full-scale multi-class setting led to memory overflow issues. The \gls{abb:svm} component, in particular, does not scale well when dealing with large, complex multi-class feature spaces extracted from deep \gls{abb:cnn}s. Its performance degrades considerably and becomes computationally infeasible on our hardware setup.
 
+As an alternative, we tested \textbf{Model 2} in a flat classification setting on the same 20\% portion of the dataset. This model achieved an overall accuracy of \textbf{98.99\%}, as shown in Table~\ref{tab:single-hierarchical}. However, its performance on the “healthy” class was significantly worse compared to the hierarchical approach. As illustrated in Figure~\ref{fig:confusion_matrics_single_model}, healthy samples were frequently misclassified as diseased, leading to a high rate of false positives.
 
+This issue is particularly problematic in real-world agricultural scenarios, where false alarms can cause unnecessary treatments, wasted resources, and farmer distrust.
 
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{6pt}
+\caption{Performance Comparison of Individual and Hierarchical Classification Strategies}
+\begin{tabular}{|p{3.5cm}|p{3.7cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|}
+\hline
+\textbf{Model} & \textbf{Classification Scope} & \textbf{Accuracy (\%)} & \textbf{Recall (\%)} & \textbf{Precision (\%)} & \textbf{F1-score (\%)} \\
+\hline
+Model 2 (All classes) & 10 classes (Healthy + 9 diseases) & 98.99 & 98.99 & 99.00 & 98.98 \\
+\hline
+Hierarchical Approach & 10 classes (Model 1 + Model 2) & \textbf{99.48} & \textbf{99.18} & \textbf{99.29} & \textbf{99.31} \\
+\hline
+\end{tabular}
+\label{tab:single-hierarchical}
+\end{table}
 
 
 
@@ -743,12 +799,12 @@ Modified Inception-ResNet architecture enhanced with Channel and Spatial Attenti
     \item Epochs: 70
     \item Learning rate: 0.001 (StepLR decay: $\gamma=0.01$, step size=25)
     \item Weight decay: 0.001 (L2 regularization)
-    \item Optimizer: Adam
+    \item Optimizer: \gls{abb:adam}
 \end{itemize} \\
 \hline
 
 \textit{\parencite{jouini2024wheat}} & 
-Hybrid transfer learning pipeline combining frozen EfficientNetB0 for initial feature extraction with a shallow 3-layer custom CNN (filters: 32, 64, 128). & 
+Hybrid transfer learning pipeline combining frozen EfficientNetB0 for initial feature extraction with a shallow 3-layer custom \gls{abb:cnn} (filters: 32, 64, 128). & 
 \textbf{Model Parameters:}
 \begin{itemize}[leftmargin=*,noitemsep]
     \item Input size: 256×256 RGB
@@ -807,7 +863,8 @@ To evaluate the performance of our insect pest detection model, we created and a
 \begin{itemize}
     \item \textbf{First Phase – Standard Bounding Boxes (YOLOv8)}: In the initial phase, we used regular (horizontal) bounding boxes aligned with image axes. Each insect instance was enclosed in a rectangular box defined by four parameters: $(x, y, w, h)$, representing the top-left coordinates and width/height of the box.
     
-    \item \textbf{Second Phase – Oriented Bounding Boxes (YOLOv8-OBB)}: In the second phase, we used oriented bounding boxes (OBBs), which allow for rotation. These are defined by five parameters: $(x, y, w, h, \theta)$, where $\theta$ indicates the angle of rotation. This approach enables more precise localization, especially for insects captured at various orientations.
+    % \item \textbf{Second Phase – Oriented Bounding Boxes (YOLOv8-OBB)}: In the second phase, we used oriented bounding boxes (OBBs), which allow for rotation. These are defined by five parameters: $(x, y, w, h, \theta)$, where $\theta$ indicates the angle of rotation. This approach enables more precise localization, especially for insects captured at various orientations.
+    \item \textbf{Second Phase – Oriented Bounding Boxes (YOLOv8-OBB)}: In the second phase, we used oriented bounding boxes (OBBs), represented as quadrilaterals defined by four corner points: $(x_1, y_1), (x_2, y_2), (x_3, y_3), (x_4, y_4)$. Unlike axis-aligned bounding boxes, this format allows the boxes to tightly enclose objects at any orientation, enabling more accurate localization of insects, particularly those captured at varying angles.
 \end{itemize}
 
 We trained and evaluated two versions of the YOLOv8 model on the same dataset using two different annotation styles: one with standard bounding boxes and the other with oriented bounding boxes. The evaluation results are summarized in Table~\ref{tab:yolo_comparison}, which clearly shows that the YOLOv8-OBB variant outperforms the standard version across all key metrics.
@@ -820,13 +877,13 @@ We trained and evaluated two versions of the YOLOv8 model on the same dataset us
 \hline
 \textbf{Metric} & \textbf{YOLOv8-OBB} & \textbf{YOLOv8 (Standard)} & \textbf{Interpretation} \\
 \hline
-Precision (P) & 0.945 & 0.809 & OBB predicts fewer false positives. \\
+Precision (P) & \textbf{0.945} & 0.809 & OBB predicts fewer false positives. \\
 \hline
-Recall (R) & 0.862 & 0.564 & OBB detects more true positives. \\
+Recall (R) & \textbf{0.862} & 0.564 & OBB detects more true positives. \\
 \hline
-mAP@0.5 & 0.924 & 0.708 & OBB shows much higher detection quality at 0.5 IoU. \\
+mAP@0.5 & \textbf{0.924} & 0.708 & OBB shows much higher detection quality at 0.5 IoU. \\
 \hline
-mAP@0.5:0.95 & 0.683 & 0.474 & OBB performs better across stricter IoU thresholds. \\
+mAP@0.5:0.95 & \textbf{0.683} & 0.474 & OBB performs better across stricter IoU thresholds. \\
 \hline
 \end{tabular}
 \label{tab:yolo_comparison}
@@ -857,7 +914,7 @@ Figure~\ref{fig:ConfusionMatricsPests} shows fewer misclassifications in the OBB
 
 
 
-This chapter demonstrated the successful implementation of all core components of the proposed system. The results obtained from extensive experiments confirmed the reliability and performance of the wheat disease classification and pest detection models. The deployment into a responsive web platform, along with the integration of an AI assistant, further emphasizes the practical usability of the solution in real agricultural settings. Comparisons with existing approaches also highlighted the competitive edge of our system in terms of accuracy, generalization, and ease of use, fulfilling the objectives defined in the early stages of this work.
+This chapter demonstrated the successful implementation of all core components of the proposed system. The results obtained from extensive experiments confirmed the reliability and performance of the wheat disease classification and pest detection models. The deployment into a responsive web platform, along with the integration of an \gls{abb:ai} assistant, further emphasizes the practical usability of the solution in real agricultural settings. Comparisons with existing approaches also highlighted the competitive edge of our system in terms of accuracy, generalization, and ease of use, fulfilling the objectives defined in the early stages of this work.
 
 
 

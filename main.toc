@@ -30,14 +30,14 @@
 \contentsline {subsection}{\numberline {\if@rl \I {2.2.1}\else \textLR {1.2.2}\fi }Learning process in deep neural networks}{7}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {\if@rl \I {3.2.1}\else \textLR {1.2.3}\fi }Model training concepts}{7}{subsection.1.2.3}%
 \contentsline {subsubsection}{Loss functions}{7}{subsection.1.2.3}%
-\contentsline {subsubsection}{Overfitting prevention}{7}{subsection.1.2.3}%
+\contentsline {subsubsection}{Overfitting prevention}{8}{subsection.1.2.3}%
 \contentsline {subsubsection}{Batch normalization}{8}{subsection.1.2.3}%
 \contentsline {subsubsection}{Training parameters}{8}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {\if@rl \I {4.2.1}\else \textLR {1.2.4}\fi }Optimization methods and strategies}{8}{subsection.1.2.4}%
 \contentsline {section}{\numberline {\if@rl \I {3.1}\else \textLR {1.3}\fi }Deep learning approaches}{9}{section.1.3}%
-\contentsline {section}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }Convolutional neural networks (CNNs) for classification task}{10}{section.1.4}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.1}\else \textLR {1.4.1}\fi }Fundamentals of CNNs}{10}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.1}\else \textLR {1.4.2}\fi }CNN architectures for image classification}{12}{subsection.1.4.2}%
+\contentsline {section}{\numberline {\if@rl \I {4.1}\else \textLR {1.4}\fi }Convolutional neural networks for classification task}{10}{section.1.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.1}\else \textLR {1.4.1}\fi }Fundamentals of \gls {abb:cnn}s}{10}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.1}\else \textLR {1.4.2}\fi }\gls {abb:cnn} architectures for image classification}{12}{subsection.1.4.2}%
 \contentsline {subsubsection}{Visual geometry group network (VGGNet)}{12}{subsection.1.4.2}%
 \contentsline {subsubsection}{Residual Networks (ResNet)}{13}{figure.caption.22}%
 \contentsline {subsubsection}{DenseNet}{14}{figure.caption.23}%
@@ -51,17 +51,17 @@
 \contentsline {subsubsection}{Annotation of objects}{19}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.6.1}\else \textLR {1.6.2}\fi }Key architectures}{19}{subsection.1.6.2}%
 \contentsline {subsubsection}{You Only Look Once (Yolo)}{19}{subsection.1.6.2}%
-\contentsline {subsubsection}{R-CNN}{20}{figure.caption.27}%
-\contentsline {subsubsection}{Faster R-CNN}{21}{figure.caption.28}%
+\contentsline {subsubsection}{R-\gls {abb:cnn}}{20}{figure.caption.27}%
+\contentsline {subsubsection}{Faster R-\gls {abb:cnn}}{21}{figure.caption.28}%
 \contentsline {subsubsection}{Single Shot Multibox Detector (SSD)}{21}{figure.caption.29}%
 \contentsline {section}{\numberline {\if@rl \I {7.1}\else \textLR {1.7}\fi }Challenges of deep learning in agricultural contexts}{22}{section.1.7}%
 \contentsline {section}{\numberline {\if@rl \I {8.1}\else \textLR {1.8}\fi }Conclusion}{22}{section.1.8}%
 \select@language {english}
-\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext From Threats to Solutions: A Literature Review of Image-Based Approaches for Wheat Disease Identification in Smart Agriculture\endL \egroup }{24}{chapter.2}%
+\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext From Threats to Solutions: A Literature Review of Wheat Disease Classification in Smart Agriculture\endL \egroup }{24}{chapter.2}%
 \contentsline {section}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }Introduction}{24}{section.2.1}%
 \contentsline {section}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }Motivation for the protection of wheat crops}{24}{section.2.2}%
 \contentsline {section}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }Wheat diseases: types and impacts}{26}{section.2.3}%
-\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Common insect pests in wheat cultivation}{29}{section.2.4}%
+\contentsline {section}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }Common insect pests in wheat cultivation}{28}{section.2.4}%
 \contentsline {section}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }Enhancing wheat disease control strategies}{30}{section.2.5}%
 \contentsline {section}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }Challenges facing the integration of smart agricultural systems}{31}{section.2.6}%
 \contentsline {section}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }Review of Image-Based Approaches in Wheat Disease Identification}{31}{section.2.7}%
@@ -89,7 +89,7 @@
 \contentsline {subsubsection}{Data preprocessing:}{54}{figure.caption.55}%
 \contentsline {subsubsection}{Feature extraction:}{55}{table.caption.57}%
 \contentsline {subsubsection}{Classification:}{57}{figure.caption.58}%
-\contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }Extending the proposed solution with insect pest detection and AI assistant for Proactive Intervention}{61}{section.3.4}%
+\contentsline {section}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }Extending the proposed solution with insect pest detection and \gls {abb:ai} assistant for Proactive Intervention}{61}{section.3.4}%
 \contentsline {subsection}{\numberline {\if@rl \I {1.4.3}\else \textLR {3.4.1}\fi }Wheat insect pest dataset construction}{61}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.4.3}\else \textLR {3.4.2}\fi }YOLOv8m-OBB for Insect Pest Detection}{63}{subsection.3.4.2}%
 \contentsline {paragraph}{Model Architecture:}{63}{subsection.3.4.2}%
@@ -106,28 +106,28 @@
 \contentsline {chapter}{\numberline {4}\bgroup \beginL \latintext Implementation and Tests\endL \egroup }{70}{chapter.4}%
 \contentsline {section}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }Introduction}{70}{section.4.1}%
 \contentsline {section}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }Development Environment}{70}{section.4.2}%
-\contentsline {section}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }Implementation of the AI Assistant}{71}{section.4.3}%
+\contentsline {section}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }Implementation of the \gls {abb:ai} assistant}{71}{section.4.3}%
 \contentsline {section}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }Implementation of the web platform}{72}{section.4.4}%
 \contentsline {subsection}{\numberline {\if@rl \I {1.4.4}\else \textLR {4.4.1}\fi }Model integration}{72}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.4.4}\else \textLR {4.4.2}\fi }Project structure}{73}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {\if@rl \I {3.4.4}\else \textLR {4.4.3}\fi }Web platform interfaces}{74}{subsection.4.4.3}%
 \contentsline {subsubsection}{Wheat Disease Detection Interface}{74}{subsection.4.4.3}%
 \contentsline {subsubsection}{Insect pest detection page}{75}{figure.caption.76}%
-\contentsline {subsubsection}{AI Assistant Page}{76}{figure.caption.77}%
+\contentsline {subsubsection}{\gls {abb:ai} assistant Page}{76}{figure.caption.77}%
 \contentsline {section}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }Evaluation metrics}{77}{section.4.5}%
 \contentsline {section}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }Objectives of the experiments}{79}{section.4.6}%
 \contentsline {section}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }Experimental results in wheat disease classification models}{79}{section.4.7}%
 \contentsline {subsection}{\numberline {\if@rl \I {1.7.4}\else \textLR {4.7.1}\fi }Scenario 1: Justification of the Architecture Selection for the Binary Classification Model}{79}{subsection.4.7.1}%
-\contentsline {subsubsection}{Testing different CNN architectures for feature extraction}{79}{subsection.4.7.1}%
+\contentsline {subsubsection}{Testing different \gls {abb:cnn} architectures for feature extraction}{79}{subsection.4.7.1}%
 \contentsline {paragraph}{Load and preprocess the dataset:}{79}{subsection.4.7.1}%
-\contentsline {paragraph}{Define pretrained CNN architectures:}{80}{subsection.4.7.1}%
+\contentsline {paragraph}{Define pretrained \gls {abb:cnn} architectures:}{80}{subsection.4.7.1}%
 \contentsline {paragraph}{Extract features and evaluate feature quality using clustering metrics:}{80}{subsection.4.7.1}%
 \contentsline {paragraph}{Compare and summarize results:}{80}{equation.4.7.11}%
 \contentsline {subsubsection}{Testing different machine learning models for classification}{81}{table.caption.79}%
 \contentsline {subsection}{\numberline {\if@rl \I {2.7.4}\else \textLR {4.7.2}\fi }Scenario 2: Justification of the Architecture Selection for the multiclass disease classification model}{82}{subsection.4.7.2}%
-\contentsline {subsubsection}{Testing different CNN architectures with optimizers for feature extraction}{83}{subsection.4.7.2}%
+\contentsline {subsubsection}{Testing different \gls {abb:cnn} architectures with optimizers for feature extraction}{83}{subsection.4.7.2}%
 \contentsline {subsubsection}{Testing different attention mechanisms}{84}{table.caption.83}%
-\contentsline {section}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }The performance of the hierarchical classification approach}{86}{section.4.8}%
+\contentsline {section}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }The Performance of the Hierarchical Classification Approach}{86}{section.4.8}%
 \contentsline {section}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }Comparison with the State of the Art}{89}{section.4.9}%
 \contentsline {section}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }Evaluating Insect Pest Detection Model}{91}{section.4.10}%
 \contentsline {section}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }Conclusion}{93}{section.4.11}%

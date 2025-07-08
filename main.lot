@@ -7,8 +7,8 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Overview of used wheat disease datasets}}{46}{table.caption.46}%
 \contentsline {table}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Data augmentation techniques and parameters.}}{48}{table.caption.49}%
-\contentsline {table}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Grid search configuration of SVM classifier hyperparameters}}{52}{table.caption.53}%
-\contentsline {table}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces Best hyperparameter settings selected by Grid Search for SVM classifier}}{52}{table.caption.54}%
+\contentsline {table}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Grid search configuration of \gls {abb:svm} classifier hyperparameters}}{52}{table.caption.53}%
+\contentsline {table}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces Best hyperparameter settings selected by Grid Search for \gls {abb:svm} classifier}}{52}{table.caption.54}%
 \contentsline {table}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces Configuration of parameters for image preprocessing and augmentation techniques.}}{55}{table.caption.57}%
 \contentsline {table}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces Review of Existing Datasets for Agricultural Pest Detection}}{61}{table.caption.60}%
 \contentsline {table}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Target Pest Classes and Biological Relevance}}{62}{table.caption.61}%
@@ -19,14 +19,14 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Hardware specifications by task}}{70}{table.caption.71}%
 \contentsline {table}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces Summary of model save formats for the smart wheat monitoring system.}}{73}{table.caption.73}%
-\contentsline {table}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces Comparison of different CNN models based on clustering performance and feature extraction time.}}{81}{table.caption.79}%
+\contentsline {table}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces Comparison of different \gls {abb:cnn} models based on clustering performance and feature extraction time.}}{81}{table.caption.79}%
 \contentsline {table}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces \textit {Classifier hyperparameter grid search.}}}{82}{table.caption.80}%
-\contentsline {table}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Performance of machine learning classifiers using CNN feature extraction on the augmented D1 dataset.}}{82}{table.caption.81}%
-\contentsline {table}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces Training hyperparameters used for CNN evaluation.}}{83}{table.caption.82}%
-\contentsline {table}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Classification performance of CNN architectures using SGD and Adam optimizers.}}{84}{table.caption.83}%
+\contentsline {table}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Performance of machine learning classifiers using \gls {abb:cnn} feature extraction on the augmented D1 dataset.}}{82}{table.caption.81}%
+\contentsline {table}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces Training hyperparameters used for \gls {abb:cnn} evaluation.}}{83}{table.caption.82}%
+\contentsline {table}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Classification performance of \gls {abb:cnn} architectures using \gls {abb:sgd} and \gls {abb:adam} optimizers.}}{84}{table.caption.83}%
 \contentsline {table}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Performance comparison of attention mechanisms.}}{85}{table.caption.84}%
-\contentsline {table}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Performance comparison of individual and hierarchical classification strategies}}{87}{table.caption.87}%
-\contentsline {table}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Performance Summary of the Hierarchical Classification Approach}}{87}{table.caption.88}%
+\contentsline {table}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Performance Summary of the Hierarchical Classification Approach}}{87}{table.caption.87}%
+\contentsline {table}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Performance Comparison of Individual and Hierarchical Classification Strategies}}{87}{table.caption.88}%
 \contentsline {table}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Description of Re-implemented State-of-the-Art Approaches}}{90}{table.caption.91}%
 \contentsline {table}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Comparative results between our approach and two state-of-the-art methods}}{90}{table.caption.92}%
 \contentsline {table}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Comparison Between YOLOv8 with Oriented Bounding Boxes (OBB) and Standard YOLOv8}}{91}{table.caption.93}%

@@ -8,7 +8,7 @@ This chapter introduces the key concepts and techniques behind deep learning. It
 % Deep learning is a subset of \gls{abb:ml} that uses \gls{abb:dnn} to automatically learn complex patterns from large, unstructured data like images, text, and audio. Unlike traditional \gls{abb:ml}, which requires manual feature extraction and works best with smaller, structured datasets, deep learning eliminates this need and can handle large datasets with significant computational power, often using \gls{abb:gpu}. While \gls{abb:ml} is suitable for tasks like predictive analytics, deep learning excels in applications such as image recognition, speech processing, and natural language understanding \parencite{AlvarezVanhard2021}.
 
 \section{Deep learning fundamentals}
-In this section, we introduce the core principles of deep learning, focusing on \gls{abb:dnn} and their role in learning complex patterns from data. We explore the structure and components of neural networks, the learning process, optimization techniques, and model evaluation methods. Additionally, we highlight regularization strategies to prevent overfitting.
+In this section, we introduce the core principles of deep learning, focusing on Deep neural network basics (DNN) and their role in learning complex patterns from data. We explore the structure and components of neural networks, the learning process, optimization techniques, and model evaluation methods. Additionally, we highlight regularization strategies to prevent overfitting.
 
 \subsection{Deep neural network basics (DNN)}
 Neural networks form the backbone of deep learning, enabling machines to learn patterns and make predictions from data. Inspired by the structure of the human brain, these networks consist of interconnected layers of artificial neurons that hierarchically process information.
@@ -74,7 +74,7 @@ where:
     \end{figure}
 
 \subsubsection{Activation functions (AF)}
-An \gls{abb:af} is a mathematical function applied to a neuron's output in a neural network to introduce non-linearity. Without an activation function, a neural network with multiple layers would behave like a single-layer perceptron, limiting its ability to model complex relationships \parencite{dubey2022activation}. Activation functions decide whether a neuron should be activated based on its input. Here are some used activation functions in \gls{abb:dnn} models \parencite{dubey2022activation}:
+An \gls{abb:af} is a mathematical function applied to a neuron's output in a neural network to introduce non-linearity. Without an activation function, a neural network with multiple layers would behave like a single-layer perceptron, limiting its ability to model complex relationships. Activation functions decide whether a neuron should be activated based on its input. Here are some used activation functions in \gls{abb:dnn} models \parencite{dubey2022activation}:
 
 \begin{itemize}
     \item \textbf{Sigmoid function}: Commonly used in binary classification problems, especially in the output layer of models predicting probabilities. It maps input values to a range between 0 and 1, making it suitable for representing probabilities, as shown in equation~\ref{eq:sigmoid}.
@@ -89,9 +89,9 @@ An \gls{abb:af} is a mathematical function applied to a neuron's output in a neu
         \label{eq:tanh}
     \end{equation}
 
-    \item \textbf{ReLU (Rectified linear unit)}: Widely used in hidden layers due to its simplicity and effectiveness in handling the vanishing gradient problem. It outputs zero for negative inputs and the input itself for positive values, as defined in equation~\ref{eq:relu}.
+    \item \textbf{\gls{abb:relu} (Rectified linear unit)}: Widely used in hidden layers due to its simplicity and effectiveness in handling the vanishing gradient problem. It outputs zero for negative inputs and the input itself for positive values, as defined in equation~\ref{eq:relu}.
     \begin{equation}
-        \text{ReLU}(x) = \max(0, x)
+        \text{\gls{abb:relu}}(x) = \max(0, x)
         \label{eq:relu}
     \end{equation}
 
@@ -167,7 +167,7 @@ Several key parameters must be configured carfully to ensure effective training.
 
 Optimization techniques in deep learning aim to minimize the loss function during training, thereby improving model accuracy. These techniques iteratively adjust weights and biases to reduce prediction error \parencite{alzubaidi2021review}.
 
-Common optimizers include \parencite{alzubaidi2021review}:
+Common optimizers include:
 \begin{itemize}
     \item \textbf{\gls{abb:sgd}}: Updates weights using a randomly selected mini-batch, making it computationally efficient for large datasets.
     \item \textbf{\gls{abb:adam}}: Combines the advantages of momentum and adaptive learning rates for faster and more reliable convergence.
@@ -225,18 +225,18 @@ Deep learning encompasses a variety of learning paradigms that enable models to 
     \item \textbf{Deep reinforcement learning (\gls{abb:drl}):} In \gls{abb:drl}, models learn optimal actions through trial and error by interacting with an environment. This could include real-time monitoring systems in agriculture, like automated disease response tools or robotic weeders. Unlike supervised learning, \gls{abb:drl} does not require labeled data but instead uses reward signals to adjust its strategy over time.
 \end{itemize}
 
-\section{Convolutional neural networks (CNNs) for classification task}
+\section{Convolutional neural networks for classification task}
 
-Convolutional Neural Networks \gls{abb:cnn} have revolutionized image-based plant disease classification by automatically extracting hierarchical features from agricultural images. Unlike traditional machine learning approaches that rely on handcrafted features, CNNs learn spatial patterns directly from raw images, improving classification accuracy. Their ability to recognize disease symptoms from leaf textures and color variations makes them particularly effective in precision agriculture. This section explores the fundamental components of CNNs, their advantages in agricultural applications, and their limitations when applied independently.
+\gls{abb:cnn} have revolutionized image-based plant disease classification by automatically extracting hierarchical features from agricultural images. Unlike traditional machine learning approaches that rely on handcrafted features, \gls{abb:cnn}s learn spatial patterns directly from raw images, improving classification accuracy. Their ability to recognize disease symptoms from leaf textures and color variations makes them particularly effective in precision agriculture. This section explores the fundamental components of \gls{abb:cnn}s, their advantages in agricultural applications, and their limitations when applied independently.
 
-\subsection{Fundamentals of CNNs}
-Convolutional Neural Networks (CNNs) consist of multiple layers designed to process and learn spatial hierarchies from image data (See figure~\ref{fig:figure04}). Their architecture typically includes \parencite{alzubaidi2021review}:
+\subsection{Fundamentals of \gls{abb:cnn}s}
+\gls{abb:cnn}s consist of multiple layers designed to process and learn spatial hierarchies from image data (See figure~\ref{fig:figure04}). Their architecture typically includes \parencite{alzubaidi2021review}:
 
 
      \begin{figure}[H] % 'H' needs \usepackage{float}
         \centering
         \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/CNNarchitecture.png}
-        \caption{Architecture of CNN \parencite{Ang2022Optimal}.}
+        \caption{Architecture of \gls{abb:cnn} \parencite{Ang2022Optimal}.}
         \label{fig:figure04}
     \end{figure}
 
@@ -244,7 +244,7 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
     \item \textbf{Convolutional layers:} Extract features using small filters (kernels) that detect edges, textures, and patterns. A kernel is a grid of values (weights) initialized randomly at the start of training and adjusted through learning to identify important features \parencite{alzubaidi2021review}.
      
     \begin{itemize}
-        \item \textbf{Input and kernel dimensions:} In a CNN layer, each input $x$ is structured in three dimensions: height, width, and depth. The depth corresponds to the number of channels (e.g., an RGB image has three channels). Similarly, the kernels are also three-dimensional, with spatial dimensions (height and width) and a depth that matches the number of input channels. Each kernel consists of shared parameters: a set of weights and a bias. When applied to the input, these kernels generate a corresponding set of feature maps. They establish local connections by interacting only with small regions of the input at a time, enabling the network to extract patterns such as edges and textures by computing dot products across these regions.
+        \item \textbf{Input and kernel dimensions:} In a \gls{abb:cnn} layer, each input $x$ is structured in three dimensions: height, width, and depth. The depth corresponds to the number of channels (e.g., an RGB image has three channels). Similarly, the kernels are also three-dimensional, with spatial dimensions (height and width) and a depth that matches the number of input channels. Each kernel consists of shared parameters: a set of weights and a bias. When applied to the input, these kernels generate a corresponding set of feature maps. They establish local connections by interacting only with small regions of the input at a time, enabling the network to extract patterns such as edges and textures by computing dot products across these regions.
         
         \item \textbf{Convolutional operation:} Mathematically, a 2D convolution operation between an input matrix $I$ and a kernel (or filter) $K$ is expressed as shown in equation~\ref{eq:convolution}:
 
@@ -292,16 +292,16 @@ Convolutional Neural Networks (CNNs) consist of multiple layers designed to proc
 % \begin{figure}[H] % 'H' needs \usepackage{float}
 %     \centering
 %     \includegraphics[width=0.9\textwidth]{chapters/chapter1/images/Figure07.png}
-%     \caption{The structure of the CNN \parencite{crocioni2020li}.}
+%     \caption{The structure of the \gls{abb:cnn}\parencite{crocioni2020li}.}
 %     \label{fig:figure07}
 % \end{figure}
 
 
-\subsection{CNN architectures for image classification}
-Over the past decade, numerous Convolutional Neural Network (CNN) architectures have been developed, each introducing unique design principles to improve accuracy, efficiency, and scalability. In the context of image classification, especially for tasks such as plant disease detection, the choice of architecture can significantly influence performance depending on the dataset size, complexity, and computational constraints.
-This section presents an overview of some of the most influential and widely used CNN architectures:
+\subsection{\gls{abb:cnn} architectures for image classification}
+Over the past decade, numerous \gls{abb:cnn} architectures have been developed, each introducing unique design principles to improve accuracy, efficiency, and scalability. In the context of image classification, especially for tasks such as plant disease detection, the choice of architecture can significantly influence performance depending on the dataset size, complexity, and computational constraints.
+This section presents an overview of some of the most influential and widely used \gls{abb:cnn} architectures:
 \subsubsection{Visual geometry group network (VGGNet)}
-VGGNet is a convolutional neural network (CNN) architecture widely recognized for its simplicity and strong performance in image recognition tasks \parencite{alzubaidi2021review}.
+VGGNet is a \gls{abb:cnn} architecture widely recognized for its simplicity and strong performance in image recognition tasks \parencite{alzubaidi2021review}.
 
 VGG is characterized by its deep architecture, typically comprising 16 to 19 layers. One of its key innovations is the replacement of large convolutional filters (such as $11 \times 11$ or $5 \times 5$) with multiple stacked $3 \times 3$ filters. This strategy maintains an equivalent receptive field while reducing the number of parameters and improving computational efficiency.
 
@@ -371,8 +371,8 @@ An illustration of the residual module structure is provided in Figure~\ref{fig:
 
 \subsubsection{DenseNet}
 
-DenseNet is a convolutional neural network architecture that introduces the concept of dense connectivity, in which each layer is directly connected to every other subsequent layer in a feed-forward manner, as illustrated in figure~\ref{fig:figure12}. This unique design enables feature reuse, enhances gradient flow, and significantly reduces the number of parameters compared to traditional CNNs \parencite{alzubaidi2021review}.
-Inspired by ResNet and Highway Networks, DenseNet addresses a key limitation in ResNet, where each layer maintains isolated weights and where certain transformations contribute minimal new information. In contrast, DenseNet concatenates the outputs of all preceding layers and feeds them as input to each subsequent layer.In a DenseNet with $l$ layers, the number of direct connections between layers is given by equation~\ref{eq:densenet-connections} \parencite{alzubaidi2021review}:
+DenseNet is a convolutional neural network architecture that introduces the concept of dense connectivity, in which each layer is directly connected to every other subsequent layer in a feed-forward manner, as illustrated in figure~\ref{fig:figure12}. This unique design enables feature reuse, enhances gradient flow, and significantly reduces the number of parameters compared to traditional \gls{abb:cnn}s \parencite{alzubaidi2021review}.
+Inspired by ResNet and Highway Networks, DenseNet addresses a key limitation in ResNet, where each layer maintains isolated weights and where certain transformations contribute minimal new information. In contrast, DenseNet concatenates the outputs of all preceding layers and feeds them as input to each subsequent layer.In a DenseNet with $l$ layers, the number of direct connections between layers is given by equation~\ref{eq:densenet-connections}:
 
 \begin{equation}
 \text{Number of connections} = \frac{l(l+1)}{2}
@@ -404,7 +404,7 @@ The baseline model, EfficientNet-B0 (See figure~\ref{fig:figure13}), is built us
     \label{fig:figure13}
 \end{figure}
 
-Other CNN architectures, such as InceptionNet, Xception, and MobileNet, have also been widely adopted for various computer vision tasks. For further details about these architectures, you can refer to the appendix \ref{app:annexA}.
+Other \gls{abb:cnn} architectures, such as InceptionNet, Xception, and MobileNet, have also been widely adopted for various computer vision tasks. For further details about these architectures, you can refer to the appendix \ref{app:annexA}.
 % \subsubsection*{MobileNetV1}
 % MobileNet V1 (Figure~\ref{fig:MobileNetV1}) is a lightweight convolutional neural network that efficiently processes input images using depthwise separable convolutions to reduce computational cost and model size. Starting with an input image resized to 224×224×3, the network first applies a standard convolution followed by a series of depthwise separable convolutions that decompose standard convolutions into two steps: a depthwise convolution that filters each input channel independently and a pointwise (1×1) convolution that combines these filtered outputs. This approach drastically reduces the number of parameters and operations, as seen in the progressive reduction of feature map dimensions from 112×112×32 to 56×56×64, 28×28×256, and eventually to 7×7×1024. An average pooling operation then reduces the spatial dimension to 1×1×1024, after which a fully connected layer performs the final classification \parencite{kadam2022efficient}.
 
@@ -469,10 +469,10 @@ Other CNN architectures, such as InceptionNet, Xception, and MobileNet, have als
 
 \section{Transfer learning and pretrained models}
 In deep learning, training models from scratch often requires large labeled datasets and significant computational resources. Transfer learning offers a powerful alternative by leveraging models pre-trained on large benchmark datasets such as ImageNet. These pre-trained models capture rich and generalizable features in their initial layers, which can then be adapted to new, often smaller, target datasets with minimal additional training.
-This section explores the concept of transfer learning, introduces popular pre-trained CNN architectures relevant to agricultural applications, and outlines fine-tuning strategies suitable for small-scale plant datasets \parencite{jouini2024wheat}.
+This section explores the concept of transfer learning, introduces popular pre-trained \gls{abb:cnn} architectures relevant to agricultural applications, and outlines fine-tuning strategies suitable for small-scale plant datasets \parencite{jouini2024wheat}.
 
 \subsection{Concept of transfer learning}
-Transfer learning is a machine learning technique where a model trained on one task is repurposed for a different but related task. In the context of deep learning, it typically involves taking a neural network pre-trained on a large dataset such as ImageNet, which contains over 14 million labeled images, and adapting it to a specific task that may lack sufficient labeled data. This concept is illustrated in figure~\ref{fig:figure15}, which demonstrates the integration of a custom CNN with transfer learning networks \parencite{tan2018survey}.
+Transfer learning is a machine learning technique where a model trained on one task is repurposed for a different but related task. In the context of deep learning, it typically involves taking a neural network pre-trained on a large dataset such as ImageNet, which contains over 14 million labeled images, and adapting it to a specific task that may lack sufficient labeled data. This concept is illustrated in figure~\ref{fig:figure15}, which demonstrates the integration of a custom \gls{abb:cnn} with transfer learning networks \parencite{tan2018survey}.
 
 
 To formalize the concept of transfer learning, consider a target learning task \( T_t \) associated with a domain \( D_t \). Transfer learning aims to enhance the performance of the predictive function \( f_{T_t}(\cdot) \), which is responsible for solving \( T_t \), by leveraging knowledge from a different but related source domain \( D_s \) and its corresponding task \( T_s \).
@@ -484,7 +484,7 @@ The key idea is to transfer latent knowledge from \( D_s \) and \( T_s \) to ben
 %     \caption{Learning process of transfer learning \parencite{tan2018survey}.}
 %     \label{fig:figure14}
 % \end{figure}
-The two primary approaches to transfer learning are \parencite{tan2018survey}:
+The two primary approaches to transfer learning are:
 
 \begin{itemize}
     \item \textbf{Feature extraction:} The pre-trained model is used as a fixed feature extractor. All convolutional layers are kept frozen, and only the final fully connected layer(s) are trained on the new dataset.
@@ -495,7 +495,7 @@ The two primary approaches to transfer learning are \parencite{tan2018survey}:
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
     \includegraphics[width=1\textwidth]{chapters/chapter1/images/Figure15.png}
-    \caption{Integration of the custom CNN with transfer learning networks \parencite{jouini2024wheat}.}
+    \caption{Integration of the custom \gls{abb:cnn} with transfer learning networks \parencite{jouini2024wheat}.}
     \label{fig:figure15}
 \end{figure}
 
@@ -526,11 +526,11 @@ Understanding object detection requires familiarity with its key components, inc
 \subsubsection{Definition of Object Detection}
 At its core, object detection involves predicting both the category and precise location of objects within an image, thus combining classification with localization. Traditional approaches consist of stages such as region proposal, feature extraction, and object classification. Over time, detection methods have evolved to address increasing demands for accuracy and speed, giving rise to both two-stage and one-stage detection frameworks \parencite{zhao2019objectdetection}.
 
-Here are more details about the concepts of object detection \parencite{zhao2019objectdetection}: 
+Here are more details about the concepts of object detection: 
 \begin{itemize}
     \item \textbf{Informative region selection:} It is used to identify specific areas within an image where objects are likely to appear. This step helps reduce computational load by focusing only on promising regions instead of scanning the entire image at all scales and positions. In agricultural imagery, objects like plants or pests may vary in size, shape, and location. Early methods used multiscale sliding windows to generate candidate regions, but this approach was computationally expensive and often produced redundant proposals. To improve efficiency, modern techniques now use region proposal algorithms or attention mechanisms to better focus on meaningful areas while avoiding irrelevant ones.
     \item \textbf{Feature extraction:} It is the process of identifying and isolating relevant visual attributes from an image that can effectively represent objects within it. Object recognition involves detecting characteristics that are both robust and semantically significant. Traditional methods such as Scale-Invariant Feature Transform (SIFT), Histograms of Oriented Gradients (HOG), and Haar-like features were designed to mimic human vision by emphasizing edges, textures, and patterns. However, these handcrafted techniques often struggled to maintain performance due to challenges like changes in object appearance, lighting variations, and cluttered backgrounds, leading to their limitations in complex scenarios.
-    \item \textbf{Classification and localization:} Classification and localization refer to the process of both identifying the object in an image and determining its precise location through bounding boxes. With the rise of deep learning, this step underwent a significant transformation. Models such as R-CNN and its subsequent versions, Fast R-CNN, Faster R-CNN, and YOLO automated the feature extraction process and seamlessly integrated classification with bounding box regression. These advancements led to substantial improvements in both detection accuracy and processing speed, enabling real-time applications in fields like crop monitoring and pest detection.
+    \item \textbf{Classification and localization:} Classification and localization refer to the process of both identifying the object in an image and determining its precise location through bounding boxes. With the rise of deep learning, this step underwent a significant transformation. Models such as R-\gls{abb:cnn} and its subsequent versions, Fast R-\gls{abb:cnn}, Faster R-\gls{abb:cnn}, and YOLO automated the feature extraction process and seamlessly integrated classification with bounding box regression. These advancements led to substantial improvements in both detection accuracy and processing speed, enabling real-time applications in fields like crop monitoring and pest detection.
 \end{itemize}
 
 \subsubsection{Annotation of objects}
@@ -560,12 +560,12 @@ Annotation refers to the process of labeling the objects (such as pests, disease
 
 
 \subsection{Key architectures}
-Many architectures are designed to efficiently and accurately detect objects in images, even in complex agricultural environments. Below, we discuss four of the most widely used and effective object detection models: YOLO (You Only Look Once), R-CNN, Faster R-CNN, and SSD (Single Shot Multibox Detector). 
+Many architectures are designed to efficiently and accurately detect objects in images, even in complex agricultural environments. Below, we discuss four of the most widely used and effective object detection models: YOLO (You Only Look Once), R-\gls{abb:cnn}, Faster R-\gls{abb:cnn}, and SSD (Single Shot Multibox Detector). 
 
 \subsubsection{You Only Look Once (Yolo)}
 YOLO is a fast and efficient object detection framework that predicts both object confidences and bounding boxes (BBs) using the entire topmost feature map. The image is divided into a $S \times S$ grid, where each grid cell is responsible for predicting objects centered within it. Each cell predicts multiple bounding boxes and their corresponding confidence scores, which reflect the likelihood of an object being present and how well the predicted box overlaps with the ground truth (IoU) \parencite{zhao2019objectdetection} (See figure~\ref{fig:figure16}).
 
-At test time, class-specific confidence scores are computed by multiplying the box confidence with conditional class probabilities. YOLO optimizes a loss function during training to fine-tune predictions and improve detection accuracy \parencite{zhao2019objectdetection}.
+At test time, class-specific confidence scores are computed by multiplying the box confidence with conditional class probabilities. YOLO optimizes a loss function during training to fine-tune predictions and improve detection accuracy.
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
@@ -574,41 +574,41 @@ At test time, class-specific confidence scores are computed by multiplying the b
     \label{fig:figure16}
 \end{figure}
 
-\subsubsection{R-CNN}
-R-CNN is a significant advancement in object detection, improving the quality of candidate bounding boxes (BBs) and utilizing deep architecture for high-level feature extraction \parencite{zhao2019objectdetection}. It consists of three main stages, as presented in figure~\ref{fig:figure17}:
+\subsubsection{R-\gls{abb:cnn}}
+R-\gls{abb:cnn} is a significant advancement in object detection, improving the quality of candidate bounding boxes (BBs) and utilizing deep architecture for high-level feature extraction \parencite{zhao2019objectdetection}. It consists of three main stages, as presented in figure~\ref{fig:figure17}:
 
 \begin{itemize}
-    \item \textbf{Region proposal generation:} R-CNN uses selective search to generate about 2000 region proposals per image, improving candidate box accuracy and reducing the search space.
-    \item \textbf{CNN-Based feature extraction:} Each region proposal is resized and passed through a CNN to extract a 4096-dimensional feature, creating a high-level, robust representation of the object.
-    \item \textbf{Classification and localization:} Region proposals are classified using pre-trained linear SVMs, and bounding box regression is applied. Non-maximum suppression (NMS) is used to eliminate redundant boxes and finalize object detections.
+    \item \textbf{Region proposal generation:} R-\gls{abb:cnn} uses selective search to generate about 2000 region proposals per image, improving candidate box accuracy and reducing the search space.
+    \item \textbf{\gls{abb:cnn}-Based feature extraction:} Each region proposal is resized and passed through a \gls{abb:cnn} to extract a 4096-dimensional feature, creating a high-level, robust representation of the object.
+    \item \textbf{Classification and localization:} Region proposals are classified using pre-trained linear Support Vector Machine (SVM)s, and bounding box regression is applied. Non-maximum suppression (NMS) is used to eliminate redundant boxes and finalize object detections.
 \end{itemize}
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
     \includegraphics[width=0.8\textwidth]{chapters/chapter1/images/Figure17.png}
-    \caption{Flowchart of R-CNN \parencite{zhao2019objectdetection}.}
+    \caption{Flowchart of R-\gls{abb:cnn} \parencite{zhao2019objectdetection}.}
     \label{fig:figure17}
 \end{figure}
 
-Despite its success, R-CNN has drawbacks, including slow inference due to CNN computation for each region, time-consuming multistage training, high memory and storage requirements for storing region features, and redundant region proposals from selective search that slow down the process \parencite{zhao2019objectdetection}.
+Despite its success, R-CNN has drawbacks, including slow inference due to \gls{abb:\gls{abb:cnn}} computation for each region, time-consuming multistage training, high memory and storage requirements for storing region features, and redundant region proposals from selective search that slow down the process \parencite{zhao2019objectdetection}.
 
 
-\subsubsection{Faster R-CNN}
+\subsubsection{Faster R-\gls{abb:cnn}}
 
 
-Faster R-CNN improves upon earlier object detection models by introducing a Region Proposal Network (RPN), a deep learning-based method for generating object proposals, which shares convolutional features with the detection network to generate object proposals efficiently, eliminating the need for methods like selective search. The RPN uses a fully convolutional network (FCN) (as presented in figure~\ref{fig:figure18}) to predict bounding boxes and object scores simultaneously. The system uses anchors of multiple scales and aspect ratios and is trained end-to-end with a multitask loss function. While Faster R-CNN achieves state-of-the-art accuracy and high-speed processing, it is limited by its alternate training algorithm, which is time-consuming and struggles with extreme object scales and shapes \parencite{zhao2019objectdetection}.
+Faster R-\gls{abb:cnn} improves upon earlier object detection models by introducing a Region Proposal Network (RPN), a deep learning-based method for generating object proposals, which shares convolutional features with the detection network to generate object proposals efficiently, eliminating the need for methods like selective search. The RPN uses a fully convolutional network (FCN) (as presented in figure~\ref{fig:figure18}) to predict bounding boxes and object scores simultaneously. The system uses anchors of multiple scales and aspect ratios and is trained end-to-end with a multitask loss function. While Faster R-\gls{abb:cnn} achieves state-of-the-art accuracy and high-speed processing, it is limited by its alternate training algorithm, which is time-consuming and struggles with extreme object scales and shapes \parencite{zhao2019objectdetection}.
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
     \includegraphics[width=0.6\textwidth]{chapters/chapter1/images/Figure18.png}
-    \caption{An illustration of the Faster R-CNN model \parencite{ren2016faster}.}
+    \caption{An illustration of the Faster R-\gls{abb:cnn} model \parencite{ren2016faster}.}
     \label{fig:figure18}
 \end{figure}
 
 \subsubsection{Single Shot Multibox Detector (SSD)}
 SSD was introduced to address the limitations of YOLO, particularly in handling small objects and objects with unusual aspect ratios. Unlike YOLO's fixed grid approach, SSD uses default anchor boxes of various aspect ratios and scales to better handle objects of different sizes.
 
-It integrates predictions from multiple feature maps with different resolutions and uses a VGG16 backbone architecture with additional layers for bounding box predictions. SSD is trained with a combination of localization and confidence losses and refines detections using non-maximum suppression (NMS). It outperforms Faster R-CNN in accuracy on PASCAL VOC and COCO while being three times faster, running at 59 fps with an input size of 300 × 300. However, SSD still struggles with small objects, which can be improved with better feature extractors and network modifications \parencite{zhao2019objectdetection}.
+It integrates predictions from multiple feature maps with different resolutions and uses a VGG16 backbone architecture with additional layers for bounding box predictions. SSD is trained with a combination of localization and confidence losses and refines detections using non-maximum suppression (NMS). It outperforms Faster R-\gls{abb:cnn} in accuracy on PASCAL VOC and COCO while being three times faster, running at 59 fps with an input size of 300 × 300. However, SSD still struggles with small objects, which can be improved with better feature extractors and network modifications \parencite{zhao2019objectdetection}.
 
 Below is the architecture of SSD (Figure~\ref{fig:figure19}), illustrating its key components, including the VGG-16 backbone, extra feature layers, and classifier convolutions.
 
@@ -627,10 +627,10 @@ Another challenge is the high intra-class variability and low inter-class variab
 
 The seasonal and geographic diversity further complicates the generalization of models trained on limited datasets. Moreover, the deployment of deep learning models in real agricultural environments must consider limited computing resources, especially for edge or mobile devices used in fields \parencite{alzubaidi2021review}.
 
-Lastly, ensuring the interpretability and trustworthiness of AI decisions is crucial in agricultural contexts, as these technologies directly impact yield, resource use, and farmers’ livelihoods. Addressing these challenges requires collaborative efforts in data collection, annotation, model adaptation, and efficient deployment strategies \parencite{alzubaidi2021review}.
+Lastly, ensuring the interpretability and trustworthiness of \gls{abb:ai} decisions is crucial in agricultural contexts, as these technologies directly impact yield, resource use, and farmers’ livelihoods. Addressing these challenges requires collaborative efforts in data collection, annotation, model adaptation, and efficient deployment strategies \parencite{alzubaidi2021review}.
 
 \section{Conclusion}
 
-This chapter laid the foundations of deep learning by introducing its key concepts, architectures, and learning strategies, with a particular focus on image classification and object detection tasks. We presented the main convolutional neural network (CNN) architectures, explaining how each contributes to improved performance in visual tasks. In addition, we discussed the concept of transfer learning as a practical solution to adapt pre-trained models to agricultural contexts.
+This chapter laid the foundations of deep learning by introducing its key concepts, architectures, and learning strategies, with a particular focus on image classification and object detection tasks. We presented the main \gls{abb:cnn} architectures, explaining how each contributes to improved performance in visual tasks. In addition, we discussed the concept of transfer learning as a practical solution to adapt pre-trained models to agricultural contexts.
 
 In the next chapter, we will explore how these deep learning techniques have been applied specifically to the classification of wheat diseases. We will review existing image-based approaches used in the field, analyze their performance and limitations, and discuss the challenges and opportunities that arise when integrating such models into real-world agricultural systems.

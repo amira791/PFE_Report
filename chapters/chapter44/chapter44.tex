@@ -6,7 +6,7 @@
 
 Reviewing the image-based approaches for wheat disease identification helped highlight the various techniques and models used to tackle the challenge of accurate disease recognition. This review provided valuable insights into the strengths and limitations of existing methods, guiding the development of a more tailored and effective solution. Building upon this analysis, we designed our solution to not only performs disease classification but also integrates complementary modules to address broader agricultural needs.
 
-This chapter outlines the design of the proposed solution. It begins with a description of the overall system architecture, followed by details on dataset preparation and the deep learning models utilized for disease classification. In addition to the core classification component, the system incorporates two auxiliary modules: one for insect pest detection and another that provides users with assistance through a general-purpose AI assistant integrated via an external API.
+This chapter outlines the design of the proposed solution. It begins with a description of the overall system architecture, followed by details on dataset preparation and the deep learning models utilized for disease classification. In addition to the core classification component, the system incorporates two auxiliary modules: one for insect pest detection and another that provides users with assistance through a general-purpose \gls{abb:ai} assistant integrated via an external API.
 
 
 \section{General design of the proposed solution}
@@ -21,9 +21,9 @@ The main goal of this work is to develop a robust deep learning solution capable
 
 To address the challenges identified during the literature review, our proposed classification solution leverages deep convolutional neural networks trained on high-resolution RGB images of wheat crops. The classification module is designed to accurately detect and distinguish between multiple wheat disease classes, even when symptoms appear visually similar. By carefully curating and augmenting the training dataset, we aim to improve model robustness against variations in lighting, image quality, background noise, and different wheat varieties. The system processes input images from diverse sources such as drones, cameras, or mobile phones, and outputs a reliable disease class prediction. This core classification module serves as the foundation of our approach, ensuring precision and scalability for real-world deployment.
 
-To enrich the proposed solution and move toward a more holistic crop health monitoring system, additional modules were integrated into the system. One of these focuses on insect pest detection, as certain pests can be the primary cause of specific wheat diseases. Their early identification is crucial for addressing the root causes of infection and ensuring that treatment strategies target both symptoms and sources. Additionally, a general-purpose AI assistant was integrated via an API to support users by answering questions, guiding interpretation of results, and offering practical recommendations. Together with our proposed classification solution, these modules enhance the system’s ability to provide more accurate, timely, and context-aware support to farmers.
+To enrich the proposed solution and move toward a more holistic crop health monitoring system, additional modules were integrated into the system. One of these focuses on insect pest detection, as certain pests can be the primary cause of specific wheat diseases. Their early identification is crucial for addressing the root causes of infection and ensuring that treatment strategies target both symptoms and sources. Additionally, a general-purpose \gls{abb:ai} assistant was integrated via an \gls{abb:api} to support users by answering questions, guiding interpretation of results, and offering practical recommendations. Together with our proposed classification solution, these modules enhance the system’s ability to provide more accurate, timely, and context-aware support to farmers.
 
-Figure 4.1 illustrates the global design of the proposed solution, including the main classification module and the two complementary modules. This figure also highlights the inputs and outputs of each module. It is important to note that the modules are separated and operate independently. The interaction between the AI assistant and the other two modules (wheat disease classification and pest detection) is entirely optional, giving users the freedom to engage with the assistant based on their specific needs or preferences.
+Figure 4.1 illustrates the global design of the proposed solution, including the main classification module and the two complementary modules. This figure also highlights the inputs and outputs of each module. It is important to note that the modules are separated and operate independently. The interaction between the \gls{abb:ai} assistant and the other two modules (wheat disease classification and pest detection) is entirely optional, giving users the freedom to engage with the assistant based on their specific needs or preferences.
 
 
 \begin{figure}[H] % Requires \usepackage{float}
@@ -160,11 +160,11 @@ In addition, Figure~\ref{fig:Model2Dataaugmentation} shows the class distributio
 
 \vspace{0.3cm}
 \subsubsection{Feature Extraction:} 
-To effectively capture meaningful patterns from the dataset and improve classification performance, we leveraged state-of-the-art pre-trained convolutional neural networks (CNNs) for feature extraction. Using pre-trained models offers two key advantages: it reduces computational cost by reusing learned filters from large-scale datasets, and it help to enhance the performance as these models have already learned to recognize generic visual features like edges, textures, and shapes.
+To effectively capture meaningful patterns from the dataset and improve classification performance, we leveraged state-of-the-art pre-trained (\gls{abb:cnn}s) for feature extraction. Using pre-trained models offers two key advantages: it reduces computational cost by reusing learned filters from large-scale datasets, and it help to enhance the performance as these models have already learned to recognize generic visual features like edges, textures, and shapes.
 
 This approach is particularly important for our binary classification task, where the Not Healthy class includes a wide range of distinct wheat diseases. Each disease manifests with different visual symptoms such as spots, discolorations, or irregular patterns which require the extraction of diverse and discriminative features to ensure accurate classification. A single pretrained model might not capture all these variations effectively, which motivated the use of multiple feature extractors.
 
-The selection of the final set of feature extractors was guided by empirical evaluation. Several pre-trained CNN architectures were tested and compared on the dataset D1. As a result of this evaluation process, three models were selected: EfficientNetB2, VGG19, and DenseNet169. These models demonstrated strong and consistent performance (Tests results are presented in this section~\ref{sec:testcnnModel1}).
+The selection of the final set of feature extractors was guided by empirical evaluation. Several pre-trained \gls{abb:cnn} architectures were tested and compared on the dataset D1. As a result of this evaluation process, three models were selected: EfficientNetB2, VGG19, and DenseNet169. These models demonstrated strong and consistent performance (Tests results are presented in this section~\ref{sec:testcnnModel1}).
 
 To implement the feature extraction process, several key configurations were adopted:
 \begin{itemize}
@@ -184,16 +184,16 @@ After feature extraction, the concatenated feature vectors are fed into a tradit
 
 So instead of relying on deep learning-based end-to-end classifiers, we opted to use traditional machine learning (ML) algorithms for several reasons:
 \begin{itemize}
-    \item The task at this stage is a \textbf{binary classification problem}, which simplifies the decision boundary and aligns well with the strengths of classical ML methods.
+    \item The task at this stage is a \textbf{binary classification problem}, which simplifies the decision boundary and aligns well with the strengths of classical \gls{abb:ml} methods.
     
-    \item ML algorithms are generally \textbf{faster to train} and \textbf{less computationally intensive} compared to deep learning models.
+    \item \gls{abb:ml} algorithms are generally \textbf{faster to train} and \textbf{less computationally intensive} compared to deep learning models.
     
-    \item They are particularly \textbf{effective when used with high-quality, pre-extracted features}, such as those obtained from pre-trained CNNs.
+    \item They are particularly \textbf{effective when used with high-quality, pre-extracted features}, such as those obtained from pre-trained \gls{abb:cnn}s.
 \end{itemize}
 
-To identify the most suitable classifier, we conducted  also here empirical tests using the dataset D1. The models evaluated include: \gls{abb:mlp}, \gls{abb:dt}, \gls{abb:rf} and \gls{abb:svm}. Performance was assessed using standard evaluation metrics such as accuracy and F1-score (see the next chapter for detailed results in this section~\ref{sec:MLclassifiertest}). Among these, the Support Vector Machine (SVM) yielded the best performance and was therefore selected as the final classifier. 
+To identify the most suitable classifier, we conducted  also here empirical tests using the dataset D1. The models evaluated include: \gls{abb:mlp}, \gls{abb:dt}, \gls{abb:rf} and \gls{abb:svm}. Performance was assessed using standard evaluation metrics such as accuracy and F1-score (see the next chapter for detailed results in this section~\ref{sec:MLclassifiertest}). Among these, the \gls{abb:svm} yielded the best performance and was therefore selected as the final classifier. 
 
-Support Vector Machine (SVM) is a powerful supervised machine learning algorithm widely used for classification and regression tasks due to its efficiency and ability to manage high-dimensional data. At its core, SVM aims to find the optimal hyperplane that best separates data points from two classes by maximizing the margin, the distance between the hyperplane and the nearest data points, known as support vectors. When data is not linearly separable, SVM applies the "kernel trick" to map inputs into a higher-dimensional space where a linear separation becomes feasible (Figure~\ref{fig:SVM}); common kernel functions include linear, polynomial, radial basis function (RBF), and sigmoid \parencite{guido2024}.
+\gls{abb:svm} is a powerful supervised machine learning algorithm widely used for classification and regression tasks due to its efficiency and ability to manage high-dimensional data. At its core, \gls{abb:svm} aims to find the optimal hyperplane that best separates data points from two classes by maximizing the margin, the distance between the hyperplane and the nearest data points, known as support vectors. When data is not linearly separable, \gls{abb:svm} applies the "kernel trick" to map inputs into a higher-dimensional space where a linear separation becomes feasible (Figure~\ref{fig:SVM}); common kernel functions include linear, polynomial, radial basis function (RBF), and sigmoid \parencite{guido2024}.
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
     \centering
@@ -207,11 +207,11 @@ Then a systematic hyperparameter optimization was conducted using \texttt{GridSe
 
 To improve computational efficiency, parallel processing was enabled by setting n\_jobs set to -1, allowing the use of all available CPU cores during the grid search process. Additionally, for scenarios involving class imbalance, the \texttt{class\_weight} parameter was set to \texttt{"balanced"}, automatically adjusting weights inversely proportional to class frequencies in the training set.
 
-Key hyperparameters for the SVM classifier were tuned to identify the optimal configuration, as summarized in Table~\ref{tab:svm_grid}. These include the regularization parameter \texttt{C}, kernel type, kernel coefficient \texttt{gamma}, and polynomial \texttt{degree} (relevant when using a polynomial kernel). These parameters were selected based on their significant impact on the SVM’s decision boundary and generalization ability.
+Key hyperparameters for the \gls{abb:svm} classifier were tuned to identify the optimal configuration, as summarized in Table~\ref{tab:svm_grid}. These include the regularization parameter \texttt{C}, kernel type, kernel coefficient \texttt{gamma}, and polynomial \texttt{degree} (relevant when using a polynomial kernel). These parameters were selected based on their significant impact on the \gls{abb:svm}’s decision boundary and generalization ability.
 
 \begin{table}[h]
 \centering
-\caption{Grid search configuration of SVM classifier hyperparameters}
+\caption{Grid search configuration of \gls{abb:svm} classifier hyperparameters}
 \begin{tabular}{|p{4.5cm}|p{8.5cm}|}
 \hline
 \textbf{Hyperparameters} & \textbf{Explored Values} \\
@@ -228,11 +228,11 @@ degree (polynomial degree) & \{2, 3, 4\} \\
 \label{tab:svm_grid}
 \end{table}
 
-After conducting the grid search with cross-validation, the best-performing configuration for the SVM classifier was identified, as shown in Table~\ref{tab:svm_best}. These hyperparameters were selected based on their cross-validated performance and were used in the final ensemble to ensure optimal and consistent results.
+After conducting the grid search with cross-validation, the best-performing configuration for the \gls{abb:svm} classifier was identified, as shown in Table~\ref{tab:svm_best}. These hyperparameters were selected based on their cross-validated performance and were used in the final ensemble to ensure optimal and consistent results.
 
 \begin{table}[h]
 \centering
-\caption{Best hyperparameter settings selected by Grid Search for SVM classifier}
+\caption{Best hyperparameter settings selected by Grid Search for \gls{abb:svm} classifier}
 \begin{tabular}{|p{4.5cm}|p{8.5cm}|}
 \hline
 \textbf{Hyperparameters} & \textbf{Selected Values} \\
@@ -257,7 +257,7 @@ After explaining all the components of the binary classification model M1, we no
 \begin{algorithm}[H]
 \caption{Binary Classification Model (M1)}
 \textbf{Input:} Image dataset $\mathcal{D} = \{(x_i, y_i)\}_{i=1}^{N}$, where $N$ is the total number of image samples, $x_i$ represents the $i$-th image of a wheat plant, and $y_i$ is the corresponding binary label. The label $y_i \in \{0, 1\}$ indicates the health status of the plant: $y_i = 0$ denotes a healthy wheat plant, and $y_i = 1$ denotes a diseased (unhealthy) wheat plant\;
-\textbf{Output:} Trained SVM classifier $f(x)$\;
+\textbf{Output:} Trained \gls{abb:svm} classifier $f(x)$\;
 
 \vspace{2mm}
 \textbf{Step 1: Data Preparation}\;
@@ -278,7 +278,7 @@ Split $\mathcal{D}_{\text{aug}}$ into $D_{\text{train}}$ (80\%) and $D_{\text{te
 \vspace{2mm}
 \textbf{Step 2: Feature Extraction}\;
 \ForEach{image $x_i \in D_{\text{train}}$}{
-    \ForEach{CNN model $M \in \{$EfficientNetB2, VGG19, DenseNet169$\}$}{
+    \ForEach{\gls{abb:cnn} model $M \in \{$EfficientNetB2, VGG19, DenseNet169$\}$}{
         Load $M$ with ImageNet weights and remove the final ImageNet classification layers\;
         Apply GlobalAveragePooling to extract feature vector $f^M_i$\;
     }
@@ -295,17 +295,8 @@ Regularization parameter $C$, kernel type, kernel coefficient $\gamma$, and poly
 Use GridSearchCV with 3-fold cross-validation on $(F_{\text{train}}, Y_{\text{train}})$\;
 Train final model $f(x)$ using best configuration\;
 \vspace{1mm}
-\textbf{Return:} Final trained SVM classifier $f(x)$\;
+\textbf{Return:} Final trained \gls{abb:svm} classifier $f(x)$\;
 \end{algorithm}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -386,9 +377,9 @@ Normalize & Mean: (0.485, 0.456, 0.406), Std: (0.229, 0.224, 0.225) \\
 \subsubsection{Feature extraction:}  
 This stage involves a more complex multi-class classification problem, where the dataset \textit{D2} includes a significantly larger number of images and encompasses nine distinct disease classes. To address this complexity and improve the model’s ability to generalize, we employed pre-trained convolutional neural networks. 
 
-To select the most suitable architecture for this task, we tested several pre-trained CNN models (EfficientNetB2, MobileNet, Xception, InceptionV3, DenseNet201 and ResNet50V2) on the augmented dataset \textit{D2}. As detailed in this section~\ref{sec:TestCnnM2}, these empirical evaluations demonstrated that ResNet50V2 outperformed the others CNN models. Therefore, it was selected as the backbone feature extractor in this model, and it operates as follows:
+To select the most suitable architecture for this task, we tested several pre-trained \gls{abb:cnn} models (EfficientNetB2, MobileNet, Xception, InceptionV3, DenseNet201 and ResNet50V2) on the augmented dataset \textit{D2}. As detailed in this section~\ref{sec:TestCnnM2}, these empirical evaluations demonstrated that ResNet50V2 outperformed the others \gls{abb:cnn} models. Therefore, it was selected as the backbone feature extractor in this model, and it operates as follows:
 \begin{itemize}
-    \item Input images are processed through multiple convolutional blocks (Conv Blocks), followed by identity blocks (ID Blocks), ReLU activations, batch normalization, and max pooling layers to extract deep hierarchical features.
+    \item Input images are processed through multiple convolutional blocks (Conv Blocks), followed by identity blocks (ID Blocks), \gls{abb:relu} activations, batch normalization, and max pooling layers to extract deep hierarchical features.
     \item Pre-trained weights from ImageNet enable the model to efficiently capture complex visual patterns associated with different wheat diseases.
     \item A Global Average Pooling layer is applied at the end to reduce the dimensionality while preserving the most informative features for classification.
 \end{itemize}
@@ -455,11 +446,11 @@ Where:
 \end{itemize}
 
 
-The optimization process relies on Stochastic Gradient Descent (SGD), which proved to be more effective than the Adam optimizer, as demonstrated by the results presented in the following chapter in this section~\ref{sec:TestCnnM2}. To make the training faster and more stable, we also used two techniques: momentum and weight decay.
+The optimization process relies on \gls{abb:sgd}, which proved to be more effective than the \gls{abb:adam} optimizer, as demonstrated by the results presented in the following chapter in this section~\ref{sec:TestCnnM2}. To make the training faster and more stable, we also used two techniques: momentum and weight decay.
 
 Momentum helps the model learn more smoothly and quickly. Instead of using only the current gradient (which shows the direction to update the model), momentum also takes into account the previous updates. This helps avoid getting stuck or bouncing too much when learning.
 
-The update steps for SGD with momentum, as explained by \parencite{loshchilov2016sgdr}, are shown in Equation~\ref{eq:sgd_momentum}:
+The update steps for \gls{abb:sgd} with momentum, as explained by \parencite{loshchilov2016sgdr}, are shown in Equation~\ref{eq:sgd_momentum}:
 
 \begin{align}
 v_{t+1} &= \mu v_t + \eta \nabla w_t \\
@@ -567,7 +558,7 @@ Load pretrained ResNet-50 and remove its classification head\;
 \textbf{Step 3: Loss and Optimization}\;
 Use Label Smoothing Cross-Entropy loss\;
 
-Initialize Stochastic Gradient Descent (SGD) optimizer with learning rate scheduling (Cosine Annealing)\;
+Initialize \gls{abb:sgd} optimizer with learning rate scheduling (Cosine Annealing)\;
 
 \vspace{2mm}
 \textbf{Step 4: Training Strategy}\;
@@ -580,8 +571,8 @@ Apply early stopping based on validation loss and accuracy\;
 
 
 
-\section{Extending the proposed solution with insect pest detection and AI assistant for Proactive Intervention}
-To improve the practicality and scope of the wheat disease classification system, two additional modules were added: insect pest detection and an AI assistant. The pest detection module identifies insects that may cause or spread diseases, allowing for early intervention. The AI assistant helps users understand the classification outcomes and get answers to their questions, making the system more accessible and actionable for farmers.
+\section{Extending the proposed solution with insect pest detection and \gls{abb:ai} assistant for Proactive Intervention}
+To improve the practicality and scope of the wheat disease classification system, two additional modules were added: insect pest detection and an \gls{abb:ai} assistant. The pest detection module identifies insects that may cause or spread diseases, allowing for early intervention. The \gls{abb:ai} assistant helps users understand the classification outcomes and get answers to their questions, making the system more accessible and actionable for farmers.
 
 \subsection{Wheat insect pest dataset construction}
 
@@ -783,7 +774,7 @@ The YOLOv8m-OBB model was trained over 300 epochs using optimized parameters tha
     \hline
     Image Size (640 × 640) & Input image resolution used during training; balances detail and computation. \\
     \hline
-    Optimizer (AdamW) & Optimization algorithm combining Adam with weight decay to improve generalization. \\
+    Optimizer (AdamW) & Optimization algorithm combining \gls{abb:adam} Adam with weight decay to improve generalization. \\
     \hline
     Initial Learning Rate (0.001) & Starting step size for updating model weights. \\
     \hline
@@ -805,15 +796,15 @@ The YOLOv8m-OBB model was trained over 300 epochs using optimized parameters tha
 
 \subsection{AI Assistant Integration for Interactive Agricultural Intelligence}
 
-To enhance the usability and impact of the proposed system, an AI assistant module was integrated into the web platform. This conversational interface enables farmers to interact naturally with the platform by submitting either text queries or images with brief descriptions. They can inquire about wheat diseases, pest identification, suitable treatments, or general agricultural practices. The assistant provides accurate, context-aware responses, helping even non-expert users make informed decisions with confidence.
+To enhance the usability and impact of the proposed system, an \gls{abb:ai} assistant module was integrated into the web platform. This conversational interface enables farmers to interact naturally with the platform by submitting either text queries or images with brief descriptions. They can inquire about wheat diseases, pest identification, suitable treatments, or general agricultural practices. The assistant provides accurate, context-aware responses, helping even non-expert users make informed decisions with confidence.
 
-The chatbot is powered by the Gemini API on the Google Cloud Platform (GCP), which uses a large language model (LLM) capable of understanding and generating detailed responses to agricultural queries. It supports two types of user input:
+The chatbot is powered by the Gemini \gls{abb:api} on the Google Cloud Platform (GCP), which uses a large language model (LLM) capable of understanding and generating detailed responses to agricultural queries. It supports two types of user input:
 \begin{itemize}
 \item \textbf{Text queries}: For describing symptoms or requesting advice.
 \item \textbf{Image + text}: For more precise, context-rich diagnoses.
 \end{itemize}
 
-The system ensures secure and efficient communication between the user interface and Gemini’s inference endpoint via API calls, enabling real-time, intelligent interactions embedded directly within the agricultural support platform.
+The system ensures secure and efficient communication between the user interface and Gemini’s inference endpoint via \gls{abb:api} calls, enabling real-time, intelligent interactions embedded directly within the agricultural support platform.
 
 Figure~\ref{fig:ai_assistant_integration} illustrates the overall workflow of this integration, which empowers users with immediate access to practical and reliable insights.
 
@@ -883,7 +874,7 @@ F7 & The system could provide a documentation section containing detailed descri
 
 
 \subsection{Use case diagrams}
-The use case diagram, based on UML standards, models the needs of users and provides an overview of the wheat monitoring system's functionalities. As shown in Figure~\ref{fig:usecase}, the primary users—such as farmers, agronomists, or researchers—interact with the system to monitor wheat health, identify pests, and receive predictions. They can select a prediction task, either insect pest detection or wheat disease classification, which requires uploading or dragging an image. Once the prediction is completed, users can visualize the results and optionally download a report. The system also includes a chatbot assistant for support and integrates with the Gemini API for backend processing.
+The use case diagram, based on UML standards, models the needs of users and provides an overview of the wheat monitoring system's functionalities. As shown in Figure~\ref{fig:usecase}, the primary users such as farmers, agronomists, or researchers, interact with the system to monitor wheat health, identify pests, and receive predictions. They can select a prediction task, either insect pest detection or wheat disease classification, which requires uploading or dragging an image. Once the prediction is completed, users can visualize the results and optionally download a report. The system also includes a chatbot assistant for support and integrates with the Gemini \gls{abb:api} for backend processing.
 
 
 \begin{figure}[H] % 'H' needs \usepackage{float}
@@ -925,7 +916,7 @@ Activity diagrams provide a high-level view of the dynamic behavior of the syste
 
 
 \section{Conclusion}
-In this chapter, we explained the design of our solution for wheat disease classification and pest detection. We used advanced deep learning models and well-prepared datasets to build an effective system. We also included an AI assistant to improve the process.The architecture and web platform were designed to be both accurate and easy to use.
+In this chapter, we explained the design of our solution for wheat disease classification and pest detection. We used advanced deep learning models and well-prepared datasets to build an effective system. We also included an \gls{abb:ai} assistant to improve the process.The architecture and web platform were designed to be both accurate and easy to use.
 
 In the next chapter, we will show how we implemented this solution and tested it. The tests include performance evaluation and experiments to justify the design choices made for each model.
 

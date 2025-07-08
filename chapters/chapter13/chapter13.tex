@@ -1,4 +1,4 @@
-\chapter{From Threats to Solutions: A Literature Review of Image-Based Approaches for Wheat Disease Identification in Smart Agriculture}
+\chapter{From Threats to Solutions: A Literature Review of Wheat Disease Classification in Smart Agriculture}
 
 
 \section{Introduction}
@@ -72,7 +72,7 @@ Wheat diseases are influenced by several factors, including plant resistance, sp
 
     \item \textbf{Stripe rust (Yellow rust):} Caused by \textit{Puccinia striiformis}, this disease forms narrow yellow-orange stripes on leaves and glumes. It thrives in moist conditions between 10–20°C and affects yield and grain quality \parencite{duveiller2012wheat}.
 
-    \item \textbf{Blotch diseases (STB, SNB, TS):} These include Septoria tritici blotch, Septoria nodorum blotch, and tan spot, caused by \textit{Zymoseptoria tritici}, \textit{Parastagonospora nodorum}, and \textit{Pyrenophora tritici-repentis} respectively. They cause necrotic blotches on foliage \parencite{figueroa2018review}.
+    \item \textbf{Blotch diseases:} These include Septoria tritici blotch, Septoria nodorum blotch, and tan spot, caused by \textit{Zymoseptoria tritici}, \textit{Parastagonospora nodorum}, and \textit{Pyrenophora tritici-repentis} respectively. They cause necrotic blotches on foliage \parencite{figueroa2018review}.
 
     \item \textbf{Fusarium Head Blight (FHB):} Caused by \textit{Fusarium graminearum}, this disease shows dark, oily florets with pinkish spores. It spreads in warm, humid conditions and may cause mycotoxin contamination in grains \parencite{duveiller2012wheat, figueroa2018review}.
 
@@ -83,46 +83,67 @@ Wheat diseases are influenced by several factors, including plant resistance, sp
     \item \textbf{Common root rot:} Caused by \textit{Cochliobolus sativus}, \textit{Fusarium spp.}, and \textit{Pythium spp.}, it darkens and weakens roots and crowns, reducing plant growth and yield \parencite{duveiller2012wheat}.
 \end{itemize}
 
+% \begin{figure}[H]
+%     \centering
+
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure21.png}
+%     }}
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure04.png}
+%     }}
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure05.png}
+%     }}\\[-0.2em]
+
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure06.png}
+%     }}
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure07.png}
+%     }}
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure20.png}
+%     }}\\[-0.2em]
+
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/test.png}
+%     }}
+%     \subfloat[]{\fbox{
+%         \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure10.png}
+%     }}
+
+%     \caption{
+%         Common fungal diseases affecting wheat crops:
+%         (a) Leaf rust \protect\parencite{duveiller2012wheat},
+%         (b) Stem rust \protect\parencite{duveiller2012wheat},
+%         (c) Stripe rust \protect\parencite{duveiller2012wheat},
+%         (d) Blotch diseases \protect\parencite{figueroa2018review},
+%         (e) Fusarium Head Blight \protect\parencite{figueroa2018review},
+%         (f) Loose smut \protect\parencite{duveiller2012wheat},
+%         (g) Powdery mildew \protect\parencite{singh2023wheat},
+%         (h) Common root rot \protect\parencite{duveiller2012wheat}.
+%     }
+%     \label{fig:wheat-diseases}
+% \end{figure}
+
+
+
+
 \begin{figure}[H]
     \centering
-
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure21.png}
-    }}
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure04.png}
-    }}
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure05.png}
-    }}\\[-0.2em]
-
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure06.png}
-    }}
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure07.png}
-    }}
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure20.png}
-    }}\\[-0.2em]
-
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/test.png}
-    }}
-    \subfloat[]{\fbox{
-        \includegraphics[width=5cm,height=4cm,keepaspectratio]{chapters/chapter2/images/Figure10.png}
-    }}
-
+    \includegraphics[width=1
+    \textwidth]{chapters/chapter13/images/WheatDiseases.png}
     \caption{
         Common fungal diseases affecting wheat crops:
-        (a) Leaf rust \protect\parencite{duveiller2012wheat},
-        (b) Stem rust \protect\parencite{duveiller2012wheat},
-        (c) Stripe rust \protect\parencite{duveiller2012wheat},
-        (d) Blotch diseases \protect\parencite{figueroa2018review},
-        (e) Fusarium Head Blight \protect\parencite{figueroa2018review},
-        (f) Loose smut \protect\parencite{duveiller2012wheat},
-        (g) Powdery mildew \protect\parencite{singh2023wheat},
-        (h) Common root rot \protect\parencite{duveiller2012wheat}.
+        (1) Leaf rust with Brown spores (A), Leaf rust with Black spores (B) \protect\parencite{duveiller2012wheat},
+        (2) Stem rust \protect\parencite{duveiller2012wheat},
+        (3) Stripe rust \protect\parencite{duveiller2012wheat},
+        (4) Loose smut \protect\parencite{duveiller2012wheat},
+        (5) Fusarium Head Blight \protect\parencite{figueroa2018review},
+        (6) Symptoms of foliar blotch diseases. (A) Septoria tritici blotch. (B) Tan spot. (C) Septoria nodorum blotch \protect\parencite{figueroa2018review},
+        (7) Powdery mildew \protect\parencite{singh2023wheat},
+        (8) Common root rot \protect\parencite{duveiller2012wheat}.
     }
     \label{fig:wheat-diseases}
 \end{figure}
@@ -265,7 +286,7 @@ Various classification models have been employed in the literature to address wh
 
 \parencite{ramadan2024improving} & 
 \begin{itemize}
-    \item \textbf{Method:} Pre-trained CNNs (DenseNet121, ResNet50V2, MobileNetV2, Xception)
+    \item \textbf{Method:} Pre-trained \gls{abb:cnn}s (DenseNet121, ResNet50V2, MobileNetV2, Xception)
     \item \textbf{Preprocessing:} CycleGAN, ADASYN, SMOTE, SMOTETomek
 \end{itemize} &
 \begin{itemize}
@@ -277,7 +298,7 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 
 \parencite{nagpal2024hybrid} & 
 \begin{itemize}
-    \item \textbf{Method:} Hybrid (MobileNet + DenseNet + PSO + SVM/DT/RF)
+    \item \textbf{Method:} Hybrid (MobileNet + DenseNet + PSO + \gls{abb:svm}/DT/RF)
     \item \textbf{Preprocessing:} Resize, normalize, augment (flip, rotate, crop, noise, zoom)
 \end{itemize} &
 \begin{itemize}
@@ -301,7 +322,7 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 
 \parencite{goyal2021leaf} &
 \begin{itemize}
-    \item \textbf{Method:} Deep CNN
+    \item \textbf{Method:} Deep \gls{abb:cnn}
     \item \textbf{Preprocessing:} /
 \end{itemize} &
 \begin{itemize}
@@ -325,7 +346,7 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 
 \parencite{jouini2024wheat} &
 \begin{itemize}
-    \item \textbf{Method:} CropNet (EfficientNetB0 + shallow CNN)
+    \item \textbf{Method:} CropNet (EfficientNetB0 + shallow \gls{abb:cnn})
     \item \textbf{Preprocessing:} Resize, normalize
 \end{itemize} &
 \begin{itemize}
@@ -361,7 +382,7 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 
 \parencite{jiang2022evaluation} &
 \begin{itemize}
-    \item \textbf{Method:} 7 CNNs (e.g., VGG-16, ResNet-50)
+    \item \textbf{Method:} 7 \gls{abb:cnn}s (e.g., VGG-16, ResNet-50)
     \item \textbf{Preprocessing:} Resize, normalization, augmentation
 \end{itemize} &
 \begin{itemize}
@@ -375,14 +396,14 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 
 
 
-\textbf{Transfer learning approaches \parencite{jiang2022evaluation}:}  compares three CNN training strategies for wheat disease identification (Figure~\ref{fig:TrainingStrategies}): training from scratch, fixed feature extraction, and transfer learning with fine-tuning.
+\textbf{Transfer learning approaches \parencite{jiang2022evaluation}:}  compares three \gls{abb:cnn} training strategies for wheat disease identification (Figure~\ref{fig:TrainingStrategies}): training from scratch, fixed feature extraction, and transfer learning with fine-tuning.
 
 \begin{itemize}
-  \item \textbf{Training from scratch:} In this approach, the entire CNN is trained from the ground up with randomly initialized weights, using only the target dataset, namely the \textit{Field-based Wheat Diseases Images (FWDI)} dataset. While this method allows for complete customization of the model architecture and parameters, it demands a large volume of labeled data and substantial computational resources.
+  \item \textbf{Training from scratch:} In this approach, the entire \gls{abb:cnn} is trained from the ground up with randomly initialized weights, using only the target dataset, namely the \textit{Field-based Wheat Diseases Images (FWDI)} dataset. While this method allows for complete customization of the model architecture and parameters, it demands a large volume of labeled data and substantial computational resources.
 
-  \item \textbf{Fixed feature extraction:} This strategy involves using a pre-trained CNN as a fixed feature extractor. All convolutional layers are frozen to retain the learned representations from a source dataset, and only the final classification layers such as the fully connected, batch normalization, and softmax layers are retrained on the target dataset. Typically, the model is pre-trained on a large-scale dataset, then applied to a target dataset. A similar methodology was adopted by \parencite{nigam2023deep}, who fine-tuned a pre-trained EfficientNet model on their custom WheatRust21 dataset for wheat rust classification, achieving a notable accuracy of 99.35\%.
+  \item \textbf{Fixed feature extraction:} This strategy involves using a pre-trained \gls{abb:cnn} as a fixed feature extractor. All convolutional layers are frozen to retain the learned representations from a source dataset, and only the final classification layers such as the fully connected, batch normalization, and softmax layers are retrained on the target dataset. Typically, the model is pre-trained on a large-scale dataset, then applied to a target dataset. A similar methodology was adopted by \parencite{nigam2023deep}, who fine-tuned a pre-trained EfficientNet model on their custom WheatRust21 dataset for wheat rust classification, achieving a notable accuracy of 99.35\%.
 
-  \item \textbf{Transfer learning with fine-tuning:} This technique involves partially or fully retraining a pre-trained CNN on the target dataset, allowing the model to adapt its learned features to the specific characteristics of the new domain. In most cases, the model is initially trained on a diverse and extensive source dataset such as \textit{PlantVillage}, then fine-tuned using a specific dataset. For instance, \parencite{jiang2022evaluation} employed this approach with InceptionV3, reaching an accuracy of 92.5\% on the \textit{FWDI} dataset. Similarly, \parencite{ramadan2024improving} fine-tuned CNNs including DenseNet121, ResNet50V2, MobileNetV2, and Xception for wheat leaf disease classification using both augmented and non-augmented datasets. They achieved 100\% accuracy in predicting three classes (healthy, stripe rust, or septoria), further validating the effectiveness of fine-tuning in this domain. This accuracy was specifically achieved by the MobileNetV2 model when trained on data augmented with both CycleGAN and ADASYN.
+  \item \textbf{Transfer learning with fine-tuning:} This technique involves partially or fully retraining a pre-trained \gls{abb:cnn} on the target dataset, allowing the model to adapt its learned features to the specific characteristics of the new domain. In most cases, the model is initially trained on a diverse and extensive source dataset such as \textit{PlantVillage}, then fine-tuned using a specific dataset. For instance, \parencite{jiang2022evaluation} employed this approach with InceptionV3, reaching an accuracy of 92.5\% on the \textit{FWDI} dataset. Similarly, \parencite{ramadan2024improving} fine-tuned \gls{abb:cnn}s including DenseNet121, ResNet50V2, MobileNetV2, and Xception for wheat leaf disease classification using both augmented and non-augmented datasets. They achieved 100\% accuracy in predicting three classes (healthy, stripe rust, or septoria), further validating the effectiveness of fine-tuning in this domain. This accuracy was specifically achieved by the MobileNetV2 model when trained on data augmented with both CycleGAN and ADASYN.
 \end{itemize}
 
 
@@ -391,13 +412,13 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 \begin{figure}[H] 
     \centering
     \includegraphics[width=1.1\textwidth]{chapters/chapter3/images/Figure03.png}
-    \caption{Training strategies of a convolutional neural network (CNN) \parencite{jiang2022evaluation}.}
+    \caption{Training strategies of a convolutional neural network (\gls{abb:cnn}) \parencite{jiang2022evaluation}.}
     \label{fig:TrainingStrategies}
 \end{figure}
 
 
 
-\textbf{Hybrid models \parencite{nagpal2024hybrid}:} Introduced a hybrid model (Figure~\ref{fig:hybridframework}) that combines deep learning and traditional machine learning for image classification. Features are extracted from images using two pre-trained CNN models, MobileNet and DenseNet, and then concatenated. Particle Swarm Optimization (PSO) is applied for dimensionality reduction. Finally, the reduced features are fed into traditional classifiers (RF, SVM, DT) for training and prediction, achieving an accuracy of 98.89\% across four classes.
+\textbf{Hybrid models \parencite{nagpal2024hybrid}:} Introduced a hybrid model (Figure~\ref{fig:hybridframework}) that combines deep learning and traditional machine learning for image classification. Features are extracted from images using two pre-trained \gls{abb:cnn} models, MobileNet and DenseNet, and then concatenated. Particle Swarm Optimization (PSO) is applied for dimensionality reduction. Finally, the reduced features are fed into traditional classifiers (\gls{abb:rf}, \gls{abb:svm}, \gls{abb:dt}) for training and prediction, achieving an accuracy of 98.89\% across four classes.
 
 
 \begin{figure}[H] 
@@ -415,7 +436,7 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 
 
 
-\textbf{Custom deep convolutional networks \parencite{goyal2021leaf}:}  Proposed a custom deep convolutional neural network (Figure~\ref{fig:CustomDeepCN}) specifically designed for wheat disease classification. The architecture comprises 21 convolutional layers, 7 max-pooling layers, and 3 fully connected layers. Activation functions used include ReLU and Leaky ReLU in the convolutional layers, while the fully connected layers employ ReLU, followed by a SoftMax classifier for multi-class output. The model was trained on a dataset of over 12,000 labeled RGB images covering 10 distinct wheat disease classes and achieved an accuracy of 97.88\%. 
+\textbf{Custom deep convolutional networks \parencite{goyal2021leaf}:}  Proposed a custom deep convolutional neural network (Figure~\ref{fig:CustomDeepCN}) specifically designed for wheat disease classification. The architecture comprises 21 convolutional layers, 7 max-pooling layers, and 3 fully connected layers. Activation functions used include \gls{abb:relu} and Leaky \gls{abb:relu} in the convolutional layers, while the fully connected layers employ \gls{abb:relu}, followed by a SoftMax classifier for multi-class output. The model was trained on a dataset of over 12,000 labeled RGB images covering 10 distinct wheat disease classes and achieved an accuracy of 97.88\%. 
 
 \begin{figure}[H] 
     \centering
@@ -436,10 +457,10 @@ CycleGAN + MobileNetV2: 100\% accuracy \\
 \end{figure}
 
 
-\textbf{Lightweight CNNs for efficient classification \parencite{fang2023lightweight}:} Introduced a lightweight multiscale CNN model optimized for mobile and edge computing applications. By integrating Inception modules with residual blocks and attention mechanisms like Convolutional Block Attention Model (CBAM) (More details in Appendix~\ref{app:annexA}) and Efficient Channel Attention (ECA), the model enhanced feature extraction while reducing computational costs, achieving 98.78\% accuracy on wheat disease classification tasks​. Likewise, \parencite{jouini2023wheat} proposed a deep learning approach using MobileNetV2 and EfficientNet variants to build a lightweight yet accurate CNN-based model for wheat leaf disease detection in smart agriculture, achieving 94\% test accuracy. 
+\textbf{Lightweight \gls{abb:cnn}s for efficient classification \parencite{fang2023lightweight}:} Introduced a lightweight multiscale \gls{abb:cnn} model optimized for mobile and edge computing applications. By integrating Inception modules with residual blocks and attention mechanisms like Convolutional Block Attention Model (CBAM) (More details in Appendix~\ref{app:annexA}) and Efficient Channel Attention (ECA), the model enhanced feature extraction while reducing computational costs, achieving 98.78\% accuracy on wheat disease classification tasks​. Likewise, \parencite{jouini2023wheat} proposed a deep learning approach using MobileNetV2 and EfficientNet variants to build a lightweight yet accurate \gls{abb:cnn}-based model for wheat leaf disease detection in smart agriculture, achieving 94\% test accuracy. 
 
 
-The studies are complementary as they address different challenges in wheat disease classification. After reviewing various approaches adopted in the literature, we constructed a taxonomy that summarizes the main strategies employed in this field, as illustrated in Figure~\ref{fig:Figure0001}. This taxonomy includes transfer learning, hybrid models, custom CNN architectures, few-shot learning, lightweight CNNs, and attention mechanisms. Transfer learning helps overcome limited data by leveraging pre-trained models, while hybrid models combine deep learning and traditional machine learning to enhance performance. Custom and task-specific CNNs are tailored to the unique features of wheat diseases, improving accuracy. Few-shot learning enables effective classification with minimal labeled data, and lightweight CNNs optimize real-time detection for mobile and edge devices, balancing performance with computational efficiency. Each approach targets a specific problem, enhancing the overall classification process.
+The studies are complementary as they address different challenges in wheat disease classification. After reviewing various approaches adopted in the literature, we constructed a taxonomy that summarizes the main strategies employed in this field, as illustrated in Figure~\ref{fig:Figure0001}. This taxonomy includes transfer learning, hybrid models, custom \gls{abb:cnn} architectures, few-shot learning, lightweight \gls{abb:cnn}s, and attention mechanisms. Transfer learning helps overcome limited data by leveraging pre-trained models, while hybrid models combine deep learning and traditional machine learning to enhance performance. Custom and task-specific \gls{abb:cnn}s are tailored to the unique features of wheat diseases, improving accuracy. Few-shot learning enables effective classification with minimal labeled data, and lightweight \gls{abb:cnn}s optimize real-time detection for mobile and edge devices, balancing performance with computational efficiency. Each approach targets a specific problem, enhancing the overall classification process.
 
 \begin{figure}[H]
     \centering
@@ -452,7 +473,7 @@ The studies are complementary as they address different challenges in wheat dise
 \subsection{Core limitations and research gaps in wheat disease identification}
 Deep learning has shown great promise in automating wheat disease detection, offering timely and precise solutions for sustainable agriculture. However, key challenges still limit its widespread adoption.
 
-Based on the previously discussed studies, various approaches have been explored for wheat disease classification, ranging from transfer learning using pre-trained convolutional neural networks (CNNs) to the development of custom architectures tailored specifically for disease classification tasks. The proposed models for wheat disease classification that detect five or fewer disease classes generally achieve accuracies of 99\% or higher. However, models aiming to detect more than five classes tend to achieve lower accuracies, typically below 98\%, highlighting the challenge of achieving high accuracy when dealing with more complex classification tasks.
+Based on the previously discussed studies, various approaches have been explored for wheat disease classification, ranging from transfer learning using pre-trained convolutional neural networks (\gls{abb:cnn}s) to the development of custom architectures tailored specifically for disease classification tasks. The proposed models for wheat disease classification that detect five or fewer disease classes generally achieve accuracies of 99\% or higher. However, models aiming to detect more than five classes tend to achieve lower accuracies, typically below 98\%, highlighting the challenge of achieving high accuracy when dealing with more complex classification tasks.
 
 Additionally, the number of disease classes addressed in most proposed models for wheat detection remains limited compared to the actual variety of diseases observed in the field, with a maximum of five classes, primarily due to the difficulty of manual annotation and the high computational resources required to train models on larger, more diverse datasets. Although several public datasets for wheat disease classification are available, such as those on Kaggle, these sources often contain low-quality images, inconsistent labeling, or irrelevant data, which can hinder model training and performance. This necessitates manual cleaning and preprocessing of the datasets before they can be effectively utilized, increasing the time and effort needed for research.
 
