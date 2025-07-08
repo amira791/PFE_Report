@@ -1,24 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[126] biber-MSWIN64:340> INFO - === 
-[204] Biber.pm:419> INFO - Reading 'main.bcf'
-[383] Biber.pm:979> INFO - Found 52 citekeys in bib section 0
-[404] Biber.pm:4419> INFO - Processing section 0
-[417] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[508] bibtex.pm:1713> INFO - LaTeX decoding ...
-[583] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[918] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[919] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[919] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[919] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1034] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1034] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1035] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[1035] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1100] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1190] bbl.pm:763> INFO - Output to main.bbl
-[1191] Biber.pm:131> WARN - Duplicate entry key: 'reis2024integrated' in file 'references.bib', skipping ...
-[1192] Biber.pm:131> WARN - Duplicate entry key: 'yao2024yolo' in file 'references.bib', skipping ...
-[1192] Biber.pm:131> WARN - Duplicate entry key: 'chitty2022neural' in file 'references.bib', skipping ...
-[1192] Biber.pm:131> WARN - legacy month field 'June' in entry 'jouini2023wheat' is not an integer - this will probably not sort properly.
-[1193] Biber.pm:133> INFO - WARNINGS: 4
+[337] biber-MSWIN64:340> INFO - === 
+[455] Biber.pm:419> INFO - Reading 'main.bcf'
+[631] Biber.pm:979> INFO - Found 52 citekeys in bib section 0
+[651] Biber.pm:4419> INFO - Processing section 0
+[677] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[806] bibtex.pm:1713> INFO - LaTeX decoding ...
+[877] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1199] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1200] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1200] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1200] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1305] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1306] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1306] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[1306] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1424] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1512] bbl.pm:763> INFO - Output to main.bbl
+[1513] Biber.pm:131> WARN - Duplicate entry key: 'reis2024integrated' in file 'references.bib', skipping ...
+[1513] Biber.pm:131> WARN - Duplicate entry key: 'yao2024yolo' in file 'references.bib', skipping ...
+[1513] Biber.pm:131> WARN - Duplicate entry key: 'chitty2022neural' in file 'references.bib', skipping ...
+[1513] Biber.pm:131> WARN - legacy month field 'June' in entry 'jouini2023wheat' is not an integer - this will probably not sort properly.
+[1514] Biber.pm:133> INFO - WARNINGS: 4

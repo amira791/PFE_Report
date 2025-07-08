@@ -13,7 +13,7 @@
 \select@language {english}
 \select@language {english}
 \select@language {english}
-\contentsline {chapter}{Abbreviations}{xiv}{section*.14}%
+\contentsline {chapter}{Abbreviations}{xii}{section*.14}%
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{General introduction}{1}{chapter*.16}%
